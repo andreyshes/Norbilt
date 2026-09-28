@@ -6,7 +6,7 @@ const categories = [
 	{
 		id: "bathroom",
 		label: "Bathroom Remodels",
-		href: "/services/kitchen-bath",
+		href: "/services/bathroom-remodel",
 		description:
 			"Tile surrounds, vanity upgrades, full remodels, and fixture updates across Clark County.",
 		projects: [
@@ -35,10 +35,10 @@ const categories = [
 	},
 	{
 		id: "kitchen",
-		label: "Kitchen Updates",
-		href: "/services/kitchen-bath",
+		label: "Kitchen Remodels",
+		href: "/services/kitchen-remodel",
 		description:
-			"Cabinet refreshes, backsplash installation, countertops, and full kitchen remodels.",
+			"Full gut remodels, cabinet replacement, countertop installation, backsplash, and fixture upgrades.",
 		projects: [
 			{
 				src: "/remodel-images/IMG_7646.jpg",
@@ -58,36 +58,6 @@ const categories = [
 				src: "/remodel-images/IMG_7649.jpg",
 				alt: "Gray kitchen cabinets with stainless appliances Vancouver WA",
 				caption: "Kitchen Remodel — Stove Side",
-				location: "Vancouver, WA",
-				wide: false,
-			},
-		],
-	},
-	{
-		id: "outdoor",
-		label: "Fence & Outdoor",
-		href: "/services/handyman",
-		description:
-			"Cedar fence installation, deck repair, fence staining, and outdoor improvements.",
-		projects: [
-			{
-				src: "/remodel-images/IMG_6433.jpg",
-				alt: "Cedar fence and stamped concrete patio installation Vancouver WA",
-				caption: "Cedar Fence & Stamped Concrete",
-				location: "Vancouver, WA",
-				wide: true,
-			},
-			{
-				src: "/remodel-images/IMG_6429.jpg",
-				alt: "Cedar privacy fence installation with retaining wall Clark County WA",
-				caption: "Cedar Privacy Fence",
-				location: "Clark County, WA",
-				wide: false,
-			},
-			{
-				src: "/remodel-images/IMG_6432.jpg",
-				alt: "Cedar fence with paver patio backyard Vancouver WA",
-				caption: "Fence & Paver Patio",
 				location: "Vancouver, WA",
 				wide: false,
 			},

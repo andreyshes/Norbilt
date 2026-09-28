@@ -11,18 +11,10 @@ import {
 const reviews = [
 	{
 		quote:
-			"We had a positive experience with NORBILT here in Vancouver, WA. I worked with Andrey, who was courteous, professional, efficient, and delivered high-quality work in a timely manner. It's hard to find reliable help these days, and I truly appreciated his attention to detail and expertise.",
-		name: "M. Taylor",
+			"NORBILT has built me my dream bathroom. Andrey was quick to respond to me whenever I had any questions and was very respectful and pleasant to work with. Couldn't have been more happy with the experience!",
+		name: "Ruvim C.",
 		location: "Vancouver, WA",
-		service: "Home Repairs",
-		rating: 5,
-	},
-	{
-		quote:
-			"I hired NORBILT to stain my fence at my home in Vancouver, WA and they did an excellent job. Communication was clear, they showed up on time, and the quality of the work really shows. The stain came out even, clean, and professional — it completely refreshed the look of our yard.",
-		name: "Angelo",
-		location: "Vancouver, WA",
-		service: "Fence Staining",
+		service: "Bathroom Remodel",
 		rating: 5,
 	},
 	{
@@ -35,10 +27,26 @@ const reviews = [
 	},
 	{
 		quote:
-			"They did an excellent job installing my flooring — professional, efficient, and the final result looks amazing. The quality of work and attention to detail really stood out. Highly recommend them for any home projects!",
-		name: "Mike",
+			"I had a great experience working with NORBILT on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. Andrey was especially helpful throughout the process — he made sure everything stayed on track and met my expectations. The quality of work really shows, and the final result turned out even better than I imagined.",
+		name: "Taylor K.",
 		location: "Vancouver, WA",
-		service: "Flooring Installation",
+		service: "Home Remodeling",
+		rating: 5,
+	},
+	{
+		quote:
+			"Did really great job for my tiles in my bathroom came there did a quick and quality job highly recommend.",
+		name: "Moses",
+		location: "Vancouver, WA",
+		service: "Bathroom Tile",
+		rating: 5,
+	},
+	{
+		quote:
+			"NorBilt did a great job installing doors and windows in my Camas home. Andrey was professional, detail-oriented, and made sure everything was done right. The quality of work really shows — highly recommend!",
+		name: "Joey D.",
+		location: "Camas, WA",
+		service: "Doors & Windows",
 		rating: 5,
 	},
 	{
@@ -51,18 +59,10 @@ const reviews = [
 	},
 	{
 		quote:
-			"Andrey and his team did an excellent job installing a mini split system. There was a mix up with the material that I ordered and Andrey handled the situation professionally with grace and patience. He communicated every step of the way, was timely and pleasant to work with. I highly recommend Andrey and will definitely work with him again.",
-		name: "Dawn Trano",
+			"They did an excellent job installing my flooring — professional, efficient, and the final result looks amazing. The quality of work and attention to detail really stood out. Highly recommend them for any home projects!",
+		name: "Mike",
 		location: "Vancouver, WA",
-		service: "Mini Split Installation",
-		rating: 5,
-	},
-	{
-		quote:
-			"I had a great experience working with Andrey and his company, NORBILT, here in Vancouver, WA. The interior painting job they did on my home turned out even better than I expected. Andrey was professional, easy to communicate with, and paid close attention to detail throughout the entire process. The quality of the work really shows! Clean lines, smooth finishes, and everything was done on time.",
-		name: "Emmanuel K.",
-		location: "Vancouver, WA",
-		service: "Interior Painting",
+		service: "Flooring Installation",
 		rating: 5,
 	},
 	{
@@ -75,10 +75,10 @@ const reviews = [
 	},
 	{
 		quote:
-			"NorBilt did a great job installing doors and windows in my Camas home. Andrey was professional, detail-oriented, and made sure everything was done right. The quality of work really shows — highly recommend!",
-		name: "Joey D.",
-		location: "Camas, WA",
-		service: "Doors & Windows",
+			"We had a positive experience with NORBILT here in Vancouver, WA. I worked with Andrey, who was courteous, professional, efficient, and delivered high-quality work in a timely manner. It's hard to find reliable help these days, and I truly appreciated his attention to detail and expertise.",
+		name: "M. Taylor",
+		location: "Vancouver, WA",
+		service: "Home Repairs",
 		rating: 5,
 	},
 	{
@@ -99,34 +99,34 @@ const reviews = [
 	},
 	{
 		quote:
-			"NORBILT has built me my dream bathroom. Andrey was quick to respond to me whenever I had any questions and was very respectful and pleasant to work with. Couldn't have been more happy with the experience!",
-		name: "Ruvim C.",
-		location: "Vancouver, WA",
-		service: "Bathroom Remodel",
-		rating: 5,
-	},
-	{
-		quote:
-			"Did really great job for my tiles in my bathroom came there did a quick and quality job highly recommend.",
-		name: "Moses",
-		location: "Vancouver, WA",
-		service: "Bathroom Tile",
-		rating: 5,
-	},
-	{
-		quote:
-			"I had a great experience working with NORBILT on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. Andrey was especially helpful throughout the process — he made sure everything stayed on track and met my expectations. The quality of work really shows, and the final result turned out even better than I imagined.",
-		name: "Taylor K.",
-		location: "Vancouver, WA",
-		service: "Remodeling",
-		rating: 5,
-	},
-	{
-		quote:
 			"Andre, did a great job! He's very good at listening to the customer, he cares about making sure he gets it done, also he came on time and did with short notice from me the customer. Excellent service, I highly recommend him for any work needed. Five stars!",
 		name: "Susan",
 		location: "Vancouver, WA",
 		service: "Home Repairs",
+		rating: 5,
+	},
+	{
+		quote:
+			"I had a great experience working with Andrey and his company, NORBILT, here in Vancouver, WA. The interior painting job they did on my home turned out even better than I expected. Andrey was professional, easy to communicate with, and paid close attention to detail throughout the entire process. The quality of the work really shows! Clean lines, smooth finishes, and everything was done on time.",
+		name: "Emmanuel K.",
+		location: "Vancouver, WA",
+		service: "Interior Painting",
+		rating: 5,
+	},
+	{
+		quote:
+			"I hired NORBILT to stain my fence at my home in Vancouver, WA and they did an excellent job. Communication was clear, they showed up on time, and the quality of the work really shows. The stain came out even, clean, and professional — it completely refreshed the look of our yard.",
+		name: "Angelo",
+		location: "Vancouver, WA",
+		service: "Fence Staining",
+		rating: 5,
+	},
+	{
+		quote:
+			"Andrey and his team did an excellent job installing a mini split system. There was a mix up with the material that I ordered and Andrey handled the situation professionally with grace and patience. He communicated every step of the way, was timely and pleasant to work with. I highly recommend Andrey and will definitely work with him again.",
+		name: "Dawn Trano",
+		location: "Vancouver, WA",
+		service: "Mini Split Installation",
 		rating: 5,
 	},
 ];

@@ -334,7 +334,7 @@ export default function EstimatePage() {
 								</button>
 								<h2 className="text-2xl font-black text-[#1F2E2B]">Almost there</h2>
 							</div>
-							<p className="text-[#2C3E3A]/60 mb-8 ml-8">We'll email your estimate and reach out to confirm details.</p>
+							<p className="text-[#2C3E3A]/60 mb-8 ml-8">Your AI estimate is instant. We&apos;ll also call or text to schedule your free on-site walkthrough — usually within a few hours.</p>
 
 							<div className="bg-white rounded-2xl border border-[#2C3E3A]/10 p-6 shadow-sm space-y-5">
 								<div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
