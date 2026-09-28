@@ -56,7 +56,7 @@ const serviceTypes = [
 
 const faqs = [
 	{
-		q: "Do I need a permit for a kitchen or bathroom update in Clark County?",
+		q: "Do I need a permit for a kitchen or bathroom remodel in Clark County?",
 		a: "Minor cosmetic updates — hardware, fixtures, caulk, tile — do not require a permit. Permits are required when moving plumbing, electrical, or walls. NORBILT pulls permits when needed and knows Clark County's requirements.",
 	},
 	{

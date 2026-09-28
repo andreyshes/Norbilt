@@ -27,7 +27,7 @@ import {
 
 type ServiceKey =
 	| "Home Remodel"
-	| "Kitchen or Bathroom Update"
+	| "Kitchen or Bathroom Remodel"
 	| "Finish Carpentry"
 	| "Flooring"
 	| "Drywall Repair"
@@ -49,7 +49,7 @@ interface Estimate {
 
 const services = [
 	{ key: "Home Remodel" as ServiceKey, icon: HardHat, desc: "Full kitchen, bath & whole-home remodels" },
-	{ key: "Kitchen or Bathroom Update" as ServiceKey, icon: ChefHat, desc: "Cosmetic updates, tile, fixtures, vanities" },
+	{ key: "Kitchen or Bathroom Remodel" as ServiceKey, icon: ChefHat, desc: "Kitchen remodels, bathroom remodels, tile, fixtures, vanities" },
 	{ key: "Finish Carpentry" as ServiceKey, icon: Scissors, desc: "Trim, crown molding, baseboards" },
 	{ key: "Flooring" as ServiceKey, icon: Grid3x3, desc: "LVP, tile, hardwood, removal" },
 	{ key: "Drywall Repair" as ServiceKey, icon: Layers, desc: "Patches, texturing, water damage" },
@@ -107,7 +107,7 @@ function ServiceDetails({ service, details, onChange }: { service: ServiceKey; d
 		</div>
 	);
 
-	if (service === "Kitchen or Bathroom Update") return (
+	if (service === "Kitchen or Bathroom Remodel") return (
 		<div className="space-y-5">
 			{sel("space", "Kitchen or bathroom?", ["Kitchen", "Bathroom", "Both"])}
 			{sel("scope", "What's the project scope?", ["Cabinet painting / refresh", "Tile backsplash installation", "Countertop replacement", "Fixture replacement (faucets, hardware)", "Full kitchen/bath refresh (multiple items)", "Vanity installation", "Shower tile / tub surround"])}

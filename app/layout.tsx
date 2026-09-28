@@ -155,7 +155,7 @@ export default function RootLayout({
 										"@type": "OfferCatalog",
 										"name": "Home Remodeling & Repair Services — Clark County WA",
 										"itemListElement": [
-											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Remodeling", "description": "Full kitchen remodels, cabinet updates, countertop replacement, and cosmetic refreshes in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/kitchen-bath" } },
+											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Remodeling", "description": "Full kitchen remodels, cabinet replacement, countertop installation, backsplash, and fixture upgrades in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/kitchen-bath" } },
 											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom Remodeling", "description": "Full gut remodels, tub-to-shower conversions, vanity replacement, and tile work in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/kitchen-bath" } },
 											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Handyman Services", "description": "Small repairs, fixture replacement, drywall patches, door repairs, and punch lists across Clark County WA.", "url": "https://www.norbilt.com/services/handyman" } },
 											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drywall Repair", "description": "Patching, texture matching, and water damage repair for drywall in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/drywall-repair" } },

@@ -56,7 +56,7 @@ function getTimelineFaq(serviceSlug: string, cityNameShort: string): string {
 		"handyman": `Handyman jobs in ${cityNameShort} typically run a few hours to a full day depending on the punch list. We batch small repairs efficiently so you're not paying a trip charge for each item.`,
 		"drywall-repair": `Most drywall patches in ${cityNameShort} take one day — a morning to patch and prime, return visit once dry to texture-match and paint. Larger sections may need two days.`,
 		"finish-carpentry": `Trim and carpentry work in ${cityNameShort} typically runs 1–3 days depending on linear footage and complexity. Crown molding in a single room usually wraps in a day.`,
-		"kitchen-bath": `A cosmetic kitchen or bath update in ${cityNameShort} runs 2–5 days. Full gut remodels are typically 2–4 weeks. We give you a timeline in writing before work starts.`,
+		"kitchen-bath": `A kitchen or bathroom remodel in ${cityNameShort} runs 2–5 days for cosmetic work, or 2–4 weeks for a full gut remodel. We give you a written timeline before work starts.`,
 		"flooring": `Flooring installation in ${cityNameShort} averages 1–2 days for a typical room. Larger floor plans or tile work may run 3–4 days including curing time.`,
 		"door-window": `Door and window installs in ${cityNameShort} usually take a few hours per unit. A full door replacement including trim typically wraps in half a day.`,
 		"home-repair": `Home repair timelines in ${cityNameShort} vary by scope. Most single-item repairs finish in a few hours; multi-item punch lists are typically done in one visit.`,

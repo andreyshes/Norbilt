@@ -66,11 +66,11 @@ const faqs = [
 			},
 			{
 				q: "Do you serve Battle Ground, WA?",
-				a: "Yes. Battle Ground is one of our most active service areas. We do drywall repair, handyman work, finish carpentry, flooring, and bathroom updates in Battle Ground regularly. Free estimates available for all Battle Ground homeowners.",
+				a: "Yes. Battle Ground is one of our most active service areas. We do drywall repair, handyman work, finish carpentry, flooring, and bathroom remodels in Battle Ground regularly. Free estimates available for all Battle Ground homeowners.",
 			},
 			{
 				q: "Do you work in Camas, WA?",
-				a: "Yes. NORBILT serves Camas homeowners with the same licensed, bonded service as our Vancouver clients. We handle kitchen updates, tile work, trim carpentry, and general repairs across Camas and Washougal.",
+				a: "Yes. NORBILT serves Camas homeowners with the same licensed, bonded service as our Vancouver clients. We handle kitchen remodels, tile work, trim carpentry, and general repairs across Camas and Washougal.",
 			},
 			{
 				q: "Do you work in Brush Prairie or Ridgefield?",
