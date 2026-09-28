@@ -455,6 +455,19 @@ export default function KitchenRemodeCostCamasPage() {
 					</div>
 				</section>
 
+				{/* SERVICE CALLOUT */}
+				<div className="max-w-4xl mx-auto px-6 lg:px-8 py-10">
+					<div className="bg-[#2D5A3D]/5 border border-[#2D5A3D]/20 rounded-2xl p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+						<div>
+							<p className="font-black text-[#1F2E2B] mb-1">Ready to start your kitchen remodel?</p>
+							<p className="text-gray-600 text-sm">View our full kitchen remodel service — scope, process, warranty, and what to expect in Camas and Clark County.</p>
+						</div>
+						<Link href="/services/kitchen-remodel" className="inline-flex items-center gap-2 bg-[#2D5A3D] text-white font-bold px-6 py-3 rounded-xl hover:bg-[#1F2E2B] transition-colors whitespace-nowrap shrink-0">
+							Kitchen Remodel Service <ArrowRight className="w-4 h-4" />
+						</Link>
+					</div>
+				</div>
+
 				{/* BOTTOM CTA */}
 				<div className="bg-[#1F2E2B] rounded-3xl p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6">
 					<div>

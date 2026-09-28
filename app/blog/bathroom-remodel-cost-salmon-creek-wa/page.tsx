@@ -370,6 +370,19 @@ export default function BathroomRemodelCostSalmonCreekWA() {
 					</section>
 				</article>
 
+				{/* SERVICE CALLOUT */}
+				<div className="max-w-4xl mx-auto px-6 lg:px-8 py-10">
+					<div className="bg-[#2D5A3D]/5 border border-[#2D5A3D]/20 rounded-2xl p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+						<div>
+							<p className="font-black text-[#1F2E2B] mb-1">Ready to start your bathroom remodel?</p>
+							<p className="text-gray-600 text-sm">View our full bathroom remodel service — scope, process, warranty, and what to expect in Salmon Creek and Clark County.</p>
+						</div>
+						<Link href="/services/bathroom-remodel" className="inline-flex items-center gap-2 bg-[#2D5A3D] text-white font-bold px-6 py-3 rounded-xl hover:bg-[#1F2E2B] transition-colors whitespace-nowrap shrink-0">
+							Bathroom Remodel Service <ArrowRight className="w-4 h-4" />
+						</Link>
+					</div>
+				</div>
+
 				{/* YELLOW CTA SECTION */}
 				<section className="bg-[#FFB800] py-20 px-6">
 					<div className="max-w-3xl mx-auto text-center space-y-6">

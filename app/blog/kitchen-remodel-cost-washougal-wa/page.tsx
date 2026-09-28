@@ -437,6 +437,7 @@ export default function KitchenRemodelCostWashougal() {
 								{ label: "Kitchen Remodel Cost — Vancouver WA", href: "/blog/kitchen-remodel-cost-vancouver-wa" },
 								{ label: "Kitchen Remodel Cost — Clark County", href: "/blog/kitchen-remodel-cost-clark-county-wa" },
 								{ label: "Bathroom Remodel Cost — Clark County", href: "/blog/bathroom-remodel-cost-clark-county-wa" },
+								{ label: "Kitchen Remodel Service", href: "/services/kitchen-remodel" },
 							].map((link) => (
 								<Link
 									key={link.href}
