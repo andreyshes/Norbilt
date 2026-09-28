@@ -119,7 +119,14 @@ const schema = {
 			"@type": "Service",
 			name: "Bathroom Remodel Contractor Vancouver WA",
 			provider: { "@id": "https://www.norbilt.com/#business" },
-			areaServed: "Clark County, WA",
+			areaServed: [
+				{ "@type": "City", name: "Vancouver", containedInPlace: { "@type": "State", name: "Washington" } },
+				{ "@type": "City", name: "Camas", containedInPlace: { "@type": "State", name: "Washington" } },
+				{ "@type": "City", name: "Battle Ground", containedInPlace: { "@type": "State", name: "Washington" } },
+				{ "@type": "City", name: "Ridgefield", containedInPlace: { "@type": "State", name: "Washington" } },
+				{ "@type": "City", name: "Washougal", containedInPlace: { "@type": "State", name: "Washington" } },
+				{ "@type": "AdministrativeArea", name: "Clark County", containedInPlace: { "@type": "State", name: "Washington" } },
+			],
 			description:
 				"Licensed bathroom remodeling contractor serving Vancouver WA and Clark County. Tub-to-shower conversions, full gut remodels, vanity installs, tile work, and cosmetic refreshes. 1-year workmanship warranty.",
 			serviceType: "Bathroom Remodeling",

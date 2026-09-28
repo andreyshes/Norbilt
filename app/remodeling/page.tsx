@@ -151,7 +151,17 @@ export default function RemodelingPage() {
 									postalCode: "98686",
 									addressCountry: "US",
 								},
-								areaServed: "Clark County, WA",
+								areaServed: [
+									{ "@type": "City", name: "Vancouver", containedInPlace: { "@type": "State", name: "Washington" } },
+									{ "@type": "City", name: "Camas", containedInPlace: { "@type": "State", name: "Washington" } },
+									{ "@type": "City", name: "Battle Ground", containedInPlace: { "@type": "State", name: "Washington" } },
+									{ "@type": "City", name: "Ridgefield", containedInPlace: { "@type": "State", name: "Washington" } },
+									{ "@type": "City", name: "Washougal", containedInPlace: { "@type": "State", name: "Washington" } },
+									{ "@type": "City", name: "Salmon Creek", containedInPlace: { "@type": "State", name: "Washington" } },
+									{ "@type": "City", name: "Hazel Dell", containedInPlace: { "@type": "State", name: "Washington" } },
+									{ "@type": "City", name: "Brush Prairie", containedInPlace: { "@type": "State", name: "Washington" } },
+									{ "@type": "AdministrativeArea", name: "Clark County", containedInPlace: { "@type": "State", name: "Washington" } },
+								],
 								hasCredential: "WA General Contractor License NORBI**741CS",
 								aggregateRating: {
 									"@type": "AggregateRating",
