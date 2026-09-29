@@ -125,11 +125,11 @@ If a contractor presents a one-page form with a signature line and a total price
 const redFlags = [
 	"Won't provide WA license number when asked",
 	"Asks for more than 50% upfront payment",
-	"Suggests skipping permits "to save money"",
+	'Suggests skipping permits "to save money"',
 	"Gives a verbal estimate only — nothing in writing",
 	"Can't provide a certificate of insurance",
 	"No physical business address (just a phone number or P.O. box)",
-	"Unusually low bid with vague scope — "tile not included," "subfloor extra"",
+	'Unusually low bid with vague scope — "tile not included," "subfloor extra"',
 	"Pressures you to decide the same day",
 	"Uses crew without identifying them as employees or licensed subs",
 	"Can't provide references from projects similar to yours",
