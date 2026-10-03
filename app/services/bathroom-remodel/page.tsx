@@ -236,7 +236,7 @@ export default function BathroomRemodelPage() {
 						<div className="flex items-center gap-3">
 							<ShieldCheck className="text-[#FFB800] w-5 h-5" />
 							<span className="text-[#A7C4B5] font-black text-xs uppercase tracking-[0.2em]">
-								Licensed WA Contractor · #NORBI741CS
+								Licensed WA Contractor · #NORBI**741CS
 							</span>
 						</div>
 						<div className="flex items-center gap-3">
