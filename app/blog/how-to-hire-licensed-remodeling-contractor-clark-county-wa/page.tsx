@@ -206,6 +206,61 @@ export default function HireContractorGuide() {
 					}),
 				}}
 			/>
+			<script
+				type="application/ld+json"
+				dangerouslySetInnerHTML={{
+					__html: JSON.stringify({
+						"@context": "https://schema.org",
+						"@type": "HowTo",
+						name: "How to Hire a Licensed Remodeling Contractor in Clark County WA",
+						description: "Seven steps to verify, vet, and hire a licensed remodeling contractor in Clark County WA — before a single dollar changes hands.",
+						step: [
+							{
+								"@type": "HowToStep",
+								position: 1,
+								name: "Verify the Washington State Contractor License",
+								text: "Go to lni.wa.gov and use the Contractor Verify tool. Search by business name or UBI number. Confirm the license is Active, not expired. A contractor who won't provide their license number has a reason — always verify before proceeding.",
+							},
+							{
+								"@type": "HowToStep",
+								position: 2,
+								name: "Check Bond and Insurance Status",
+								text: "An Active license doesn't guarantee the bond and insurance are current. On the L&I Verify page, confirm Bond Status is Active and ask for a certificate of general liability insurance listing your job address.",
+							},
+							{
+								"@type": "HowToStep",
+								position: 3,
+								name: "Understand What Permits Are Required",
+								text: "A kitchen or bathroom remodel in Clark County requires a permit if it includes moving plumbing, adding electrical circuits, or structural changes. Ask the contractor whether a permit is required and confirm permit fees are included in the bid.",
+							},
+							{
+								"@type": "HowToStep",
+								position: 4,
+								name: "Get a Written Scope, Not Just a Price",
+								text: "Before signing, the written scope must specify exact materials, fixture specifications, what demolition is included, and what happens if moisture damage is found. A price without a scope is not a contract.",
+							},
+							{
+								"@type": "HowToStep",
+								position: 5,
+								name: "Check Reviews for Your Project Type",
+								text: "Look for reviews that mention your specific project type — kitchen remodel, bathroom gut, not just 'great work.' Ask for two references from similar projects and call them.",
+							},
+							{
+								"@type": "HowToStep",
+								position: 6,
+								name: "Get Three Bids and Compare Line Items",
+								text: "Compare what each bid includes, not just the total. A low bid often excludes tile, subfloor repair, or permits. Ask every contractor what is and isn't included in their number.",
+							},
+							{
+								"@type": "HowToStep",
+								position: 7,
+								name: "Review the Contract Before Signing",
+								text: "The contract must include the contractor's WA license number, scope of work, material specifications, milestone-based payment schedule, start and completion dates, change order process, and warranty terms. If a contractor presents a one-page form with only a total, ask for a full contract.",
+							},
+						],
+					}),
+				}}
+			/>
 
 			<div className="overflow-hidden bg-[#FDFCFB]">
 				{/* HERO */}

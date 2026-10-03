@@ -156,6 +156,37 @@ const schema = {
 				acceptedAnswer: { "@type": "Answer", text: f.a },
 			})),
 		},
+		{
+			"@type": "HomeAndConstructionBusiness",
+			"@id": "https://www.norbilt.com/#organization",
+			name: "NORBILT",
+			aggregateRating: {
+				"@type": "AggregateRating",
+				ratingValue: "5.0",
+				reviewCount: "13",
+				bestRating: "5",
+			},
+			review: [
+				{
+					"@type": "Review",
+					reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+					author: { "@type": "Person", name: "Taylor K." },
+					reviewBody: "I had a great experience working with NORBILT on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. The quality of work really shows, and the final result turned out even better than I imagined.",
+				},
+				{
+					"@type": "Review",
+					reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+					author: { "@type": "Person", name: "David B." },
+					reviewBody: "NorBilt did a great job on my flooring and baseboards in Battle Ground, WA. The work was clean, precise, and finished on time. Everything looks solid and professionally done. Definitely recommend them for quality remodeling work.",
+				},
+				{
+					"@type": "Review",
+					reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+					author: { "@type": "Person", name: "M. Taylor" },
+					reviewBody: "I worked with Andrey, who was courteous, professional, efficient, and delivered high-quality work in a timely manner. It's hard to find reliable help these days, and I truly appreciated his attention to detail and expertise.",
+				},
+			],
+		},
 	],
 };
 

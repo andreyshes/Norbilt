@@ -140,6 +140,37 @@ const schema = {
 				acceptedAnswer: { "@type": "Answer", text: f.a },
 			})),
 		},
+		{
+			"@type": "HomeAndConstructionBusiness",
+			"@id": "https://www.norbilt.com/#organization",
+			name: "NORBILT",
+			aggregateRating: {
+				"@type": "AggregateRating",
+				ratingValue: "5.0",
+				reviewCount: "13",
+				bestRating: "5",
+			},
+			review: [
+				{
+					"@type": "Review",
+					reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+					author: { "@type": "Person", name: "Ruvim C." },
+					reviewBody: "NORBILT has built me my dream bathroom. Andrey was quick to respond whenever I had any questions and was very respectful and pleasant to work with. Couldn't have been more happy with the experience!",
+				},
+				{
+					"@type": "Review",
+					reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+					author: { "@type": "Person", name: "David" },
+					reviewBody: "NORBILT was awesome to work with. They transformed my outdated bathroom to something modern and I love it! Great company to work with and I am in love with my bathroom once again.",
+				},
+				{
+					"@type": "Review",
+					reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+					author: { "@type": "Person", name: "Moses" },
+					reviewBody: "Did really great job for my tiles in my bathroom — came there, did a quick and quality job. Highly recommend.",
+				},
+			],
+		},
 	],
 };
 

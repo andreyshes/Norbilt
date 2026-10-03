@@ -79,6 +79,44 @@ const faqs = [
 		],
 	},
 	{
+		category: "Kitchen & Bathroom Remodeling",
+		icon: ArrowRight,
+		questions: [
+			{
+				q: "How much does a kitchen remodel cost in Vancouver WA?",
+				a: "A kitchen remodel in Vancouver WA costs $8,000–$80,000+ depending on scope. A mid-range remodel — new cabinets, quartz countertops, backsplash, and LVP flooring — runs $18,000–$35,000. A full gut remodel with layout changes runs $30,000–$55,000. Cosmetic updates (hardware, countertops only) start around $2,000. NORBILT gives you a written flat-rate price before we start.",
+			},
+			{
+				q: "How much does a bathroom remodel cost in Clark County WA?",
+				a: "A bathroom remodel in Clark County WA costs $900–$32,000+. A cosmetic refresh (new fixtures, caulk, paint) runs $900–$2,500. A mid-range remodel with new vanity, tile floor, and updated fixtures runs $3,500–$8,000. A full gut remodel — demo to studs, new tile, plumbing, vanity, exhaust — runs $9,000–$18,000. A primary suite remodel runs $18,000–$32,000+.",
+			},
+			{
+				q: "How long does a kitchen remodel take?",
+				a: "A kitchen remodel typically takes 4–7 weeks from demo to final walkthrough. The longest lead item is usually cabinets (2–4 weeks to fabricate and deliver) followed by countertop templating and fabrication (5–10 days after cabinets are set). Active work on-site runs 2–3 weeks. NORBILT provides a week-by-week timeline at the estimate.",
+			},
+			{
+				q: "How long does a bathroom remodel take?",
+				a: "A cosmetic bathroom refresh takes 1–2 days. A mid-range remodel with new vanity, tile, and fixtures takes 3–6 days. A full gut remodel takes 1–2 weeks. A primary suite remodel takes 2–4 weeks. Tile work requires curing time between setting and grouting, which affects the schedule.",
+			},
+			{
+				q: "Do I need a permit for a kitchen or bathroom remodel in Clark County?",
+				a: "You need a permit in Clark County if your remodel involves moving or adding plumbing, adding new electrical circuits, structural changes (removing a wall, enlarging a window), or mechanical changes (new exhaust duct). Cabinet replacements, vanity swaps, and tile work in the same location typically don't require a permit. NORBILT handles all permitting for any permitted scope — fees are included in the bid.",
+			},
+			{
+				q: "What's the difference between a kitchen remodel and a kitchen renovation?",
+				a: "In practice, they mean the same thing — both refer to updating or replacing components of a kitchen. NORBILT uses 'remodel' to describe projects that replace functional components: new cabinets, countertops, flooring, fixtures, or layout changes. A 'refresh' or 'facelift' typically means cosmetic changes only — new hardware, paint, appliances — without touching the cabinets or countertops.",
+			},
+			{
+				q: "Does NORBILT do tub-to-shower conversions?",
+				a: "Yes. Tub-to-shower conversions are one of our most requested bathroom remodel services. A prefab insert conversion runs $1,800–$4,500. A custom tile shower conversion runs $3,500–$8,500. The project includes removing the tub, modifying the drain if needed, installing the new shower base or custom tile pan, walls, and fixtures. Most conversions take 2–4 days.",
+			},
+			{
+				q: "What kitchen remodel projects add the most resale value in Clark County?",
+				a: "In Clark County, mid-range kitchen remodels — new cabinets, quartz countertops, updated fixtures — consistently deliver the best ROI for resale. Full gut remodels have high impact but longer payback periods. The projects with the least ROI are high-end custom kitchens in mid-range neighborhoods where the home doesn't support premium finishes at appraisal.",
+			},
+		],
+	},
+	{
 		category: "Process & What to Expect",
 		icon: ArrowRight,
 		questions: [
