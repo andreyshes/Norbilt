@@ -33,7 +33,7 @@ type ServiceKey =
 	| "Drywall Repair"
 	| "Door & Window"
 	| "Handyman Services"
-	| "Home Repair / Other";
+	| "Custom Project";
 
 interface Estimate {
 	priceRange: { low: number; high: number };
@@ -55,7 +55,7 @@ const services = [
 	{ key: "Drywall Repair" as ServiceKey, icon: Layers, desc: "Patches, texturing, water damage" },
 	{ key: "Door & Window" as ServiceKey, icon: DoorOpen, desc: "Installation and repair" },
 	{ key: "Handyman Services" as ServiceKey, icon: Wrench, desc: "Punch lists, repairs, misc tasks" },
-	{ key: "Home Repair / Other" as ServiceKey, icon: Home, desc: "General repairs and maintenance" },
+	{ key: "Custom Project" as ServiceKey, icon: Home, desc: "Describe any project — get a market estimate instantly" },
 ];
 
 // ─── Service-Specific Questions ───────────────────────────────────────────────
@@ -152,12 +152,38 @@ function ServiceDetails({ service, details, onChange }: { service: ServiceKey; d
 		</div>
 	);
 
-	// Home Repair / Other
+	// Custom Project — open scope estimator
 	return (
-		<div className="space-y-5">
-			{txt("description", "Describe your project", "Tell us what needs to be done. The more detail you provide, the more accurate your estimate will be.")}
-			{sel("urgency", "How urgent is this?", ["Emergency / safety issue", "ASAP (this week)", "Within 2–3 weeks", "Flexible / planning ahead"])}
-			{sel("scale", "Estimated project scale", ["Minor repair (a few hours)", "Medium project (1–2 days)", "Larger project (multiple days)", "Not sure"])}
+		<div className="space-y-6">
+			<div className="space-y-2">
+				<label className="block text-sm font-bold text-[#1F2E2B]">
+					Describe your scope of work <span className="text-red-400">*</span>
+				</label>
+				<p className="text-xs text-[#2C3E3A]/50 font-medium">Be as specific as you can — materials, rooms affected, what you want the end result to look like. The AI uses this to pull current Clark County labor and material rates.</p>
+				<textarea
+					value={details["scopeOfWork"] || ""}
+					onChange={(e) => onChange("scopeOfWork", e.target.value)}
+					placeholder={`Examples:\n• "Remove old tile in master bath, install new 12×24 porcelain tile floor and shower surround, replace vanity and fixtures"\n• "Replace laminate kitchen countertops with quartz, add tile backsplash"\n• "Finish 600 sq ft basement — drywall, paint, LVP flooring, 2 can lights"`}
+					rows={6}
+					className="w-full px-4 py-3 rounded-xl border border-[#2C3E3A]/20 bg-white text-[#1F2E2B] font-medium focus:outline-none focus:ring-2 focus:ring-[#2D5A3D] text-sm resize-none leading-relaxed"
+				/>
+			</div>
+			{sel("timeline", "When are you looking to get this done?", [
+				"ASAP — I'm ready to start now",
+				"Within 2–4 weeks",
+				"Within 1–2 months",
+				"2–4 months out",
+				"Just planning / getting quotes",
+			])}
+			{sel("budget", "What is your budget range?", [
+				"Under $2,000",
+				"$2,000 – $5,000",
+				"$5,000 – $15,000",
+				"$15,000 – $35,000",
+				"$35,000 – $75,000",
+				"$75,000+",
+				"Not sure — show me what it costs",
+			])}
 		</div>
 	);
 }
@@ -176,7 +202,9 @@ export default function EstimatePage() {
 	const updateDetail = (k: string, v: string) => setDetails((prev) => ({ ...prev, [k]: v }));
 	const updateContact = (k: string, v: string) => setContactInfo((prev) => ({ ...prev, [k]: v }));
 
-	const canProceedStep2 = Object.values(details).some((v) => v.trim().length > 0);
+	const canProceedStep2 = selectedService === "Custom Project"
+		? (details["scopeOfWork"] || "").trim().length > 10
+		: Object.values(details).some((v) => v.trim().length > 0);
 
 	const generateEstimate = async () => {
 		setLoading(true);
