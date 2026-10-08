@@ -411,38 +411,42 @@ export default function EstimatePage() {
 									</div>
 								</div>
 
-								<div className="space-y-2">
-									<label className="block text-sm font-bold text-[#1F2E2B]">Desired Timeline</label>
-									<select
-										value={contactInfo.timeline}
-										onChange={(e) => updateContact("timeline", e.target.value)}
-										className="w-full px-4 py-3 rounded-xl border border-[#2C3E3A]/20 bg-[#FDFCFB] text-[#1F2E2B] font-medium focus:outline-none focus:ring-2 focus:ring-[#2D5A3D] text-sm"
-									>
-										<option value="">Select timeline…</option>
-										<option>ASAP – this week</option>
-										<option>Within 2–3 weeks</option>
-										<option>Within a month</option>
-										<option>1–3 months out</option>
-										<option>Just planning ahead</option>
-									</select>
-								</div>
+								{selectedService !== "Custom Project" && (
+									<div className="space-y-2">
+										<label className="block text-sm font-bold text-[#1F2E2B]">Desired Timeline</label>
+										<select
+											value={contactInfo.timeline}
+											onChange={(e) => updateContact("timeline", e.target.value)}
+											className="w-full px-4 py-3 rounded-xl border border-[#2C3E3A]/20 bg-[#FDFCFB] text-[#1F2E2B] font-medium focus:outline-none focus:ring-2 focus:ring-[#2D5A3D] text-sm"
+										>
+											<option value="">Select timeline…</option>
+											<option>ASAP – this week</option>
+											<option>Within 2–3 weeks</option>
+											<option>Within a month</option>
+											<option>1–3 months out</option>
+											<option>Just planning ahead</option>
+										</select>
+									</div>
+								)}
 
-								<div className="space-y-2">
-									<label className="block text-sm font-bold text-[#1F2E2B]">Rough Budget Range</label>
-									<select
-										value={contactInfo.budget}
-										onChange={(e) => updateContact("budget", e.target.value)}
-										className="w-full px-4 py-3 rounded-xl border border-[#2C3E3A]/20 bg-[#FDFCFB] text-[#1F2E2B] font-medium focus:outline-none focus:ring-2 focus:ring-[#2D5A3D] text-sm"
-									>
-										<option value="">Select budget…</option>
-										<option>Under $5,000</option>
-										<option>$5,000–$15,000</option>
-										<option>$15,000–$30,000</option>
-										<option>$30,000–$60,000</option>
-										<option>$60,000+</option>
-										<option>Not sure yet</option>
-									</select>
-								</div>
+								{selectedService !== "Custom Project" && (
+									<div className="space-y-2">
+										<label className="block text-sm font-bold text-[#1F2E2B]">Rough Budget Range</label>
+										<select
+											value={contactInfo.budget}
+											onChange={(e) => updateContact("budget", e.target.value)}
+											className="w-full px-4 py-3 rounded-xl border border-[#2C3E3A]/20 bg-[#FDFCFB] text-[#1F2E2B] font-medium focus:outline-none focus:ring-2 focus:ring-[#2D5A3D] text-sm"
+										>
+											<option value="">Select budget…</option>
+											<option>Under $5,000</option>
+											<option>$5,000–$15,000</option>
+											<option>$15,000–$30,000</option>
+											<option>$30,000–$60,000</option>
+											<option>$60,000+</option>
+											<option>Not sure yet</option>
+										</select>
+									</div>
+								)}
 
 								<div className="space-y-2">
 									<label className="block text-sm font-bold text-[#1F2E2B]">Anything else we should know? <span className="text-[#2C3E3A]/40 font-medium">(optional)</span></label>
