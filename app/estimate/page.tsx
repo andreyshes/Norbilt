@@ -175,15 +175,6 @@ function ServiceDetails({ service, details, onChange }: { service: ServiceKey; d
 				"2–4 months out",
 				"Just planning / getting quotes",
 			])}
-			{sel("budget", "What is your budget range?", [
-				"Under $2,000",
-				"$2,000 – $5,000",
-				"$5,000 – $15,000",
-				"$15,000 – $35,000",
-				"$35,000 – $75,000",
-				"$75,000+",
-				"Not sure — show me what it costs",
-			])}
 		</div>
 	);
 }

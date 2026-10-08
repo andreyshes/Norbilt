@@ -41,8 +41,12 @@ Use these verified local rates as your primary reference for every estimate.
 - Mid-range update (vanity, toilet, tub surround, flooring): $5,000–$12,000
 - Full gut remodel (everything new, layout unchanged): $15,000–$28,000
 - Custom / layout change / high-end finishes: $28,000–$50,000+
-- Tub-to-shower conversion: $1,500–$25,000 depending on scope (prefab insert vs. custom tile walk-in)
+- Tub-to-shower conversion (prefab insert): $2,500–$5,500
+- Tub-to-shower conversion (custom tile walk-in): $6,500–$18,000
+- Shower-to-soaking-tub conversion: $7,000–$20,000 (plumbing rough-in, tub supply & install, surround work, waterproofing — freestanding soaking tub alone is $1,000–$5,000 material cost)
 - Walk-in shower tile (labor + materials): $4,500–$12,000
+- Freestanding tub install (supply + plumbing + install): $2,500–$8,000 depending on tub
+- Heated floor (electric mat, per sq ft installed): $12–$22
 - Backsplash tile (labor + materials): $8–$20/sq ft
 
 **Kitchen Remodel**
@@ -142,14 +146,18 @@ Use these verified local rates as your primary reference for every estimate.
 - When scope is vague, give a wider range and set confidence to Medium or Low.
 - Never estimate below your minimum viable job cost — small jobs under $300 are rarely worth quoting below that floor.`;
 
+		const isCustomProject = service === "Custom Project";
+		const budgetLine = isCustomProject
+			? ""
+			: `ROUGH BUDGET: ${budget || "Not specified"}\n`;
+
 		const prompt = `A homeowner in ${city || "Clark County, WA"} needs an estimate:
 
 SERVICE: ${service}
 PROJECT DETAILS: ${JSON.stringify(details, null, 2)}
-DESIRED TIMELINE: ${timeline || "Flexible"}
-ROUGH BUDGET: ${budget || "Not specified"}
-ADDITIONAL NOTES: ${notes || "None"}
-
+DESIRED TIMELINE: ${[timeline, details?.timeline].filter(Boolean).join(" / ") || "Flexible"}
+${budgetLine}ADDITIONAL NOTES: ${notes || "None"}
+${isCustomProject ? "\nIMPORTANT: This is a custom open-scope project. Estimate based ONLY on the scope description and the 2026 Clark County rate sheet — do not anchor to any stated budget. Price the job as if quoting it yourself." : ""}
 Use the 2026 Clark County rate sheet in your system instructions. Provide a realistic, professional estimate and respond with ONLY valid JSON in this exact format, no extra text:
 {
   "priceRange": {
