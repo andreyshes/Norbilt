@@ -447,6 +447,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			changeFrequency: "monthly",
 			priority: 0.9,
 		},
+		{
+			url: `${baseUrl}/blog/finish-carpentry-cost-battle-ground-wa`,
+			lastModified: new Date("2026-10-17"),
+			changeFrequency: "monthly",
+			priority: 0.9,
+		},
 	);
 
 	return routes;
