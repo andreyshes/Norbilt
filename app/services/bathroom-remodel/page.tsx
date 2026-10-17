@@ -662,6 +662,94 @@ export default function BathroomRemodelPage() {
 					</div>
 				</section>
 
+				{/* WHAT CLIENTS SAY */}
+				<section className="py-24 bg-white border-t border-gray-100">
+					<div className="max-w-5xl mx-auto px-6 lg:px-8">
+						<p className="text-sm font-black uppercase tracking-widest text-[#FFB800] mb-3">What Clark County Homeowners Say</p>
+						<h2 className="text-3xl font-black text-[#1F2E2B] mb-12">Real Reviews from Real Projects</h2>
+						<div className="grid md:grid-cols-3 gap-6">
+							{[
+								{
+									name: "Ruvim C.",
+									location: "Vancouver, WA",
+									body: "Andrey did an outstanding job on our bathroom remodel. The tile work was precise, everything was cleaned up every day, and the finished shower looks incredible. Highly recommend NORBILT for anyone doing a bathroom renovation in Clark County.",
+								},
+								{
+									name: "Taylor K.",
+									location: "Clark County, WA",
+									body: "I had a great experience working with NORBILT on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. The final result turned out even better than I imagined.",
+								},
+								{
+									name: "M. Taylor",
+									location: "Vancouver, WA",
+									body: "I worked with Andrey, who was courteous, professional, efficient, and delivered high-quality work in a timely manner. It's hard to find reliable help these days, and I truly appreciated his attention to detail and expertise.",
+								},
+							].map((r, i) => (
+								<div key={i} className="bg-[#F8F6F3] rounded-2xl p-6 flex flex-col gap-4">
+									<div className="flex gap-0.5">
+										{[...Array(5)].map((_, s) => (
+											<svg key={s} className="w-4 h-4 fill-[#FFB800]" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+										))}
+									</div>
+									<p className="text-gray-700 text-sm leading-relaxed flex-1">&ldquo;{r.body}&rdquo;</p>
+									<div>
+										<p className="font-black text-[#1F2E2B] text-sm">{r.name}</p>
+										<p className="text-gray-400 text-xs">{r.location}</p>
+									</div>
+								</div>
+							))}
+						</div>
+					</div>
+				</section>
+
+				{/* SEE OUR WORK */}
+				<section className="py-20 bg-[#1F2E2B]">
+					<div className="max-w-5xl mx-auto px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-8">
+						<div className="space-y-3">
+							<p className="text-[#FFB800] font-black uppercase tracking-widest text-sm">Portfolio</p>
+							<h2 className="text-3xl font-black text-white">See Our Bathroom Work</h2>
+							<p className="text-[#A7C4B5] text-sm max-w-md leading-relaxed">
+								Before-and-after photos from tile surrounds, vanity upgrades, and full gut bathroom remodels
+								across Clark County — including Vancouver, Camas, and Battle Ground.
+							</p>
+						</div>
+						<Link
+							href="/portfolio"
+							className="inline-flex items-center gap-3 px-8 py-4 bg-[#FFB800] text-black font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-all shrink-0"
+						>
+							View Portfolio <ArrowRight className="w-5 h-5" />
+						</Link>
+					</div>
+				</section>
+
+				{/* HOW IT WORKS */}
+				<section className="py-24 bg-[#F8F6F3]">
+					<div className="max-w-5xl mx-auto px-6 lg:px-8">
+						<p className="text-sm font-black uppercase tracking-widest text-[#FFB800] mb-3">The Process</p>
+						<h2 className="text-3xl font-black text-[#1F2E2B] mb-2">What Happens After You Reach Out</h2>
+						<p className="text-gray-500 mb-12 text-sm">We don&apos;t take deposits and disappear. Here&apos;s exactly what to expect.</p>
+						<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+							{[
+								{ num: "01", title: "Free In-Home Walkthrough", body: "We assess the existing tile, plumbing, and conditions — and talk through what you want. 30–45 minutes, no obligation, no pressure." },
+								{ num: "02", title: "Written Quote in 24–48 hrs", body: "Itemized written quote with line items for demo, tile, fixtures, vanity, and labor. No ballparks, no hidden fees." },
+								{ num: "03", title: "Materials Ordered Right Away", body: "Once scope is confirmed we order tile, vanity, fixtures, and any specialty items immediately. Lead time is the critical path." },
+								{ num: "04", title: "Daily Updates Through Completion", body: "You hear from us every work day. Final walkthrough together — we don't close the job until you've signed off on every detail." },
+							].map((step, i) => (
+								<div key={i} className="bg-white rounded-2xl p-6 border border-gray-200">
+									<p className="text-[#FFB800] font-black text-3xl mb-3">{step.num}</p>
+									<p className="font-black text-[#1F2E2B] mb-2 text-sm">{step.title}</p>
+									<p className="text-gray-500 text-xs leading-relaxed">{step.body}</p>
+								</div>
+							))}
+						</div>
+						<div className="mt-8">
+							<Link href="/remodeling-process" className="inline-flex items-center gap-2 text-sm font-bold text-[#2D5A3D] hover:text-[#FFB800] transition-colors">
+								Full process walkthrough — what to expect at every stage <ArrowRight className="w-4 h-4" />
+							</Link>
+						</div>
+					</div>
+				</section>
+
 				{/* FINAL CTA */}
 				<section className="py-24 lg:py-40">
 					<div className="max-w-7xl mx-auto px-6">
@@ -672,14 +760,14 @@ export default function BathroomRemodelPage() {
 									<span className="text-[#FFB800]">Done Right</span>
 								</h2>
 								<p className="text-[#A7C4B5] text-xl font-medium max-w-xl mx-auto">
-									Free written estimate, honest pricing, and a 1-year warranty on every bathroom project in Clark County.
+									Schedule a free in-home consultation — we come to you, assess the space, and give you a written quote within 48 hours. No pressure, no obligation.
 								</p>
 								<div className="flex flex-col sm:flex-row gap-6 justify-center pt-4">
 									<Link
 										href="/contact"
 										className="px-12 py-6 bg-[#FFB800] text-black font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-all shadow-xl"
 									>
-										Get Your Estimate
+										Schedule Free Consultation
 									</Link>
 									<Link
 										href="tel:+13602169920"
@@ -688,6 +776,7 @@ export default function BathroomRemodelPage() {
 										<Phone className="w-5 h-5" /> 360.216.9920
 									</Link>
 								</div>
+								<p className="text-[#A7C4B5]/60 text-sm">Free walkthrough · Written quote in 48 hrs · 1-year workmanship warranty</p>
 							</div>
 						</div>
 					</div>

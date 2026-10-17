@@ -737,6 +737,94 @@ export default function KitchenRemodelPage() {
 					</div>
 				</section>
 
+				{/* WHAT CLIENTS SAY */}
+				<section className="py-24 bg-white border-t border-gray-100">
+					<div className="max-w-5xl mx-auto px-6 lg:px-8">
+						<p className="text-sm font-black uppercase tracking-widest text-[#FFB800] mb-3">What Clark County Homeowners Say</p>
+						<h2 className="text-3xl font-black text-[#1F2E2B] mb-12">Real Reviews from Real Projects</h2>
+						<div className="grid md:grid-cols-3 gap-6">
+							{[
+								{
+									name: "Taylor K.",
+									location: "Vancouver, WA",
+									body: "I had a great experience working with NORBILT on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. The quality of work really shows, and the final result turned out even better than I imagined.",
+								},
+								{
+									name: "M. Taylor",
+									location: "Clark County, WA",
+									body: "I worked with Andrey, who was courteous, professional, efficient, and delivered high-quality work in a timely manner. It's hard to find reliable help these days, and I truly appreciated his attention to detail and expertise.",
+								},
+								{
+									name: "David B.",
+									location: "Battle Ground, WA",
+									body: "NorBilt did a great job. The work was clean, precise, and finished on time. Everything looks solid and professionally done. Definitely recommend them for quality remodeling work in Clark County.",
+								},
+							].map((r, i) => (
+								<div key={i} className="bg-[#F8F6F3] rounded-2xl p-6 flex flex-col gap-4">
+									<div className="flex gap-0.5">
+										{[...Array(5)].map((_, s) => (
+											<svg key={s} className="w-4 h-4 fill-[#FFB800]" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+										))}
+									</div>
+									<p className="text-gray-700 text-sm leading-relaxed flex-1">&ldquo;{r.body}&rdquo;</p>
+									<div>
+										<p className="font-black text-[#1F2E2B] text-sm">{r.name}</p>
+										<p className="text-gray-400 text-xs">{r.location}</p>
+									</div>
+								</div>
+							))}
+						</div>
+					</div>
+				</section>
+
+				{/* SEE OUR WORK */}
+				<section className="py-20 bg-[#1F2E2B]">
+					<div className="max-w-5xl mx-auto px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-8">
+						<div className="space-y-3">
+							<p className="text-[#FFB800] font-black uppercase tracking-widest text-sm">Portfolio</p>
+							<h2 className="text-3xl font-black text-white">See Our Kitchen Work</h2>
+							<p className="text-[#A7C4B5] text-sm max-w-md leading-relaxed">
+								Before-and-after photos from kitchen and bathroom remodels across Clark County —
+								full gut remodels, cabinet replacements, tile work, and more.
+							</p>
+						</div>
+						<Link
+							href="/portfolio"
+							className="inline-flex items-center gap-3 px-8 py-4 bg-[#FFB800] text-black font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-all shrink-0"
+						>
+							View Portfolio <ArrowRight className="w-5 h-5" />
+						</Link>
+					</div>
+				</section>
+
+				{/* HOW IT WORKS */}
+				<section className="py-24 bg-[#F8F6F3]">
+					<div className="max-w-5xl mx-auto px-6 lg:px-8">
+						<p className="text-sm font-black uppercase tracking-widest text-[#FFB800] mb-3">The Process</p>
+						<h2 className="text-3xl font-black text-[#1F2E2B] mb-2">What Happens After You Reach Out</h2>
+						<p className="text-gray-500 mb-12 text-sm">We don&apos;t take deposits and disappear. Here&apos;s the exact sequence.</p>
+						<div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+							{[
+								{ num: "01", title: "Free In-Home Walkthrough", body: "We come to the space, assess the existing conditions, and talk through what you want. No obligation, no sales pressure. Usually 30–45 minutes." },
+								{ num: "02", title: "Written Quote in 24–48 hrs", body: "You get an itemized written quote — not a ballpark. Line items for labor, materials, and any subcontractors. No hidden fees." },
+								{ num: "03", title: "Materials Ordered Immediately", body: "Once you approve the scope, we order cabinets, countertops, and tile right away. Cabinet lead time is the critical path — we don't wait." },
+								{ num: "04", title: "Work Starts, You're Updated Daily", body: "You hear from us every day while we're on site. At the end of the project, we walk through together and don't close until you're satisfied." },
+							].map((step, i) => (
+								<div key={i} className="bg-white rounded-2xl p-6 border border-gray-200">
+									<p className="text-[#FFB800] font-black text-3xl mb-3">{step.num}</p>
+									<p className="font-black text-[#1F2E2B] mb-2 text-sm">{step.title}</p>
+									<p className="text-gray-500 text-xs leading-relaxed">{step.body}</p>
+								</div>
+							))}
+						</div>
+						<div className="mt-8">
+							<Link href="/remodeling-process" className="inline-flex items-center gap-2 text-sm font-bold text-[#2D5A3D] hover:text-[#FFB800] transition-colors">
+								Full process walkthrough — what to expect at every stage <ArrowRight className="w-4 h-4" />
+							</Link>
+						</div>
+					</div>
+				</section>
+
 				{/* FINAL CTA */}
 				<section className="py-24 lg:py-40">
 					<div className="max-w-7xl mx-auto px-6">
@@ -747,14 +835,14 @@ export default function KitchenRemodelPage() {
 									<span className="text-[#FFB800]">Built Right</span>
 								</h2>
 								<p className="text-[#A7C4B5] text-xl font-medium max-w-xl mx-auto">
-									Free written estimate, honest pricing, and a 1-year warranty on every kitchen project in Clark County.
+									Schedule a free in-home consultation — we come to you, assess the space, and give you a written quote within 48 hours. No pressure, no obligation.
 								</p>
 								<div className="flex flex-col sm:flex-row gap-6 justify-center pt-4">
 									<Link
 										href="/contact"
 										className="px-12 py-6 bg-[#FFB800] text-black font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-all shadow-xl"
 									>
-										Get Your Estimate
+										Schedule Free Consultation
 									</Link>
 									<Link
 										href="tel:+13602169920"
@@ -763,6 +851,7 @@ export default function KitchenRemodelPage() {
 										<Phone className="w-5 h-5" /> 360.216.9920
 									</Link>
 								</div>
+								<p className="text-[#A7C4B5]/60 text-sm">Free walkthrough · Written quote in 48 hrs · 1-year workmanship warranty</p>
 							</div>
 						</div>
 					</div>
