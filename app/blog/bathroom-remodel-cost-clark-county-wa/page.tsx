@@ -123,6 +123,14 @@ const faqs = [
 		q: "Can I do a bathroom remodel in phases?",
 		a: "Yes — and it often makes sense. Many Clark County homeowners start with a cosmetic refresh (fixtures, caulk, paint) and do the full tile/vanity replacement in a later phase. Phasing works best when there's no water damage driving urgency. We can quote each phase separately so you have a complete picture.",
 	},
+	{
+		q: "How do I find a licensed bathroom remodel contractor in Clark County WA?",
+		a: "To find a licensed bathroom remodel contractor in Clark County WA, verify their WA State contractor license at the Labor & Industries lookup (look for 'active' status and 'general contractor' or 'specialty contractor' classification). Make sure they carry general liability and workers' comp. Ask for a written, itemized quote — not a ballpark over the phone. NORBILT is licensed in WA (NORBI**741CS), locally based in Clark County, and handles bathroom remodels from cosmetic updates through full gut renovations. We provide free on-site estimates and written quotes before any work starts.",
+	},
+	{
+		q: "How much does a licensed bathroom remodel contractor charge in Clark County compared to an unlicensed handyman?",
+		a: "A licensed general contractor in Clark County charges $65–$95/hour for labor versus $35–$55/hour for an unlicensed handyman. The difference matters most on full remodels: a licensed contractor can pull permits, coordinate licensed plumbers and electricians, provide a written contract, and warranty the work. Unlicensed work without permits creates issues at resale and voids homeowner insurance claims related to that work. For cosmetic projects under $1,000, the distinction matters less — but for any tile, plumbing, or full gut remodel, using a licensed contractor is the right call.",
+	},
 ];
 
 export default function BathroomRemodeCostClarkCounty() {
@@ -138,7 +146,7 @@ export default function BathroomRemodeCostClarkCounty() {
 						author: { "@id": "https://www.norbilt.com/#founder" },
 						publisher: { "@id": "https://www.norbilt.com/#organization" },
 						datePublished: "2026-04-15",
-						dateModified: "2026-04-15",
+						dateModified: "2026-10-17",
 						description:
 							"Complete 2026 cost guide for bathroom remodels in Clark County WA — real price ranges by scope, component-level costs, and what drives the price up or down.",
 						mainEntityOfPage: "https://www.norbilt.com/blog/bathroom-remodel-cost-clark-county-wa",

@@ -5,7 +5,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
 	title: "How Much Does a Handyman Cost in Vancouver WA? (2026 Rates) | NORBILT",
 	description:
-		"Real 2026 handyman costs in Vancouver WA & Clark County. Hourly rates, per-job pricing for 20+ common tasks, and what separates a licensed contractor from an unlicensed handyman.",
+		"Affordable handyman services in Vancouver WA — real 2026 rates, per-job pricing for 20+ common tasks, and transparent flat-rate quotes from a licensed Clark County contractor. (360) 216-9920.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/handyman-cost-vancouver-wa",
 	},
