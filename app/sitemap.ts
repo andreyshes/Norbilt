@@ -453,6 +453,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			changeFrequency: "monthly",
 			priority: 0.9,
 		},
+		{
+			url: `${baseUrl}/blog/flooring-installation-cost-ridgefield-wa`,
+			lastModified: new Date("2026-10-19"),
+			changeFrequency: "monthly",
+			priority: 0.9,
+		},
 	);
 
 	return routes;
