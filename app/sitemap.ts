@@ -459,6 +459,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			changeFrequency: "monthly",
 			priority: 0.9,
 		},
+		{
+			url: `${baseUrl}/blog/flooring-installation-cost-washougal-wa`,
+			lastModified: new Date("2026-10-26"),
+			changeFrequency: "monthly",
+			priority: 0.9,
+		},
 	);
 
 	return routes;
