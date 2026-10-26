@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import { ArrowRight, Clock, MapPin } from "lucide-react";
 
 const posts = [
@@ -457,9 +460,56 @@ const posts = [
 		location: "Salmon Creek, WA",
 		readTime: "7 min read",
 	},
+	{
+		slug: "finish-carpentry-cost-ridgefield-wa",
+		title: "Finish Carpentry Cost in Ridgefield WA: 2026 Pricing Guide",
+		excerpt:
+			"Real 2026 prices for baseboard installation, crown molding, door casing, and wainscoting in Ridgefield WA — with neighborhood breakdowns for Clark County's fastest-growing city.",
+		category: "Cost Guide",
+		location: "Ridgefield, WA",
+		readTime: "7 min read",
+	},
+];
+
+const SERVICE_FILTERS = [
+	{ label: "All", match: () => true },
+	{ label: "Kitchen", match: (s: string) => s.includes("kitchen") },
+	{ label: "Bathroom", match: (s: string) => s.includes("bathroom") || s.includes("bathtub") },
+	{ label: "Flooring", match: (s: string) => s.includes("flooring") },
+	{ label: "Carpentry", match: (s: string) => s.includes("carpentry") },
+	{ label: "Drywall", match: (s: string) => s.includes("drywall") || s.includes("ceiling") },
+	{ label: "Handyman", match: (s: string) => s.includes("handyman") },
+	{ label: "Remodeling", match: (s: string) => s.includes("remodeling") || s.includes("remodel-cost") },
+];
+
+const CITY_FILTERS = [
+	"All Cities",
+	"Clark County",
+	"Vancouver",
+	"Battle Ground",
+	"Camas",
+	"Ridgefield",
+	"Washougal",
+	"Salmon Creek",
+	"Hazel Dell",
+	"Brush Prairie",
+	"Felida",
 ];
 
 export default function BlogPage() {
+	const [activeService, setActiveService] = useState("All");
+	const [activeCity, setActiveCity] = useState("All Cities");
+
+	const filtered = posts.filter((post) => {
+		const serviceMatch =
+			activeService === "All" ||
+			SERVICE_FILTERS.find((f) => f.label === activeService)?.match(post.slug);
+		const cityMatch =
+			activeCity === "All Cities" ||
+			post.location.startsWith(activeCity);
+		return serviceMatch && cityMatch;
+	});
+
 	return (
 		<div className="overflow-hidden bg-[#FDFCFB]">
 			{/* HERO */}
@@ -482,48 +532,107 @@ export default function BlogPage() {
 				</div>
 			</section>
 
+			{/* FILTERS */}
+			<section className="bg-white border-b border-gray-100 sticky top-0 z-30 shadow-sm">
+				<div className="max-w-7xl mx-auto px-6 lg:px-8 py-4 space-y-3">
+					{/* Service filter */}
+					<div className="flex flex-wrap gap-2 items-center">
+						<span className="text-[10px] font-black uppercase tracking-widest text-gray-400 mr-1">Service:</span>
+						{SERVICE_FILTERS.map((f) => (
+							<button
+								key={f.label}
+								onClick={() => setActiveService(f.label)}
+								className={`px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-widest transition-all ${
+									activeService === f.label
+										? "bg-[#1F2E2B] text-white"
+										: "bg-[#F8F6F3] text-gray-500 hover:bg-[#1F2E2B]/10"
+								}`}
+							>
+								{f.label}
+							</button>
+						))}
+					</div>
+					{/* City filter */}
+					<div className="flex flex-wrap gap-2 items-center">
+						<span className="text-[10px] font-black uppercase tracking-widest text-gray-400 mr-1">City:</span>
+						{CITY_FILTERS.map((city) => (
+							<button
+								key={city}
+								onClick={() => setActiveCity(city)}
+								className={`px-3 py-1 rounded-full text-[11px] font-black uppercase tracking-widest transition-all ${
+									activeCity === city
+										? "bg-[#FFB800] text-black"
+										: "bg-[#F8F6F3] text-gray-500 hover:bg-[#FFB800]/20"
+								}`}
+							>
+								{city === "All Cities" ? "All Cities" : city}
+							</button>
+						))}
+					</div>
+				</div>
+			</section>
+
 			{/* POSTS */}
 			<section className="py-24 bg-[#F8F6F3]">
 				<div className="max-w-7xl mx-auto px-6 lg:px-8">
-					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-						{posts.map((post) => (
-							<Link
-								key={post.slug}
-								href={`/blog/${post.slug}`}
-								className="group bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl hover:border-[#FFB800]/30 transition-all duration-300 flex flex-col"
+					{filtered.length === 0 ? (
+						<div className="text-center py-24">
+							<p className="text-gray-500 font-medium text-lg">No posts match that filter yet.</p>
+							<button
+								onClick={() => { setActiveService("All"); setActiveCity("All Cities"); }}
+								className="mt-6 text-sm font-black text-[#2D5A3D] hover:text-[#FFB800] uppercase tracking-widest transition-colors"
 							>
-								<div className="p-8 flex flex-col flex-1 gap-4">
-									<div className="flex items-center justify-between">
-										<span className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] bg-[#2D5A3D]/10 px-3 py-1 rounded-full">
-											{post.category}
-										</span>
-										<span className="text-xs text-gray-400 flex items-center gap-1">
-											<Clock className="w-3 h-3" />
-											{post.readTime}
-										</span>
-									</div>
+								Clear filters →
+							</button>
+						</div>
+					) : (
+						<>
+							<p className="text-xs font-black uppercase tracking-widest text-gray-400 mb-8">
+								{filtered.length} article{filtered.length !== 1 ? "s" : ""}
+								{activeService !== "All" ? ` · ${activeService}` : ""}
+								{activeCity !== "All Cities" ? ` · ${activeCity}` : ""}
+							</p>
+							<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+								{filtered.map((post) => (
+									<Link
+										key={post.slug}
+										href={`/blog/${post.slug}`}
+										className="group bg-white rounded-3xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-xl hover:border-[#FFB800]/30 transition-all duration-300 flex flex-col"
+									>
+										<div className="p-8 flex flex-col flex-1 gap-4">
+											<div className="flex items-center justify-between">
+												<span className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] bg-[#2D5A3D]/10 px-3 py-1 rounded-full">
+													{post.category}
+												</span>
+												<span className="text-xs text-gray-400 flex items-center gap-1">
+													<Clock className="w-3 h-3" />
+													{post.readTime}
+												</span>
+											</div>
 
-									<h2 className="text-xl font-black text-[#1F2E2B] leading-snug group-hover:text-[#2D5A3D] transition-colors">
-										{post.title}
-									</h2>
+											<h2 className="text-xl font-black text-[#1F2E2B] leading-snug group-hover:text-[#2D5A3D] transition-colors">
+												{post.title}
+											</h2>
 
-									<p className="text-gray-600 text-sm leading-relaxed flex-1">
-										{post.excerpt}
-									</p>
+											<p className="text-gray-600 text-sm leading-relaxed flex-1">
+												{post.excerpt}
+											</p>
 
-									<div className="flex items-center justify-between pt-4 border-t border-gray-100">
-										<span className="text-xs text-gray-400 flex items-center gap-1 font-medium">
-											<MapPin className="w-3 h-3" />
-											{post.location}
-										</span>
-										<span className="text-[#2D5A3D] font-black text-xs uppercase tracking-widest flex items-center gap-1 group-hover:gap-2 transition-all">
-											Read More <ArrowRight className="w-3 h-3" />
-										</span>
-									</div>
-								</div>
-							</Link>
-						))}
-					</div>
+											<div className="flex items-center justify-between pt-4 border-t border-gray-100">
+												<span className="text-xs text-gray-400 flex items-center gap-1 font-medium">
+													<MapPin className="w-3 h-3" />
+													{post.location}
+												</span>
+												<span className="text-[#2D5A3D] font-black text-xs uppercase tracking-widest flex items-center gap-1 group-hover:gap-2 transition-all">
+													Read More <ArrowRight className="w-3 h-3" />
+												</span>
+											</div>
+										</div>
+									</Link>
+								))}
+							</div>
+						</>
+					)}
 				</div>
 			</section>
 

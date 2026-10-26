@@ -333,19 +333,89 @@ export default function FinishCarpentryPage() {
 				</div>
 			</section>
 
+			{/* TESTIMONIALS */}
+			<section className="py-24 bg-white">
+				<div className="max-w-7xl mx-auto px-6 lg:px-8">
+					<div className="text-center mb-16">
+						<span className="text-xs font-black uppercase tracking-widest text-[#2D5A3D]">What Homeowners Say</span>
+						<h2 className="text-4xl md:text-5xl font-black text-[#1F2E2B] uppercase tracking-tighter mt-2">Real Carpentry Reviews</h2>
+					</div>
+					<div className="grid md:grid-cols-3 gap-8">
+						{[
+							{ name: "David B.", text: "Had baseboards installed throughout the whole house after a flooring project. Clean cuts, tight corners, everything caulked and ready to paint. Exactly what I wanted.", stars: 5 },
+							{ name: "Taylor K.", text: "Crown molding in the living room and kitchen — came out beautiful. Andrey was meticulous about the corners and the profile matching. Worth every penny.", stars: 5 },
+							{ name: "M. Taylor", text: "Hired NORBILT for wainscoting in the dining room. They matched the existing trim profile perfectly. Very happy with how it turned out.", stars: 5 },
+						].map((r, i) => (
+							<div key={i} className="bg-[#F8F6F3] rounded-2xl p-8 border border-gray-100">
+								<div className="flex gap-1 mb-4">
+									{Array.from({ length: r.stars }).map((_, s) => (
+										<svg key={s} className="w-5 h-5 text-[#FFB800]" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" /></svg>
+									))}
+								</div>
+								<p className="text-gray-700 font-medium leading-relaxed mb-4">&ldquo;{r.text}&rdquo;</p>
+								<p className="text-xs font-black uppercase tracking-widest text-[#2D5A3D]">{r.name} · Clark County, WA</p>
+							</div>
+						))}
+					</div>
+				</div>
+			</section>
+
+			{/* PORTFOLIO TEASER */}
+			<section className="py-16 bg-[#1F2E2B]">
+				<div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-8">
+					<div>
+						<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-2">Before & After</p>
+						<h2 className="text-3xl md:text-4xl font-black text-white uppercase tracking-tighter leading-none">See Our Carpentry Work</h2>
+						<p className="text-[#A7C4B5] mt-3 max-w-md">Crown molding, wainscoting, baseboards, and custom millwork across Clark County homes.</p>
+					</div>
+					<Link href="/portfolio" className="shrink-0 inline-flex items-center gap-3 px-8 py-4 bg-[#FFB800] text-black font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-all">
+						View Portfolio <ArrowRight className="w-5 h-5" />
+					</Link>
+				</div>
+			</section>
+
+			{/* HOW IT WORKS */}
+			<section className="py-24 bg-[#F8F6F3]">
+				<div className="max-w-7xl mx-auto px-6 lg:px-8">
+					<div className="text-center mb-16">
+						<span className="text-xs font-black uppercase tracking-widest text-[#2D5A3D]">The Process</span>
+						<h2 className="text-4xl md:text-5xl font-black text-[#1F2E2B] uppercase tracking-tighter mt-2">How It Works</h2>
+					</div>
+					<div className="grid md:grid-cols-4 gap-8">
+						{[
+							{ step: "01", title: "Free Estimate", desc: "We measure every room, note the existing profiles, and give you a written flat-rate quote — no hourly surprises." },
+							{ step: "02", title: "Material Sourcing", desc: "We source the right profiles for your home style and era, or work with material you’ve already purchased." },
+							{ step: "03", title: "Installation Day", desc: "Crew arrives on time, makes tight cuts, nails and caulks every piece, and leaves the site clean." },
+							{ step: "04", title: "Paint-Ready Handoff", desc: "We walk the finished trim with you — every joint caulked, every nail filled, ready for your painter." },
+						].map((s, i) => (
+							<div key={i} className="text-center">
+								<div className="w-16 h-16 bg-[#FFB800] rounded-2xl flex items-center justify-center mx-auto mb-6">
+									<span className="text-black font-black text-xl">{s.step}</span>
+								</div>
+								<h3 className="font-black text-[#1F2E2B] uppercase tracking-tight mb-2">{s.title}</h3>
+								<p className="text-gray-600 text-sm leading-relaxed">{s.desc}</p>
+							</div>
+						))}
+					</div>
+					<div className="text-center mt-12">
+						<Link href="/remodeling-process" className="text-sm font-black text-[#2D5A3D] hover:text-[#FFB800] uppercase tracking-widest transition-colors">
+							See Full Process →
+						</Link>
+					</div>
+				</div>
+			</section>
+
 			{/* FINAL CTA - BILLBOARD STYLE */}
 			<section className="py-24 lg:py-40">
 				<div className="max-w-7xl mx-auto px-6">
 					<div className="bg-[#1F2E2B] rounded-[3rem] p-12 lg:p-24 text-center relative overflow-hidden border-b-12 border-[#FFB800] shadow-2xl">
 						<div className="relative z-10 max-w-3xl mx-auto space-y-8">
 							<h2 className="text-4xl md:text-6xl font-black text-white uppercase tracking-tighter leading-none">
-								Schedule Finish Carpentry <br />{" "}
-								<span className="text-[#FFB800]">in Clark County, WA</span>
+								Schedule Free Carpentry <br />{" "}
+								<span className="text-[#FFB800]">Consultation</span>
 							</h2>
 							<p className="text-[#A7C4B5] text-xl font-medium max-w-xl mx-auto">
-								Ready for high-end millwork? Contact NORBILT today for a
-								professional carpentry consultation. Let’s give your home the
-								finish it deserves.
+								We come to you, measure every room, and give you a written flat-rate quote within 48 hours. No pressure, no obligation.
 							</p>
 
 							<div className="flex flex-col sm:flex-row gap-6 justify-center pt-4">
@@ -353,7 +423,7 @@ export default function FinishCarpentryPage() {
 									href="/contact"
 									className="px-12 py-6 bg-[#FFB800] text-black font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-all shadow-xl"
 								>
-									Get Trim Quote
+									Schedule Free Consultation
 								</Link>
 								<Link
 									href="tel:+13602169920"
@@ -362,6 +432,7 @@ export default function FinishCarpentryPage() {
 									<Phone className="w-5 h-5" /> 360.216.9920
 								</Link>
 							</div>
+							<p className="text-[#A7C4B5]/60 text-xs font-bold uppercase tracking-widest">Free walkthrough · Written quote in 48 hrs · 1-year workmanship warranty</p>
 						</div>
 					</div>
 				</div>

@@ -155,7 +155,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 	routes.push(
 		{
 			url: `${baseUrl}/blog`,
-			lastModified: new Date("2026-04-06"),
+			lastModified: new Date("2026-10-26"),
 			changeFrequency: "weekly",
 			priority: 0.8,
 		},
@@ -467,6 +467,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		},
 		{
 			url: `${baseUrl}/blog/flooring-installation-cost-salmon-creek-wa`,
+			lastModified: new Date("2026-10-26"),
+			changeFrequency: "monthly",
+			priority: 0.9,
+		},
+		{
+			url: `${baseUrl}/blog/finish-carpentry-cost-ridgefield-wa`,
 			lastModified: new Date("2026-10-26"),
 			changeFrequency: "monthly",
 			priority: 0.9,
