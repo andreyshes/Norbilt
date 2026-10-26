@@ -232,6 +232,231 @@ const posts = [
 		location: "Clark County, WA",
 		readTime: "7 min read",
 	},
+	{
+		slug: "home-improvement-permits-clark-county-wa",
+		title: "Home Improvement Permits in Clark County WA: What Requires One",
+		excerpt:
+			"Not every project needs a permit — but the ones that do can cause real problems at resale if skipped. A licensed Clark County contractor breaks down exactly what triggers a permit requirement.",
+		category: "Hiring Guide",
+		location: "Clark County, WA",
+		readTime: "6 min read",
+	},
+	{
+		slug: "home-remodeling-vancouver-wa",
+		title: "Home Remodeling in Vancouver WA: 2026 Cost Guide & Contractor Tips",
+		excerpt:
+			"Full 2026 cost guide for home remodeling in Vancouver WA — kitchen, bathroom, flooring, finish carpentry, and full renovations. What Vancouver homeowners actually spend and what to watch for.",
+		category: "Cost Guide",
+		location: "Vancouver, WA",
+		readTime: "9 min read",
+	},
+	{
+		slug: "handyman-services-washougal-wa",
+		title: "Handyman Services in Washougal WA: 2026 Costs & What to Expect",
+		excerpt:
+			"Looking for a handyman in Washougal WA? Real 2026 pricing for home repairs, drywall, fixtures, doors, and punch lists — from a licensed Clark County contractor.",
+		category: "Local Guide",
+		location: "Washougal, WA",
+		readTime: "6 min read",
+	},
+	{
+		slug: "home-remodeling-battle-ground-wa",
+		title: "Home Remodeling in Battle Ground WA: 2026 Cost Guide",
+		excerpt:
+			"Planning a home remodel in Battle Ground WA? Real 2026 costs for kitchen, bathroom, flooring, finish carpentry, and full renovations — plus Battle Ground neighborhood notes.",
+		category: "Cost Guide",
+		location: "Battle Ground, WA",
+		readTime: "8 min read",
+	},
+	{
+		slug: "home-remodeling-ridgefield-wa",
+		title: "Home Remodeling in Ridgefield WA: 2026 Cost Guide",
+		excerpt:
+			"Planning a home remodel in Ridgefield WA? Real 2026 costs for every major project — plus what Clark County's fastest-growing city homeowners are actually spending.",
+		category: "Cost Guide",
+		location: "Ridgefield, WA",
+		readTime: "8 min read",
+	},
+	{
+		slug: "home-remodeling-washougal-wa",
+		title: "Home Remodeling in Washougal WA: 2026 Cost Guide",
+		excerpt:
+			"Planning a home remodel in Washougal WA? Real 2026 costs for kitchen, bathroom, flooring, and full renovations — plus what Gorge-corridor homes typically need.",
+		category: "Cost Guide",
+		location: "Washougal, WA",
+		readTime: "8 min read",
+	},
+	{
+		slug: "home-remodeling-salmon-creek-wa",
+		title: "Home Remodeling in Salmon Creek WA: 2026 Cost Guide",
+		excerpt:
+			"Planning a home remodel in Salmon Creek WA? Real 2026 costs for kitchen, bathroom, flooring, and finish carpentry — from a licensed contractor working in north Vancouver.",
+		category: "Cost Guide",
+		location: "Salmon Creek, WA",
+		readTime: "8 min read",
+	},
+	{
+		slug: "home-remodeling-felida-wa",
+		title: "Home Remodeling in Felida WA: 2026 Cost Guide",
+		excerpt:
+			"Planning a home remodel in Felida WA? Real 2026 costs for kitchen, bathroom, flooring, and carpentry — plus what Felida's 1980s–90s housing stock typically needs.",
+		category: "Cost Guide",
+		location: "Felida, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "ceiling-repair-cost-vancouver-wa",
+		title: "Ceiling Repair Cost in Vancouver WA: 2026 Pricing Guide",
+		excerpt:
+			"How much does ceiling repair cost in Vancouver WA? Real 2026 prices for water damage, cracks, popcorn removal, and full drywall replacement — plus what drives the cost.",
+		category: "Cost Guide",
+		location: "Vancouver, WA",
+		readTime: "6 min read",
+	},
+	{
+		slug: "finish-carpentry-cost-camas-wa",
+		title: "Finish Carpentry Cost in Camas WA: Baseboards, Crown Molding & Trim",
+		excerpt:
+			"Real 2026 prices for baseboard installation, crown molding, door casing, and wainscoting in Camas WA — from a licensed Clark County contractor.",
+		category: "Cost Guide",
+		location: "Camas, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "door-window-replacement-cost-vancouver-wa",
+		title: "Door & Window Replacement Cost in Vancouver WA: 2026 Guide",
+		excerpt:
+			"How much does door and window replacement cost in Vancouver WA? Real 2026 prices for interior doors, exterior doors, and windows — installed by a licensed Clark County contractor.",
+		category: "Cost Guide",
+		location: "Vancouver, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "camas-bathroom-remodel-what-to-expect",
+		title: "Bathroom Remodel in Camas WA: What to Expect Start to Finish",
+		excerpt:
+			"What actually happens during a bathroom remodel in Camas WA? A licensed Clark County contractor walks through every phase — demo, tile, plumbing, and final walkthrough.",
+		category: "Process Guide",
+		location: "Camas, WA",
+		readTime: "8 min read",
+	},
+	{
+		slug: "bathroom-remodel-cost-salmon-creek-wa",
+		title: "Bathroom Remodel Cost in Salmon Creek WA: 2026 Guide",
+		excerpt:
+			"How much does a bathroom remodel cost in Salmon Creek WA? Real 2026 prices for every scope — cosmetic refresh to full gut — from a licensed north Vancouver contractor.",
+		category: "Cost Guide",
+		location: "Salmon Creek, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "drywall-repair-cost-hazel-dell-wa",
+		title: "Drywall Repair Cost in Hazel Dell WA: 2026 Pricing Guide",
+		excerpt:
+			"How much does drywall repair cost in Hazel Dell WA? Real 2026 prices for patches, water damage repairs, and full panel replacements in north Vancouver.",
+		category: "Cost Guide",
+		location: "Hazel Dell, WA",
+		readTime: "6 min read",
+	},
+	{
+		slug: "home-remodeling-brush-prairie-wa",
+		title: "Home Remodeling in Brush Prairie WA: 2026 Cost Guide",
+		excerpt:
+			"Planning a home remodel in Brush Prairie WA? Real 2026 costs for kitchen, bathroom, flooring, and full renovations in north Clark County.",
+		category: "Cost Guide",
+		location: "Brush Prairie, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "kitchen-remodel-cost-salmon-creek-wa",
+		title: "Kitchen Remodel Cost in Salmon Creek WA: 2026 Guide",
+		excerpt:
+			"How much does a kitchen remodel cost in Salmon Creek WA? Real 2026 price ranges for every scope — from a cosmetic refresh to a full gut remodel — plus north Vancouver neighborhood notes.",
+		category: "Cost Guide",
+		location: "Salmon Creek, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "flooring-installation-cost-battle-ground-wa",
+		title: "Flooring Installation Cost in Battle Ground WA: 2026 Guide",
+		excerpt:
+			"How much does flooring installation cost in Battle Ground WA? Real 2026 prices for LVP, hardwood, tile, and carpet — with neighborhood breakdowns for north Clark County homes.",
+		category: "Cost Guide",
+		location: "Battle Ground, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "kitchen-remodel-cost-washougal-wa",
+		title: "Kitchen Remodel Cost in Washougal WA: 2026 Guide",
+		excerpt:
+			"How much does a kitchen remodel cost in Washougal WA? Real 2026 price ranges — cosmetic refresh to full gut — plus Washougal neighborhood notes and Gorge-area pricing factors.",
+		category: "Cost Guide",
+		location: "Washougal, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "bathroom-remodel-cost-washougal-wa",
+		title: "Bathroom Remodel Cost in Washougal WA: 2026 Guide",
+		excerpt:
+			"How much does a bathroom remodel cost in Washougal WA? Real 2026 price ranges for every scope — with Gorge-corridor moisture considerations and neighborhood breakdowns.",
+		category: "Cost Guide",
+		location: "Washougal, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "how-to-hire-licensed-remodeling-contractor-clark-county-wa",
+		title: "How to Hire a Licensed Remodeling Contractor in Clark County WA",
+		excerpt:
+			"A 7-step guide for Clark County homeowners — how to verify a contractor's license, what red flags to watch for, what to confirm before signing, and what questions actually matter.",
+		category: "Hiring Guide",
+		location: "Clark County, WA",
+		readTime: "8 min read",
+	},
+	{
+		slug: "kitchen-remodel-case-study-vancouver-wa",
+		title: "Kitchen Remodel Case Study: $28,400 Full Gut in Vancouver WA",
+		excerpt:
+			"A real kitchen remodel in Vancouver WA — week-by-week timeline, line-item cost breakdown, 3 surprises found during demo, and what the homeowner said at the final walkthrough.",
+		category: "Case Study",
+		location: "Vancouver, WA",
+		readTime: "9 min read",
+	},
+	{
+		slug: "finish-carpentry-cost-battle-ground-wa",
+		title: "Finish Carpentry Cost in Battle Ground WA: 2026 Guide",
+		excerpt:
+			"Real 2026 prices for baseboard installation, crown molding, door casing, and wainscoting in Battle Ground WA — with neighborhood breakdowns for every housing era in north Clark County.",
+		category: "Cost Guide",
+		location: "Battle Ground, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "flooring-installation-cost-ridgefield-wa",
+		title: "Flooring Installation Cost in Ridgefield WA: 2026 Guide",
+		excerpt:
+			"How much does flooring installation cost in Ridgefield WA? Real 2026 prices for LVP, hardwood, tile, and carpet — with neighborhood breakdowns for Clark County's fastest-growing city.",
+		category: "Cost Guide",
+		location: "Ridgefield, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "flooring-installation-cost-washougal-wa",
+		title: "Flooring Installation Cost in Washougal WA: 2026 Guide",
+		excerpt:
+			"How much does flooring installation cost in Washougal WA? Real 2026 prices for LVP, hardwood, and tile — including moisture considerations for homes near the Columbia River Gorge.",
+		category: "Cost Guide",
+		location: "Washougal, WA",
+		readTime: "7 min read",
+	},
+	{
+		slug: "flooring-installation-cost-salmon-creek-wa",
+		title: "Flooring Installation Cost in Salmon Creek WA: 2026 Guide",
+		excerpt:
+			"How much does flooring installation cost in Salmon Creek WA? Real 2026 prices for LVP, hardwood, tile, and carpet — with neighborhood breakdowns for north Vancouver homes.",
+		category: "Cost Guide",
+		location: "Salmon Creek, WA",
+		readTime: "7 min read",
+	},
 ];
 
 export default function BlogPage() {
