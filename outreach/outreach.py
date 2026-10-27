@@ -97,7 +97,17 @@ def generate_email(business_name: str, group: str, city: str) -> tuple[str, str]
         messages=[{"role": "user", "content": prompt}],
     )
 
-    raw = response.content[0].text.strip()
+    raw = next((b.text for b in response.content if b.type == "text"), None)
+    if not raw:
+        # Retry once — extended-thinking responses occasionally omit a text block
+        response = client.messages.create(
+            model="claude-sonnet-5",
+            max_tokens=350,
+            system=SYSTEM_PROMPT,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        raw = next((b.text for b in response.content if b.type == "text"), "")
+    raw = raw.strip()
     parts = raw.split("\n", 2)
     subject = parts[0].strip()
     body = parts[2].strip() if len(parts) > 2 else raw
@@ -121,6 +131,7 @@ def send_email(to_email: str, subject: str, body: str) -> bool:
         with smtplib.SMTP(os.environ["SMTP_HOST"], int(os.environ["SMTP_PORT"])) as server:
             server.ehlo()
             server.starttls()
+            server.ehlo()
             server.login(os.environ["SMTP_USER"], os.environ["SMTP_PASSWORD"])
             server.sendmail(from_email, to_email, msg.as_string())
         return True
@@ -137,7 +148,7 @@ def load_sent(log_path: Path) -> set[str]:
     if not log_path.exists():
         return set()
     with open(log_path) as f:
-        return {row["email"] for row in csv.DictReader(f)}
+        return {row["email"] for row in csv.DictReader(f) if row.get("status") == "sent"}
 
 def record(log_path: Path, row: dict):
     new_file = not log_path.exists()
