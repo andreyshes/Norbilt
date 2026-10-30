@@ -19,7 +19,7 @@ const stats: Stat[] = [
 ];
 
 function CountUp({ end, suffix, prefix = "", isDecimal, inView }: Stat & { inView: boolean }) {
-	const [count, setCount] = useState(0);
+	const [count, setCount] = useState(end);
 	const started = useRef(false);
 
 	useEffect(() => {
@@ -29,6 +29,7 @@ function CountUp({ end, suffix, prefix = "", isDecimal, inView }: Stat & { inVie
 		const steps = 60;
 		const increment = end / steps;
 		let current = 0;
+		setCount(0);
 		const timer = setInterval(() => {
 			current += increment;
 			if (current >= end) {

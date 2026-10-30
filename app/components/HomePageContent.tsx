@@ -213,7 +213,7 @@ export default function HomePageContent() {
 		},
 		{
 			quote:
-				"Andre, did a great job! He's very good at listening to the customer, he cares about making sure he gets it done, also he came on time and did with short notice from me the customer. Excellent service, I highly recommend him for any work needed. Five stars!",
+				"Andrey, did a great job! He's very good at listening to the customer, he cares about making sure he gets it done, also he came on time and did with short notice from me the customer. Excellent service, I highly recommend him for any work needed. Five stars!",
 			name: "Susan",
 			location: "Vancouver, WA",
 			service: "Home Repairs",
@@ -677,9 +677,9 @@ export default function HomePageContent() {
 								label: "Kitchen Remodel",
 							},
 							{
-								src: "/remodel-images/IMG_1897%202.jpg",
-								alt: "Marble tile shower remodel by NORBILT Clark County WA",
-								label: "Bathroom Tile & Shower",
+								src: "/remodel-images/IMG_2490.jpg",
+								alt: "Marble tub surround tile installation Vancouver WA",
+								label: "Bathroom Tile",
 							},
 							{
 								src: "/remodel-images/IMG_6433.jpg",
@@ -692,14 +692,14 @@ export default function HomePageContent() {
 								label: "Kitchen Remodel",
 							},
 							{
-								src: "/remodel-images/IMG_6429.jpg",
-								alt: "Cedar privacy fence installation Clark County WA",
-								label: "Fence Installation",
+								src: "/remodel-images/remodel-0.jpg",
+								alt: "Wide plank hardwood flooring installation Vancouver WA",
+								label: "Hardwood Flooring",
 							},
 							{
-								src: "/remodel-images/IMG_6432.jpg",
-								alt: "Stamped concrete and cedar fence backyard Vancouver WA",
-								label: "Fence & Patio",
+								src: "/remodel-images/remodel-1.jpg",
+								alt: "Hardwood flooring living room Clark County WA",
+								label: "Flooring Installation",
 							},
 						].map((photo) => (
 							<div
@@ -745,12 +745,12 @@ export default function HomePageContent() {
 						light
 					/>
 				</div>
-				<div className="overflow-hidden">
-					<div className="flex gap-6 animate-marquee">
-						{[...reviews, ...reviews].map((review, i) => (
+				<div className="max-w-7xl mx-auto px-6 lg:px-8">
+					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+						{reviews.map((review, i) => (
 							<div
 								key={i}
-								className="shrink-0 w-[380px] bg-white/5 border border-white/10 rounded-2xl p-8 flex flex-col gap-4"
+								className="bg-white/5 border border-white/10 rounded-2xl p-8 flex flex-col gap-4"
 							>
 								<div className="flex items-center justify-between">
 									<div className="flex gap-1">
