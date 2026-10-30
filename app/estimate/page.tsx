@@ -667,7 +667,7 @@ export default function EstimatePage() {
 			{step !== 4 && (
 				<div className="border-t border-[#2C3E3A]/10 bg-[#F8F6F3] py-8">
 					<div className="max-w-3xl mx-auto px-6">
-						<div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+						<div className="grid grid-cols-3 gap-6 text-center">
 							{[
 								{ label: "Licensed & Bonded", sub: "WA Lic #NORBI**741CS" },
 								{ label: "Free On-Site Quote", sub: "No obligation, ever" },
@@ -680,10 +680,6 @@ export default function EstimatePage() {
 							<div>
 								<div className="text-sm font-black text-[#1F2E2B]">Remodel Promise</div>
 								<Link href="/remodel-promise" className="text-xs text-[#2D5A3D] underline underline-offset-2 mt-0.5 block hover:text-[#4A7C59]">Backed in writing</Link>
-							</div>
-							<div>
-								<div className="text-sm font-black text-[#1F2E2B]">Clark County</div>
-								<div className="text-xs text-[#2C3E3A]/50 mt-0.5">Building here since 2018</div>
 							</div>
 						</div>
 					</div>
