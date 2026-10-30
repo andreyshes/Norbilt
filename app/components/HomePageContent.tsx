@@ -744,6 +744,11 @@ export default function HomePageContent() {
 						centered
 						light
 					/>
+					<div className="text-center mt-4">
+						<Link href="/remodel-promise" className="text-[#FFB800] text-sm font-bold hover:text-white transition-colors">
+							Every remodel is backed by the NORBILT Remodel Promise →
+						</Link>
+					</div>
 				</div>
 				<div className="max-w-7xl mx-auto px-6 lg:px-8">
 					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

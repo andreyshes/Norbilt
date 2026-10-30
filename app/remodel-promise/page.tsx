@@ -108,7 +108,7 @@ function PromiseCard({ num, icon: Icon, title, body }: { num: string; icon: Reac
 function PhaseHeader({ label, description }: { label: string; description: string }) {
 	return (
 		<div className="mb-10">
-			<span className="text-[#FFB800] font-black uppercase tracking-[0.3em] text-xs">{label}</span>
+			<h2 className="text-[#FFB800] font-black uppercase tracking-[0.3em] text-xs">{label}</h2>
 			<p className="text-sm text-gray-500 mt-1">{description}</p>
 		</div>
 	);

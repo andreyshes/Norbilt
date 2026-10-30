@@ -352,6 +352,13 @@ export default function Navigation() {
 								>
 									About
 								</Link>
+								<Link
+									href="/remodel-promise"
+									onClick={() => setIsMobileMenuOpen(false)}
+									className="block px-4 py-4 text-lg text-[#2C3E3A] font-bold rounded-lg hover:bg-[#2D5A3D]/10"
+								>
+									Remodel Promise
+								</Link>
 
 								{/* Mobile Services Accordion */}
 								<div>

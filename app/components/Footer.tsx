@@ -58,6 +58,7 @@ export default function Footer() {
 								{ name: "Services", href: "/services" },
 								{ name: "Locations", href: "/locations" },
 								{ name: "Reviews", href: "/reviews" },
+								{ name: "Remodel Promise", href: "/remodel-promise" },
 								{ name: "Blog", href: "/blog" },
 								{ name: "FAQ", href: "/faq" },
 								{ name: "Pricing", href: "/pricing" },
