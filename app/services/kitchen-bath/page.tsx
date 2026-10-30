@@ -284,9 +284,17 @@ export default function KitchenBathPage() {
 
 							<div className="flex items-center gap-4 p-6 bg-[#F8F6F3] rounded-2xl border-l-8 border-[#FFB800]">
 								<BadgeCheck className="w-8 h-8 text-[#2D5A3D] shrink-0" />
-								<p className="text-sm font-black uppercase tracking-widest text-[#1F2E2B]">
-									1-Year Workmanship Warranty on all kitchen & bath work.
-								</p>
+								<div>
+									<p className="text-sm font-black uppercase tracking-widest text-[#1F2E2B]">
+										1-Year Workmanship Warranty on all kitchen & bath work.
+									</p>
+									<Link
+										href="/remodel-promise"
+										className="text-xs font-bold text-[#2D5A3D] hover:text-[#FFB800] transition-colors mt-1 inline-block"
+									>
+										Every remodel is backed by the NORBILT Remodel Promise →
+									</Link>
+								</div>
 							</div>
 						</div>
 

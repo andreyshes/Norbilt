@@ -38,6 +38,7 @@ const moreLinks = [
 	{ name: "About", href: "/about" },
 	{ name: "Reviews", href: "/reviews" },
 	{ name: "Portfolio", href: "/portfolio" },
+	{ name: "Remodel Promise", href: "/remodel-promise" },
 	{ name: "Pricing", href: "/pricing" },
 	{ name: "Blog", href: "/blog" },
 	{ name: "FAQ", href: "/faq" },

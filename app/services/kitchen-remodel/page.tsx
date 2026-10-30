@@ -299,6 +299,11 @@ export default function KitchenRemodelPage() {
 							</span>
 						</div>
 					</div>
+					<div className="text-center mt-4">
+						<Link href="/remodel-promise" className="text-xs font-bold text-[#FFB800] hover:text-white transition-colors">
+							Every remodel is backed by the NORBILT Remodel Promise →
+						</Link>
+					</div>
 				</section>
 
 				{/* COST TABLE */}
