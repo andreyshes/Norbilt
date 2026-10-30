@@ -27,7 +27,7 @@ import {
 
 type ServiceKey =
 	| "Home Remodel"
-	| "Kitchen or Bathroom Remodel"
+	| "Kitchen & Bath Updates"
 	| "Finish Carpentry"
 	| "Flooring"
 	| "Drywall Repair"
@@ -49,7 +49,7 @@ interface Estimate {
 
 const services = [
 	{ key: "Home Remodel" as ServiceKey, icon: HardHat, desc: "Full kitchen, bath & whole-home remodels" },
-	{ key: "Kitchen or Bathroom Remodel" as ServiceKey, icon: ChefHat, desc: "Kitchen remodels, bathroom remodels, tile, fixtures, vanities" },
+	{ key: "Kitchen & Bath Updates" as ServiceKey, icon: ChefHat, desc: "Backsplash, vanity, fixtures, tile — individual items and cosmetic updates" },
 	{ key: "Finish Carpentry" as ServiceKey, icon: Scissors, desc: "Trim, crown molding, baseboards" },
 	{ key: "Flooring" as ServiceKey, icon: Grid3x3, desc: "LVP, tile, hardwood, removal" },
 	{ key: "Drywall Repair" as ServiceKey, icon: Layers, desc: "Patches, texturing, water damage" },
@@ -107,11 +107,11 @@ function ServiceDetails({ service, details, onChange }: { service: ServiceKey; d
 		</div>
 	);
 
-	if (service === "Kitchen or Bathroom Remodel") return (
+	if (service === "Kitchen & Bath Updates") return (
 		<div className="space-y-5">
 			{sel("space", "Kitchen or bathroom?", ["Kitchen", "Bathroom", "Both"])}
-			{sel("scope", "What's the project scope?", ["Cabinet painting / refresh", "Tile backsplash installation", "Countertop replacement", "Fixture replacement (faucets, hardware)", "Full kitchen/bath refresh (multiple items)", "Vanity installation", "Shower tile / tub surround"])}
-			{sel("size", "Size of the space", ["Small (under 80 sq ft)", "Medium (80–150 sq ft)", "Large (150+ sq ft)"])}
+			{sel("scope", "What's the project scope?", ["Tile backsplash installation", "Countertop replacement", "Fixture replacement (faucets, hardware)", "Vanity installation", "Shower tile / tub surround", "Cabinet painting / refresh", "Multiple smaller updates"])}
+			{sel("size", "Size of the space", ["Small (under 80 sq ft)", "Medium (80–150 sq ft)"])}
 			{sel("materials", "Material preference", ["Budget-friendly (builder grade)", "Mid-range (standard quality)", "Premium / high-end", "I'll supply materials"])}
 		</div>
 	);
@@ -139,6 +139,14 @@ function ServiceDetails({ service, details, onChange }: { service: ServiceKey; d
 			{sel("scope", "Project scope", ["Cosmetic refresh (surfaces, fixtures, paint)", "Mid-range (new cabinets, tile, layout changes)", "Full gut remodel (down to studs)", "Not sure – need assessment"])}
 			{sel("sqft", "Approximate square footage of remodel area", ["Under 100 sq ft", "100–300 sq ft", "300–600 sq ft", "600–1,000 sq ft", "1,000+ sq ft"])}
 			{sel("homeAge", "Age of your home", ["Built after 2000", "1980–2000", "1960–1979", "Before 1960", "Not sure"])}
+			{(details.homeAge === "1960–1979" || details.homeAge === "Before 1960") && (
+				<div className="flex items-start gap-3 p-4 bg-amber-50 border border-amber-200 rounded-xl">
+					<AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
+					<p className="text-sm text-amber-800 font-medium leading-relaxed">
+						<strong>Heads up:</strong> Homes built before 1978 may have lead paint. NORBILT follows lead-safe work practices on all remodels in older homes — we&apos;ll flag this in your written estimate.
+					</p>
+				</div>
+			)}
 			{sel("finishLevel", "Finish / material level", ["Budget-friendly (builder grade)", "Mid-range (standard quality)", "Premium / high-end", "Not sure yet"])}
 			{sel("timeline", "Desired start timeline", ["ASAP – ready to start", "Within 1–2 months", "3–6 months out", "Just planning / getting quotes"])}
 		</div>
@@ -602,6 +610,19 @@ export default function EstimatePage() {
 								{estimate.disclaimer}
 							</motion.p>
 
+							<motion.div
+								initial={{ opacity: 0, y: 10 }}
+								animate={{ opacity: 1, y: 0 }}
+								transition={{ delay: 0.48 }}
+								className="mb-6 flex items-start gap-3 p-4 bg-[#2D5A3D]/8 border border-[#2D5A3D]/20 rounded-xl text-left"
+							>
+								<ArrowRight className="w-5 h-5 text-[#2D5A3D] shrink-0 mt-0.5" />
+								<p className="text-sm text-[#1F2E2B] leading-relaxed">
+									<strong>Next step:</strong> free on-site walkthrough → itemized written estimate within 3 business days, backed by the{" "}
+									<Link href="/remodel-promise" className="underline underline-offset-2 hover:text-[#2D5A3D]">NORBILT Remodel Promise</Link>.
+								</p>
+							</motion.div>
+
 							{/* CTAs */}
 							<motion.div
 								initial={{ opacity: 0, y: 16 }}
@@ -650,14 +671,20 @@ export default function EstimatePage() {
 							{[
 								{ label: "Licensed & Bonded", sub: "WA Lic #NORBI**741CS" },
 								{ label: "Free On-Site Quote", sub: "No obligation, ever" },
-								{ label: "100% Satisfaction", sub: "Guaranteed results" },
-								{ label: "Clark County", sub: "Local since 2018" },
 							].map(({ label, sub }) => (
 								<div key={label}>
 									<div className="text-sm font-black text-[#1F2E2B]">{label}</div>
 									<div className="text-xs text-[#2C3E3A]/50 mt-0.5">{sub}</div>
 								</div>
 							))}
+							<div>
+								<div className="text-sm font-black text-[#1F2E2B]">Remodel Promise</div>
+								<Link href="/remodel-promise" className="text-xs text-[#2D5A3D] underline underline-offset-2 mt-0.5 block hover:text-[#4A7C59]">Backed in writing</Link>
+							</div>
+							<div>
+								<div className="text-sm font-black text-[#1F2E2B]">Clark County</div>
+								<div className="text-xs text-[#2C3E3A]/50 mt-0.5">Building here since 2018</div>
+							</div>
 						</div>
 					</div>
 				</div>
