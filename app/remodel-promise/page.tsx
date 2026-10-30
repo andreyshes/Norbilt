@@ -30,7 +30,7 @@ const beforePromises = [
 		num: "3",
 		icon: Shield,
 		title: "No surprises in the price.",
-		body: "Your estimate includes a clear "Not included" section and stated allowances for things you'll pick out, like tile and fixtures. You'll know exactly what's covered before you sign.",
+		body: "Your estimate includes a clear \"Not included\" section and stated allowances for things you'll pick out, like tile and fixtures. You'll know exactly what's covered before you sign.",
 	},
 	{
 		num: "4",
@@ -210,7 +210,7 @@ export default function RemodelPromisePage() {
 						</h2>
 						<ul className="space-y-4">
 							{[
-								"Itemized written estimate within 3 business days, with a "Not included" section and stated allowances",
+								"Itemized written estimate within 3 business days, with a \"Not included\" section and stated allowances",
 								"No extra work or cost without a signed, written change order",
 								"Drey, the owner, is your single point of contact and is on site throughout",
 								"Weekly progress photos and next week's plan",
