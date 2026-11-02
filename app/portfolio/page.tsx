@@ -112,13 +112,13 @@ export default function PortfolioPage() {
 					__html: JSON.stringify({
 						"@context": "https://schema.org",
 						"@type": "ImageGallery",
-						name: "NORBILT Project Portfolio",
+						name: "Norbilt Project Portfolio",
 						description:
-							"Real completed home repair and remodeling projects by NORBILT across Clark County WA.",
+							"Real completed home repair and remodeling projects by Norbilt across Clark County WA.",
 						url: "https://www.norbilt.com/portfolio",
 						author: {
 							"@type": "Organization",
-							name: "NORBILT",
+							name: "Norbilt",
 							url: "https://www.norbilt.com",
 						},
 					}),

@@ -144,7 +144,7 @@ export default function FlooringPage() {
 			<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 				<div className="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 					<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</a>
-					<span>· WA Licensed General Contractor · NORBILT · Updated June 2026</span>
+					<span>· WA Licensed General Contractor · Norbilt · Updated June 2026</span>
 				</div>
 			</div>
 
@@ -295,7 +295,7 @@ export default function FlooringPage() {
 							},
 							{
 								q: "Is your flooring work covered by a warranty?",
-								a: "Yes. All NORBILT flooring installs are backed by a 1-year workmanship warranty. If planks lift, tiles crack at grout lines, or any installation issue arises, we return and fix it at no charge within the warranty period.",
+								a: "Yes. All Norbilt flooring installs are backed by a 1-year workmanship warranty. If planks lift, tiles crack at grout lines, or any installation issue arises, we return and fix it at no charge within the warranty period.",
 							},
 						].map((item, i) => (
 							<div key={i} className="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">

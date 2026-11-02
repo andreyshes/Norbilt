@@ -13,18 +13,18 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-	title: "Home Remodeling Contractor Vancouver WA | Kitchen, Bath & Full Renovations | NORBILT",
+	title: "Home Remodeling Contractor Vancouver WA | Kitchen, Bath & Full Renovations | Norbilt",
 	description:
 		"5-star rated home remodeling contractor in Vancouver WA — kitchen remodels, bathroom renovations, finish carpentry & flooring. Licensed, local, same-week estimates. (360) 216-9920.",
 	alternates: {
 		canonical: "https://www.norbilt.com/remodeling",
 	},
 	openGraph: {
-		title: "Home Remodeling Contractor Vancouver WA | NORBILT",
+		title: "Home Remodeling Contractor Vancouver WA | Norbilt",
 		description:
 			"Licensed home remodeling contractor in Clark County — kitchen & bath remodels, finish carpentry, flooring, and full home renovations. 5-star rated.",
 		url: "https://www.norbilt.com/remodeling",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		locale: "en_US",
 		type: "website",
 		images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 				url: "https://www.norbilt.com/og-image.jpg",
 				width: 1200,
 				height: 630,
-				alt: "NORBILT Home Remodeling Contractor Vancouver WA",
+				alt: "Norbilt Home Remodeling Contractor Vancouver WA",
 			},
 		],
 	},
@@ -106,11 +106,11 @@ const cities = [
 const faqs = [
 	{
 		q: "Do you handle full home remodels or just kitchen and bath?",
-		a: "Both. NORBILT handles everything from a single bathroom renovation to multi-room whole-home projects. We coordinate all trades under one contract — no juggling multiple contractors.",
+		a: "Both. Norbilt handles everything from a single bathroom renovation to multi-room whole-home projects. We coordinate all trades under one contract — no juggling multiple contractors.",
 	},
 	{
 		q: "Are you a licensed general contractor in Washington State?",
-		a: "Yes. NORBILT holds WA General Contractor License #NORBI**741CS, is bonded, and carries general liability insurance on every project. You can verify our license at the WA L&I website.",
+		a: "Yes. Norbilt holds WA General Contractor License #NORBI**741CS, is bonded, and carries general liability insurance on every project. You can verify our license at the WA L&I website.",
 	},
 	{
 		q: "How much does a home remodel cost in Vancouver WA?",
@@ -138,7 +138,7 @@ export default function RemodelingPage() {
 							{
 								"@type": "HomeAndConstructionBusiness",
 								"@id": "https://www.norbilt.com/remodeling#business",
-								name: "NORBILT — Home Remodeling Contractor",
+								name: "Norbilt — Home Remodeling Contractor",
 								url: "https://www.norbilt.com/remodeling",
 								telephone: "+13602169920",
 								email: "hello@norbilt.com",
@@ -208,7 +208,7 @@ export default function RemodelingPage() {
 							Vancouver, WA
 						</h1>
 						<p className="text-xl text-white/70 max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6 leading-relaxed mb-10">
-							NORBILT is a licensed home remodeling contractor serving all of Clark County.
+							Norbilt is a licensed home remodeling contractor serving all of Clark County.
 							Kitchen remodels, bathroom renovations, finish carpentry, flooring, and full home
 							renovations — handled under one roof, by one team.
 						</p>
@@ -281,19 +281,19 @@ export default function RemodelingPage() {
 					</div>
 				</section>
 
-				{/* WHY NORBILT */}
+				{/* WHY Norbilt */}
 				<section className="py-20 bg-[#1F2E2B] text-white">
 					<div className="max-w-7xl mx-auto px-6 lg:px-8">
 						<div className="grid lg:grid-cols-2 gap-16 items-center">
 							<div>
-								<p className="text-xs font-black uppercase tracking-widest text-[#FFB800] mb-4">Why Homeowners Choose NORBILT</p>
+								<p className="text-xs font-black uppercase tracking-widest text-[#FFB800] mb-4">Why Homeowners Choose Norbilt</p>
 								<h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter leading-tight mb-8">
 									One Contractor. <br />
 									<span className="text-[#FFB800]">Every Trade.</span>
 								</h2>
 								<p className="text-white/70 text-lg leading-relaxed mb-8">
 									Most remodeling projects fall apart in the coordination — too many subs, no one point of contact,
-									and no one accountable for the whole job. NORBILT handles kitchen, bath, carpentry, flooring,
+									and no one accountable for the whole job. Norbilt handles kitchen, bath, carpentry, flooring,
 									and drywall under one contract. You deal with one person, one price, one schedule.
 								</p>
 								<Link

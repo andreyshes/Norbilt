@@ -2,14 +2,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Home Remodeling Ridgefield WA | Costs & Contractors (2026) | NORBILT",
+	title: "Home Remodeling Ridgefield WA | Costs & Contractors (2026) | Norbilt",
 	description:
 		"Planning a home remodel in Ridgefield WA? See real 2026 costs for bathroom remodels, kitchen updates, and finish carpentry in Union Ridge, Bellwood, and Hillhurst. Licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/home-remodeling-ridgefield-wa",
 	},
 	openGraph: {
-		title: "Home Remodeling Ridgefield WA | 2026 Cost Guide | NORBILT",
+		title: "Home Remodeling Ridgefield WA | 2026 Cost Guide | Norbilt",
 		description:
 			"Real 2026 costs for home remodeling in Ridgefield WA — bathrooms, kitchens, finish carpentry, and flooring from a licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/home-remodeling-ridgefield-wa",
@@ -35,7 +35,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for a remodel in Ridgefield WA?",
-		a: "Permits in Ridgefield depend on location. Homes within city limits go through the City of Ridgefield Community Development office. Homes in unincorporated areas surrounding Ridgefield — which includes parts of Bellwood and Union Ridge — go through Clark County Community Development. Cosmetic work like flooring, paint, and fixture swaps typically doesn't require permits. Structural changes, full bathroom gut remodels, and plumbing moves generally do. NORBILT handles permit coordination when required.",
+		a: "Permits in Ridgefield depend on location. Homes within city limits go through the City of Ridgefield Community Development office. Homes in unincorporated areas surrounding Ridgefield — which includes parts of Bellwood and Union Ridge — go through Clark County Community Development. Cosmetic work like flooring, paint, and fixture swaps typically doesn't require permits. Structural changes, full bathroom gut remodels, and plumbing moves generally do. Norbilt handles permit coordination when required.",
 	},
 	{
 		q: "What projects are most common in Ridgefield's newer subdivisions?",
@@ -43,7 +43,7 @@ const faqs = [
 	},
 	{
 		q: "How do I find a licensed remodeling contractor in Ridgefield?",
-		a: "Verify any contractor's Washington license number at the WA Department of Labor & Industries website before signing anything. NORBILT holds WA General Contractor License #NORBI**741CS, is bonded and insured, and serves Ridgefield and all of Clark County. Call Andrey directly at (360) 216-9920 to schedule a free on-site estimate.",
+		a: "Verify any contractor's Washington license number at the WA Department of Labor & Industries website before signing anything. Norbilt holds WA General Contractor License #NORBI**741CS, is bonded and insured, and serves Ridgefield and all of Clark County. Call Andrey directly at (360) 216-9920 to schedule a free on-site estimate.",
 	},
 ];
 
@@ -67,7 +67,7 @@ export default function BlogPost() {
 								author: { "@type": "Person", name: "Andrey", url: "https://www.norbilt.com/about" },
 								publisher: {
 									"@type": "Organization",
-									name: "NORBILT",
+									name: "Norbilt",
 									url: "https://www.norbilt.com",
 									logo: { "@type": "ImageObject", url: "https://www.norbilt.com/og-image.jpg" },
 								},
@@ -281,7 +281,7 @@ export default function BlogPost() {
 							))}
 						</ul>
 						<p className="text-[#2C3E3A] leading-relaxed">
-							NORBILT holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
+							Norbilt holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
 							and provides written flat-rate pricing before any project starts. Andrey can be reached at{" "}
 							<a href="tel:+13602169920" className="text-[#2D5A3D] font-bold hover:underline">(360) 216-9920</a>.
 						</p>
@@ -334,7 +334,7 @@ export default function BlogPost() {
 							{[
 								{ href: "/blog/bathroom-remodel-cost-ridgefield-wa", label: "Bathroom Remodel Cost in Ridgefield WA" },
 								{ href: "/blog/kitchen-remodel-cost-ridgefield-wa", label: "Kitchen Remodel Cost in Ridgefield WA" },
-								{ href: "/locations/ridgefield", label: "NORBILT Services in Ridgefield WA" },
+								{ href: "/locations/ridgefield", label: "Norbilt Services in Ridgefield WA" },
 								{ href: "/blog/home-remodeling-battle-ground-wa", label: "Home Remodeling in Battle Ground WA" },
 							].map(({ href, label }) => (
 								<Link

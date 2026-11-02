@@ -49,7 +49,7 @@ export default function AboutPageContent() {
 			icon: Shield,
 			title: "Licensed for Every Job",
 			description:
-				"Washington State requires a contractor's license for repair work above $500. NORBILT is licensed, bonded, and insured — protecting you legally and keeping your homeowner's insurance intact.",
+				"Washington State requires a contractor's license for repair work above $500. Norbilt is licensed, bonded, and insured — protecting you legally and keeping your homeowner's insurance intact.",
 		},
 		{
 			icon: Wrench,
@@ -72,7 +72,7 @@ export default function AboutPageContent() {
 				<div className="absolute inset-0">
 					<Image
 						src="/remodel-images/IMG_6433.jpg"
-						alt="Home remodel project by NORBILT general contractor Vancouver WA"
+						alt="Home remodel project by Norbilt general contractor Vancouver WA"
 						fill
 						priority
 						sizes="100vw"
@@ -88,7 +88,7 @@ export default function AboutPageContent() {
 							animate={{ opacity: 1, y: 0 }}
 						>
 							<span className="px-4 py-1 bg-[#FFB800] text-black text-xs font-black uppercase tracking-widest rounded">
-								About NORBILT
+								About Norbilt
 							</span>
 						</motion.div>
 
@@ -102,7 +102,7 @@ export default function AboutPageContent() {
 						</motion.h1>
 
 						<p className="text-xl text-white/80 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6">
-							NORBILT is a licensed home remodeling contractor based in Vancouver, WA —
+							Norbilt is a licensed home remodeling contractor based in Vancouver, WA —
 							specializing in kitchen & bath remodels, finish carpentry, and full home
 							renovations across Clark County. Flat-rate pricing, trade-quality finish on every job.
 						</p>
@@ -139,7 +139,7 @@ export default function AboutPageContent() {
 						<div className="relative aspect-4/5 rounded-3xl overflow-hidden shadow-2xl border-8 border-[#F8F6F3] bg-[#1F2E2B]">
 							<Image
 								src="/remodel-images/IMG_7646.jpg"
-								alt="Andrey, founder of NORBILT general contractor Vancouver WA"
+								alt="Andrey, founder of Norbilt general contractor Vancouver WA"
 								fill
 								sizes="(max-width: 1024px) 100vw, 50vw"
 								className="object-cover"
@@ -160,16 +160,16 @@ export default function AboutPageContent() {
 							</span>
 							<h2 className="text-4xl md:text-5xl font-black text-[#1F2E2B] leading-tight uppercase tracking-tighter">
 								Hi, I'm Andrey — <br />
-								<span className="text-[#2D5A3D]">Founder of NORBILT</span>
+								<span className="text-[#2D5A3D]">Founder of Norbilt</span>
 							</h2>
 						</div>
 
 						<div className="space-y-5 text-gray-600 leading-relaxed text-lg">
 							<p>
-								I started NORBILT in <strong>Vancouver, WA</strong> because I saw a gap:
+								I started Norbilt in <strong>Vancouver, WA</strong> because I saw a gap:
 								homeowners were either hiring unlicensed handymen who couldn't
 								legally do the work, or paying general contractor markups for
-								simple jobs that didn't need that overhead. NORBILT sits in
+								simple jobs that didn't need that overhead. Norbilt sits in
 								between — licensed, insured, and priced fairly.
 							</p>
 							<p>
@@ -247,7 +247,7 @@ export default function AboutPageContent() {
 							How We Work
 						</span>
 						<h2 className="text-4xl md:text-5xl font-black text-[#1F2E2B] uppercase tracking-tighter">
-							What Sets NORBILT Apart
+							What Sets Norbilt Apart
 						</h2>
 					</div>
 
@@ -289,7 +289,7 @@ export default function AboutPageContent() {
 								All of Clark County, WA
 							</h2>
 							<p className="text-[#A7C4B5] text-lg leading-relaxed mb-6">
-								NORBILT serves every corner of Clark County — from the older
+								Norbilt serves every corner of Clark County — from the older
 								neighborhoods in north Vancouver to the newer builds in Ridgefield
 								and Camas. If you're in Clark County, we come to you. Free
 								on-site estimates for all areas.

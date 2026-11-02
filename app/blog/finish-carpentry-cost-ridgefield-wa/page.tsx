@@ -96,10 +96,10 @@ export default function FinishCarpentryRidgefieldPage() {
 							},
 							{
 								"@type": "Question",
-								name: "Is NORBILT licensed to do finish carpentry in Ridgefield WA?",
+								name: "Is Norbilt licensed to do finish carpentry in Ridgefield WA?",
 								acceptedAnswer: {
 									"@type": "Answer",
-									text: "Yes. NORBILT holds Washington State General Contractor license NORBI**741CS and serves Ridgefield WA with no travel surcharge. We provide free written estimates, flat-rate pricing, and a 1-year workmanship warranty. Call (360) 216-9920.",
+									text: "Yes. Norbilt holds Washington State General Contractor license NORBI**741CS and serves Ridgefield WA with no travel surcharge. We provide free written estimates, flat-rate pricing, and a 1-year workmanship warranty. Call (360) 216-9920.",
 								},
 							},
 						],
@@ -323,7 +323,7 @@ export default function FinishCarpentryRidgefieldPage() {
 					{/* WHAT'S INCLUDED */}
 					<section>
 						<h2 className="text-3xl font-black text-[#1F2E2B] uppercase tracking-tighter mb-8">
-							What&apos;s Included in a NORBILT Finish Carpentry Quote
+							What&apos;s Included in a Norbilt Finish Carpentry Quote
 						</h2>
 						<div className="grid sm:grid-cols-2 gap-4">
 							{[
@@ -368,8 +368,8 @@ export default function FinishCarpentryRidgefieldPage() {
 									a: "A single-room trim install (baseboards + crown) takes half a day to a full day. Wainscoting or built-ins take 1–2 days per room. A full main-floor trim upgrade in a Ridgefield home typically takes 3–5 days depending on scope and ceiling height.",
 								},
 								{
-									q: "Is NORBILT licensed to do finish carpentry in Ridgefield WA?",
-									a: "Yes. NORBILT holds Washington State General Contractor license NORBI**741CS and serves Ridgefield WA with no travel surcharge. We provide free written estimates, flat-rate pricing, and a 1-year workmanship warranty. Call (360) 216-9920.",
+									q: "Is Norbilt licensed to do finish carpentry in Ridgefield WA?",
+									a: "Yes. Norbilt holds Washington State General Contractor license NORBI**741CS and serves Ridgefield WA with no travel surcharge. We provide free written estimates, flat-rate pricing, and a 1-year workmanship warranty. Call (360) 216-9920.",
 								},
 							].map((item, i) => (
 								<div key={i} className="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">

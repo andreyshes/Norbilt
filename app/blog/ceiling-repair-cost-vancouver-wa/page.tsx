@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone, AlertTriangle } from "lucide-r
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Ceiling Repair Cost Vancouver WA | NORBILT",
+	title: "Ceiling Repair Cost Vancouver WA | Norbilt",
 	description:
 		"How much does ceiling repair cost in Vancouver, WA? Real price ranges for water damage, cracks, sagging drywall & popcorn ceiling removal from a licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/ceiling-repair-cost-vancouver-wa",
 	},
 	openGraph: {
-		title: "Ceiling Repair Cost in Vancouver WA | NORBILT",
+		title: "Ceiling Repair Cost in Vancouver WA | Norbilt",
 		description:
 			"Real price ranges for ceiling repair in Vancouver and Clark County WA — water damage, cracks, sagging drywall & popcorn removal. From a licensed local contractor.",
 		url: "https://www.norbilt.com/blog/ceiling-repair-cost-vancouver-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -74,7 +74,7 @@ export default function CeilingRepairCostVancouver() {
 		},
 		{
 			title: "Age of the Home",
-			body: "Homes built before 1978 may have asbestos-containing popcorn texture or lead paint in the ceiling. Testing is required before any scraping or sanding. NORBILT can recommend a certified tester — we won't disturb suspect material without a clearance.",
+			body: "Homes built before 1978 may have asbestos-containing popcorn texture or lead paint in the ceiling. Testing is required before any scraping or sanding. Norbilt can recommend a certified tester — we won't disturb suspect material without a clearance.",
 		},
 		{
 			title: "Access and Room Size",
@@ -94,7 +94,7 @@ export default function CeilingRepairCostVancouver() {
 	const faqs = [
 		{
 			q: "Does ceiling repair require a permit in Vancouver WA?",
-			a: "Patching, retexturing, and cosmetic ceiling work does not require a permit in Clark County or the City of Vancouver. If the repair involves opening up the ceiling to access structural framing, electrical, or plumbing — that work is subject to permits. NORBILT handles permit applications as part of any permitted scope.",
+			a: "Patching, retexturing, and cosmetic ceiling work does not require a permit in Clark County or the City of Vancouver. If the repair involves opening up the ceiling to access structural framing, electrical, or plumbing — that work is subject to permits. Norbilt handles permit applications as part of any permitted scope.",
 		},
 		{
 			q: "How do I know if my ceiling has asbestos?",
@@ -200,7 +200,7 @@ export default function CeilingRepairCostVancouver() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -363,7 +363,7 @@ export default function CeilingRepairCostVancouver() {
 							<ul className="space-y-1 text-xs text-gray-400">
 								<li>Clark County Community Development — residential permit requirements (2026)</li>
 								<li>WA State Dept. of Labor & Industries — contractor licensing and asbestos regulations</li>
-								<li>NORBILT internal job data — ceiling repair pricing, Clark County WA (2025–2026)</li>
+								<li>Norbilt internal job data — ceiling repair pricing, Clark County WA (2025–2026)</li>
 								<li>EPA — asbestos in the home: popcorn ceilings</li>
 							</ul>
 						</div>

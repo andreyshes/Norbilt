@@ -8,7 +8,7 @@ const faqs = [
 		questions: [
 			{
 				q: "How much does a handyman cost in Clark County, WA?",
-				a: "For single tasks, most handyman jobs in Clark County run $150–$350. A half-day (4 hours, multiple tasks) is typically $300–$600, and a full day runs $550–$1,000. NORBILT gives you a flat price before we start — no hourly surprises.",
+				a: "For single tasks, most handyman jobs in Clark County run $150–$350. A half-day (4 hours, multiple tasks) is typically $300–$600, and a full day runs $550–$1,000. Norbilt gives you a flat price before we start — no hourly surprises.",
 			},
 			{
 				q: "How much does drywall repair cost in Vancouver, WA?",
@@ -24,7 +24,7 @@ const faqs = [
 			},
 			{
 				q: "Do you charge for estimates?",
-				a: "No. NORBILT provides free on-site estimates for all Clark County homeowners. We walk the job, assess what's needed, and give you a clear written price before any work starts. You know the cost before we touch anything.",
+				a: "No. Norbilt provides free on-site estimates for all Clark County homeowners. We walk the job, assess what's needed, and give you a clear written price before any work starts. You know the cost before we touch anything.",
 			},
 			{
 				q: "Do you give a price upfront or charge by the hour?",
@@ -37,22 +37,22 @@ const faqs = [
 		icon: ShieldCheck,
 		questions: [
 			{
-				q: "Is NORBILT a licensed contractor in Washington State?",
-				a: "Yes. NORBILT is a licensed, bonded, and insured general contractor in Washington State. Our WA contractor license number is NORBI**741CS. We carry general liability insurance on every job.",
+				q: "Is Norbilt a licensed contractor in Washington State?",
+				a: "Yes. Norbilt is a licensed, bonded, and insured general contractor in Washington State. Our WA contractor license number is NORBI**741CS. We carry general liability insurance on every job.",
 				verifyLink: "https://secure.lni.wa.gov/verify/",
 				verifyText: "Verify our license at Washington State L&I →",
 			},
 			{
 				q: "Why does licensing matter for home repair in WA?",
-				a: "Washington State requires a contractor's license for repair work above $500. An unlicensed person doing electrical-adjacent, plumbing-adjacent, or structural work puts your home insurance at risk — if something goes wrong, your insurer can deny the claim. NORBILT is licensed for every job we take.",
+				a: "Washington State requires a contractor's license for repair work above $500. An unlicensed person doing electrical-adjacent, plumbing-adjacent, or structural work puts your home insurance at risk — if something goes wrong, your insurer can deny the claim. Norbilt is licensed for every job we take.",
 			},
 			{
 				q: "What's the difference between a handyman and a licensed general contractor?",
-				a: "In Washington, an unlicensed handyman is legally limited to jobs under $500. A licensed general contractor like NORBILT can legally handle larger repairs, remodels, and any work that requires permits. We do jobs that unlicensed handymen legally can't.",
+				a: "In Washington, an unlicensed handyman is legally limited to jobs under $500. A licensed general contractor like Norbilt can legally handle larger repairs, remodels, and any work that requires permits. We do jobs that unlicensed handymen legally can't.",
 			},
 			{
 				q: "Are you insured if something gets damaged during the job?",
-				a: "Yes. NORBILT carries general liability insurance. If we damage your home during a project, you're covered. We can provide a certificate of insurance upon request before any work begins.",
+				a: "Yes. Norbilt carries general liability insurance. If we damage your home during a project, you're covered. We can provide a certificate of insurance upon request before any work begins.",
 			},
 		],
 	},
@@ -70,7 +70,7 @@ const faqs = [
 			},
 			{
 				q: "Do you work in Camas, WA?",
-				a: "Yes. NORBILT serves Camas homeowners with the same licensed, bonded service as our Vancouver clients. We handle kitchen remodels, tile work, trim carpentry, and general repairs across Camas and Washougal.",
+				a: "Yes. Norbilt serves Camas homeowners with the same licensed, bonded service as our Vancouver clients. We handle kitchen remodels, tile work, trim carpentry, and general repairs across Camas and Washougal.",
 			},
 			{
 				q: "Do you work in Brush Prairie or Ridgefield?",
@@ -84,7 +84,7 @@ const faqs = [
 		questions: [
 			{
 				q: "How much does a kitchen remodel cost in Vancouver WA?",
-				a: "A kitchen remodel in Vancouver WA costs $8,000–$80,000+ depending on scope. A mid-range remodel — new cabinets, quartz countertops, backsplash, and LVP flooring — runs $18,000–$35,000. A full gut remodel with layout changes runs $30,000–$55,000. Cosmetic updates (hardware, countertops only) start around $2,000. NORBILT gives you a written flat-rate price before we start.",
+				a: "A kitchen remodel in Vancouver WA costs $8,000–$80,000+ depending on scope. A mid-range remodel — new cabinets, quartz countertops, backsplash, and LVP flooring — runs $18,000–$35,000. A full gut remodel with layout changes runs $30,000–$55,000. Cosmetic updates (hardware, countertops only) start around $2,000. Norbilt gives you a written flat-rate price before we start.",
 			},
 			{
 				q: "How much does a bathroom remodel cost in Clark County WA?",
@@ -92,7 +92,7 @@ const faqs = [
 			},
 			{
 				q: "How long does a kitchen remodel take?",
-				a: "A kitchen remodel typically takes 4–7 weeks from demo to final walkthrough. The longest lead item is usually cabinets (2–4 weeks to fabricate and deliver) followed by countertop templating and fabrication (5–10 days after cabinets are set). Active work on-site runs 2–3 weeks. NORBILT provides a week-by-week timeline at the estimate.",
+				a: "A kitchen remodel typically takes 4–7 weeks from demo to final walkthrough. The longest lead item is usually cabinets (2–4 weeks to fabricate and deliver) followed by countertop templating and fabrication (5–10 days after cabinets are set). Active work on-site runs 2–3 weeks. Norbilt provides a week-by-week timeline at the estimate.",
 			},
 			{
 				q: "How long does a bathroom remodel take?",
@@ -100,14 +100,14 @@ const faqs = [
 			},
 			{
 				q: "Do I need a permit for a kitchen or bathroom remodel in Clark County?",
-				a: "You need a permit in Clark County if your remodel involves moving or adding plumbing, adding new electrical circuits, structural changes (removing a wall, enlarging a window), or mechanical changes (new exhaust duct). Cabinet replacements, vanity swaps, and tile work in the same location typically don't require a permit. NORBILT handles all permitting for any permitted scope — fees are included in the bid.",
+				a: "You need a permit in Clark County if your remodel involves moving or adding plumbing, adding new electrical circuits, structural changes (removing a wall, enlarging a window), or mechanical changes (new exhaust duct). Cabinet replacements, vanity swaps, and tile work in the same location typically don't require a permit. Norbilt handles all permitting for any permitted scope — fees are included in the bid.",
 			},
 			{
 				q: "What's the difference between a kitchen remodel and a kitchen renovation?",
-				a: "In practice, they mean the same thing — both refer to updating or replacing components of a kitchen. NORBILT uses 'remodel' to describe projects that replace functional components: new cabinets, countertops, flooring, fixtures, or layout changes. A 'refresh' or 'facelift' typically means cosmetic changes only — new hardware, paint, appliances — without touching the cabinets or countertops.",
+				a: "In practice, they mean the same thing — both refer to updating or replacing components of a kitchen. Norbilt uses 'remodel' to describe projects that replace functional components: new cabinets, countertops, flooring, fixtures, or layout changes. A 'refresh' or 'facelift' typically means cosmetic changes only — new hardware, paint, appliances — without touching the cabinets or countertops.",
 			},
 			{
-				q: "Does NORBILT do tub-to-shower conversions?",
+				q: "Does Norbilt do tub-to-shower conversions?",
 				a: "Yes. Tub-to-shower conversions are one of our most requested bathroom remodel services. A prefab insert conversion runs $1,800–$4,500. A custom tile shower conversion runs $3,500–$8,500. The project includes removing the tub, modifying the drain if needed, installing the new shower base or custom tile pan, walls, and fixtures. Most conversions take 2–4 days.",
 			},
 			{
@@ -190,7 +190,7 @@ export default function FAQPage() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</a>
-						<span>· WA Licensed General Contractor · NORBILT · Updated June 2026</span>
+						<span>· WA Licensed General Contractor · Norbilt · Updated June 2026</span>
 					</div>
 				</div>
 

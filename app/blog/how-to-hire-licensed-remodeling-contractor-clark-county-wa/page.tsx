@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, AlertTriangle, Phone, ShieldCheck } from "luc
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "How to Hire a Licensed Remodeling Contractor in Clark County WA | NORBILT",
+	title: "How to Hire a Licensed Remodeling Contractor in Clark County WA | Norbilt",
 	description:
 		"Step-by-step guide to hiring a licensed remodeling contractor in Clark County WA. How to verify licenses, what to check before signing, and red flags to avoid — from a licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/how-to-hire-licensed-remodeling-contractor-clark-county-wa",
 	},
 	openGraph: {
-		title: "How to Hire a Licensed Remodeling Contractor in Clark County WA | NORBILT",
+		title: "How to Hire a Licensed Remodeling Contractor in Clark County WA | Norbilt",
 		description:
 			"How to verify WA contractor licenses, what to check before signing, and red flags to watch for in Clark County.",
 		url: "https://www.norbilt.com/blog/how-to-hire-licensed-remodeling-contractor-clark-county-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -303,9 +303,9 @@ export default function HireContractorGuide() {
 						each step, with Washington-specific detail for Clark County homeowners.
 					</p>
 					<div className="bg-[#2D5A3D]/5 border border-[#2D5A3D]/20 rounded-2xl p-6">
-						<p className="text-sm font-bold text-[#2D5A3D] uppercase tracking-widest mb-2">NORBILT Disclosure</p>
+						<p className="text-sm font-bold text-[#2D5A3D] uppercase tracking-widest mb-2">Norbilt Disclosure</p>
 						<p className="text-gray-600 text-sm leading-relaxed">
-							We're NORBILT — a licensed remodeling contractor in Clark County (WA Lic. NORBI**741CS).
+							We're Norbilt — a licensed remodeling contractor in Clark County (WA Lic. NORBI**741CS).
 							This guide is written from our experience working in this market, and it applies to evaluating
 							any contractor — including us. If we can't answer these questions about our own work,
 							you shouldn't hire us either.
@@ -424,7 +424,7 @@ export default function HireContractorGuide() {
 						<p className="text-[#FFB800] font-bold uppercase tracking-widest text-sm">WA Lic. NORBI**741CS · Clark County Since 2019</p>
 						<h2 className="text-3xl font-black text-white">We&apos;ll Bring Everything on This List</h2>
 						<p className="text-gray-300 leading-relaxed">
-							When you request an estimate from NORBILT, you&apos;ll get a verifiable license number,
+							When you request an estimate from Norbilt, you&apos;ll get a verifiable license number,
 							a certificate of insurance, a written scope, and a full contract before anything starts.
 							That&apos;s the floor, not the feature.
 						</p>

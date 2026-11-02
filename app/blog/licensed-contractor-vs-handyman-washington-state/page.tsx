@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone, XCircle } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Licensed Contractor vs Handyman in Washington State | NORBILT",
+	title: "Licensed Contractor vs Handyman in Washington State | Norbilt",
 	description:
 		"What's the difference between a licensed contractor and a handyman in WA state? Learn when the law requires a license and how to protect yourself hiring for home repairs.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/licensed-contractor-vs-handyman-washington-state",
 	},
 	openGraph: {
-		title: "Licensed Contractor vs Handyman in Washington State | NORBILT",
+		title: "Licensed Contractor vs Handyman in Washington State | Norbilt",
 		description:
 			"Know the difference before you hire. Washington State law, licensing requirements, and how to protect your home investment.",
 		url: "https://www.norbilt.com/blog/licensed-contractor-vs-handyman-washington-state",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -75,7 +75,7 @@ export default function ContractorVsHandyman() {
 						</h1>
 				<div className="bg-[#2D5A3D]/10 border-l-4 border-[#2D5A3D] rounded-r-2xl p-6 my-6">
 					<p className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] mb-2">Quick Answer</p>
-					<p className="text-gray-700 leading-relaxed text-sm">In Washington State, any remodeling or repair job priced at $500 or more must be performed by a licensed general contractor. An unlicensed handyman is legally limited to jobs under $500. Hiring unlicensed for larger work has real consequences: your homeowner's insurance may deny claims related to that work, and Washington real estate law requires disclosure of unpermitted work at resale — which can kill a deal or reduce your sale price. A licensed contractor in Washington must carry a WA General Contractor License (verify at contractors.lni.wa.gov), liability insurance ($500,000 minimum, $1M for larger projects), and be bonded. When to hire a handyman: minor repairs, small maintenance tasks under $500. When to hire a licensed contractor: any bathroom or kitchen work, structural changes, electrical, plumbing, or any project requiring a permit. NORBILT (WA Lic. NORBI**741CS) handles both categories across Clark County.</p>
+					<p className="text-gray-700 leading-relaxed text-sm">In Washington State, any remodeling or repair job priced at $500 or more must be performed by a licensed general contractor. An unlicensed handyman is legally limited to jobs under $500. Hiring unlicensed for larger work has real consequences: your homeowner's insurance may deny claims related to that work, and Washington real estate law requires disclosure of unpermitted work at resale — which can kill a deal or reduce your sale price. A licensed contractor in Washington must carry a WA General Contractor License (verify at contractors.lni.wa.gov), liability insurance ($500,000 minimum, $1M for larger projects), and be bonded. When to hire a handyman: minor repairs, small maintenance tasks under $500. When to hire a licensed contractor: any bathroom or kitchen work, structural changes, electrical, plumbing, or any project requiring a permit. Norbilt (WA Lic. NORBI**741CS) handles both categories across Clark County.</p>
 				</div>
 						<p className="text-xl text-white/70 leading-relaxed max-w-2xl border-l-4 border-[#FFB800] pl-6">
 							What the law says, what each can legally do, and how to protect
@@ -90,7 +90,7 @@ export default function ContractorVsHandyman() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -238,7 +238,7 @@ export default function ContractorVsHandyman() {
 								not crossing it.
 							</p>
 							<p className="text-[#A7C4B5] leading-relaxed">
-								At NORBILT, we handle both categories. We are a licensed
+								At Norbilt, we handle both categories. We are a licensed
 								Washington General Contractor, which means we can legally
 								take on jobs of any size — and we bring that same
 								accountability to every job, regardless of scope.
@@ -271,7 +271,7 @@ export default function ContractorVsHandyman() {
 						<div className="bg-[#2D5A3D]/5 border border-[#2D5A3D]/20 rounded-2xl p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
 							<div>
 								<p className="font-black text-[#1F2E2B] mb-1">Need a licensed contractor in Clark County?</p>
-								<p className="text-gray-600 text-sm">NORBILT is a licensed WA General Contractor. We handle jobs of any size — free estimates.</p>
+								<p className="text-gray-600 text-sm">Norbilt is a licensed WA General Contractor. We handle jobs of any size — free estimates.</p>
 							</div>
 							<Link
 								href="/locations/vancouver/handyman"
@@ -307,9 +307,9 @@ export default function ContractorVsHandyman() {
 						</div>
 						{/* REMODELING INTERNAL LINK */}
 						<div className="bg-[#1F2E2B] rounded-2xl p-8 text-center">
-							<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">NORBILT · Home Remodeling Contractor</p>
+							<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">Norbilt · Home Remodeling Contractor</p>
 							<h3 className="text-xl font-black text-white mb-3">Looking for a Licensed Remodeling Contractor?</h3>
-							<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">NORBILT holds WA Lic #NORBI**741CS and handles kitchen & bath remodels, finish carpentry, flooring, and full home renovations across Clark County.</p>
+							<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">Norbilt holds WA Lic #NORBI**741CS and handles kitchen & bath remodels, finish carpentry, flooring, and full home renovations across Clark County.</p>
 							<div className="flex flex-wrap justify-center gap-3">
 								<Link href="/remodeling" className="inline-flex items-center gap-2 bg-[#FFB800] text-black px-6 py-3 rounded-xl font-black uppercase tracking-widest text-sm hover:scale-105 transition-all">See Our Remodeling Services</Link>
 								<Link href="/estimate" className="inline-flex items-center gap-2 border border-white/20 text-white px-6 py-3 rounded-xl font-black uppercase tracking-widest text-sm hover:bg-white/10 transition-colors">Get Free Estimate</Link>
@@ -344,7 +344,7 @@ export default function ContractorVsHandyman() {
 							Work With a Licensed Clark County Contractor
 						</h2>
 						<p className="text-black/70 text-lg font-medium">
-							NORBILT is a registered Washington State General Contractor —
+							Norbilt is a registered Washington State General Contractor —
 							licensed, bonded, and insured. Free estimates for any job,
 							any size.
 						</p>

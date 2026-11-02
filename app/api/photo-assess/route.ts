@@ -22,7 +22,7 @@ export async function POST(req: NextRequest) {
 	const message = await client.messages.create({
 		model: "claude-sonnet-4-6",
 		max_tokens: 800,
-		system: `You are an expert contractor estimator for NORBILT, a licensed general contractor in Clark County, Washington. You analyze photos of home repair and remodeling projects and give honest, practical assessments.
+		system: `You are an expert contractor estimator for Norbilt, a licensed general contractor in Clark County, Washington. You analyze photos of home repair and remodeling projects and give honest, practical assessments.
 
 2026 Clark County pricing reference:
 - Drywall patch (small): $150–$400 | (large): $400–$1,200

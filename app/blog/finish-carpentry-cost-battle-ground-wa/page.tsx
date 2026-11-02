@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Finish Carpentry Cost Battle Ground WA | Baseboards, Trim & Crown Molding | NORBILT",
+	title: "Finish Carpentry Cost Battle Ground WA | Baseboards, Trim & Crown Molding | Norbilt",
 	description:
 		"How much does finish carpentry cost in Battle Ground WA? 2026 prices for baseboard installation, crown molding, door casing, and wainscoting — from a licensed Clark County contractor. Free estimates. (360) 216-9920.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/finish-carpentry-cost-battle-ground-wa",
 	},
 	openGraph: {
-		title: "Finish Carpentry Cost in Battle Ground WA | NORBILT",
+		title: "Finish Carpentry Cost in Battle Ground WA | Norbilt",
 		description:
 			"2026 finish carpentry prices in Battle Ground WA — baseboards, crown molding, door casing, and wainscoting. Licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/finish-carpentry-cost-battle-ground-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -152,7 +152,7 @@ const faqs = [
 		a: "A single bedroom or bathroom takes 2–4 hours for baseboards. A single room with crown molding adds 3–5 hours depending on ceiling complexity. A full house baseboard replacement typically takes 2–4 days. A complete trim package (baseboards, crown, door casings) for a whole home takes 4–8 days. We provide a timeline at the estimate so you can plan around the project.",
 	},
 	{
-		q: "Do I need to remove existing trim before NORBILT installs new trim?",
+		q: "Do I need to remove existing trim before Norbilt installs new trim?",
 		a: "No — we handle removal and disposal as part of the project. We score the caulk line, pull the existing trim, check the wall for damage or out-of-square conditions, and install the new profile. Disposal of old trim is included unless the scope is unusually large. If you want to reuse existing trim in a different area of the house, let us know at the estimate.",
 	},
 ];
@@ -365,7 +365,7 @@ export default function FinishCarpentryBattleGround() {
 				{/* WHAT'S INCLUDED */}
 				<section className="py-16 lg:py-24">
 					<div className="max-w-4xl mx-auto px-6 lg:px-8">
-						<h2 className="text-2xl font-black text-[#1F2E2B] mb-4">What&apos;s Included in a NORBILT Finish Carpentry Quote</h2>
+						<h2 className="text-2xl font-black text-[#1F2E2B] mb-4">What&apos;s Included in a Norbilt Finish Carpentry Quote</h2>
 						<p className="text-gray-600 mb-8 leading-relaxed">Every finish carpentry project includes:</p>
 						<div className="grid sm:grid-cols-2 gap-4">
 							{[

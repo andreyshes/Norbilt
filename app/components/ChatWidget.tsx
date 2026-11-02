@@ -8,7 +8,7 @@ type Message = {
 	content: string;
 };
 
-const GREETING = "Hey! I'm the NORBILT assistant — I can give you real cost estimates and answer questions about any home project in Clark County. What are you working on?";
+const GREETING = "Hey! I'm the Norbilt assistant — I can give you real cost estimates and answer questions about any home project in Clark County. What are you working on?";
 
 export default function ChatWidget() {
 	const [open, setOpen] = useState(false);
@@ -137,7 +137,7 @@ export default function ChatWidget() {
 								<span className="absolute bottom-0 right-0 w-2.5 h-2.5 bg-green-400 rounded-full border-2 border-[#1F2E2B]" />
 							</div>
 							<div>
-								<p className="text-white font-black text-sm leading-tight">NORBILT Assistant</p>
+								<p className="text-white font-black text-sm leading-tight">Norbilt Assistant</p>
 								<p className="text-[#A7C4B5] text-xs">Clark County's licensed GC</p>
 							</div>
 						</div>
@@ -215,7 +215,7 @@ export default function ChatWidget() {
 			<button
 				onClick={() => setOpen((v) => !v)}
 				className="fixed bottom-6 right-4 sm:right-6 z-50 w-14 h-14 rounded-full bg-[#1F2E2B] shadow-2xl flex items-center justify-center hover:scale-110 transition-transform border-2 border-[#FFB800]"
-				aria-label="Chat with NORBILT"
+				aria-label="Chat with Norbilt"
 			>
 				{open ? (
 					<X className="w-6 h-6 text-white" />

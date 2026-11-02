@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Kitchen Remodel Cost Salmon Creek WA | NORBILT",
+	title: "Kitchen Remodel Cost Salmon Creek WA | Norbilt",
 	description:
 		"How much does a kitchen remodel cost in Salmon Creek, WA? Real 2026 price ranges for cabinet refreshes through full gut remodels from a licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/kitchen-remodel-cost-salmon-creek-wa",
 	},
 	openGraph: {
-		title: "Kitchen Remodel Cost in Salmon Creek WA | NORBILT",
+		title: "Kitchen Remodel Cost in Salmon Creek WA | Norbilt",
 		description:
 			"Real 2026 price ranges for kitchen remodels in Salmon Creek WA — cosmetic refresh through full gut. From a licensed local contractor.",
 		url: "https://www.norbilt.com/blog/kitchen-remodel-cost-salmon-creek-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -74,7 +74,7 @@ export default function KitchenRemodelCostSalmonCreek() {
 		},
 		{
 			title: "Appliances",
-			body: "NORBILT handles installation but homeowners typically source appliances directly. A mid-range appliance package (range, refrigerator, dishwasher, microwave) runs $3,000–$8,000 at retail. High-end brands (Wolf, Sub-Zero, Bosch) can push $15,000–$30,000+. We coordinate installation timing with delivery so your kitchen isn't down longer than necessary.",
+			body: "Norbilt handles installation but homeowners typically source appliances directly. A mid-range appliance package (range, refrigerator, dishwasher, microwave) runs $3,000–$8,000 at retail. High-end brands (Wolf, Sub-Zero, Bosch) can push $15,000–$30,000+. We coordinate installation timing with delivery so your kitchen isn't down longer than necessary.",
 		},
 		{
 			title: "Flooring",
@@ -91,7 +91,7 @@ export default function KitchenRemodelCostSalmonCreek() {
 	const faqs = [
 		{
 			q: "Do I need a permit for a kitchen remodel in Salmon Creek / unincorporated Clark County?",
-			a: "Cosmetic work — painting cabinets, replacing countertops, updating hardware or light fixtures — does not require a permit. Any work involving new electrical circuits, moving outlets, changing plumbing rough-ins, or removing walls does require a permit through Clark County Community Development. NORBILT handles permit applications as part of any permitted scope. Permit fees run $400–$1,200 depending on scope, plus 1–3 weeks processing time.",
+			a: "Cosmetic work — painting cabinets, replacing countertops, updating hardware or light fixtures — does not require a permit. Any work involving new electrical circuits, moving outlets, changing plumbing rough-ins, or removing walls does require a permit through Clark County Community Development. Norbilt handles permit applications as part of any permitted scope. Permit fees run $400–$1,200 depending on scope, plus 1–3 weeks processing time.",
 		},
 		{
 			q: "How long does a kitchen remodel take in Salmon Creek?",
@@ -106,7 +106,7 @@ export default function KitchenRemodelCostSalmonCreek() {
 			a: "Underestimating what's behind the walls. Salmon Creek homes built in the late 1980s and early 1990s sometimes have original galvanized supply lines that should be replaced while the kitchen is open, or outdated wiring that can't support modern appliances without an upgrade. These aren't surprises we manufacture — they're real conditions we find and document during demo. A transparent contractor shows you what was found before proceeding. A good contract includes a clear change order process so nothing gets added to the bill without your sign-off.",
 		},
 		{
-			q: "What does a NORBILT kitchen remodel include?",
+			q: "What does a Norbilt kitchen remodel include?",
 			a: "Our scope is typically demo and disposal, cabinet installation, countertop templating and installation, backsplash tile, flooring, fixture installation, and final paint. We coordinate electrical and plumbing sub-trades when needed. We don't source appliances but we handle all rough-in prep and final installation connections. Every project starts with a written quote — line-itemed scope, not a ballpark — before any work begins.",
 		},
 	];
@@ -194,7 +194,7 @@ export default function KitchenRemodelCostSalmonCreek() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -350,7 +350,7 @@ export default function KitchenRemodelCostSalmonCreek() {
 							<ul className="space-y-1 text-xs text-gray-400">
 								<li>Clark County Community Development — residential permit fees and requirements (2026)</li>
 								<li>WA State Dept. of Labor & Industries — contractor licensing requirements</li>
-								<li>NORBILT internal job data — kitchen remodel pricing, Clark County WA (2025–2026)</li>
+								<li>Norbilt internal job data — kitchen remodel pricing, Clark County WA (2025–2026)</li>
 								<li>National Kitchen & Bath Association — project cost and planning benchmarks</li>
 							</ul>
 						</div>

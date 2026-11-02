@@ -90,7 +90,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for a kitchen remodel in Clark County?",
-		a: "Minor kitchen updates — hardware, backsplash, countertop replacement, fixture swaps in the same location — do not require a permit. Permits are required when you move plumbing (sink relocation, dishwasher drain to a new location), add or move electrical circuits (adding a dedicated circuit for a new appliance or island outlet), or make structural changes (removing a wall). NORBILT pulls all required Clark County permits and schedules inspections — it's handled for you.",
+		a: "Minor kitchen updates — hardware, backsplash, countertop replacement, fixture swaps in the same location — do not require a permit. Permits are required when you move plumbing (sink relocation, dishwasher drain to a new location), add or move electrical circuits (adding a dedicated circuit for a new appliance or island outlet), or make structural changes (removing a wall). Norbilt pulls all required Clark County permits and schedules inspections — it's handled for you.",
 	},
 	{
 		q: "Should I replace or reface my cabinets?",
@@ -102,7 +102,7 @@ const faqs = [
 	},
 	{
 		q: "Is your kitchen work warrantied?",
-		a: "Yes. All NORBILT kitchen remodeling is backed by a 1-year workmanship warranty. If tile lifts, grout cracks, a cabinet door goes out of alignment due to installation, or any installed component has a workmanship issue, we return and fix it at no charge within the warranty period. Manufacturer warranties on fixtures and appliances are separate and transfer directly to you.",
+		a: "Yes. All Norbilt kitchen remodeling is backed by a 1-year workmanship warranty. If tile lifts, grout cracks, a cabinet door goes out of alignment due to installation, or any installed component has a workmanship issue, we return and fix it at no charge within the warranty period. Manufacturer warranties on fixtures and appliances are separate and transfer directly to you.",
 	},
 ];
 
@@ -159,7 +159,7 @@ const schema = {
 		{
 			"@type": "HomeAndConstructionBusiness",
 			"@id": "https://www.norbilt.com/#organization",
-			name: "NORBILT",
+			name: "Norbilt",
 			aggregateRating: {
 				"@type": "AggregateRating",
 				ratingValue: "5.0",
@@ -171,7 +171,7 @@ const schema = {
 					"@type": "Review",
 					reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
 					author: { "@type": "Person", name: "Taylor K." },
-					reviewBody: "I had a great experience working with NORBILT on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. The quality of work really shows, and the final result turned out even better than I imagined.",
+					reviewBody: "I had a great experience working with Norbilt on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. The quality of work really shows, and the final result turned out even better than I imagined.",
 				},
 				{
 					"@type": "Review",
@@ -191,7 +191,7 @@ const schema = {
 };
 
 export const metadata = {
-	title: "Kitchen Remodel Contractor Vancouver WA | NORBILT",
+	title: "Kitchen Remodel Contractor Vancouver WA | Norbilt",
 	description:
 		"Licensed kitchen remodel contractor in Vancouver WA and Clark County. Full gut remodels, cabinets, countertops, backsplash & more. Free written estimates. WA Lic #NORBI**741CS.",
 };
@@ -210,7 +210,7 @@ export default function KitchenRemodelPage() {
 					<div className="absolute inset-0 z-0">
 						<Image
 							src="/remodel-images/IMG_7646.jpg"
-							alt="Kitchen remodel contractor Vancouver WA — NORBILT"
+							alt="Kitchen remodel contractor Vancouver WA — Norbilt"
 							fill
 							priority
 							sizes="100vw"
@@ -233,7 +233,7 @@ export default function KitchenRemodelPage() {
 							</h1>
 
 							<p className="text-xl text-white/90 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6">
-								From a single-day hardware swap to a full gut remodel — NORBILT handles every level of kitchen remodeling in Clark County. Cabinets, countertops, backsplash, fixtures, and full layout changes. Licensed WA contractor. 1-year workmanship warranty.
+								From a single-day hardware swap to a full gut remodel — Norbilt handles every level of kitchen remodeling in Clark County. Cabinets, countertops, backsplash, fixtures, and full layout changes. Licensed WA contractor. 1-year workmanship warranty.
 							</p>
 
 							<div className="pt-4">
@@ -273,7 +273,7 @@ export default function KitchenRemodelPage() {
 						<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">
 							By Andrey
 						</a>
-						<span>· WA Licensed General Contractor · NORBILT · Updated August 2026</span>
+						<span>· WA Licensed General Contractor · Norbilt · Updated August 2026</span>
 					</div>
 				</div>
 
@@ -301,7 +301,7 @@ export default function KitchenRemodelPage() {
 					</div>
 					<div className="text-center mt-4">
 						<Link href="/remodel-promise" className="text-xs font-bold text-[#FFB800] hover:text-white transition-colors">
-							Every remodel is backed by the NORBILT Remodel Promise →
+							Every remodel is backed by the Norbilt Remodel Promise →
 						</Link>
 					</div>
 				</section>
@@ -584,7 +584,7 @@ export default function KitchenRemodelPage() {
 							</table>
 						</div>
 						<p className="text-sm text-gray-400 italic mt-4">
-							Cabinet lead time is the most common schedule driver in a kitchen remodel. NORBILT places cabinet orders as soon as scope is finalized — don&apos;t wait to start the clock. Countertop templates happen after cabinets are installed, adding 5–10 days for fabrication before countertops go in.
+							Cabinet lead time is the most common schedule driver in a kitchen remodel. Norbilt places cabinet orders as soon as scope is finalized — don&apos;t wait to start the clock. Countertop templates happen after cabinets are installed, adding 5–10 days for fabrication before countertops go in.
 						</p>
 					</div>
 				</section>
@@ -648,7 +648,7 @@ export default function KitchenRemodelPage() {
 									))}
 								</ul>
 								<p className="mt-8 text-white/50 text-xs font-medium">
-									NORBILT pulls all required Clark County permits before work begins. Permit timeline in Clark County is typically 1–3 weeks for a kitchen remodel — we account for this in your project schedule.
+									Norbilt pulls all required Clark County permits before work begins. Permit timeline in Clark County is typically 1–3 weeks for a kitchen remodel — we account for this in your project schedule.
 								</p>
 							</div>
 						</div>
@@ -752,7 +752,7 @@ export default function KitchenRemodelPage() {
 								{
 									name: "Taylor K.",
 									location: "Vancouver, WA",
-									body: "I had a great experience working with NORBILT on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. The quality of work really shows, and the final result turned out even better than I imagined.",
+									body: "I had a great experience working with Norbilt on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. The quality of work really shows, and the final result turned out even better than I imagined.",
 								},
 								{
 									name: "M. Taylor",

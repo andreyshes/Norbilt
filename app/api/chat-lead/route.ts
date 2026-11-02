@@ -43,13 +43,13 @@ export async function POST(req: NextRequest) {
 		.join("<br/>");
 
 	await resend.emails.send({
-		from: "NORBILT Chat <hello@norbilt.com>",
+		from: "Norbilt Chat <hello@norbilt.com>",
 		to: ["hello@norbilt.com"],
 		subject: `New Chat Lead — ${lead.name || "Unknown"} — ${lead.projectType || "Home project"}`,
 		html: `
 			<div style="font-family:sans-serif;max-width:560px;color:#1F2E2B">
 				<div style="background:#1F2E2B;padding:20px 28px;border-radius:12px 12px 0 0">
-					<p style="color:#FFB800;font-weight:900;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin:0">NORBILT Chat Lead</p>
+					<p style="color:#FFB800;font-weight:900;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin:0">Norbilt Chat Lead</p>
 				</div>
 				<div style="background:#fff;padding:28px;border:1px solid #E8E4DE;border-top:none;border-radius:0 0 12px 12px">
 					<table style="width:100%;border-collapse:collapse;margin-bottom:20px">

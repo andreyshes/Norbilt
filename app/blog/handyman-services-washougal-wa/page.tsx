@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Handyman Services in Washougal WA: 2026 Costs & What to Expect | NORBILT",
+	title: "Handyman Services in Washougal WA: 2026 Costs & What to Expect | Norbilt",
 	description:
 		"Honest 2026 pricing for licensed handyman work in Washougal WA. Hourly rates, flat-rate job costs, what Washougal's housing stock means for your project, and how to hire right.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/handyman-services-washougal-wa",
 	},
 	openGraph: {
-		title: "Handyman Services in Washougal WA: 2026 Costs & What to Expect | NORBILT",
+		title: "Handyman Services in Washougal WA: 2026 Costs & What to Expect | Norbilt",
 		description:
 			"2026 handyman pricing for Washougal WA homeowners — hourly rates, job-by-job cost table, and what to know before hiring a contractor in eastern Clark County.",
 		url: "https://www.norbilt.com/blog/handyman-services-washougal-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -59,8 +59,8 @@ const faqs = [
 		a: "Cosmetic work — painting, patching, hardware swaps, fixture replacements at existing boxes — generally requires no permit. Electrical changes (new circuits, panel work), plumbing modifications, and structural changes require a City of Washougal or Clark County permit and must be done by a licensed contractor. Permits run $150–$400 for electrical or plumbing.",
 	},
 	{
-		q: "Is NORBILT licensed to do handyman work in Washougal WA?",
-		a: "Yes. NORBILT holds WA General Contractor License NORBI**741CS, is bonded, and carries $1M liability insurance. We serve Washougal and all of Clark County. We schedule Washougal estimates the same week and don't charge extra for the drive.",
+		q: "Is Norbilt licensed to do handyman work in Washougal WA?",
+		a: "Yes. Norbilt holds WA General Contractor License NORBI**741CS, is bonded, and carries $1M liability insurance. We serve Washougal and all of Clark County. We schedule Washougal estimates the same week and don't charge extra for the drive.",
 	},
 	{
 		q: "How do I get a handyman estimate in Washougal?",
@@ -85,7 +85,7 @@ export default function HandymanWashougalPage() {
 						author: { "@id": "https://www.norbilt.com/#founder" },
 						publisher: {
 							"@type": "Organization",
-							name: "NORBILT",
+							name: "Norbilt",
 							url: "https://www.norbilt.com",
 						},
 						mainEntityOfPage: "https://www.norbilt.com/blog/handyman-services-washougal-wa",
@@ -409,7 +409,7 @@ export default function HandymanWashougalPage() {
 				<section className="bg-[#2D5A3D]/5 border border-[#2D5A3D]/20 rounded-2xl p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
 					<div>
 						<p className="font-black text-[#1F2E2B] mb-1">Need more than a repair in Washougal?</p>
-						<p className="text-gray-600 text-sm">NORBILT does full kitchen & bath remodels, finish carpentry, and flooring throughout Washougal and the Gorge corridor.</p>
+						<p className="text-gray-600 text-sm">Norbilt does full kitchen & bath remodels, finish carpentry, and flooring throughout Washougal and the Gorge corridor.</p>
 					</div>
 					<Link href="/remodeling" className="inline-flex items-center gap-2 bg-[#2D5A3D] text-white px-6 py-3 rounded-xl font-black text-sm uppercase tracking-widest whitespace-nowrap hover:bg-[#1F2E2B] transition-colors">
 						Home Remodeling →
@@ -422,7 +422,7 @@ export default function HandymanWashougalPage() {
 						Licensed Handyman in Washougal WA — Free Estimate
 					</h2>
 					<p className="text-[#A7C4B5] font-medium mb-8 max-w-lg mx-auto">
-						NORBILT is a licensed WA general contractor (NORBI**741CS) serving Washougal, Camas, Vancouver, and all of Clark County. Free written estimates. Same-week scheduling. No extra charge for the drive.
+						Norbilt is a licensed WA general contractor (NORBI**741CS) serving Washougal, Camas, Vancouver, and all of Clark County. Free written estimates. Same-week scheduling. No extra charge for the drive.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">
 						<Link

@@ -2,14 +2,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Home Remodeling Washougal WA | Costs & Contractors (2026) | NORBILT",
+	title: "Home Remodeling Washougal WA | Costs & Contractors (2026) | Norbilt",
 	description:
 		"Home remodeling in Washougal WA — real 2026 costs for bathroom updates, moisture and water damage repair, and finish work in the Columbia River Gorge corridor. Licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/home-remodeling-washougal-wa",
 	},
 	openGraph: {
-		title: "Home Remodeling Washougal WA | 2026 Cost Guide | NORBILT",
+		title: "Home Remodeling Washougal WA | 2026 Cost Guide | Norbilt",
 		description:
 			"2026 home remodeling costs in Washougal WA — bathrooms, moisture damage repair, and finish carpentry from a licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/home-remodeling-washougal-wa",
@@ -39,11 +39,11 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for remodeling in Washougal WA?",
-		a: "Permit jurisdiction depends on your address. Homes within Washougal city limits use the City of Washougal Community Development office (360-835-8501). Homes in unincorporated areas east of the city use Clark County Community Development. Cosmetic work generally doesn't require permits. Full bathroom remodels, kitchen layout changes, and anything involving structural or plumbing work typically does. NORBILT handles permit coordination as part of the project.",
+		a: "Permit jurisdiction depends on your address. Homes within Washougal city limits use the City of Washougal Community Development office (360-835-8501). Homes in unincorporated areas east of the city use Clark County Community Development. Cosmetic work generally doesn't require permits. Full bathroom remodels, kitchen layout changes, and anything involving structural or plumbing work typically does. Norbilt handles permit coordination as part of the project.",
 	},
 	{
 		q: "How do I find a licensed contractor in Washougal?",
-		a: "Verify any contractor's WA license at the Department of Labor & Industries website before signing. NORBILT holds WA General Contractor License #NORBI**741CS and serves Washougal and all of east Clark County. Call Andrey at (360) 216-9920 for a free on-site estimate.",
+		a: "Verify any contractor's WA license at the Department of Labor & Industries website before signing. Norbilt holds WA General Contractor License #NORBI**741CS and serves Washougal and all of east Clark County. Call Andrey at (360) 216-9920 for a free on-site estimate.",
 	},
 ];
 
@@ -67,7 +67,7 @@ export default function BlogPost() {
 								author: { "@type": "Person", name: "Andrey", url: "https://www.norbilt.com/about" },
 								publisher: {
 									"@type": "Organization",
-									name: "NORBILT",
+									name: "Norbilt",
 									url: "https://www.norbilt.com",
 									logo: { "@type": "ImageObject", url: "https://www.norbilt.com/og-image.jpg" },
 								},
@@ -282,7 +282,7 @@ export default function BlogPost() {
 							addressing the moisture pathway — not covering it up.
 						</p>
 						<p className="text-[#2C3E3A] leading-relaxed">
-							NORBILT holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
+							Norbilt holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
 							and serves Washougal and all of east Clark County. Andrey can be reached at{" "}
 							<a href="tel:+13602169920" className="text-[#2D5A3D] font-bold hover:underline">(360) 216-9920</a>.
 						</p>
@@ -334,7 +334,7 @@ export default function BlogPost() {
 						<div className="grid sm:grid-cols-2 gap-4">
 							{[
 								{ href: "/blog/handyman-services-washougal-wa", label: "Handyman Services in Washougal WA" },
-								{ href: "/locations/washougal", label: "NORBILT Services in Washougal WA" },
+								{ href: "/locations/washougal", label: "Norbilt Services in Washougal WA" },
 								{ href: "/blog/home-remodeling-battle-ground-wa", label: "Home Remodeling in Battle Ground WA" },
 								{ href: "/blog/bathroom-remodel-cost-clark-county-wa", label: "Bathroom Remodel Cost in Clark County WA" },
 							].map(({ href, label }) => (

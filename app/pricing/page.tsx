@@ -145,7 +145,7 @@ export default function PricingPage() {
 								name: "How much does a handyman cost in Vancouver WA?",
 								acceptedAnswer: {
 									"@type": "Answer",
-									text: "Handyman services in Vancouver WA typically run $150–$350 for a single task under 2 hours, $300–$600 for a half day, and $550–$1,000 for a full day of work. NORBILT provides free estimates before any work begins.",
+									text: "Handyman services in Vancouver WA typically run $150–$350 for a single task under 2 hours, $300–$600 for a half day, and $550–$1,000 for a full day of work. Norbilt provides free estimates before any work begins.",
 								},
 							},
 							{
@@ -166,10 +166,10 @@ export default function PricingPage() {
 							},
 							{
 								"@type": "Question",
-								name: "Does NORBILT offer free estimates?",
+								name: "Does Norbilt offer free estimates?",
 								acceptedAnswer: {
 									"@type": "Answer",
-									text: "Yes. NORBILT provides free, no-obligation estimates for all projects across Clark County WA. We visit your home, assess the scope, and provide a clear written quote before any work begins.",
+									text: "Yes. Norbilt provides free, no-obligation estimates for all projects across Clark County WA. We visit your home, assess the scope, and provide a clear written quote before any work begins.",
 								},
 							},
 							{
@@ -177,7 +177,7 @@ export default function PricingPage() {
 								name: "Do I need a permit for a bathroom remodel in Clark County WA?",
 								acceptedAnswer: {
 									"@type": "Answer",
-									text: "Cosmetic bathroom work — new fixtures, paint, hardware, caulking — does not require a permit. Permits are required when moving plumbing supply or drain lines, making structural changes, or adding electrical circuits. Clark County permits run $200–$450 for a standard bathroom remodel. NORBILT handles permit pulling as part of any permitted project.",
+									text: "Cosmetic bathroom work — new fixtures, paint, hardware, caulking — does not require a permit. Permits are required when moving plumbing supply or drain lines, making structural changes, or adding electrical circuits. Clark County permits run $200–$450 for a standard bathroom remodel. Norbilt handles permit pulling as part of any permitted project.",
 								},
 							},
 							{
@@ -190,10 +190,10 @@ export default function PricingPage() {
 							},
 							{
 								"@type": "Question",
-								name: "Does NORBILT charge by the hour or by the job?",
+								name: "Does Norbilt charge by the hour or by the job?",
 								acceptedAnswer: {
 									"@type": "Answer",
-									text: "NORBILT prices by the job, not by the hour. You receive a flat written quote before any work begins. The price you approve is the price on the invoice — no hourly surprises or open-ended billing.",
+									text: "Norbilt prices by the job, not by the hour. You receive a flat written quote before any work begins. The price you approve is the price on the invoice — no hourly surprises or open-ended billing.",
 								},
 							},
 							{
@@ -377,7 +377,7 @@ export default function PricingPage() {
 						</div>
 						<div className="bg-[#2D5A3D]/10 border-l-4 border-[#2D5A3D] rounded-r-2xl p-6">
 							<p className="text-[#1F2E2B] leading-relaxed">
-								<strong>Bottom line:</strong> Clark County homeowners typically pay <strong>10–20% less</strong> for the same licensed, quality work compared to Portland-side contractors — without sacrificing WA licensing standards or insurance coverage. NORBILT is based in Vancouver and works exclusively in Clark County, which keeps overhead low and scheduling fast.
+								<strong>Bottom line:</strong> Clark County homeowners typically pay <strong>10–20% less</strong> for the same licensed, quality work compared to Portland-side contractors — without sacrificing WA licensing standards or insurance coverage. Norbilt is based in Vancouver and works exclusively in Clark County, which keeps overhead low and scheduling fast.
 							</p>
 						</div>
 					</div>
@@ -466,7 +466,7 @@ export default function PricingPage() {
 											</div>
 										))}
 									</div>
-									<p className="text-xs text-gray-400 mt-3">Source: Clark County Community Development fee schedule. Fees vary by project valuation. NORBILT handles permit pulling as part of any permitted project.</p>
+									<p className="text-xs text-gray-400 mt-3">Source: Clark County Community Development fee schedule. Fees vary by project valuation. Norbilt handles permit pulling as part of any permitted project.</p>
 								</div>
 							</div>
 						</div>
@@ -583,7 +583,7 @@ export default function PricingPage() {
 									a: "By the job. You get a flat written quote before we start. The number you approve is the number on your invoice — no open invoices, no hourly overruns.",
 								},
 								{
-									q: "Does NORBILT offer free estimates?",
+									q: "Does Norbilt offer free estimates?",
 									a: "Yes. We provide free on-site estimates for all projects across Clark County. We visit your home, assess the actual scope, and send a written quote — usually within 24 hours of the walkthrough.",
 								},
 								{
@@ -592,7 +592,7 @@ export default function PricingPage() {
 								},
 								{
 									q: "Do I need a permit for a bathroom remodel in Clark County?",
-									a: "Cosmetic work — fixtures, paint, hardware, caulking — does not require a permit. Moving plumbing supply or drain lines, making structural changes, or adding electrical circuits does require one. Clark County bathroom remodel permits typically run $200–$450. NORBILT handles permit pulling as part of any permitted scope.",
+									a: "Cosmetic work — fixtures, paint, hardware, caulking — does not require a permit. Moving plumbing supply or drain lines, making structural changes, or adding electrical circuits does require one. Clark County bathroom remodel permits typically run $200–$450. Norbilt handles permit pulling as part of any permitted scope.",
 								},
 								{
 									q: "What if unexpected conditions are found during the job?",

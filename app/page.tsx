@@ -1,7 +1,7 @@
 import HomePageContent from "@/app/components/HomePageContent";
 
 export const metadata = {
-	title: "Home Remodeling Contractor Vancouver WA | Licensed | NORBILT",
+	title: "Home Remodeling Contractor Vancouver WA | Licensed | Norbilt",
 
 	description:
 		"5-star home remodeling contractor near you in Vancouver WA and Clark County. Kitchen remodels, bathroom remodels, flooring & finish carpentry. Licensed & insured. Free same-week estimate — call (360) 216-9920.",
@@ -10,7 +10,7 @@ export const metadata = {
 		canonical: "https://www.norbilt.com",
 	},
 	openGraph: {
-		title: "Home Remodeling Contractor Vancouver WA | Licensed | NORBILT",
+		title: "Home Remodeling Contractor Vancouver WA | Licensed | Norbilt",
 		description:
 			"Licensed home remodeling contractor in Vancouver WA — kitchen & bath remodels, finish carpentry, flooring, and more. 5-star rated. Free same-week estimates.",
 		type: "website",
@@ -20,7 +20,7 @@ export const metadata = {
 				url: "https://www.norbilt.com/og-image.jpg",
 				width: 1200,
 				height: 630,
-				alt: "NORBILT Kitchen & Bath Remodeling Vancouver WA",
+				alt: "Norbilt Kitchen & Bath Remodeling Vancouver WA",
 			},
 		],
 	},
@@ -39,7 +39,7 @@ const localBusinessSchema = {
 	"@context": "https://schema.org",
 	"@type": "HomeAndConstructionBusiness",
 	"@id": "https://www.norbilt.com/#organization",
-	name: "NORBILT",
+	name: "Norbilt",
 	url: "https://www.norbilt.com",
 	telephone: "+13602169920",
 	email: "hello@norbilt.com",
@@ -73,7 +73,7 @@ const localBusinessSchema = {
 	},
 	priceRange: "$$",
 	sameAs: [
-		"https://www.google.com/maps?cid=NORBILT",
+		"https://www.google.com/maps?cid=Norbilt",
 	],
 };
 

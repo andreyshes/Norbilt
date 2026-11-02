@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone, Shield } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Handyman Services Battle Ground WA | NORBILT",
+	title: "Handyman Services Battle Ground WA | Norbilt",
 	description:
 		"What does handyman service cost in Battle Ground, WA? Learn what's included, what to watch out for, and how to find a licensed contractor in North Clark County.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/battle-ground-handyman-what-to-expect",
 	},
 	openGraph: {
-		title: "Hiring a Handyman in Battle Ground WA | NORBILT",
+		title: "Hiring a Handyman in Battle Ground WA | Norbilt",
 		description:
 			"Costs and tips for hiring a licensed handyman in Battle Ground and North Clark County WA.",
 		url: "https://www.norbilt.com/blog/battle-ground-handyman-what-to-expect",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -75,7 +75,7 @@ export default function BattleGroundHandyman() {
 						</h1>
 				<div className="bg-[#2D5A3D]/10 border-l-4 border-[#2D5A3D] rounded-r-2xl p-6 my-6">
 					<p className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] mb-2">Quick Answer</p>
-					<p className="text-gray-700 leading-relaxed text-sm">Hiring a handyman in Battle Ground WA typically costs $95–$130 per hour or $175–$1,800+ for common flat-rate jobs. Small repairs like outlet replacements, door adjustments, and drywall patches run $175–$350. Larger projects like door replacements, deck repairs, or pre-sale punch lists run $460–$1,800+. Washington State law requires a licensed contractor for any job priced over $500 — hiring unlicensed for larger work voids your homeowner's insurance and creates disclosure problems at resale. When hiring in Battle Ground, ask for WA contractor license number, proof of liability insurance ($500,000 minimum), and a written estimate before any work starts. Red flags: no written estimate, price dramatically lower than competitors, won't provide license number. NORBILT (WA Lic. NORBI**741CS, $1M liability insurance, bonded) serves Battle Ground and all of north Clark County with same-week estimates. All prices are 2026 rates.</p>
+					<p className="text-gray-700 leading-relaxed text-sm">Hiring a handyman in Battle Ground WA typically costs $95–$130 per hour or $175–$1,800+ for common flat-rate jobs. Small repairs like outlet replacements, door adjustments, and drywall patches run $175–$350. Larger projects like door replacements, deck repairs, or pre-sale punch lists run $460–$1,800+. Washington State law requires a licensed contractor for any job priced over $500 — hiring unlicensed for larger work voids your homeowner's insurance and creates disclosure problems at resale. When hiring in Battle Ground, ask for WA contractor license number, proof of liability insurance ($500,000 minimum), and a written estimate before any work starts. Red flags: no written estimate, price dramatically lower than competitors, won't provide license number. Norbilt (WA Lic. NORBI**741CS, $1M liability insurance, bonded) serves Battle Ground and all of north Clark County with same-week estimates. All prices are 2026 rates.</p>
 				</div>
 						<p className="text-xl text-white/70 leading-relaxed max-w-2xl border-l-4 border-[#FFB800] pl-6">
 							What to expect, what it costs, and what to watch out for when
@@ -90,7 +90,7 @@ export default function BattleGroundHandyman() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -132,7 +132,7 @@ export default function BattleGroundHandyman() {
 							<p className="text-[#A7C4B5] leading-relaxed">
 								Always ask for a WA contractor license number and verify it at
 								<strong className="text-white"> verify.contractors.wa.gov</strong>.
-								NORBILT's license is <strong className="text-[#FFB800]">NORBI**741CS</strong>.
+								Norbilt's license is <strong className="text-[#FFB800]">NORBI**741CS</strong>.
 							</p>
 						</div>
 
@@ -264,7 +264,7 @@ export default function BattleGroundHandyman() {
 						<div className="bg-[#2D5A3D]/5 border border-[#2D5A3D]/20 rounded-2xl p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
 							<div>
 								<p className="font-black text-[#1F2E2B] mb-1">Looking for licensed handyman service in Battle Ground?</p>
-								<p className="text-gray-600 text-sm">NORBILT provides licensed handyman services in Battle Ground, WA — free estimates, flat-rate pricing.</p>
+								<p className="text-gray-600 text-sm">Norbilt provides licensed handyman services in Battle Ground, WA — free estimates, flat-rate pricing.</p>
 							</div>
 							<Link
 								href="/locations/battle-ground/handyman"
@@ -305,7 +305,7 @@ export default function BattleGroundHandyman() {
 					<section className="bg-[#2D5A3D]/5 border border-[#2D5A3D]/20 rounded-2xl p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
 						<div>
 							<p className="font-black text-[#1F2E2B] mb-1">Ready for something bigger in Battle Ground?</p>
-							<p className="text-gray-600 text-sm">NORBILT handles full kitchen & bath remodels, finish carpentry, and flooring throughout Battle Ground and Clark County.</p>
+							<p className="text-gray-600 text-sm">Norbilt handles full kitchen & bath remodels, finish carpentry, and flooring throughout Battle Ground and Clark County.</p>
 						</div>
 						<Link href="/remodeling" className="inline-flex items-center gap-2 bg-[#2D5A3D] text-white px-6 py-3 rounded-xl font-black text-sm uppercase tracking-widest whitespace-nowrap hover:bg-[#1F2E2B] transition-colors">
 							Home Remodeling →
@@ -320,7 +320,7 @@ export default function BattleGroundHandyman() {
 							Need a Licensed Handyman in Battle Ground?
 						</h2>
 						<p className="text-black/70 text-lg font-medium">
-							NORBILT is a licensed, bonded WA contractor serving Battle Ground,
+							Norbilt is a licensed, bonded WA contractor serving Battle Ground,
 							Brush Prairie, and all of North Clark County. Free estimates,
 							clear pricing, no surprises.
 						</p>

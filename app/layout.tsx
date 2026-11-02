@@ -9,8 +9,8 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://www.norbilt.com"),
-	title: "Home Remodeling Contractor Vancouver WA | Licensed | NORBILT",
-	description: "NORBILT is a licensed home remodeling contractor serving Vancouver WA and Clark County. Kitchen & bath remodels, finish carpentry, flooring, and full home renovations. Free estimates.",
+	title: "Home Remodeling Contractor Vancouver WA | Licensed | Norbilt",
+	description: "Norbilt is a licensed home remodeling contractor serving Vancouver WA and Clark County. Kitchen & bath remodels, finish carpentry, flooring, and full home renovations. Free estimates.",
 	icons: {
 		icon: "/icon-v3.png",
 	},
@@ -51,8 +51,8 @@ export default function RootLayout({
 								{
 									"@type": "Organization",
 									"@id": "https://www.norbilt.com/#organization",
-									"name": "NORBILT",
-									"alternateName": "NORBILT General Contracting",
+									"name": "Norbilt",
+									"alternateName": "Norbilt General Contracting",
 									"url": "https://www.norbilt.com",
 									"logo": {
 										"@type": "ImageObject",
@@ -61,7 +61,7 @@ export default function RootLayout({
 										"height": 512,
 									},
 									"image": "https://www.norbilt.com/og-image.jpg",
-									"description": "NORBILT is a licensed, bonded, and insured general contractor based in Vancouver WA, serving all of Clark County. Specializing in kitchen remodeling, bathroom remodeling, drywall repair, finish carpentry, flooring installation, and handyman services. WA General Contractor License NORBI**741CS. $1,000,000 liability insurance.",
+									"description": "Norbilt is a licensed, bonded, and insured general contractor based in Vancouver WA, serving all of Clark County. Specializing in kitchen remodeling, bathroom remodeling, drywall repair, finish carpentry, flooring installation, and handyman services. WA General Contractor License NORBI**741CS. $1,000,000 liability insurance.",
 									"telephone": "+13602169920",
 									"email": "hello@norbilt.com",
 									"address": {
@@ -118,7 +118,7 @@ export default function RootLayout({
 									"foundingDate": "2022",
 									"slogan": "5-Star Rated. Licensed, Bonded & Insured. We Show Up.",
 									"sameAs": [
-										"https://www.google.com/maps/place/NORBILT/@45.6933319,-122.5403396,11z/data=!3m1!4b1!4m6!3m5!1s0x6ba3be3e3106abb:0x1cb70e756db2c95b!8m2!3d45.6933319!4d-122.5403396!16s%2Fg%2F11yzz5_myb",
+										"https://www.google.com/maps/place/Norbilt/@45.6933319,-122.5403396,11z/data=!3m1!4b1!4m6!3m5!1s0x6ba3be3e3106abb:0x1cb70e756db2c95b!8m2!3d45.6933319!4d-122.5403396!16s%2Fg%2F11yzz5_myb",
 										"https://www.yelp.com/biz/norbilt-vancouver",
 										"https://www.bbb.org/us/wa/vancouver/profile/general-contractor/norbilt-1296-1000195425",
 									],
@@ -126,7 +126,7 @@ export default function RootLayout({
 								{
 									"@type": "GeneralContractor",
 									"@id": "https://www.norbilt.com/#business",
-									"name": "NORBILT",
+									"name": "Norbilt",
 									"url": "https://www.norbilt.com",
 									"telephone": "+13602169920",
 									"email": "hello@norbilt.com",
@@ -177,8 +177,8 @@ export default function RootLayout({
 									"@type": "WebSite",
 									"@id": "https://www.norbilt.com/#website",
 									"url": "https://www.norbilt.com",
-									"name": "NORBILT — Licensed General Contractor in Vancouver WA",
-									"description": "NORBILT provides kitchen remodeling, bathroom remodeling, handyman services, drywall repair, finish carpentry, and flooring installation across Vancouver WA and Clark County.",
+									"name": "Norbilt — Licensed General Contractor in Vancouver WA",
+									"description": "Norbilt provides kitchen remodeling, bathroom remodeling, handyman services, drywall repair, finish carpentry, and flooring installation across Vancouver WA and Clark County.",
 									"publisher": { "@id": "https://www.norbilt.com/#organization" },
 									"inLanguage": "en-US",
 									"potentialAction": {

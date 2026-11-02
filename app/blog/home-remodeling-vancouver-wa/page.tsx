@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Home Remodeling in Vancouver WA: 2026 Cost Guide & What to Expect | NORBILT",
+	title: "Home Remodeling in Vancouver WA: 2026 Cost Guide & What to Expect | Norbilt",
 	description:
 		"Planning a home remodel in Vancouver WA? Real 2026 costs for kitchen, bathroom, flooring, finish carpentry, and whole-home updates. What Vancouver homeowners actually spend.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/home-remodeling-vancouver-wa",
 	},
 	openGraph: {
-		title: "Home Remodeling in Vancouver WA: 2026 Cost Guide & What to Expect | NORBILT",
+		title: "Home Remodeling in Vancouver WA: 2026 Cost Guide & What to Expect | Norbilt",
 		description:
 			"Real 2026 costs for home remodeling in Vancouver WA. Kitchen, bathroom, flooring, finish carpentry, and whole-home project pricing from a licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/home-remodeling-vancouver-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -76,7 +76,7 @@ const popularRemodels = [
 	},
 	{
 		title: "New Flooring Throughout",
-		desc: "LVP replacement — especially ripping out original carpet from the 1970s–1990s — is one of NORBILT's highest-volume Vancouver projects. Doing all hard surfaces in a single visit keeps transitions consistent and reduces disruption. A full main-floor LVP install typically runs $4,000–$9,000.",
+		desc: "LVP replacement — especially ripping out original carpet from the 1970s–1990s — is one of Norbilt's highest-volume Vancouver projects. Doing all hard surfaces in a single visit keeps transitions consistent and reduces disruption. A full main-floor LVP install typically runs $4,000–$9,000.",
 	},
 	{
 		title: "Finish Carpentry Upgrades",
@@ -84,7 +84,7 @@ const popularRemodels = [
 	},
 	{
 		title: "Tub-to-Shower Conversions",
-		desc: "Vancouver's primary baths — especially in 1980s and 1990s homes — frequently have oversized garden tubs that go unused. Converting to a walk-in tile shower is NORBILT's most-requested bathroom project in Vancouver. Mid-range versions with a full tile surround run $3,500–$10,000.",
+		desc: "Vancouver's primary baths — especially in 1980s and 1990s homes — frequently have oversized garden tubs that go unused. Converting to a walk-in tile shower is Norbilt's most-requested bathroom project in Vancouver. Mid-range versions with a full tile surround run $3,500–$10,000.",
 	},
 	{
 		title: "Whole-Home Interior Paint",
@@ -132,7 +132,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit to remodel my home in Vancouver WA?",
-		a: "Cosmetic work — paint, flooring, hardware, fixture swaps — generally does not require a permit. Permits are required when work involves electrical (new circuits, panel changes), plumbing (relocating fixtures, adding lines), or structural changes (wall removal, beam work). Permits are issued by the City of Vancouver (incorporated areas) or Clark County (unincorporated areas like Orchards or Five Corners). Permit costs typically run $150–$800 depending on scope. NORBILT pulls all required permits as part of every project.",
+		a: "Cosmetic work — paint, flooring, hardware, fixture swaps — generally does not require a permit. Permits are required when work involves electrical (new circuits, panel changes), plumbing (relocating fixtures, adding lines), or structural changes (wall removal, beam work). Permits are issued by the City of Vancouver (incorporated areas) or Clark County (unincorporated areas like Orchards or Five Corners). Permit costs typically run $150–$800 depending on scope. Norbilt pulls all required permits as part of every project.",
 	},
 	{
 		q: "What remodels add the most value in Vancouver WA?",
@@ -144,7 +144,7 @@ const faqs = [
 	},
 	{
 		q: "Are you a licensed contractor for home remodeling in Vancouver WA?",
-		a: "Yes. NORBILT is a licensed Washington State General Contractor, fully insured and bonded. We serve Vancouver and all of Clark County. All work comes with a 1-year workmanship warranty. We pull all required permits, coordinate inspections, and handle the full scope — you don't manage subcontractors.",
+		a: "Yes. Norbilt is a licensed Washington State General Contractor, fully insured and bonded. We serve Vancouver and all of Clark County. All work comes with a 1-year workmanship warranty. We pull all required permits, coordinate inspections, and handle the full scope — you don't manage subcontractors.",
 	},
 	{
 		q: "My Vancouver home was built in the 1970s — what should I watch out for during a remodel?",
@@ -340,7 +340,7 @@ export default function HomeRemodelingVancouverPage() {
 				{/* MOST POPULAR REMODELS */}
 				<section className="space-y-6">
 					<h2 className="text-3xl font-black text-[#1F2E2B] uppercase tracking-tighter">
-						Most Popular Remodels in Vancouver — What NORBILT Sees
+						Most Popular Remodels in Vancouver — What Norbilt Sees
 					</h2>
 					<p className="text-gray-600 font-medium">
 						Based on projects completed throughout Vancouver and Clark County, here are the remodels
@@ -437,7 +437,7 @@ export default function HomeRemodelingVancouverPage() {
 							},
 							{
 								title: "Permit Requirements",
-								body: "Any project involving electrical, plumbing, or structural work requires a permit. In Vancouver, permits are issued by the City of Vancouver for incorporated areas, and by Clark County for unincorporated areas (Orchards, Five Corners, Hazel Dell). Permit costs typically run $150–$800. NORBILT handles all permit applications and inspections — you don't manage the process.",
+								body: "Any project involving electrical, plumbing, or structural work requires a permit. In Vancouver, permits are issued by the City of Vancouver for incorporated areas, and by Clark County for unincorporated areas (Orchards, Five Corners, Hazel Dell). Permit costs typically run $150–$800. Norbilt handles all permit applications and inspections — you don't manage the process.",
 							},
 							{
 								title: "2026 Material Cost Environment",
@@ -520,7 +520,7 @@ export default function HomeRemodelingVancouverPage() {
 							Ready to Get Started?
 						</p>
 						<p className="font-black text-xl uppercase tracking-tight">
-							NORBILT handles home remodeling throughout Vancouver WA and all of Clark County — free estimate, 1-year warranty.
+							Norbilt handles home remodeling throughout Vancouver WA and all of Clark County — free estimate, 1-year warranty.
 						</p>
 					</div>
 					<div className="flex flex-col sm:flex-row gap-4 shrink-0">
@@ -573,7 +573,7 @@ export default function HomeRemodelingVancouverPage() {
 							href="/locations/vancouver"
 							className="inline-flex items-center gap-2 px-5 py-3 bg-white rounded-xl text-sm font-bold text-gray-700 border border-gray-200 hover:border-[#1F2E2B] hover:text-[#1F2E2B] transition-colors shadow-sm"
 						>
-							NORBILT in Vancouver, WA <ArrowRight className="w-3 h-3" />
+							Norbilt in Vancouver, WA <ArrowRight className="w-3 h-3" />
 						</Link>
 					</div>
 				</section>

@@ -145,7 +145,7 @@ export default function DoorWindowPage() {
 			<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 				<div className="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 					<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</a>
-					<span>· WA Licensed General Contractor · NORBILT · Updated June 2026</span>
+					<span>· WA Licensed General Contractor · Norbilt · Updated June 2026</span>
 				</div>
 			</div>
 
@@ -180,7 +180,7 @@ export default function DoorWindowPage() {
 							<p className="text-gray-600 text-lg font-medium leading-relaxed">
 								In the Pacific Northwest, seasonal moisture and natural home
 								settling lead to doors that stick and windows that leak heat.
-								NORBILT provides professional restoration to correct these
+								Norbilt provides professional restoration to correct these
 								issues without the high cost of full replacements.
 							</p>
 
@@ -304,7 +304,7 @@ export default function DoorWindowPage() {
 							},
 							{
 								q: "Is your door and window work covered by a warranty?",
-								a: "Yes. All NORBILT door and window installations are backed by a 1-year workmanship warranty. If hardware fails, weatherstripping lifts, or any installation issue arises within the warranty period, we come back and fix it at no charge.",
+								a: "Yes. All Norbilt door and window installations are backed by a 1-year workmanship warranty. If hardware fails, weatherstripping lifts, or any installation issue arises within the warranty period, we come back and fix it at no charge.",
 							},
 						].map((item, i) => (
 							<div key={i} className="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">

@@ -75,7 +75,7 @@ export default function Navigation() {
 					<div className="flex items-center justify-between h-full">
 						{/* Logo */}
 						<Link href="/" className="relative flex items-center group shrink-0">
-							<span className="sr-only">NORBILT General Contractor Vancouver WA</span>
+							<span className="sr-only">Norbilt General Contractor Vancouver WA</span>
 							<div
 								className="relative w-20 h-20 transition-transform duration-500 will-change-transform"
 								style={{
@@ -86,8 +86,8 @@ export default function Navigation() {
 								}}
 							>
 								<Image
-									src="/NORBILT.png"
-									alt="NORBILT Home Repairs Logo"
+									src="/Norbilt.png"
+									alt="Norbilt Home Repairs Logo"
 									sizes="160px"
 									fill
 									className={`object-contain transition-all duration-500 ${

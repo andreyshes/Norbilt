@@ -2,16 +2,16 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Home Remodeling Process: What to Expect | NORBILT Vancouver WA",
+	title: "Home Remodeling Process: What to Expect | Norbilt Vancouver WA",
 	description:
-		"Walk through NORBILT's 6-step remodeling process — from free on-site estimate to final walkthrough. What to expect, how long it takes, and what causes delays in Clark County WA.",
+		"Walk through Norbilt's 6-step remodeling process — from free on-site estimate to final walkthrough. What to expect, how long it takes, and what causes delays in Clark County WA.",
 	alternates: {
 		canonical: "https://www.norbilt.com/remodeling-process",
 	},
 	openGraph: {
-		title: "Home Remodeling Process: What to Expect | NORBILT Vancouver WA",
+		title: "Home Remodeling Process: What to Expect | Norbilt Vancouver WA",
 		description:
-			"NORBILT's 6-step remodeling process explained — estimate, contract, materials, demo, installation, and final walkthrough. Real timelines and honest answers.",
+			"Norbilt's 6-step remodeling process explained — estimate, contract, materials, demo, installation, and final walkthrough. Real timelines and honest answers.",
 		url: "https://www.norbilt.com/remodeling-process",
 		type: "website",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
@@ -199,7 +199,7 @@ const faqs = [
 	},
 	{
 		q: "Who pulls the permits?",
-		a: "NORBILT pulls all permits for work that requires them. We handle the coordination with Clark County Community Development or the City of Vancouver (depending on your address). Permit cost is either included in the estimate or called out as a line item — you'll see it before signing.",
+		a: "Norbilt pulls all permits for work that requires them. We handle the coordination with Clark County Community Development or the City of Vancouver (depending on your address). Permit cost is either included in the estimate or called out as a line item — you'll see it before signing.",
 	},
 	{
 		q: "What does the 1-year warranty cover?",
@@ -246,17 +246,17 @@ export default function RemodelingProcessPage() {
 					<div className="max-w-3xl mx-auto px-6">
 						<div className="flex flex-wrap gap-2 mb-6">
 							<Link href="/" className="text-[#FFB800] text-xs font-black uppercase tracking-widest hover:underline">
-								NORBILT
+								Norbilt
 							</Link>
 							<span className="text-white/30 text-xs">·</span>
 							<span className="text-white/50 text-xs font-medium">How We Work</span>
 						</div>
 						<h1 className="text-4xl md:text-5xl font-black text-white leading-tight tracking-tighter mb-6">
 							What to Expect:<br />
-							<span className="text-[#FFB800]">The NORBILT Remodeling Process</span>
+							<span className="text-[#FFB800]">The Norbilt Remodeling Process</span>
 						</h1>
 						<p className="text-white/70 text-lg leading-relaxed border-l-4 border-[#FFB800] pl-6">
-							From the first call to the final walkthrough, here's exactly what happens when you hire NORBILT
+							From the first call to the final walkthrough, here's exactly what happens when you hire Norbilt
 							for a remodeling project in Clark County. No surprises. No vague timelines. No wondering
 							what comes next.
 						</p>
@@ -392,7 +392,7 @@ export default function RemodelingProcessPage() {
 						<p className="text-xs font-black uppercase tracking-widest text-[#2D5A3D] mb-4">Related Reading</p>
 						<div className="grid sm:grid-cols-2 gap-4">
 							{[
-								{ href: "/remodeling", label: "NORBILT Remodeling Services", sub: "Full list of what we handle" },
+								{ href: "/remodeling", label: "Norbilt Remodeling Services", sub: "Full list of what we handle" },
 								{ href: "/blog/home-remodeling-vancouver-wa", label: "Home Remodeling in Vancouver WA", sub: "Costs and what to expect in Clark County" },
 								{ href: "/pricing", label: "Pricing Guide", sub: "What projects cost in 2026" },
 								{ href: "/contact", label: "Contact & Schedule", sub: "Get in touch directly" },

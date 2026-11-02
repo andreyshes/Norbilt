@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Kitchen Remodel Cost in Clark County WA: 2026 Guide | NORBILT",
+	title: "Kitchen Remodel Cost in Clark County WA: 2026 Guide | Norbilt",
 	description:
 		"How much does a kitchen remodel cost in Clark County WA? Real 2026 price ranges for Vancouver, Camas, and Ridgefield — from a $1,500 cosmetic refresh to a $80,000 custom build.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/kitchen-remodel-cost-clark-county-wa",
 	},
 	openGraph: {
-		title: "Kitchen Remodel Cost in Clark County WA: 2026 Guide | NORBILT",
+		title: "Kitchen Remodel Cost in Clark County WA: 2026 Guide | Norbilt",
 		description:
 			"Real 2026 cost breakdown for kitchen remodels in Clark County WA. Scope tiers, component pricing, city breakdowns, and what drives the price up.",
 		url: "https://www.norbilt.com/blog/kitchen-remodel-cost-clark-county-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -118,7 +118,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for a kitchen remodel in Clark County?",
-		a: "Cosmetic work — hardware, paint, backsplash, faucet swaps — does not require a permit. Permits are required when moving or adding plumbing, electrical, or structural walls. Clark County permits typically cost $150–$800 depending on project scope. NORBILT pulls all required permits as part of the project.",
+		a: "Cosmetic work — hardware, paint, backsplash, faucet swaps — does not require a permit. Permits are required when moving or adding plumbing, electrical, or structural walls. Clark County permits typically cost $150–$800 depending on project scope. Norbilt pulls all required permits as part of the project.",
 	},
 	{
 		q: "How long does a kitchen remodel take?",
@@ -204,7 +204,7 @@ export default function KitchenRemodeCostPage() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -364,7 +364,7 @@ export default function KitchenRemodeCostPage() {
 					<div className="flex flex-col md:flex-row items-center justify-between gap-6">
 						<div className="space-y-2">
 							<p className="text-xs font-black uppercase tracking-widest text-black/60">
-								NORBILT · Licensed General Contractor · Clark County WA
+								Norbilt · Licensed General Contractor · Clark County WA
 							</p>
 							<p className="text-2xl md:text-3xl font-black text-black uppercase tracking-tighter leading-tight">
 								Know Your Scope?<br />Get a Free Estimate.
@@ -524,7 +524,7 @@ export default function KitchenRemodeCostPage() {
 							Ready to Get Started?
 						</p>
 						<p className="font-black text-xl uppercase tracking-tight">
-							NORBILT handles kitchen updates across Clark County — free estimate, 1-year warranty.
+							Norbilt handles kitchen updates across Clark County — free estimate, 1-year warranty.
 						</p>
 					</div>
 					<div className="flex flex-col sm:flex-row gap-4 shrink-0">
@@ -565,7 +565,7 @@ export default function KitchenRemodeCostPage() {
 
 					{/* REMODELING INTERNAL LINK */}
 					<div className="bg-[#1F2E2B] rounded-2xl p-8 text-center">
-						<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">NORBILT · Home Remodeling Contractor</p>
+						<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">Norbilt · Home Remodeling Contractor</p>
 						<h3 className="text-xl font-black text-white mb-3">Ready to Start Your Kitchen Remodel?</h3>
 						<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">Licensed home remodeling contractor in Vancouver WA and Clark County. Free written estimates, flat-rate pricing, 1-year workmanship warranty.</p>
 						<div className="flex flex-wrap justify-center gap-3">

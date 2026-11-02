@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Kitchen Remodel Cost in Vancouver WA: 2026 Pricing Guide | NORBILT",
+	title: "Kitchen Remodel Cost in Vancouver WA: 2026 Pricing Guide | Norbilt",
 	description:
 		"How much does a kitchen remodel cost in Vancouver WA? Real 2026 price ranges — from a $1,725 cosmetic refresh to an $80,000 custom build — from a licensed Vancouver contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/kitchen-remodel-cost-vancouver-wa",
 	},
 	openGraph: {
-		title: "Kitchen Remodel Cost in Vancouver WA: 2026 Pricing Guide | NORBILT",
+		title: "Kitchen Remodel Cost in Vancouver WA: 2026 Pricing Guide | Norbilt",
 		description:
 			"Complete 2026 cost guide for kitchen remodels in Vancouver WA. Real price ranges by scope, component costs, neighborhood breakdowns, and what drives the price up.",
 		url: "https://www.norbilt.com/blog/kitchen-remodel-cost-vancouver-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -85,7 +85,7 @@ const costDrivers = [
 	},
 	{
 		title: "Permits in the City of Vancouver",
-		body: "The City of Vancouver requires permits for structural changes, plumbing relocation, electrical panel work, and gas line modifications. Cosmetic work — new counters, backsplash, cabinet refacing, hardware, and lighting swaps at existing boxes — typically doesn't require a permit. NORBILT is a licensed WA general contractor (Lic. NORBI**741CS) and pulls permits when required.",
+		body: "The City of Vancouver requires permits for structural changes, plumbing relocation, electrical panel work, and gas line modifications. Cosmetic work — new counters, backsplash, cabinet refacing, hardware, and lighting swaps at existing boxes — typically doesn't require a permit. Norbilt is a licensed WA general contractor (Lic. NORBI**741CS) and pulls permits when required.",
 	},
 ];
 
@@ -123,7 +123,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for a kitchen remodel in Vancouver WA?",
-		a: "The City of Vancouver requires permits for plumbing relocation, electrical panel changes, structural modifications, and gas line work. Cosmetic remodels — new counters, backsplash, hardware, cabinet refacing — typically don't require a permit. NORBILT holds WA General Contractor License NORBI**741CS and pulls all required permits.",
+		a: "The City of Vancouver requires permits for plumbing relocation, electrical panel changes, structural modifications, and gas line work. Cosmetic remodels — new counters, backsplash, hardware, cabinet refacing — typically don't require a permit. Norbilt holds WA General Contractor License NORBI**741CS and pulls all required permits.",
 	},
 	{
 		q: "How long does a kitchen remodel take in Vancouver WA?",
@@ -192,7 +192,7 @@ export default function KitchenRemodelCostVancouverWA() {
 						</h1>
 				<div className="bg-[#2D5A3D]/10 border-l-4 border-[#2D5A3D] rounded-r-2xl p-6 my-6">
 					<p className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] mb-2">Quick Answer</p>
-					<p className="text-gray-700 leading-relaxed text-sm">A kitchen remodel in Vancouver WA costs between $1,725 for a cosmetic refresh and $100,000+ for a full custom build. A cosmetic refresh — new hardware, paint, lighting, and minor fixes — runs $1,725–$5,000 and takes 1–3 days. A mid-range remodel with new countertops, cabinet fronts, sink, and appliances costs $17,250–$35,000 over 2–4 weeks. A full gut remodel — new layout, plumbing, electrical, and custom cabinets — runs $34,500–$60,000 over 4–8 weeks. Older Vancouver neighborhoods like Hazel Dell and Orchards (pre-1980 builds) often need electrical panel upgrades ($2,300–$5,750) and plumbing updates that add to the project cost. West Vancouver and Fisher's Landing new construction has modern infrastructure and more predictable budgets. All prices are 2026 rates from NORBILT (WA Lic. NORBI**741CS), a licensed general contractor serving Vancouver and all of Clark County.</p>
+					<p className="text-gray-700 leading-relaxed text-sm">A kitchen remodel in Vancouver WA costs between $1,725 for a cosmetic refresh and $100,000+ for a full custom build. A cosmetic refresh — new hardware, paint, lighting, and minor fixes — runs $1,725–$5,000 and takes 1–3 days. A mid-range remodel with new countertops, cabinet fronts, sink, and appliances costs $17,250–$35,000 over 2–4 weeks. A full gut remodel — new layout, plumbing, electrical, and custom cabinets — runs $34,500–$60,000 over 4–8 weeks. Older Vancouver neighborhoods like Hazel Dell and Orchards (pre-1980 builds) often need electrical panel upgrades ($2,300–$5,750) and plumbing updates that add to the project cost. West Vancouver and Fisher's Landing new construction has modern infrastructure and more predictable budgets. All prices are 2026 rates from Norbilt (WA Lic. NORBI**741CS), a licensed general contractor serving Vancouver and all of Clark County.</p>
 				</div>
 						<p className="text-xl text-white/70 leading-relaxed max-w-2xl border-l-4 border-[#FFB800] pl-6">
 							Real 2026 price ranges for every scope — from a quick cosmetic refresh to a full custom build — from a licensed contractor remodeling kitchens in Vancouver every week.
@@ -206,7 +206,7 @@ export default function KitchenRemodelCostVancouverWA() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -224,7 +224,7 @@ export default function KitchenRemodelCostVancouverWA() {
 								This guide breaks down real 2026 prices for every scope of kitchen remodeling in Vancouver, including component-level costs, what hidden conditions in older Vancouver homes add to the budget, and neighborhood-by-neighborhood notes from jobs we do every week.
 							</p>
 							<p>
-								NORBILT is a licensed general contractor (WA Lic.{" "}
+								Norbilt is a licensed general contractor (WA Lic.{" "}
 								<strong>NORBI**741CS</strong>) serving Vancouver and all of Clark County. We carry $1,000,000 liability insurance and back all kitchen work with a 1-year workmanship warranty.
 							</p>
 						</section>
@@ -396,7 +396,7 @@ export default function KitchenRemodelCostVancouverWA() {
 				{/* REMODELING INTERNAL LINK */}
 				<div className="max-w-3xl mx-auto px-6 pb-8">
 					<div className="bg-[#1F2E2B] rounded-2xl p-8 text-center">
-						<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">NORBILT · Home Remodeling Contractor</p>
+						<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">Norbilt · Home Remodeling Contractor</p>
 						<h3 className="text-xl font-black text-white mb-3">Ready to Start Your Kitchen Remodel?</h3>
 						<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">Licensed home remodeling contractor serving all of Vancouver WA and Clark County. Free written estimates, 1-year warranty.</p>
 						<div className="flex flex-wrap justify-center gap-3">

@@ -45,7 +45,7 @@ const duringPromises = [
 		num: "5",
 		icon: Home,
 		title: "You deal with the owner.",
-		body: "Drey, NORBILT's owner, is your single point of contact from the first walkthrough to the final walkthrough, and he's on site throughout your project.",
+		body: "Drey, Norbilt's owner, is your single point of contact from the first walkthrough to the final walkthrough, and he's on site throughout your project.",
 	},
 	{
 		num: "6",
@@ -124,14 +124,14 @@ export default function RemodelPromisePage() {
 						In Writing
 					</span>
 					<h1 className="text-5xl md:text-7xl font-black text-white leading-[0.95] tracking-tighter uppercase mb-6">
-						The NORBILT<br />
+						The Norbilt<br />
 						<span className="text-[#FFB800]">Remodel Promise</span>
 					</h1>
 					<p className="text-xl text-white/80 leading-relaxed max-w-2xl border-l-4 border-[#FFB800] pl-6 mb-10">
 						Your kitchen or bathroom remodel, in writing: the price, the schedule, and how we'll treat your home.
 					</p>
 					<p className="text-[#A7C4B5] leading-relaxed max-w-2xl mb-10">
-						Most remodel horror stories aren't about bad tile. They're about calls that never get returned, quotes that grow halfway through, and nobody in charge when something goes wrong. So we put our standards in writing. Every NORBILT remodel in Clark County comes with these promises.
+						Most remodel horror stories aren't about bad tile. They're about calls that never get returned, quotes that grow halfway through, and nobody in charge when something goes wrong. So we put our standards in writing. Every Norbilt remodel in Clark County comes with these promises.
 					</p>
 					<Link
 						href="/contact"

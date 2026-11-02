@@ -43,12 +43,12 @@ function getHeroIntro(city: any, cityNameShort: string, serviceSlug: string, ser
 	);
 
 	if (matchedProject) {
-		return matchedProject.desc + ` NORBILT handles ${serviceTitle.toLowerCase()} in ${cityNameShort} with the same licensed crew and written estimate on every job.`;
+		return matchedProject.desc + ` Norbilt handles ${serviceTitle.toLowerCase()} in ${cityNameShort} with the same licensed crew and written estimate on every job.`;
 	}
 	if (housingNote) {
 		return `${housingNote}. We tailor every ${serviceTitle.toLowerCase()} job to the specific conditions we find — from the neighborhoods of ${neighborhoods} to the rest of ${cityNameShort}. Licensed, bonded, free written estimate before any work starts.`;
 	}
-	return `NORBILT handles ${serviceTitle.toLowerCase()} for homeowners in ${cityNameShort} — ${neighborhoods} and beyond. Licensed general contractor, written estimate, 1-year workmanship warranty on every job.`;
+	return `Norbilt handles ${serviceTitle.toLowerCase()} for homeowners in ${cityNameShort} — ${neighborhoods} and beyond. Licensed general contractor, written estimate, 1-year workmanship warranty on every job.`;
 }
 
 function getTimelineFaq(serviceSlug: string, cityNameShort: string): string {
@@ -82,8 +82,8 @@ export default function ServicePageClient({
 			a: getTimelineFaq(serviceSlug, cityNameShort),
 		},
 		{
-			q: `Is NORBILT licensed to work in ${cityNameShort}, WA?`,
-			a: `Yes — NORBILT holds WA General Contractor License NORBI**741CS, is bonded, and carries $1M liability insurance. We pull all required permits for ${cityNameShort} projects and are familiar with Clark County inspection requirements.`,
+			q: `Is Norbilt licensed to work in ${cityNameShort}, WA?`,
+			a: `Yes — Norbilt holds WA General Contractor License NORBI**741CS, is bonded, and carries $1M liability insurance. We pull all required permits for ${cityNameShort} projects and are familiar with Clark County inspection requirements.`,
 		},
 		{
 			q: `How do I get a ${service.title.toLowerCase()} estimate in ${cityNameShort}?`,
@@ -119,7 +119,7 @@ export default function ServicePageClient({
 							},
 							{
 								"@type": "LocalBusiness",
-								name: "NORBILT",
+								name: "Norbilt",
 								url: `https://www.norbilt.com/locations/${citySlug}/${serviceSlug}`,
 								telephone: "+1-3602169920",
 								aggregateRating: {
@@ -254,7 +254,7 @@ export default function ServicePageClient({
 					<div className="bg-[#1F2E2B] p-12 rounded-[3rem] border-b-8 border-[#FFB800] text-white">
 						<Shield className="w-12 h-12 text-[#FFB800] mb-6" />
 						<h3 className="text-2xl font-black uppercase mb-4 tracking-tighter">
-							The NORBILT Promise
+							The Norbilt Promise
 						</h3>
 						<p className="text-[#A7C4B5] mb-8 font-medium italic">
 							"We provide craftsmanship you can trust for a home you can be

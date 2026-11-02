@@ -3,16 +3,16 @@ import { CheckCircle2, MapPin, Phone, ArrowRight } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Home Remodeling Contractor Brush Prairie WA | Kitchen, Bath & More | NORBILT",
+	title: "Home Remodeling Contractor Brush Prairie WA | Kitchen, Bath & More | Norbilt",
 	description:
 		"Looking for a home remodeling contractor in Brush Prairie, WA? Kitchen & bath remodels, finish carpentry, flooring & drywall. Licensed, local. Free estimate. (360) 216-9920.",
 	alternates: { canonical: "https://www.norbilt.com/blog/home-remodeling-brush-prairie-wa" },
 	openGraph: {
-		title: "Home Remodeling Contractor Brush Prairie WA | Kitchen, Bath & More | NORBILT",
+		title: "Home Remodeling Contractor Brush Prairie WA | Kitchen, Bath & More | Norbilt",
 		description:
 			"2026 home remodeling costs in Brush Prairie WA — kitchen and bath renovations, finish carpentry, flooring, and drywall. Licensed Clark County contractor. Free estimate.",
 		url: "https://www.norbilt.com/blog/home-remodeling-brush-prairie-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -48,30 +48,30 @@ const priceFactors = [
 	},
 	{
 		title: "Permit Complexity for Older Structures",
-		body: "Clark County permits for older Brush Prairie homes can be more complex than for newer suburban construction. If the original home lacks current permit history, additions or significant remodels may trigger an as-built review. Kitchens and bathrooms that involve plumbing or electrical changes always require permits. NORBILT handles all permit applications, coordinates Clark County Community Development inspections, and keeps you informed at every stage.",
+		body: "Clark County permits for older Brush Prairie homes can be more complex than for newer suburban construction. If the original home lacks current permit history, additions or significant remodels may trigger an as-built review. Kitchens and bathrooms that involve plumbing or electrical changes always require permits. Norbilt handles all permit applications, coordinates Clark County Community Development inspections, and keeps you informed at every stage.",
 	},
 ];
 
 const faqs = [
 	{
 		q: "Do I need a permit for remodeling in Brush Prairie?",
-		a: "Brush Prairie is unincorporated Clark County, so all permits go through Clark County Community Development (564-397-2375). Cosmetic work — flooring, paint, hardware, fixture replacements — typically doesn't require a permit. Full kitchen and bathroom gut remodels, plumbing relocation, structural changes, and electrical panel work do. Permit fees in Clark County range from $150–$600 depending on scope. NORBILT coordinates all permits as part of the project — you don't have to navigate the permit office yourself.",
+		a: "Brush Prairie is unincorporated Clark County, so all permits go through Clark County Community Development (564-397-2375). Cosmetic work — flooring, paint, hardware, fixture replacements — typically doesn't require a permit. Full kitchen and bathroom gut remodels, plumbing relocation, structural changes, and electrical panel work do. Permit fees in Clark County range from $150–$600 depending on scope. Norbilt coordinates all permits as part of the project — you don't have to navigate the permit office yourself.",
 	},
 	{
-		q: "Does NORBILT charge travel fees for Brush Prairie projects?",
-		a: "No. NORBILT serves all of Clark County with no travel fee. Brush Prairie is within our standard service area. We schedule Brush Prairie estimates the same week and don't add a surcharge for the drive from the Vancouver corridor. The quote you receive covers labor and materials — no hidden mobilization or travel line items.",
+		q: "Does Norbilt charge travel fees for Brush Prairie projects?",
+		a: "No. Norbilt serves all of Clark County with no travel fee. Brush Prairie is within our standard service area. We schedule Brush Prairie estimates the same week and don't add a surcharge for the drive from the Vancouver corridor. The quote you receive covers labor and materials — no hidden mobilization or travel line items.",
 	},
 	{
 		q: "What remodeling projects add the most value in Brush Prairie?",
 		a: "In Brush Prairie's market, kitchen remodels and primary bathroom upgrades return the strongest value at resale — typically 60–80% of project cost in the current Clark County market. Finish carpentry and flooring upgrades are lower cost and have high visual impact for listing photos. For older farmhouses, addressing deferred maintenance — subfloor repair, failing caulk, soft spots behind tile — is critical before cosmetic work and often pays for itself in avoided buyer negotiations.",
 	},
 	{
-		q: "How far does NORBILT travel for remodeling projects?",
-		a: "NORBILT serves all of Clark County, WA, including Brush Prairie, Meadow Glade, Harrington Hills, and the Curtin Creek area. We do not charge extra for properties in the northeast corner of Clark County. If you're on acreage east of Battle Ground, call (360) 216-9920 and we'll confirm coverage — we've worked in some remote locations and are generally comfortable with rural Clark County properties.",
+		q: "How far does Norbilt travel for remodeling projects?",
+		a: "Norbilt serves all of Clark County, WA, including Brush Prairie, Meadow Glade, Harrington Hills, and the Curtin Creek area. We do not charge extra for properties in the northeast corner of Clark County. If you're on acreage east of Battle Ground, call (360) 216-9920 and we'll confirm coverage — we've worked in some remote locations and are generally comfortable with rural Clark County properties.",
 	},
 	{
 		q: "Do older Brush Prairie homes need asbestos testing before remodeling?",
-		a: "Homes built before 1980 may contain asbestos in floor tile (especially 9×9 vinyl), ceiling texture (popcorn ceilings), pipe insulation, and some drywall joint compounds. Washington State and EPA rules require that suspect materials be tested before disturbance in renovation work. An asbestos inspection runs $300–$600 and takes 3–5 business days for lab results. NORBILT requires testing of suspect materials before demo on pre-1980 homes — it protects your family and our crew. We can recommend a certified inspector.",
+		a: "Homes built before 1980 may contain asbestos in floor tile (especially 9×9 vinyl), ceiling texture (popcorn ceilings), pipe insulation, and some drywall joint compounds. Washington State and EPA rules require that suspect materials be tested before disturbance in renovation work. An asbestos inspection runs $300–$600 and takes 3–5 business days for lab results. Norbilt requires testing of suspect materials before demo on pre-1980 homes — it protects your family and our crew. We can recommend a certified inspector.",
 	},
 ];
 
@@ -101,7 +101,7 @@ export default function HomeRemodelingBrushPrairieWA() {
 						author: { "@type": "Person", name: "Andrey", url: "https://www.norbilt.com/about" },
 						publisher: {
 							"@type": "Organization",
-							name: "NORBILT",
+							name: "Norbilt",
 							url: "https://www.norbilt.com",
 							logo: { "@type": "ImageObject", url: "https://www.norbilt.com/og-image.jpg" },
 						},
@@ -179,7 +179,7 @@ export default function HomeRemodelingBrushPrairieWA() {
 								<strong className="text-white">$2,000–$15,000</strong>), and drywall and repair work (
 								<strong className="text-white">$500–$5,000</strong>). Brush Prairie&apos;s mix of older farmhouses and newer custom builds means
 								project scopes vary significantly — from full gut remodels of 1960s farmhouse kitchens to trim package upgrades in
-								newer custom homes. NORBILT serves Brush Prairie with free on-site estimates and written quotes before any work begins.
+								newer custom homes. Norbilt serves Brush Prairie with free on-site estimates and written quotes before any work begins.
 							</p>
 						</div>
 
@@ -203,7 +203,7 @@ export default function HomeRemodelingBrushPrairieWA() {
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">
 							By Andrey
 						</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -215,7 +215,7 @@ export default function HomeRemodelingBrushPrairieWA() {
 						<p className="text-xs font-black uppercase tracking-widest text-[#1F2E2B] mb-2">2026 Clark County Pricing — No Travel Fee</p>
 						<p className="text-[#1F2E2B] font-medium leading-relaxed text-sm">
 							All prices reflect 2026 Clark County market rates for licensed contractor work. Brush Prairie and northeast Clark
-							County are within NORBILT&apos;s standard service area — no travel premium applies. Material costs are up 8–14%
+							County are within Norbilt&apos;s standard service area — no travel premium applies. Material costs are up 8–14%
 							vs. 2024 due to tariff impacts on lumber and finish goods. Older farmhouse projects carry a 10–15% contingency
 							recommendation due to the likelihood of discovering previous work and aging systems during demo.
 						</p>
@@ -232,7 +232,7 @@ export default function HomeRemodelingBrushPrairieWA() {
 							and it calls for a contractor who can work at that level.
 						</p>
 						<p>
-							NORBILT is a licensed general contractor (WA Lic. <strong>NORBI**741CS</strong>) with active work throughout
+							Norbilt is a licensed general contractor (WA Lic. <strong>NORBI**741CS</strong>) with active work throughout
 							Clark County, including the northeast corner. We carry $1,000,000 liability insurance, back all remodeling
 							work with a 1-year labor warranty, and provide free written estimates with no obligation. Andrey personally
 							does all estimates — not a salesperson — and the crew that shows up is ours, not a rotating subcontract team.
@@ -358,7 +358,7 @@ export default function HomeRemodelingBrushPrairieWA() {
 							<li>Washington State Dept. of Labor &amp; Industries — Contractor verification and asbestos rules: <span className="font-medium text-[#2D5A3D]">lni.wa.gov</span></li>
 							<li>Washington State Dept. of Ecology — Asbestos regulations for renovation work: <span className="font-medium text-[#2D5A3D]">ecology.wa.gov/air/asbestos</span></li>
 							<li>National Kitchen &amp; Bath Association (NKBA) 2026 Design &amp; Cost Outlook — Regional Pacific Northwest adjustments applied</li>
-							<li>NORBILT project records — 2024–2026 kitchen, bathroom, carpentry, and flooring invoices in Clark County, WA</li>
+							<li>Norbilt project records — 2024–2026 kitchen, bathroom, carpentry, and flooring invoices in Clark County, WA</li>
 						</ul>
 					</section>
 

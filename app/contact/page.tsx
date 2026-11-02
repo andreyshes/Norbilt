@@ -246,7 +246,7 @@ export default function ContactPage() {
 								))}
 							</div>
 							<p className="text-[#1F2E2B] font-bold italic mb-4">
-								"NORBILT was professional, on time, and the finish work on our
+								"Norbilt was professional, on time, and the finish work on our
 								trim exceeded our expectations."
 							</p>
 							<p className="text-xs font-black uppercase tracking-widest text-gray-400">
@@ -258,7 +258,7 @@ export default function ContactPage() {
 							<div className="flex items-center gap-3 mb-6">
 								<Shield className="w-6 h-6 text-[#FFB800]" />
 								<p className="font-black uppercase tracking-widest text-sm">
-									NORBILT Standard
+									Norbilt Standard
 								</p>
 							</div>
 							<ul className="space-y-4">

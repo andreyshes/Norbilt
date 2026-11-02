@@ -147,7 +147,7 @@ export default function LightingFixturesPage() {
 			<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 				<div className="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 					<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</a>
-					<span>· WA Licensed General Contractor · NORBILT · Updated June 2026</span>
+					<span>· WA Licensed General Contractor · Norbilt · Updated June 2026</span>
 				</div>
 			</div>
 
@@ -181,7 +181,7 @@ export default function LightingFixturesPage() {
 
 							<p className="text-gray-600 text-lg font-medium leading-relaxed">
 								Updating your lighting is the single most effective way to
-								modernize your interior. NORBILT provides professional
+								modernize your interior. Norbilt provides professional
 								installation throughout Clark County, ensuring your designer
 								pieces are installed with structural integrity and electrical
 								precision.
@@ -275,7 +275,7 @@ export default function LightingFixturesPage() {
 							},
 							{
 								q: "Do I need an electrician or a handyman for fixture installation?",
-								a: "For straightforward fixture swaps — replacing an existing fixture at an existing box — a licensed general contractor like NORBILT handles it legally and safely. For new circuits, panel work, or moving electrical, we refer to a licensed electrician. We'll tell you honestly which applies to your project.",
+								a: "For straightforward fixture swaps — replacing an existing fixture at an existing box — a licensed general contractor like Norbilt handles it legally and safely. For new circuits, panel work, or moving electrical, we refer to a licensed electrician. We'll tell you honestly which applies to your project.",
 							},
 							{
 								q: "Can you install ceiling fans where there's currently just a light fixture?",
@@ -291,7 +291,7 @@ export default function LightingFixturesPage() {
 							},
 							{
 								q: "Is your lighting work covered by a warranty?",
-								a: "Yes. All NORBILT lighting and fixture installations are backed by a 1-year workmanship warranty. If a fixture loosens, a connection fails, or any installation issue arises within the warranty period, we return and fix it at no charge.",
+								a: "Yes. All Norbilt lighting and fixture installations are backed by a 1-year workmanship warranty. If a fixture loosens, a connection fails, or any installation issue arises within the warranty period, we return and fix it at no charge.",
 							},
 						].map((item, i) => (
 							<div key={i} className="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">

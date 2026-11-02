@@ -20,11 +20,11 @@ import SectionHeader from "@/app/components/SectionHeader";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Finish Carpentry Contractor Vancouver WA | Crown Molding, Trim & Baseboards | NORBILT",
+	title: "Finish Carpentry Contractor Vancouver WA | Crown Molding, Trim & Baseboards | Norbilt",
 	description:
 		"Licensed finish carpentry contractor in Vancouver WA — crown molding, baseboards, door & window casing, wainscoting & built-ins. All Clark County. Free estimate. (360) 216-9920.",
 	openGraph: {
-		title: "Finish Carpentry Contractor Vancouver WA | NORBILT",
+		title: "Finish Carpentry Contractor Vancouver WA | Norbilt",
 		description: "Licensed finish carpentry contractor in Vancouver WA — crown molding, baseboards, door & window casing, wainscoting & built-ins. All Clark County. Free estimate.",
 	},
 };
@@ -157,7 +157,7 @@ export default function FinishCarpentryPage() {
 			<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 				<div className="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 					<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</a>
-					<span>· WA Licensed General Contractor · NORBILT · Updated June 2026</span>
+					<span>· WA Licensed General Contractor · Norbilt · Updated June 2026</span>
 				</div>
 			</div>
 
@@ -190,7 +190,7 @@ export default function FinishCarpentryPage() {
 							</h2>
 
 							<p className="text-gray-600 text-lg font-medium leading-relaxed">
-								Finish carpentry is where construction meets art. At NORBILT, we
+								Finish carpentry is where construction meets art. At Norbilt, we
 								believe the difference is found in the tight miters, seamless
 								joints, and perfect reveals. We don't just install trim—we
 								increase your property's value through skilled craftsmanship.
@@ -218,7 +218,7 @@ export default function FinishCarpentryPage() {
 							<div className="relative bg-[#1F2E2B] p-10 lg:p-14 rounded-[2.5rem] shadow-2xl border-b-8 border-[#FFB800]">
 								<Star className="absolute right-8 top-8 w-12 h-12 text-[#FFB800]/20" />
 								<h3 className="text-2xl font-black text-white uppercase tracking-tighter mb-8 italic">
-									The NORBILT Standard
+									The Norbilt Standard
 								</h3>
 								<div className="space-y-8">
 									<div className="space-y-2 border-l-2 border-[#FFB800]/30 pl-6">
@@ -309,7 +309,7 @@ export default function FinishCarpentryPage() {
 							},
 							{
 								q: "Is your carpentry work covered by a warranty?",
-								a: "Yes. All NORBILT finish carpentry is backed by a 1-year workmanship warranty. If joints open, caulk fails at seams, or any installed trim shifts within the warranty period, we return and fix it at no charge.",
+								a: "Yes. All Norbilt finish carpentry is backed by a 1-year workmanship warranty. If joints open, caulk fails at seams, or any installed trim shifts within the warranty period, we return and fix it at no charge.",
 							},
 						].map((item, i) => (
 							<div key={i} className="bg-white rounded-2xl p-8 border border-gray-100 shadow-sm">
@@ -344,7 +344,7 @@ export default function FinishCarpentryPage() {
 						{[
 							{ name: "David B.", text: "Had baseboards installed throughout the whole house after a flooring project. Clean cuts, tight corners, everything caulked and ready to paint. Exactly what I wanted.", stars: 5 },
 							{ name: "Taylor K.", text: "Crown molding in the living room and kitchen — came out beautiful. Andrey was meticulous about the corners and the profile matching. Worth every penny.", stars: 5 },
-							{ name: "M. Taylor", text: "Hired NORBILT for wainscoting in the dining room. They matched the existing trim profile perfectly. Very happy with how it turned out.", stars: 5 },
+							{ name: "M. Taylor", text: "Hired Norbilt for wainscoting in the dining room. They matched the existing trim profile perfectly. Very happy with how it turned out.", stars: 5 },
 						].map((r, i) => (
 							<div key={i} className="bg-[#F8F6F3] rounded-2xl p-8 border border-gray-100">
 								<div className="flex gap-1 mb-4">

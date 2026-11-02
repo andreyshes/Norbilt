@@ -2,21 +2,21 @@ import AboutPageContent from "@/app/components/AboutPageContent";
 
 export const metadata = {
 	// 54 Characters: Hits the 50-60 target perfectly
-	title: "About NORBILT | Home Remodeling Contractor Vancouver WA",
+	title: "About Norbilt | Home Remodeling Contractor Vancouver WA",
 
 	// 156 Characters: Hits the 150-160 target perfectly
 	description:
-		"Licensed home remodeling contractor in Vancouver WA. NORBILT handles kitchen & bath remodels, finish carpentry, flooring & full home renovations in Clark County. Get a free estimate!",
+		"Licensed home remodeling contractor in Vancouver WA. Norbilt handles kitchen & bath remodels, finish carpentry, flooring & full home renovations in Clark County. Get a free estimate!",
 
 	alternates: {
 		canonical: "https://www.norbilt.com/about",
 	},
 	openGraph: {
-		title: "About NORBILT | Home Remodeling Contractor Vancouver WA",
+		title: "About Norbilt | Home Remodeling Contractor Vancouver WA",
 		description:
 			"Licensed home remodeling contractor serving Vancouver and Clark County. Kitchen & bath, carpentry, flooring & full renovations.",
 		url: "https://www.norbilt.com/about",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		locale: "en_US",
 		type: "website",
 		images: [
@@ -24,13 +24,13 @@ export const metadata = {
 				url: "https://www.norbilt.com/og-image.jpg",
 				width: 1200,
 				height: 630,
-				alt: "About NORBILT General Contractor Vancouver WA",
+				alt: "About Norbilt General Contractor Vancouver WA",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "About NORBILT | Home Remodeling Contractor Vancouver WA",
+		title: "About Norbilt | Home Remodeling Contractor Vancouver WA",
 		description:
 			"Licensed home remodeling contractor serving Vancouver and Clark County. Kitchen & bath, carpentry, flooring & full renovations.",
 		images: ["https://www.norbilt.com/og-image.jpg"],
@@ -66,9 +66,9 @@ export default function AboutPage() {
 							{
 								"@type": "AboutPage",
 								url: "https://www.norbilt.com/about",
-								name: "About NORBILT — Licensed General Contractor Vancouver WA",
+								name: "About Norbilt — Licensed General Contractor Vancouver WA",
 								description:
-									"Learn about Andrey, the licensed general contractor behind NORBILT. 5+ years in the trade, 250+ Clark County projects, WA license #NORBI**741CS.",
+									"Learn about Andrey, the licensed general contractor behind Norbilt. 5+ years in the trade, 250+ Clark County projects, WA license #NORBI**741CS.",
 								mainEntity: { "@id": "https://www.norbilt.com/about#founder" },
 							},
 						],

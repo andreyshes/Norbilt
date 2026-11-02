@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Bathtub to Shower Conversion Cost in Clark County WA | NORBILT",
+	title: "Bathtub to Shower Conversion Cost in Clark County WA | Norbilt",
 	description:
 		"How much does a bathtub to shower conversion cost in Clark County WA? Real 2026 price ranges for tub-to-shower conversions in Vancouver, Camas, Ridgefield, and surrounding areas.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/bathtub-to-shower-conversion-cost-clark-county-wa",
 	},
 	openGraph: {
-		title: "Bathtub to Shower Conversion Cost in Clark County WA | NORBILT",
+		title: "Bathtub to Shower Conversion Cost in Clark County WA | Norbilt",
 		description:
 			"Real 2026 cost breakdown for tub-to-shower conversions in Clark County WA. Scope tiers, what drives the price, and what to watch out for.",
 		url: "https://www.norbilt.com/blog/bathtub-to-shower-conversion-cost-clark-county-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -100,7 +100,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for a tub-to-shower conversion in Clark County?",
-		a: "Minor conversions using a prefab insert with no plumbing relocation typically don't require a permit in Clark County. If you're moving the drain, changing the valve location, or doing structural work, a permit is required. As a licensed general contractor, NORBILT handles permit applications when needed.",
+		a: "Minor conversions using a prefab insert with no plumbing relocation typically don't require a permit in Clark County. If you're moving the drain, changing the valve location, or doing structural work, a permit is required. As a licensed general contractor, Norbilt handles permit applications when needed.",
 	},
 	{
 		q: "How long does a tub-to-shower conversion take?",
@@ -172,7 +172,7 @@ export default function TubToShowerConversion() {
 						</h1>
 				<div className="bg-[#2D5A3D]/10 border-l-4 border-[#2D5A3D] rounded-r-2xl p-6 my-6">
 					<p className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] mb-2">Quick Answer</p>
-					<p className="text-gray-700 leading-relaxed text-sm">A bathtub-to-shower conversion in Clark County WA costs between $1,500 for a basic prefab insert and $25,000 for a custom walk-in. A prefab acrylic insert — the fastest option — runs $1,500–$4,000 installed in 1–2 days. A custom tile shower with a standard layout costs $4,000–$10,000 and takes 3–7 days including mortar cure time. A full custom walk-in with large-format tile, frameless glass, linear drain, and niche shelves runs $10,000–$25,000 over 1–3 weeks. Older Clark County homes — common in Hazel Dell, Orchards, and parts of Camas near downtown — often have rotted subfloor or galvanized pipes behind the walls, adding $460–$2,300 to the project. Permits are required in Vancouver and Camas for plumbing relocation. NORBILT (WA Lic. NORBI**741CS) pulls all permits. All prices reflect 2026 Clark County installed rates.</p>
+					<p className="text-gray-700 leading-relaxed text-sm">A bathtub-to-shower conversion in Clark County WA costs between $1,500 for a basic prefab insert and $25,000 for a custom walk-in. A prefab acrylic insert — the fastest option — runs $1,500–$4,000 installed in 1–2 days. A custom tile shower with a standard layout costs $4,000–$10,000 and takes 3–7 days including mortar cure time. A full custom walk-in with large-format tile, frameless glass, linear drain, and niche shelves runs $10,000–$25,000 over 1–3 weeks. Older Clark County homes — common in Hazel Dell, Orchards, and parts of Camas near downtown — often have rotted subfloor or galvanized pipes behind the walls, adding $460–$2,300 to the project. Permits are required in Vancouver and Camas for plumbing relocation. Norbilt (WA Lic. NORBI**741CS) pulls all permits. All prices reflect 2026 Clark County installed rates.</p>
 				</div>
 						<p className="text-xl text-white/70 leading-relaxed max-w-2xl border-l-4 border-[#FFB800] pl-6">
 							Real 2026 price ranges for tub-to-shower conversions in
@@ -188,7 +188,7 @@ export default function TubToShowerConversion() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -439,7 +439,7 @@ export default function TubToShowerConversion() {
 				{/* REMODELING INTERNAL LINK */}
 				<div className="max-w-3xl mx-auto px-6 pb-8">
 					<div className="bg-[#1F2E2B] rounded-2xl p-8 text-center">
-						<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">NORBILT · Home Remodeling Contractor</p>
+						<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">Norbilt · Home Remodeling Contractor</p>
 						<h3 className="text-xl font-black text-white mb-3">Thinking About a Full Bathroom Remodel?</h3>
 						<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">A tub-to-shower conversion is often the first step. See our full bathroom remodeling services for Clark County homeowners.</p>
 						<div className="flex flex-wrap justify-center gap-3">

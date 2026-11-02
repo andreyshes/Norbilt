@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone, Shield } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "What a Camas Bathroom Remodel Actually Looks Like | NORBILT",
+	title: "What a Camas Bathroom Remodel Actually Looks Like | Norbilt",
 	description:
 		"A real walkthrough of a Camas WA bathroom remodel — what we find behind the walls, how we price it, the timeline, and what Prune Hill homeowners actually get for their budget.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/camas-bathroom-remodel-what-to-expect",
 	},
 	openGraph: {
-		title: "What a Camas Bathroom Remodel Actually Looks Like | NORBILT",
+		title: "What a Camas Bathroom Remodel Actually Looks Like | Norbilt",
 		description:
 			"A real walkthrough of a Camas WA bathroom remodel — demo day discoveries, pricing tiers, timeline, and what Prune Hill homeowners actually get for their budget.",
 		url: "https://www.norbilt.com/blog/camas-bathroom-remodel-what-to-expect",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -77,8 +77,8 @@ const faqs = [
 		a: "Two things. First, hire a contractor who builds a realistic contingency into the original quote — typically 10–15% for a Camas bathroom that's 25+ years old. If the contingency isn't needed, you get it back. If it is needed, you're not surprised. Second, complete all material selections before demo starts. The most common budget-blowing change orders come from homeowners who swap tile or vanity mid-project. Changing materials after work has started means restocking fees, re-ordering lead times, and rescheduling labor. Lock it in before day one.",
 	},
 	{
-		q: "What warranty does NORBILT offer on bathroom remodel work?",
-		a: "NORBILT backs all bathroom remodel work with a 1-year workmanship warranty covering tile installation, waterproofing, fixture connections, and finish carpentry. If a grout line cracks, a connection leaks, or anything we installed fails within a year of completion, we come back and fix it at no charge. This warranty is in writing and transferable if you sell the home within the year. Manufacturer warranties on fixtures, vanities, and glass enclosures are separate and typically run 1–5 years depending on the product.",
+		q: "What warranty does Norbilt offer on bathroom remodel work?",
+		a: "Norbilt backs all bathroom remodel work with a 1-year workmanship warranty covering tile installation, waterproofing, fixture connections, and finish carpentry. If a grout line cracks, a connection leaks, or anything we installed fails within a year of completion, we come back and fix it at no charge. This warranty is in writing and transferable if you sell the home within the year. Manufacturer warranties on fixtures, vanities, and glass enclosures are separate and typically run 1–5 years depending on the product.",
 	},
 ];
 
@@ -188,7 +188,7 @@ export default function CamasBathroomRemodel() {
 						>
 							By Andrey
 						</Link>
-						<span>· WA Licensed General Contractor · NORBILT · Lic. NORBI**741CS</span>
+						<span>· WA Licensed General Contractor · Norbilt · Lic. NORBI**741CS</span>
 					</div>
 				</div>
 
@@ -208,7 +208,7 @@ export default function CamasBathroomRemodel() {
 								What homeowners want — and what we deliver — is the version that should have been there from the start: a walk-in tile shower with a frameless glass enclosure, a double vanity with proper undermount sinks and real stone or quartz countertops, large-format tile on the floor laid with visible grout lines that are uniform and straight, and lighting that actually illuminates the space instead of casting shadows. In Camas, that means doing it right the first time, because the homes here have resale values where a mediocre bathroom renovation is visible on inspection.
 							</p>
 							<p>
-								This is a walkthrough of exactly what happens when you hire NORBILT for that project — from the day we come out to measure through the punch list walk at the end. No selling. Just what we actually do and why we do it that way.
+								This is a walkthrough of exactly what happens when you hire Norbilt for that project — from the day we come out to measure through the punch list walk at the end. No selling. Just what we actually do and why we do it that way.
 							</p>
 						</section>
 
@@ -459,7 +459,7 @@ export default function CamasBathroomRemodel() {
 							<div className="flex items-center gap-3">
 								<Shield className="w-7 h-7 text-[#FFB800]" />
 								<h2 className="text-xl font-black text-white uppercase tracking-tighter">
-									NORBILT Credentials
+									Norbilt Credentials
 								</h2>
 							</div>
 							<ul className="space-y-3">
@@ -514,7 +514,7 @@ export default function CamasBathroomRemodel() {
 									<strong className="text-[#1F2E2B]">Washington State Department of Labor & Industries</strong> — contractor licensing and bonding requirements, lni.wa.gov
 								</li>
 								<li>
-									<strong className="text-[#1F2E2B]">NORBILT Project Data</strong> — cost ranges, demo findings, and timeline data compiled from bathroom remodel projects completed in Camas WA, 2023–2026
+									<strong className="text-[#1F2E2B]">Norbilt Project Data</strong> — cost ranges, demo findings, and timeline data compiled from bathroom remodel projects completed in Camas WA, 2023–2026
 								</li>
 								<li>
 									<strong className="text-[#1F2E2B]">Schluter Systems / Wedi</strong> — waterproofing membrane installation standards for tile shower assemblies
@@ -583,7 +583,7 @@ export default function CamasBathroomRemodel() {
 							Ready to Talk About Your Camas Bathroom?
 						</h2>
 						<p className="text-black/70 text-lg font-medium max-w-xl mx-auto">
-							NORBILT is a licensed WA general contractor (Lic. NORBI**741CS) specializing in bathroom remodels in Camas, Prune Hill, and Lacamas Shores. Free written estimates, same-week scheduling, and a job site that&apos;s clean at the end of every day.
+							Norbilt is a licensed WA general contractor (Lic. NORBI**741CS) specializing in bathroom remodels in Camas, Prune Hill, and Lacamas Shores. Free written estimates, same-week scheduling, and a job site that&apos;s clean at the end of every day.
 						</p>
 						<div className="flex flex-col sm:flex-row gap-4 justify-center">
 							<Link

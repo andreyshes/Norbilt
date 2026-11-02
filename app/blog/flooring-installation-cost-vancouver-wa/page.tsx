@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Flooring Installation Cost in Vancouver WA & Clark County: 2026 Guide | NORBILT",
+	title: "Flooring Installation Cost in Vancouver WA & Clark County: 2026 Guide | Norbilt",
 	description:
 		"How much does flooring installation cost in Vancouver WA? Real 2026 price ranges for LVP, hardwood, and tile across Clark County — plus what drives the cost and what older homes hide.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/flooring-installation-cost-vancouver-wa",
 	},
 	openGraph: {
-		title: "Flooring Installation Cost in Vancouver WA & Clark County: 2026 Guide | NORBILT",
+		title: "Flooring Installation Cost in Vancouver WA & Clark County: 2026 Guide | Norbilt",
 		description:
 			"Real 2026 cost breakdown for flooring installation in Vancouver WA and Clark County. LVP, hardwood, tile pricing, subfloor costs, and city breakdowns.",
 		url: "https://www.norbilt.com/blog/flooring-installation-cost-vancouver-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -75,7 +75,7 @@ const additionalCosts = [
 	{ item: "Stair nosing (per step)", cost: "$30 – $80", note: "Needed when flooring transitions to stairs" },
 	{ item: "Transition strips (per piece)", cost: "$20 – $60 installed", note: "Between rooms or at doorways" },
 	{ item: "Baseboard removal & reinstall", cost: "$1 – $2 / lin ft", note: "Or new baseboard install at $3–$6 / lin ft" },
-	{ item: "Furniture moving", cost: "$0 – $200", note: "NORBILT moves standard furniture; appliances extra" },
+	{ item: "Furniture moving", cost: "$0 – $200", note: "Norbilt moves standard furniture; appliances extra" },
 ];
 
 const cityPricing = [
@@ -140,7 +140,7 @@ const faqs = [
 	},
 	{
 		q: "Is flooring installation covered by a warranty?",
-		a: "Yes. All NORBILT flooring installation work is backed by a 1-year workmanship warranty. If a plank lifts, a transition strip comes loose, or a grout line cracks within the first year due to installation, we come back and fix it at no charge. Material warranties are separate and provided by the manufacturer.",
+		a: "Yes. All Norbilt flooring installation work is backed by a 1-year workmanship warranty. If a plank lifts, a transition strip comes loose, or a grout line cracks within the first year due to installation, we come back and fix it at no charge. Material warranties are separate and provided by the manufacturer.",
 	},
 ];
 
@@ -206,7 +206,7 @@ export default function FlooringCostPage() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -362,7 +362,7 @@ export default function FlooringCostPage() {
 						))}
 					</div>
 					<div className="bg-[#1F2E2B] text-white rounded-2xl p-6">
-						<p className="font-black uppercase tracking-tight text-[#FFB800] text-sm mb-2">NORBILT's Approach</p>
+						<p className="font-black uppercase tracking-tight text-[#FFB800] text-sm mb-2">Norbilt's Approach</p>
 						<p className="text-white/80 leading-relaxed">
 							We inspect the subfloor before finalizing any flooring quote. If we
 							find issues, we tell you before we start — with a written cost to
@@ -497,7 +497,7 @@ export default function FlooringCostPage() {
 							Ready to Get Started?
 						</p>
 						<p className="font-black text-xl uppercase tracking-tight">
-							NORBILT installs flooring across Clark County — free estimate, 1-year warranty.
+							Norbilt installs flooring across Clark County — free estimate, 1-year warranty.
 						</p>
 					</div>
 					<div className="flex flex-col sm:flex-row gap-4 shrink-0">

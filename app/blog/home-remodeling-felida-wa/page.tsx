@@ -2,14 +2,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Home Remodeling Felida WA | Costs & Contractors (2026) | NORBILT",
+	title: "Home Remodeling Felida WA | Costs & Contractors (2026) | Norbilt",
 	description:
 		"Home remodeling in Felida WA — 2026 costs for bathroom remodels, kitchen upgrades, finish carpentry, and flooring in Felida Overlook, Lakeshore Park, and Erickson Farms. Licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/home-remodeling-felida-wa",
 	},
 	openGraph: {
-		title: "Home Remodeling Felida WA | 2026 Cost Guide | NORBILT",
+		title: "Home Remodeling Felida WA | 2026 Cost Guide | Norbilt",
 		description:
 			"2026 remodeling costs in Felida WA — bathrooms, kitchens, finish carpentry, and flooring from a licensed Clark County contractor serving northwest Vancouver.",
 		url: "https://www.norbilt.com/blog/home-remodeling-felida-wa",
@@ -35,7 +35,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for remodeling in Felida?",
-		a: "Felida is unincorporated Clark County, so all permits go through Clark County Community Development (564-397-2375). Cosmetic work — paint, flooring, fixture replacements — typically doesn't require a permit. Full bathroom gut remodels, plumbing moves, and structural changes do. NORBILT coordinates permits as part of the project.",
+		a: "Felida is unincorporated Clark County, so all permits go through Clark County Community Development (564-397-2375). Cosmetic work — paint, flooring, fixture replacements — typically doesn't require a permit. Full bathroom gut remodels, plumbing moves, and structural changes do. Norbilt coordinates permits as part of the project.",
 	},
 	{
 		q: "My Felida home was built in the 1980s or 1990s — what should I remodel first?",
@@ -43,7 +43,7 @@ const faqs = [
 	},
 	{
 		q: "How do I find a licensed remodeling contractor in Felida?",
-		a: "Verify any contractor's WA license at the Department of Labor & Industries website. NORBILT holds WA General Contractor License #NORBI**741CS and serves Felida and all of northwest Clark County. Call Andrey at (360) 216-9920 for a free on-site estimate.",
+		a: "Verify any contractor's WA license at the Department of Labor & Industries website. Norbilt holds WA General Contractor License #NORBI**741CS and serves Felida and all of northwest Clark County. Call Andrey at (360) 216-9920 for a free on-site estimate.",
 	},
 ];
 
@@ -67,7 +67,7 @@ export default function BlogPost() {
 								author: { "@type": "Person", name: "Andrey", url: "https://www.norbilt.com/about" },
 								publisher: {
 									"@type": "Organization",
-									name: "NORBILT",
+									name: "Norbilt",
 									url: "https://www.norbilt.com",
 									logo: { "@type": "ImageObject", url: "https://www.norbilt.com/og-image.jpg" },
 								},
@@ -147,7 +147,7 @@ export default function BlogPost() {
 							option — they're looking for the contractor who'll do it right.
 						</p>
 						<p className="text-[#2C3E3A] leading-relaxed">
-							NORBILT serves Felida as part of our northwest Clark County service area. The neighborhoods
+							Norbilt serves Felida as part of our northwest Clark County service area. The neighborhoods
 							we work in regularly include Felida Overlook, Lakeshore Park, Erickson Farms, Felida Park,
 							and Ridgecrest.
 						</p>
@@ -292,7 +292,7 @@ export default function BlogPost() {
 							))}
 						</ul>
 						<p className="text-[#2C3E3A] leading-relaxed">
-							NORBILT holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
+							Norbilt holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
 							and serves Felida and all of northwest Clark County. Andrey can be reached directly at{" "}
 							<a href="tel:+13602169920" className="text-[#2D5A3D] font-bold hover:underline">(360) 216-9920</a>.
 						</p>
@@ -345,7 +345,7 @@ export default function BlogPost() {
 							{[
 								{ href: "/blog/bathroom-remodel-cost-clark-county-wa", label: "Bathroom Remodel Cost in Clark County WA" },
 								{ href: "/blog/finish-carpentry-cost-vancouver-wa", label: "Finish Carpentry Cost in Vancouver WA" },
-								{ href: "/locations/felida", label: "NORBILT Services in Felida WA" },
+								{ href: "/locations/felida", label: "Norbilt Services in Felida WA" },
 								{ href: "/blog/home-remodeling-salmon-creek-wa", label: "Home Remodeling in Salmon Creek WA" },
 							].map(({ href, label }) => (
 								<Link

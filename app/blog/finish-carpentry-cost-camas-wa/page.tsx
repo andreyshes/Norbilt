@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Finish Carpentry Cost Camas WA | Crown Molding, Trim & Wainscoting | NORBILT",
+	title: "Finish Carpentry Cost Camas WA | Crown Molding, Trim & Wainscoting | Norbilt",
 	description:
 		"How much does finish carpentry cost in Camas, WA? Real 2026 price ranges for crown molding, baseboards, wainscoting & built-ins from a licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/finish-carpentry-cost-camas-wa",
 	},
 	openGraph: {
-		title: "Finish Carpentry Cost Camas WA | Crown Molding, Trim & Wainscoting | NORBILT",
+		title: "Finish Carpentry Cost Camas WA | Crown Molding, Trim & Wainscoting | Norbilt",
 		description:
 			"Real 2026 price ranges for crown molding, baseboards, wainscoting & built-ins in Camas WA. From a licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/finish-carpentry-cost-camas-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 const faqs = [
 	{
 		q: "Do I need permits for trim installation in Camas?",
-		a: "No permit is required for cosmetic trim work — baseboard, crown molding, wainscoting, door casing, and chair rail are all cosmetic improvements that do not require a permit in Camas or Clark County. Permits are required for structural changes, electrical work, and plumbing modifications. Pure trim installation falls outside those categories. That said, if your project includes built-in cabinetry with electrical components inside the unit, discuss the scope with your contractor before starting. NORBILT holds WA General Contractor License NORBI**741CS and handles permit questions on every estimate call.",
+		a: "No permit is required for cosmetic trim work — baseboard, crown molding, wainscoting, door casing, and chair rail are all cosmetic improvements that do not require a permit in Camas or Clark County. Permits are required for structural changes, electrical work, and plumbing modifications. Pure trim installation falls outside those categories. That said, if your project includes built-in cabinetry with electrical components inside the unit, discuss the scope with your contractor before starting. Norbilt holds WA General Contractor License NORBI**741CS and handles permit questions on every estimate call.",
 	},
 	{
 		q: "How long does crown molding take for a typical Camas home?",
@@ -39,7 +39,7 @@ const faqs = [
 	},
 	{
 		q: "Do you paint the trim or is that a separate contractor?",
-		a: "NORBILT installs and primes trim — we do not provide finish painting as a standard part of the trim package. After installation, trim is caulked and ready for finish coats. We can refer you to a painter we work with regularly in Camas, or you can paint it yourself. Many homeowners paint trim themselves after installation to manage costs. The sequence is: we install and caulk, then you or your painter applies finish coats. If you want us to coordinate the full project including painting, let us know during the estimate and we will include a subcontractor in the scope.",
+		a: "Norbilt installs and primes trim — we do not provide finish painting as a standard part of the trim package. After installation, trim is caulked and ready for finish coats. We can refer you to a painter we work with regularly in Camas, or you can paint it yourself. Many homeowners paint trim themselves after installation to manage costs. The sequence is: we install and caulk, then you or your painter applies finish coats. If you want us to coordinate the full project including painting, let us know during the estimate and we will include a subcontractor in the scope.",
 	},
 ];
 
@@ -130,7 +130,7 @@ export default function FinishCarpenteryCostCamasPage() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -339,7 +339,7 @@ export default function FinishCarpenteryCostCamasPage() {
 						<div className="border-t border-gray-200 pt-8 space-y-2">
 							<p className="text-xs font-black text-gray-400 uppercase tracking-widest mb-3">Sources &amp; Methodology</p>
 							<ul className="space-y-1 text-xs text-gray-400">
-								<li>2026 Clark County market rates based on NORBILT project data and supplier pricing, August 2026</li>
+								<li>2026 Clark County market rates based on Norbilt project data and supplier pricing, August 2026</li>
 								<li>Lumber pricing reflects 2026 Canadian softwood tariff impact — material costs are up 12–18% vs. 2024</li>
 								<li>Camas housing data sourced from Clark County Assessor records and current MLS comparables</li>
 								<li>WA contractor licensing requirements: Washington State Department of Labor &amp; Industries (L&amp;I.wa.gov)</li>

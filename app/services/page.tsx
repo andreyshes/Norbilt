@@ -46,7 +46,7 @@ export default function ServicesPage() {
 			description:
 				"Tile, fixtures, and full remodel work that transforms your kitchen or bathroom.",
 			longDesc:
-				"Kitchens and bathrooms drive more home value than any other room — and they're the first places buyers look. NORBILT handles every scope in Clark County: full gut remodels, tub-to-shower conversions, vanity and tile upgrades, backsplash installs, and targeted cosmetic refreshes. Licensed WA contractor, 1-year workmanship warranty.",
+				"Kitchens and bathrooms drive more home value than any other room — and they're the first places buyers look. Norbilt handles every scope in Clark County: full gut remodels, tub-to-shower conversions, vanity and tile upgrades, backsplash installs, and targeted cosmetic refreshes. Licensed WA contractor, 1-year workmanship warranty.",
 			items: [
 				"Full Gut Remodels",
 				"Tub-to-Shower Conversion",
@@ -215,7 +215,7 @@ export default function ServicesPage() {
 						</h1>
 
 						<p className="text-xl text-white/80 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6">
-							NORBILT is a licensed general contractor serving Vancouver and all of Clark County. We handle interior repairs, finish carpentry, drywall, flooring, kitchen and bath updates, and full handyman punch lists — all under one roof, with written estimates before any work begins.
+							Norbilt is a licensed general contractor serving Vancouver and all of Clark County. We handle interior repairs, finish carpentry, drywall, flooring, kitchen and bath updates, and full handyman punch lists — all under one roof, with written estimates before any work begins.
 						</p>
 						<div className="flex flex-wrap gap-4 pt-2">
 							<Link
@@ -354,7 +354,7 @@ export default function ServicesPage() {
 					<div className="mt-16 space-y-6">
 						{[
 							{
-								q: "What home repair services does NORBILT offer?",
+								q: "What home repair services does Norbilt offer?",
 								a: "We offer finish carpentry, drywall repair, kitchen and bath updates, flooring repair, door and window services, lighting and fixture installation, and general handyman services. All work is performed by a licensed Washington State general contractor.",
 							},
 							{

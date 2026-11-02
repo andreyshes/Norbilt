@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Flooring Installation Cost Battle Ground WA: 2026 Guide | NORBILT",
+	title: "Flooring Installation Cost Battle Ground WA: 2026 Guide | Norbilt",
 	description:
 		"How much does flooring installation cost in Battle Ground WA? Real 2026 price ranges for LVP, hardwood, tile & carpet from a licensed Clark County contractor. Free estimate. (360) 216-9920.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/flooring-installation-cost-battle-ground-wa",
 	},
 	openGraph: {
-		title: "Flooring Installation Cost in Battle Ground WA | NORBILT",
+		title: "Flooring Installation Cost in Battle Ground WA | Norbilt",
 		description:
 			"LVP, hardwood, tile, and carpet flooring costs in Battle Ground WA. Real 2026 numbers from a local licensed contractor.",
 		url: "https://www.norbilt.com/blog/flooring-installation-cost-battle-ground-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -60,7 +60,7 @@ const drivers = [
 	{ title: "PNW Moisture Makes LVP the Default", body: "Battle Ground gets significant rainfall and many homes have concrete slabs in the lower level. LVP is 100% waterproof, dimensionally stable, and installs directly over concrete — which is why it has become the dominant choice in north Clark County for main living areas and below-grade spaces." },
 	{ title: "1980s–2000s Homes Need Subfloor Work", body: "Many Cherry Grove and Daybreak-era homes have subfloor seams that have shifted over decades, especially near load-bearing walls and transitions. On any project, we assess the subfloor condition before quoting — a flat, solid subfloor is what separates a flooring job that lasts 20 years from one that creaks in 3." },
 	{ title: "Open Floor Plans = Larger Projects", body: "Ranch and split-level homes in Battle Ground often have 800–1,500 sq ft of continuous open living space. That's actually a pricing advantage — fewer transitions, less waste, and less labor per square foot than a room-by-room install." },
-	{ title: "Fewer Licensed Contractors Serve North Clark County", body: "Most flooring contractors are based in Vancouver or Camas. NORBILT is one of the most active licensed contractors specifically in the Battle Ground area, which means faster scheduling, no outsourcing, and someone who actually knows the north county housing stock." },
+	{ title: "Fewer Licensed Contractors Serve North Clark County", body: "Most flooring contractors are based in Vancouver or Camas. Norbilt is one of the most active licensed contractors specifically in the Battle Ground area, which means faster scheduling, no outsourcing, and someone who actually knows the north county housing stock." },
 	{ title: "Asbestos Is Still a Factor in Pre-1985 Homes", body: "Some original sheet vinyl and floor adhesive in homes built before 1985 contains asbestos. Disturbing it without testing is illegal in Washington. We recommend testing on any Cherry Grove home built before 1985 before any flooring removal begins ($150–$400 for certified testing)." },
 ];
 
@@ -79,7 +79,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for flooring installation in Battle Ground?",
-		a: "Standard flooring replacement (carpet, LVP, hardwood) does not require a permit in Battle Ground. Structural subfloor work, adding radiant heat, or modifications that affect the home's systems may require a permit. NORBILT (WA Lic. NORBI**741CS) handles all permitting if needed.",
+		a: "Standard flooring replacement (carpet, LVP, hardwood) does not require a permit in Battle Ground. Structural subfloor work, adding radiant heat, or modifications that affect the home's systems may require a permit. Norbilt (WA Lic. NORBI**741CS) handles all permitting if needed.",
 	},
 	{
 		q: "How long does flooring installation take in Battle Ground?",

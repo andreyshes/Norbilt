@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "7 Signs You Need a Bathroom Remodel | Vancouver WA | NORBILT",
+	title: "7 Signs You Need a Bathroom Remodel | Vancouver WA | Norbilt",
 	description:
 		"Is your bathroom due for an update? Here are 7 signs Vancouver WA homeowners shouldn't ignore — from mold and water damage to outdated fixtures that hurt home value.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/signs-you-need-bathroom-remodel-vancouver-wa",
 	},
 	openGraph: {
-		title: "7 Signs You Need a Bathroom Remodel in Vancouver WA | NORBILT",
+		title: "7 Signs You Need a Bathroom Remodel in Vancouver WA | Norbilt",
 		description:
 			"Don't ignore these warning signs. A Clark County contractor explains when it's time to remodel your bathroom.",
 		url: "https://www.norbilt.com/blog/signs-you-need-bathroom-remodel-vancouver-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -91,7 +91,7 @@ export default function BathroomRemodel() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -265,7 +265,7 @@ export default function BathroomRemodel() {
 				{/* REMODELING INTERNAL LINK */}
 				<div className="max-w-3xl mx-auto px-6 pb-8">
 					<div className="bg-[#1F2E2B] rounded-2xl p-8 text-center">
-						<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">NORBILT · Home Remodeling Contractor</p>
+						<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">Norbilt · Home Remodeling Contractor</p>
 						<h3 className="text-xl font-black text-white mb-3">Ready to Remodel Your Bathroom?</h3>
 						<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">Licensed home remodeling contractor in Vancouver WA. Full gut remodels, tub-to-shower conversions, tile work. Free written estimate.</p>
 						<div className="flex flex-wrap justify-center gap-3">

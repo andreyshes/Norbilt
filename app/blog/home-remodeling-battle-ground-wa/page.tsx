@@ -36,11 +36,11 @@ const faqs = [
 	},
 	{
 		q: "Do I need permits for a home remodel in Battle Ground?",
-		a: "Cosmetic work like painting, flooring, and fixture swaps typically don't require permits. Structural changes, kitchen layout changes, or full bathroom gut remodels may require Clark County permits. NORBILT handles permit coordination when required.",
+		a: "Cosmetic work like painting, flooring, and fixture swaps typically don't require permits. Structural changes, kitchen layout changes, or full bathroom gut remodels may require Clark County permits. Norbilt handles permit coordination when required.",
 	},
 	{
 		q: "How do I find a licensed remodeling contractor in Battle Ground WA?",
-		a: "Look for a WA-licensed general contractor (verifiable at L&I). NORBILT holds WA license #NORBI**741CS and serves all of Battle Ground and Clark County. Call (360) 216-9920 for a free estimate.",
+		a: "Look for a WA-licensed general contractor (verifiable at L&I). Norbilt holds WA license #NORBI**741CS and serves all of Battle Ground and Clark County. Call (360) 216-9920 for a free estimate.",
 	},
 	{
 		q: "How long does a kitchen or bathroom remodel take in Battle Ground?",
@@ -68,7 +68,7 @@ export default function BlogPost() {
 								author: { "@type": "Person", name: "Andrey", url: "https://www.norbilt.com/about" },
 								publisher: {
 									"@type": "Organization",
-									name: "NORBILT",
+									name: "Norbilt",
 									url: "https://www.norbilt.com",
 									logo: { "@type": "ImageObject", url: "https://www.norbilt.com/og-image.jpg" },
 								},
@@ -139,7 +139,7 @@ export default function BlogPost() {
 							putting $15,000 into a dated bathroom before selling can return $25,000 or more at closing.
 						</p>
 						<p className="text-[#2C3E3A] leading-relaxed">
-							NORBILT serves Battle Ground as part of our Clark County service area. We've completed kitchen remodels,
+							Norbilt serves Battle Ground as part of our Clark County service area. We've completed kitchen remodels,
 							bathroom renovations, and full home projects throughout the city — including neighborhoods near
 							Yacolt Road, NW 10th Avenue, and the newer subdivisions off Grace Avenue.
 						</p>
@@ -255,7 +255,7 @@ export default function BlogPost() {
 							))}
 						</ul>
 						<p className="text-[#2C3E3A] leading-relaxed">
-							NORBILT holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
+							Norbilt holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
 							and provides written flat-rate pricing before any project starts. Andrey can be reached directly
 							at <a href="tel:+13602169920" className="text-[#2D5A3D] font-bold hover:underline">(360) 216-9920</a>.
 						</p>
@@ -308,7 +308,7 @@ export default function BlogPost() {
 								{ href: "/blog/bathroom-remodel-cost-battle-ground-wa", label: "Bathroom Remodel Cost in Battle Ground WA" },
 								{ href: "/blog/kitchen-remodel-cost-battle-ground-wa", label: "Kitchen Remodel Cost in Battle Ground WA" },
 								{ href: "/blog/home-remodeling-clark-county-wa", label: "Home Remodeling in Clark County WA" },
-								{ href: "/locations/battle-ground", label: "NORBILT Services in Battle Ground WA" },
+								{ href: "/locations/battle-ground", label: "Norbilt Services in Battle Ground WA" },
 							].map(({ href, label }) => (
 								<Link
 									key={href}

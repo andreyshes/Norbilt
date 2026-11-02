@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Bathroom & Kitchen Remodel Cost Calculator | Clark County WA | NORBILT",
+	title: "Bathroom & Kitchen Remodel Cost Calculator | Clark County WA | Norbilt",
 	description:
 		"Free bathroom and kitchen remodel cost calculator for Clark County WA homeowners. Get an instant estimate for your Vancouver, Camas, or Ridgefield remodel — no signup required.",
 	alternates: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 		description:
 			"Instant remodel cost estimates for Clark County WA homeowners. No email required.",
 		url: "https://www.norbilt.com/calculator",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "website",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},

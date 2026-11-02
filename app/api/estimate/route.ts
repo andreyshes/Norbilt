@@ -21,15 +21,15 @@ export async function POST(req: Request) {
 			? "🟡 WARM"
 			: timelineStr.length > 0 ? "❄️ COLD" : "❓ UNKNOWN";
 
-		const systemPrompt = `You are an expert estimating assistant for NORBILT, a licensed and bonded general contractor in Vancouver, WA (Clark County). You specialize in interior remodeling, finish carpentry, drywall, kitchen and bath updates, door/window installation, flooring, lighting, and general home repair.
+		const systemPrompt = `You are an expert estimating assistant for Norbilt, a licensed and bonded general contractor in Vancouver, WA (Clark County). You specialize in interior remodeling, finish carpentry, drywall, kitchen and bath updates, door/window installation, flooring, lighting, and general home repair.
 
 ## 2026 Clark County / Vancouver WA Market Rate Reference
 
 Use these verified local rates as your primary reference for every estimate.
 
 **Labor**
-- Licensed contractor labor: $65–$95/hr (NORBILT rate)
-- Unlicensed handymen: $35–$55/hr (cannot pull permits; not applicable for NORBILT estimates)
+- Licensed contractor labor: $65–$95/hr (Norbilt rate)
+- Unlicensed handymen: $35–$55/hr (cannot pull permits; not applicable for Norbilt estimates)
 - Tile setter: $8–$18/sq ft labor only
 - Flooring installer: $3–$6/sq ft labor (LVP/hardwood); $6–$12/sq ft (tile)
 - Painter: $2–$4/sq ft walls; $1–$2/sq ft ceilings (labor only)
@@ -141,7 +141,7 @@ Use these verified local rates as your primary reference for every estimate.
 - Vancouver's wet climate means moisture damage is frequently found behind tile and under subfloors — flag this risk for any bathroom or kitchen estimate
 
 **Estimating Principles**
-- NORBILT is a quality contractor — not budget, not luxury. Estimates should reflect skilled licensed labor, proper materials, and professional finish.
+- Norbilt is a quality contractor — not budget, not luxury. Estimates should reflect skilled licensed labor, proper materials, and professional finish.
 - Always account for mobilization, cleanup, and protection of adjacent surfaces.
 - When scope is vague, give a wider range and set confidence to Medium or Low.
 - Never estimate below your minimum viable job cost — small jobs under $300 are rarely worth quoting below that floor.`;
@@ -177,7 +177,7 @@ Use the 2026 Clark County rate sheet in your system instructions. Provide a real
   ],
   "recommendation": "<1–2 sentence professional tip or insight for this specific project>",
   "confidence": "<'High', 'Medium', or 'Low' based on detail level provided>",
-  "disclaimer": "This AI estimate is based on typical project parameters. Final pricing depends on site conditions, material choices, and exact project scope. NORBILT provides free on-site assessments with detailed written quotes."
+  "disclaimer": "This AI estimate is based on typical project parameters. Final pricing depends on site conditions, material choices, and exact project scope. Norbilt provides free on-site assessments with detailed written quotes."
 }`;
 
 		const message = await client.messages.create({
@@ -209,9 +209,9 @@ Use the 2026 Clark County rate sheet in your system instructions. Provide a real
 		// Fire lead notification + auto-reply in parallel (non-blocking)
 		if (name || email) {
 			Promise.all([
-				// Notification to NORBILT
+				// Notification to Norbilt
 				resend.emails.send({
-					from: "NORBILT Estimator <hello@norbilt.com>",
+					from: "Norbilt Estimator <hello@norbilt.com>",
 					to: ["hello@norbilt.com"],
 					replyTo: email || "no-reply@norbilt.com",
 					subject: `[${leadTemp}] New AI Estimate Lead — ${service} — ${city || "Clark County"}`,
@@ -242,13 +242,13 @@ Use the 2026 Clark County rate sheet in your system instructions. Provide a real
 
 				// Auto-reply to homeowner with their estimate summary
 				email ? resend.emails.send({
-					from: "Andrey at NORBILT <hello@norbilt.com>",
+					from: "Andrey at Norbilt <hello@norbilt.com>",
 					to: [email],
-					subject: `Your ${service} estimate — NORBILT`,
+					subject: `Your ${service} estimate — Norbilt`,
 					html: `
 						<div style="font-family:sans-serif;max-width:560px;margin:0 auto;color:#1F2E2B">
 							<div style="background:#1F2E2B;padding:24px 32px;border-radius:12px 12px 0 0">
-								<p style="color:#FFB800;font-weight:900;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin:0">NORBILT · Licensed General Contractor</p>
+								<p style="color:#FFB800;font-weight:900;font-size:13px;letter-spacing:0.1em;text-transform:uppercase;margin:0">Norbilt · Licensed General Contractor</p>
 							</div>
 							<div style="background:#ffffff;padding:32px;border:1px solid #E8E4DE;border-top:none;border-radius:0 0 12px 12px">
 								<h2 style="font-size:22px;font-weight:900;text-transform:uppercase;letter-spacing:-0.02em;margin:0 0 8px">
@@ -274,7 +274,7 @@ Use the 2026 Clark County rate sheet in your system instructions. Provide a real
 									(360) 216-9920
 								</a>
 								<p style="color:#9CA3AF;font-size:12px;margin:24px 0 0">
-									Andrey · NORBILT · Licensed WA General Contractor · Clark County
+									Andrey · Norbilt · Licensed WA General Contractor · Clark County
 								</p>
 							</div>
 						</div>

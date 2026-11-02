@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Baseboard Installation & Finish Carpentry Vancouver WA | 2026 Costs | NORBILT",
+	title: "Baseboard Installation & Finish Carpentry Vancouver WA | 2026 Costs | Norbilt",
 	description:
 		"Licensed baseboard installation & finish carpentry contractor in Vancouver WA — baseboards, crown molding, door casing, wainscoting & built-ins. All Clark County. Free estimate. (360) 216-9920.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/finish-carpentry-cost-vancouver-wa",
 	},
 	openGraph: {
-		title: "Finish Carpentry Cost in Vancouver WA: 2026 Pricing Guide | NORBILT",
+		title: "Finish Carpentry Cost in Vancouver WA: 2026 Pricing Guide | Norbilt",
 		description:
 			"Real 2026 cost breakdown for finish carpentry in Vancouver WA and Clark County. Baseboard, crown molding, wainscoting, built-ins, and what drives the price.",
 		url: "https://www.norbilt.com/blog/finish-carpentry-cost-vancouver-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -138,7 +138,7 @@ export default function FinishCarpentryBlogPost() {
 						"author": { "@id": "https://www.norbilt.com/#founder" },
 						"publisher": {
 							"@type": "Organization",
-							"name": "NORBILT",
+							"name": "Norbilt",
 							"url": "https://www.norbilt.com",
 						},
 						"mainEntityOfPage": "https://www.norbilt.com/blog/finish-carpentry-cost-vancouver-wa",
@@ -451,7 +451,7 @@ export default function FinishCarpentryBlogPost() {
 						Get a Free Trim Estimate in Vancouver WA
 					</h2>
 					<p className="text-[#A7C4B5] font-medium mb-8 max-w-lg mx-auto">
-						NORBILT installs baseboards, crown molding, wainscoting, and custom trim throughout Clark County. Licensed, 5-star rated, and backed by a 1-year workmanship warranty.
+						Norbilt installs baseboards, crown molding, wainscoting, and custom trim throughout Clark County. Licensed, 5-star rated, and backed by a 1-year workmanship warranty.
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">
 						<Link

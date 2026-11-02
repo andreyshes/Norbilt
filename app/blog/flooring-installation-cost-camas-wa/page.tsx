@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Flooring Installation Cost Camas WA | LVP, Tile & Hardwood | NORBILT",
+	title: "Flooring Installation Cost Camas WA | LVP, Tile & Hardwood | Norbilt",
 	description:
 		"How much does flooring installation cost in Camas, WA? Real price ranges for LVP, hardwood, and tile from a licensed Clark County contractor. Free estimates.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/flooring-installation-cost-camas-wa",
 	},
 	openGraph: {
-		title: "Flooring Installation Cost in Camas WA | NORBILT",
+		title: "Flooring Installation Cost in Camas WA | Norbilt",
 		description:
 			"LVP, hardwood, and tile flooring costs in Camas and Clark County WA. Real numbers from a local licensed contractor.",
 		url: "https://www.norbilt.com/blog/flooring-installation-cost-camas-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -90,7 +90,7 @@ export default function FlooringCost() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 

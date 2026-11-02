@@ -20,11 +20,11 @@ import {
 import SectionHeader from "@/app/components/SectionHeader";
 
 export const metadata = {
-	title: "Small Repairs & Handyman Services Vancouver WA | Same-Day | NORBILT",
+	title: "Small Repairs & Handyman Services Vancouver WA | Same-Day | Norbilt",
 	description: "Same-day small repairs and handyman services in Vancouver WA and Clark County. TV mounting, furniture assembly, caulking, grab bars, and minor task lists — by the task. Licensed & insured. Free estimates. (360) 216-9920.",
 	alternates: { canonical: "https://www.norbilt.com/services/handyman" },
 	openGraph: {
-		title: "Small Repairs & Handyman Services Vancouver WA | NORBILT",
+		title: "Small Repairs & Handyman Services Vancouver WA | Norbilt",
 		description: "Same-day small repairs in Vancouver WA. TV mounting, furniture assembly, caulking, grab bars, minor fixes. No project too small.",
 		url: "https://www.norbilt.com/services/handyman",
 	},
@@ -83,7 +83,7 @@ export default function HandymanPage() {
 							{
 								"@type": "LocalBusiness",
 								"@id": "https://www.norbilt.com/#business",
-								"name": "NORBILT",
+								"name": "Norbilt",
 								"url": "https://www.norbilt.com",
 								"telephone": "+13602169920",
 								"address": {
@@ -118,7 +118,7 @@ export default function HandymanPage() {
 										"name": "What small repairs can you do same day in Vancouver WA?",
 										"acceptedAnswer": {
 											"@type": "Answer",
-											"text": "NORBILT handles same-day or next-day small repairs including TV mounting, furniture assembly, shelf hanging, grab bar installation, smart lock installation, caulking, door adjustments, fixture swaps, and minor punch lists throughout Clark County."
+											"text": "Norbilt handles same-day or next-day small repairs including TV mounting, furniture assembly, shelf hanging, grab bar installation, smart lock installation, caulking, door adjustments, fixture swaps, and minor punch lists throughout Clark County."
 										}
 									},
 									{
@@ -134,7 +134,7 @@ export default function HandymanPage() {
 										"name": "Is there a minimum job size?",
 										"acceptedAnswer": {
 											"@type": "Answer",
-											"text": "No. NORBILT has no minimum job size. One TV mount, one grab bar, one fixture — we price it flat and show up. Most small jobs in Clark County are completed in a single visit."
+											"text": "No. Norbilt has no minimum job size. One TV mount, one grab bar, one fixture — we price it flat and show up. Most small jobs in Clark County are completed in a single visit."
 										}
 									},
 									{
@@ -236,7 +236,7 @@ export default function HandymanPage() {
 			<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 				<div className="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 					<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</a>
-					<span>· WA Licensed General Contractor · NORBILT · Updated June 2026</span>
+					<span>· WA Licensed General Contractor · Norbilt · Updated June 2026</span>
 				</div>
 			</div>
 
@@ -275,7 +275,7 @@ export default function HandymanPage() {
 							</h2>
 
 							<p className="text-gray-600 text-lg font-medium leading-relaxed">
-								Got a task list that never gets done? NORBILT specializes in
+								Got a task list that never gets done? Norbilt specializes in
 								the small, no-permit jobs Clark County homeowners put off —
 								TV mounting, assembly, caulking, grab bars, minor door fixes.
 								We show up prepared, work fast, and leave the site clean.
@@ -320,7 +320,7 @@ export default function HandymanPage() {
 											Licensed Means Accountable
 										</span>
 										<p className="text-[#A7C4B5] text-sm font-medium">
-											Unlike app-based handymen, NORBILT is a licensed WA
+											Unlike app-based handymen, Norbilt is a licensed WA
 											contractor — insured, bonded, and accountable if
 											anything goes wrong.
 										</p>
@@ -496,7 +496,7 @@ export default function HandymanPage() {
 								Recurring Handyman Services for Clark County Landlords &amp; Property Managers
 							</h2>
 							<p className="text-gray-700 font-medium leading-relaxed">
-								Managing rental units, vacation properties, or a multi-property portfolio in Clark County? NORBILT works with landlords and property managers on a recurring basis — unit turnover repairs, between-tenant punch lists, maintenance calls, and scheduled seasonal tasks. One licensed contact, consistent quality across all your properties, no job-minimum hassle. We prioritize repeat clients and can hold scheduled maintenance slots for properties that need regular attention.
+								Managing rental units, vacation properties, or a multi-property portfolio in Clark County? Norbilt works with landlords and property managers on a recurring basis — unit turnover repairs, between-tenant punch lists, maintenance calls, and scheduled seasonal tasks. One licensed contact, consistent quality across all your properties, no job-minimum hassle. We prioritize repeat clients and can hold scheduled maintenance slots for properties that need regular attention.
 							</p>
 							<p className="text-gray-600 font-medium leading-relaxed">
 								Call <a href="tel:+13602169920" className="text-[#2D5A3D] font-black hover:underline">(360) 216-9920</a> to discuss a recurring service arrangement for your properties.
@@ -577,7 +577,7 @@ export default function HandymanPage() {
 					<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 						{[
 							{
-								quote: "We had a positive experience with NORBILT here in Vancouver, WA. I worked with Andrey, who was courteous, professional, efficient, and delivered high-quality work in a timely manner. It's hard to find reliable help these days, and I truly appreciated his attention to detail and expertise.",
+								quote: "We had a positive experience with Norbilt here in Vancouver, WA. I worked with Andrey, who was courteous, professional, efficient, and delivered high-quality work in a timely manner. It's hard to find reliable help these days, and I truly appreciated his attention to detail and expertise.",
 								name: "M. Taylor",
 								location: "Vancouver, WA",
 							},
@@ -587,7 +587,7 @@ export default function HandymanPage() {
 								location: "Vancouver, WA",
 							},
 							{
-								quote: "Great experience with NORBILT. Andrey and his team were professional, easy to work with, and delivered high-quality work. Everything was smooth from start to finish. Highly recommend!",
+								quote: "Great experience with Norbilt. Andrey and his team were professional, easy to work with, and delivered high-quality work. Everything was smooth from start to finish. Highly recommend!",
 								name: "Sam Y.",
 								location: "Vancouver, WA",
 							},
@@ -597,7 +597,7 @@ export default function HandymanPage() {
 								location: "Vancouver, WA",
 							},
 							{
-								quote: "I had a great experience working with NORBILT on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. Andrey was especially helpful — he made sure everything stayed on track and met my expectations.",
+								quote: "I had a great experience working with Norbilt on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. Andrey was especially helpful — he made sure everything stayed on track and met my expectations.",
 								name: "Taylor K.",
 								location: "Vancouver, WA",
 							},

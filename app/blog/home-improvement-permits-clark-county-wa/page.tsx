@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, XCircle, Phone, MapPin } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Home Improvement Permits in Clark County WA: What You Need (2026) | NORBILT",
+	title: "Home Improvement Permits in Clark County WA: What You Need (2026) | Norbilt",
 	description:
 		"Which home improvement projects require a permit in Clark County WA? A licensed contractor explains what needs a permit, what doesn't, and how to avoid costly mistakes.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/home-improvement-permits-clark-county-wa",
 	},
 	openGraph: {
-		title: "Home Improvement Permits in Clark County WA: What You Need (2026) | NORBILT",
+		title: "Home Improvement Permits in Clark County WA: What You Need (2026) | Norbilt",
 		description:
 			"When do you need a permit for home improvement in Clark County WA? Real answers from a licensed contractor — what's required, what's not, and what happens if you skip it.",
 		url: "https://www.norbilt.com/blog/home-improvement-permits-clark-county-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -120,12 +120,12 @@ const faqs = [
 		a: "Yes — homeowners can pull their own permits for work on their primary residence. However, the homeowner then assumes responsibility for ensuring the work meets code and passes inspection. For most projects, having your licensed contractor pull the permit is simpler and keeps liability in the right place.",
 	},
 	{
-		q: "Does NORBILT pull permits on my behalf?",
-		a: "Yes. For any project that requires a permit, NORBILT handles the application as part of the job. We know which jurisdiction applies to your address, what documents are required, and how to schedule inspections. Permit fees are passed through at cost — we don't mark them up.",
+		q: "Does Norbilt pull permits on my behalf?",
+		a: "Yes. For any project that requires a permit, Norbilt handles the application as part of the job. We know which jurisdiction applies to your address, what documents are required, and how to schedule inspections. Permit fees are passed through at cost — we don't mark them up.",
 	},
 	{
 		q: "Is a permit required for a bathroom remodel in Clark County?",
-		a: "It depends on the scope. Cosmetic refreshes — new fixtures, tile, vanity in the same location, recaulk — do not require a permit. If you're moving plumbing (relocated sink, new drain for tub-to-shower conversion, toilet relocation), a permit is required. NORBILT will tell you during the estimate whether your specific scope needs a permit.",
+		a: "It depends on the scope. Cosmetic refreshes — new fixtures, tile, vanity in the same location, recaulk — do not require a permit. If you're moving plumbing (relocated sink, new drain for tub-to-shower conversion, toilet relocation), a permit is required. Norbilt will tell you during the estimate whether your specific scope needs a permit.",
 	},
 	{
 		q: "Do I need a permit to replace a water heater in Clark County?",
@@ -189,7 +189,7 @@ export default function PermitsClarkCountyPage() {
 					<div className="bg-[#2D5A3D]/10 border-l-4 border-[#2D5A3D] rounded-r-2xl p-6 my-6">
 						<p className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] mb-2">Quick Answer</p>
 						<p className="text-gray-700 leading-relaxed text-sm">
-							Cosmetic work — paint, flooring, fixture swaps, tile, countertops, and trim — does <strong>not</strong> require a permit in Clark County. Permits are required for plumbing relocation, new electrical circuits, structural changes, additions, deck construction, HVAC installation, and water heater replacement. The permit authority depends on your address: unincorporated county addresses use Clark County Community Development (564-397-2375), while addresses inside city limits use that city's permit office. NORBILT pulls all required permits as part of the project.
+							Cosmetic work — paint, flooring, fixture swaps, tile, countertops, and trim — does <strong>not</strong> require a permit in Clark County. Permits are required for plumbing relocation, new electrical circuits, structural changes, additions, deck construction, HVAC installation, and water heater replacement. The permit authority depends on your address: unincorporated county addresses use Clark County Community Development (564-397-2375), while addresses inside city limits use that city's permit office. Norbilt pulls all required permits as part of the project.
 						</p>
 					</div>
 					<p className="text-white/70 text-xl font-medium leading-relaxed max-w-2xl border-l-4 border-[#FFB800] pl-6">
@@ -202,7 +202,7 @@ export default function PermitsClarkCountyPage() {
 			<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 				<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 					<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-					<span>· WA Licensed General Contractor · NORBILT</span>
+					<span>· WA Licensed General Contractor · Norbilt</span>
 				</div>
 			</div>
 
@@ -267,7 +267,7 @@ export default function PermitsClarkCountyPage() {
 						Where to Get a Permit in Clark County
 					</h2>
 					<p className="text-gray-600 font-medium">
-						Clark County uses a split permit system — your address determines which office handles your permit. NORBILT confirms jurisdiction during the estimate.
+						Clark County uses a split permit system — your address determines which office handles your permit. Norbilt confirms jurisdiction during the estimate.
 					</p>
 					<div className="grid md:grid-cols-2 gap-5">
 						{permitOffices.map((office, i) => (
@@ -317,7 +317,7 @@ export default function PermitsClarkCountyPage() {
 						</table>
 					</div>
 					<p className="text-sm text-gray-400 italic">
-						Fees are set by each jurisdiction and subject to change. NORBILT confirms current fee schedules during the estimate.
+						Fees are set by each jurisdiction and subject to change. Norbilt confirms current fee schedules during the estimate.
 					</p>
 				</section>
 
@@ -384,13 +384,13 @@ export default function PermitsClarkCountyPage() {
 				<div className="bg-[#1F2E2B] rounded-3xl p-8 text-white flex flex-col md:flex-row items-center justify-between gap-6">
 					<div>
 						<p className="text-xs font-black uppercase tracking-widest text-[#FFB800] mb-2">
-							NORBILT · Licensed General Contractor · Clark County WA
+							Norbilt · Licensed General Contractor · Clark County WA
 						</p>
 						<p className="font-black text-xl uppercase tracking-tight">
 							We handle permits so you don't have to.
 						</p>
 						<p className="text-[#A7C4B5] font-medium mt-2 max-w-sm">
-							Every NORBILT project that requires a permit gets one. We apply, schedule inspections, and close out the permit — included in the project price.
+							Every Norbilt project that requires a permit gets one. We apply, schedule inspections, and close out the permit — included in the project price.
 						</p>
 					</div>
 					<div className="flex flex-col sm:flex-row gap-3 shrink-0">

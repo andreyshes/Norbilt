@@ -57,7 +57,7 @@ const serviceTypes = [
 const faqs = [
 	{
 		q: "Do I need a permit for a kitchen or bathroom remodel in Clark County?",
-		a: "Minor cosmetic updates — hardware, fixtures, caulk, tile — do not require a permit. Permits are required when moving plumbing, electrical, or walls. NORBILT pulls permits when needed and knows Clark County's requirements.",
+		a: "Minor cosmetic updates — hardware, fixtures, caulk, tile — do not require a permit. Permits are required when moving plumbing, electrical, or walls. Norbilt pulls permits when needed and knows Clark County's requirements.",
 	},
 	{
 		q: "What is the difference between a cosmetic update and a full remodel?",
@@ -81,7 +81,7 @@ const faqs = [
 	},
 	{
 		q: "Is your kitchen and bathroom work covered by a warranty?",
-		a: "Yes. All NORBILT kitchen and bathroom work is backed by a 1-year workmanship warranty. If caulk fails, tile lifts, or any installed fixture has a workmanship issue, we return and fix it at no charge within the warranty period.",
+		a: "Yes. All Norbilt kitchen and bathroom work is backed by a 1-year workmanship warranty. If caulk fails, tile lifts, or any installed fixture has a workmanship issue, we return and fix it at no charge within the warranty period.",
 	},
 ];
 
@@ -114,7 +114,7 @@ const schema = {
 		},
 		{
 			"@type": "LocalBusiness",
-			name: "NORBILT",
+			name: "Norbilt",
 			url: "https://www.norbilt.com/services/kitchen-bath",
 			telephone: "+1-3602169920",
 			areaServed: "Clark County, WA",
@@ -140,7 +140,7 @@ const schema = {
 };
 
 export const metadata = {
-	title: "Kitchen & Bathroom Remodeling in Vancouver WA | Licensed Contractor | NORBILT",
+	title: "Kitchen & Bathroom Remodeling in Vancouver WA | Licensed Contractor | Norbilt",
 	description:
 		"Licensed kitchen and bathroom remodeling contractor in Vancouver WA and Clark County. Full remodels, tub-to-shower conversions, tile, vanity, backsplash & more. Free same-week estimates. 1-year warranty.",
 };
@@ -198,7 +198,7 @@ export default function KitchenBathPage() {
 						</h1>
 
 						<p className="text-xl text-white/90 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6">
-							From a Full gut remodels, tub-to-shower conversions, vanity and tile replacements, kitchen updates, and cosmetic refreshes — NORBILT handles every level of kitchen and bathroom remodeling in Clark County. Licensed WA contractor, backed by a 1-year workmanship warranty.
+							From a Full gut remodels, tub-to-shower conversions, vanity and tile replacements, kitchen updates, and cosmetic refreshes — Norbilt handles every level of kitchen and bathroom remodeling in Clark County. Licensed WA contractor, backed by a 1-year workmanship warranty.
 						</p>
 
 						<div className="pt-4">
@@ -232,7 +232,7 @@ export default function KitchenBathPage() {
 			<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 				<div className="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 					<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</a>
-					<span>· WA Licensed General Contractor · NORBILT · Updated June 2026</span>
+					<span>· WA Licensed General Contractor · Norbilt · Updated June 2026</span>
 				</div>
 			</div>
 
@@ -272,7 +272,7 @@ export default function KitchenBathPage() {
 							</h2>
 
 							<p className="text-gray-600 text-lg font-medium leading-relaxed">
-								Kitchens and bathrooms drive more home value than any other room — and they're the first places buyers look. NORBILT specializes in <strong>kitchen and bathroom remodeling</strong> at every scope in Clark County: full gut remodels, tub-to-shower conversions, vanity and tile upgrades, and targeted cosmetic refreshes. We focus on what actually moves the needle on home value.
+								Kitchens and bathrooms drive more home value than any other room — and they're the first places buyers look. Norbilt specializes in <strong>kitchen and bathroom remodeling</strong> at every scope in Clark County: full gut remodels, tub-to-shower conversions, vanity and tile upgrades, and targeted cosmetic refreshes. We focus on what actually moves the needle on home value.
 							</p>
 
 							<p className="text-gray-600 font-medium leading-relaxed">
@@ -292,7 +292,7 @@ export default function KitchenBathPage() {
 										href="/remodel-promise"
 										className="text-xs font-bold text-[#2D5A3D] hover:text-[#FFB800] transition-colors mt-1 inline-block"
 									>
-										Every remodel is backed by the NORBILT Remodel Promise →
+										Every remodel is backed by the Norbilt Remodel Promise →
 									</Link>
 								</div>
 							</div>
@@ -426,7 +426,7 @@ export default function KitchenBathPage() {
 						</table>
 					</div>
 					<p className="text-sm text-gray-400 italic mt-4">
-						Timelines start from project kickoff, not from when you first reach out. Cabinet lead time is the most common schedule driver — NORBILT orders materials as soon as the scope is confirmed.
+						Timelines start from project kickoff, not from when you first reach out. Cabinet lead time is the most common schedule driver — Norbilt orders materials as soon as the scope is confirmed.
 					</p>
 				</div>
 			</section>

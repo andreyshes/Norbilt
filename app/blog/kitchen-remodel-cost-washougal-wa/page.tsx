@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Kitchen Remodel Cost Washougal WA | Licensed Contractor & 2026 Prices | NORBILT",
+	title: "Kitchen Remodel Cost Washougal WA | Licensed Contractor & 2026 Prices | Norbilt",
 	description:
 		"How much does a kitchen remodel cost in Washougal WA? Real 2026 prices from a $1,500 cosmetic refresh to a $80,000 full gut — from a licensed Clark County contractor. Free estimate. (360) 216-9920.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/kitchen-remodel-cost-washougal-wa",
 	},
 	openGraph: {
-		title: "Kitchen Remodel Cost in Washougal WA | NORBILT",
+		title: "Kitchen Remodel Cost in Washougal WA | Norbilt",
 		description:
 			"Real 2026 price ranges for kitchen remodels in Washougal WA — cosmetic refresh through full gut. From a licensed contractor serving east Clark County.",
 		url: "https://www.norbilt.com/blog/kitchen-remodel-cost-washougal-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -139,11 +139,11 @@ const drivers = [
 	},
 	{
 		title: "Fewer Licensed Contractors in East Clark County",
-		body: "Most licensed contractors are concentrated in Vancouver and Camas. NORBILT is one of the few licensed remodeling contractors actively working in Washougal — which means faster scheduling, direct communication, and no subcontracting the work out to strangers.",
+		body: "Most licensed contractors are concentrated in Vancouver and Camas. Norbilt is one of the few licensed remodeling contractors actively working in Washougal — which means faster scheduling, direct communication, and no subcontracting the work out to strangers.",
 	},
 	{
 		title: "Permits Are Required for Layout Changes",
-		body: "Cosmetic work — counters, backsplash, hardware, lighting at existing boxes — doesn't require a permit. Moving plumbing, adding a gas line, removing a wall, or relocating electrical does. NORBILT (WA Lic. NORBI**741CS) handles all permits and inspections.",
+		body: "Cosmetic work — counters, backsplash, hardware, lighting at existing boxes — doesn't require a permit. Moving plumbing, adding a gas line, removing a wall, or relocating electrical does. Norbilt (WA Lic. NORBI**741CS) handles all permits and inspections.",
 	},
 ];
 
@@ -162,7 +162,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for a kitchen remodel in Washougal WA?",
-		a: "Cosmetic work — counters, backsplash, hardware, light fixtures at existing boxes — typically does not require a permit. Plumbing relocation, wall removal, gas line work, or electrical panel changes do. NORBILT (WA Lic. NORBI**741CS) handles all permitting and inspections for permitted scope.",
+		a: "Cosmetic work — counters, backsplash, hardware, light fixtures at existing boxes — typically does not require a permit. Plumbing relocation, wall removal, gas line work, or electrical panel changes do. Norbilt (WA Lic. NORBI**741CS) handles all permitting and inspections for permitted scope.",
 	},
 	{
 		q: "How long does a kitchen remodel take in Washougal?",

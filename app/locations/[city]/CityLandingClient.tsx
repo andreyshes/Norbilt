@@ -46,11 +46,11 @@ export default function CityLandingClient({ city, citySlug }: any) {
 	const genericFaqs = [
 		{
 			q: `Do you provide home repairs in ${cityNameShort}?`,
-			a: `Yes. NORBILT serves all ${cityNameShort} homeowners. We handle small handyman tasks and full interior remodeling.`,
+			a: `Yes. Norbilt serves all ${cityNameShort} homeowners. We handle small handyman tasks and full interior remodeling.`,
 		},
 		{
 			q: `Are you a licensed general contractor in ${cityNameShort}, WA?`,
-			a: `Yes. NORBILT is a licensed, bonded, and insured general contractor. We provide professional repair services with integrity.`,
+			a: `Yes. Norbilt is a licensed, bonded, and insured general contractor. We provide professional repair services with integrity.`,
 		},
 		{
 			q: `Which neighborhoods in ${cityNameShort} do you visit?`,
@@ -79,7 +79,7 @@ export default function CityLandingClient({ city, citySlug }: any) {
 							{
 								"@type": "GeneralContractor",
 								"@id": `https://www.norbilt.com/locations/${citySlug}#contractor`,
-								name: "NORBILT",
+								name: "Norbilt",
 								telephone: "+13602169920",
 								url: `https://www.norbilt.com/locations/${citySlug}`,
 								areaServed: {
@@ -120,7 +120,7 @@ export default function CityLandingClient({ city, citySlug }: any) {
 							<span className="text-[#FFB800]">in {cityNameShort}, WA</span>
 						</h1>
 						<p className="text-xl text-white/70 max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6 leading-relaxed mb-10">
-							NORBILT is a licensed home remodeling contractor serving {cityNameShort} homeowners. We
+							Norbilt is a licensed home remodeling contractor serving {cityNameShort} homeowners. We
 							specialize in{" "}
 							<Link
 								href={`/locations/${citySlug}/kitchen-bath`}
@@ -351,7 +351,7 @@ export default function CityLandingClient({ city, citySlug }: any) {
 							Local Trust
 						</h3>
 						<p className="text-[#A7C4B5] italic mb-8">
-							"NORBILT provides the best contracting service in {cityNameShort}.
+							"Norbilt provides the best contracting service in {cityNameShort}.
 							They are professional, clean, and fast."
 						</p>
 						<div className="h-px w-20 bg-[#FFB800] mx-auto mb-4" />
@@ -376,7 +376,7 @@ export default function CityLandingClient({ city, citySlug }: any) {
 									Business Information
 								</p>
 								<p className="text-2xl font-black text-[#1F2E2B] mb-1">
-									NORBILT Home Repairs
+									Norbilt Home Repairs
 								</p>
 								<p className="text-gray-600 font-medium mb-4">
 									Licensed • Bonded • Insured
@@ -396,7 +396,7 @@ export default function CityLandingClient({ city, citySlug }: any) {
 								</div>
 							</div>
 							<p className="text-gray-500 italic text-sm leading-relaxed">
-								NORBILT is a mobile service provider. We bring high-end
+								Norbilt is a mobile service provider. We bring high-end
 								craftsmanship to your home in {cityNameShort}. Our estimates are
 								clear and our work is guaranteed.
 							</p>
@@ -405,7 +405,7 @@ export default function CityLandingClient({ city, citySlug }: any) {
 
 					<div className="h-[450px] rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white group relative">
 						<iframe
-							title={`NORBILT Service Area in ${cityNameShort}`}
+							title={`Norbilt Service Area in ${cityNameShort}`}
 							src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30137.21939619426!2d-122.59410019641753!3d45.70856868339603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1771813681184!5m2!1sen!2sus"
 							width="100%"
 							height="100%"
@@ -477,7 +477,7 @@ export default function CityLandingClient({ city, citySlug }: any) {
 								<span className="text-[#FFB800]">Book Today.</span>
 							</h2>
 							<p className="text-[#A7C4B5] text-lg font-medium max-w-xl mx-auto">
-								NORBILT is {cityNameShort}&apos;s licensed, 5-star rated contractor. Free written estimates. 1-year workmanship warranty on every job. Spots fill fast — don&apos;t wait.
+								Norbilt is {cityNameShort}&apos;s licensed, 5-star rated contractor. Free written estimates. 1-year workmanship warranty on every job. Spots fill fast — don&apos;t wait.
 							</p>
 							<div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
 								<Link

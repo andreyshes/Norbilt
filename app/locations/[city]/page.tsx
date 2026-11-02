@@ -15,14 +15,14 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 
 	if (!cityData || !cityData.name) {
 		return {
-			title: "Local Home Remodeling Contractor | NORBILT",
+			title: "Local Home Remodeling Contractor | Norbilt",
 			description:
-				"NORBILT is a licensed home remodeling contractor in Clark County WA. Kitchen & bath remodels, finish carpentry, flooring & more. Free estimates.",
+				"Norbilt is a licensed home remodeling contractor in Clark County WA. Kitchen & bath remodels, finish carpentry, flooring & more. Free estimates.",
 		};
 	}
 
 	const cityName = cityData.name?.split(",")[0] || "Local";
-	const shortTitle = `Home Remodeling Contractor in ${cityName} WA | Licensed | NORBILT`;
+	const shortTitle = `Home Remodeling Contractor in ${cityName} WA | Licensed | Norbilt`;
 
 	const cityDescriptions: Record<string, string> = {
 		camas: "Camas home remodeling contractor — kitchen & bath remodels, finish carpentry & flooring on Prune Hill, Lacamas Shores & all Camas neighborhoods. Licensed, 5-star rated. Free estimate. (360) 216-9920.",
@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 			title: shortTitle,
 			description: fullDesc,
 			url: pageUrl,
-			siteName: "NORBILT",
+			siteName: "Norbilt",
 			locale: "en_US",
 			type: "website",
 			images: [
@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 					url: "https://www.norbilt.com/og-image.jpg",
 					width: 1200,
 					height: 630,
-					alt: `NORBILT Services in ${cityName} WA`,
+					alt: `Norbilt Services in ${cityName} WA`,
 				},
 			],
 		},
@@ -75,7 +75,7 @@ export default async function Page({ params }: any) {
 		"@context": "https://schema.org",
 		"@type": "LocalBusiness",
 		"@id": pageUrl,
-		name: `NORBILT — General Contractor in ${cityName} WA`,
+		name: `Norbilt — General Contractor in ${cityName} WA`,
 		url: pageUrl,
 		telephone: "+13602169920",
 		email: "hello@norbilt.com",

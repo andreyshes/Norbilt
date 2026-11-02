@@ -17,11 +17,11 @@ import {
 import SectionHeader from "@/app/components/SectionHeader";
 
 export const metadata = {
-	title: "Home Repair & Restoration Near Me Vancouver WA | Licensed | NORBILT",
+	title: "Home Repair & Restoration Near Me Vancouver WA | Licensed | Norbilt",
 	description: "Home repair & restoration near you in Vancouver WA & Clark County. Licensed contractor for drywall, fixtures, doors, weatherization & more. Free written estimates. (360) 216-9920.",
 	alternates: { canonical: "https://www.norbilt.com/services/home-repair" },
 	openGraph: {
-		title: "Home Repairs Near Me Vancouver WA | NORBILT",
+		title: "Home Repairs Near Me Vancouver WA | Norbilt",
 		description: "Licensed home repair services near you in Vancouver WA & Clark County.",
 		url: "https://www.norbilt.com/services/home-repair",
 	},
@@ -80,7 +80,7 @@ export default function HomeRepairPage() {
 							{
 								"@type": "LocalBusiness",
 								"@id": "https://www.norbilt.com/#business",
-								"name": "NORBILT",
+								"name": "Norbilt",
 								"url": "https://www.norbilt.com",
 								"telephone": "+13602169920",
 								"address": {
@@ -115,7 +115,7 @@ export default function HomeRepairPage() {
 										"name": "How do I find home repair services near me in Vancouver WA?",
 										"acceptedAnswer": {
 											"@type": "Answer",
-											"text": "NORBILT is based in Vancouver WA and serves all of Clark County. We offer same-week estimates and clear, fixed pricing. Call (360) 216-9920 or submit a project request. We handle everything from small fixes to full punch lists — no job is too minor."
+											"text": "Norbilt is based in Vancouver WA and serves all of Clark County. We offer same-week estimates and clear, fixed pricing. Call (360) 216-9920 or submit a project request. We handle everything from small fixes to full punch lists — no job is too minor."
 										}
 									},
 									{
@@ -131,7 +131,7 @@ export default function HomeRepairPage() {
 										"name": "Do I need a licensed contractor for home repairs in Washington?",
 										"acceptedAnswer": {
 											"@type": "Answer",
-											"text": "In Washington State, repair work above a set dollar threshold requires a licensed contractor. Hiring a registered WA General Contractor like NORBILT protects you legally, ensures work meets code, and keeps your homeowner's insurance intact. Unlicensed repair work can affect both your coverage and future resale value."
+											"text": "In Washington State, repair work above a set dollar threshold requires a licensed contractor. Hiring a registered WA General Contractor like Norbilt protects you legally, ensures work meets code, and keeps your homeowner's insurance intact. Unlicensed repair work can affect both your coverage and future resale value."
 										}
 									},
 									{
@@ -163,7 +163,7 @@ export default function HomeRepairPage() {
 				<div className="absolute inset-0 z-0">
 					<Image
 						src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2000"
-						alt="Home repair services in Vancouver WA by NORBILT"
+						alt="Home repair services in Vancouver WA by Norbilt"
 						fill
 						priority
 						sizes="100vw"
@@ -220,7 +220,7 @@ export default function HomeRepairPage() {
 			<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 				<div className="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 					<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</a>
-					<span>· WA Licensed General Contractor · NORBILT · Updated June 2026</span>
+					<span>· WA Licensed General Contractor · Norbilt · Updated June 2026</span>
 				</div>
 			</div>
 
@@ -260,7 +260,7 @@ export default function HomeRepairPage() {
 
 							<p className="text-gray-600 text-lg font-medium leading-relaxed">
 								When something breaks in your home, a temporary fix isn&apos;t
-								enough. NORBILT handles interior and exterior repairs with
+								enough. Norbilt handles interior and exterior repairs with
 								construction-grade standards &mdash; protecting your property, safety,
 								and long-term value.
 							</p>
@@ -286,7 +286,7 @@ export default function HomeRepairPage() {
 							<div className="absolute -inset-4 bg-[#F8F6F3] rounded-[3rem] rotate-1 group-hover:rotate-0 transition-transform duration-500" />
 							<div className="relative bg-[#1F2E2B] p-10 lg:p-14 rounded-[2.5rem] shadow-2xl border-b-8 border-[#FFB800]">
 								<h3 className="text-2xl font-black text-white uppercase tracking-tighter mb-8 italic">
-									Why NORBILT for Home Repair
+									Why Norbilt for Home Repair
 								</h3>
 								<div className="space-y-8">
 									<div className="space-y-2 border-l-2 border-[#FFB800]/30 pl-6">
@@ -472,7 +472,7 @@ export default function HomeRepairPage() {
 								Recurring Home Repair Services for Clark County Landlords &amp; Property Managers
 							</h2>
 							<p className="text-gray-700 font-medium leading-relaxed">
-								Own rental properties or manage a portfolio in Clark County? NORBILT works with landlords and property managers on an ongoing basis — unit turnover repairs, tenant damage fixes, between-lease punch lists, and preventive maintenance. We're a licensed general contractor, which means we can legally handle everything from drywall and fixtures to permitted plumbing repairs. One reliable contact for all your properties, consistent quality, and no surprise invoices.
+								Own rental properties or manage a portfolio in Clark County? Norbilt works with landlords and property managers on an ongoing basis — unit turnover repairs, tenant damage fixes, between-lease punch lists, and preventive maintenance. We're a licensed general contractor, which means we can legally handle everything from drywall and fixtures to permitted plumbing repairs. One reliable contact for all your properties, consistent quality, and no surprise invoices.
 							</p>
 							<p className="text-gray-600 font-medium leading-relaxed">
 								Call <a href="tel:+13602169920" className="text-[#2D5A3D] font-black hover:underline">(360) 216-9920</a> to discuss a recurring service arrangement for your properties.
@@ -498,7 +498,7 @@ export default function HomeRepairPage() {
 							},
 							{
 								q: "Do I need a licensed contractor for home repairs in Washington?",
-								a: "In Washington State, repair work above a set dollar threshold requires a licensed contractor. Hiring a registered WA General Contractor like NORBILT protects you legally, ensures work meets code, and keeps your homeowner's insurance intact. Unlicensed repair work can affect both your coverage and future resale value.",
+								a: "In Washington State, repair work above a set dollar threshold requires a licensed contractor. Hiring a registered WA General Contractor like Norbilt protects you legally, ensures work meets code, and keeps your homeowner's insurance intact. Unlicensed repair work can affect both your coverage and future resale value.",
 							},
 							{
 								q: "How much do home repairs cost in Vancouver WA?",
@@ -510,7 +510,7 @@ export default function HomeRepairPage() {
 							},
 							{
 								q: "How do I find home repair services near me in Vancouver WA?",
-								a: "NORBILT is based in Vancouver WA and serves all of Clark County. We handle licensed repair work — drywall damage, door replacement, weatherization, safety fixes, and projects that may require permits. For small no-permit tasks like TV mounting or assembly, see our Handyman Services page. Call (360) 216-9920 or submit a project request for a same-week estimate.",
+								a: "Norbilt is based in Vancouver WA and serves all of Clark County. We handle licensed repair work — drywall damage, door replacement, weatherization, safety fixes, and projects that may require permits. For small no-permit tasks like TV mounting or assembly, see our Handyman Services page. Call (360) 216-9920 or submit a project request for a same-week estimate.",
 							},
 							{
 								q: "What home repairs can you do in one visit?",

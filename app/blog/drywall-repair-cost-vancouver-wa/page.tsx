@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Drywall Repair Cost Vancouver WA | NORBILT",
+	title: "Drywall Repair Cost Vancouver WA | Norbilt",
 	description:
 		"How much does drywall repair cost in Vancouver, WA? Real price ranges for patching, texture matching, and water damage repair from a licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/drywall-repair-cost-vancouver-wa",
 	},
 	openGraph: {
-		title: "Drywall Repair Cost in Vancouver WA | NORBILT",
+		title: "Drywall Repair Cost in Vancouver WA | Norbilt",
 		description:
 			"Real price ranges for drywall repair in Vancouver and Clark County WA. From a licensed local contractor.",
 		url: "https://www.norbilt.com/blog/drywall-repair-cost-vancouver-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -75,7 +75,7 @@ export default function DrywallRepairCost() {
 						</h1>
 				<div className="bg-[#2D5A3D]/10 border-l-4 border-[#2D5A3D] rounded-r-2xl p-6 my-6">
 					<p className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] mb-2">Quick Answer</p>
-					<p className="text-gray-700 leading-relaxed text-sm">Drywall repair in Vancouver WA costs $115–$250 for a small patch, $175–$500 for a medium section, and $500–$2,500+ for large water-damaged repairs. A nail hole or small crack costs $115–$175 including texture match and paint. A fist-sized hole or door handle damage runs $175–$400. Water damage repairs — replacing wet drywall, treating for mold, and fixing the source — start at $460 and go up to $2,300+ for larger affected areas. The hardest part of drywall work is texture matching: mismatched texture stands out more than the original damage. Texture styles in Clark County range from orange peel (most common in homes built after 1980) to knock-down, skip-trowel, and popcorn (pre-1980 homes). Matching requires experience and the right tools — this is where most DIY drywall repairs fail visually. NORBILT serves Vancouver and Clark County. All prices are 2026 rates.</p>
+					<p className="text-gray-700 leading-relaxed text-sm">Drywall repair in Vancouver WA costs $115–$250 for a small patch, $175–$500 for a medium section, and $500–$2,500+ for large water-damaged repairs. A nail hole or small crack costs $115–$175 including texture match and paint. A fist-sized hole or door handle damage runs $175–$400. Water damage repairs — replacing wet drywall, treating for mold, and fixing the source — start at $460 and go up to $2,300+ for larger affected areas. The hardest part of drywall work is texture matching: mismatched texture stands out more than the original damage. Texture styles in Clark County range from orange peel (most common in homes built after 1980) to knock-down, skip-trowel, and popcorn (pre-1980 homes). Matching requires experience and the right tools — this is where most DIY drywall repairs fail visually. Norbilt serves Vancouver and Clark County. All prices are 2026 rates.</p>
 				</div>
 						<p className="text-xl text-white/70 leading-relaxed max-w-2xl border-l-4 border-[#FFB800] pl-6">
 							Real pricing for holes, cracks, water damage, and texture
@@ -91,7 +91,7 @@ export default function DrywallRepairCost() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 

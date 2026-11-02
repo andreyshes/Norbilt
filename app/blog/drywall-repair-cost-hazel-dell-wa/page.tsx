@@ -3,16 +3,16 @@ import { CheckCircle2, MapPin, Phone, ArrowRight } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Drywall Repair Cost Hazel Dell WA | NORBILT",
+	title: "Drywall Repair Cost Hazel Dell WA | Norbilt",
 	description:
 		"How much does drywall repair cost in Hazel Dell, WA? Real 2026 prices for hole patching, texture matching & water damage repair. Licensed Clark County contractor.",
 	alternates: { canonical: "https://www.norbilt.com/blog/drywall-repair-cost-hazel-dell-wa" },
 	openGraph: {
-		title: "Drywall Repair Cost Hazel Dell WA | NORBILT",
+		title: "Drywall Repair Cost Hazel Dell WA | Norbilt",
 		description:
 			"2026 drywall repair pricing in Hazel Dell WA — small patches to full water damage repair. Texture matching for orange peel and smooth finishes. Licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/drywall-repair-cost-hazel-dell-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -47,7 +47,7 @@ const priceFactors = [
 	},
 	{
 		title: "Home Age and Lead Paint Testing",
-		body: "Hazel Dell homes built before 1978 may have lead-based paint on existing drywall surfaces. Before any sanding or significant repair work in a pre-1978 home, EPA guidelines recommend a lead paint test ($25–$75 for a professional swab test). NORBILT follows Washington State lead-safe work practice rules. We note the home age during the estimate and factor this into the scope.",
+		body: "Hazel Dell homes built before 1978 may have lead-based paint on existing drywall surfaces. Before any sanding or significant repair work in a pre-1978 home, EPA guidelines recommend a lead paint test ($25–$75 for a professional swab test). Norbilt follows Washington State lead-safe work practice rules. We note the home age during the estimate and factor this into the scope.",
 	},
 ];
 
@@ -58,7 +58,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need to test for lead paint before drywall repair in an older Hazel Dell home?",
-		a: "If your Hazel Dell home was built before 1978, EPA Renovation, Repair, and Painting (RRP) rules apply to any work that disturbs painted surfaces. Drywall sanding disturbs paint. NORBILT follows Washington State lead-safe work practices, which include either testing the paint or treating the work area as lead-positive. A swab test runs $25–$75 and takes minutes. We recommend this step for all pre-1978 Hazel Dell homes — it protects your family and ensures the work is done correctly.",
+		a: "If your Hazel Dell home was built before 1978, EPA Renovation, Repair, and Painting (RRP) rules apply to any work that disturbs painted surfaces. Drywall sanding disturbs paint. Norbilt follows Washington State lead-safe work practices, which include either testing the paint or treating the work area as lead-positive. A swab test runs $25–$75 and takes minutes. We recommend this step for all pre-1978 Hazel Dell homes — it protects your family and ensures the work is done correctly.",
 	},
 	{
 		q: "Why does texture matching cost extra?",
@@ -101,7 +101,7 @@ export default function DrywallRepairCostHazelDellWA() {
 						author: { "@type": "Person", name: "Andrey", url: "https://www.norbilt.com/about" },
 						publisher: {
 							"@type": "Organization",
-							name: "NORBILT",
+							name: "Norbilt",
 							url: "https://www.norbilt.com",
 							logo: { "@type": "ImageObject", url: "https://www.norbilt.com/og-image.jpg" },
 						},
@@ -203,7 +203,7 @@ export default function DrywallRepairCostHazelDellWA() {
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">
 							By Andrey
 						</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -232,7 +232,7 @@ export default function DrywallRepairCostHazelDellWA() {
 							finish in older homes, orange peel in the 1970s–80s builds — makes every repair a texture-matching job.
 						</p>
 						<p>
-							NORBILT is a licensed general contractor (WA Lic. <strong>NORBI**741CS</strong>) with a significant volume of
+							Norbilt is a licensed general contractor (WA Lic. <strong>NORBI**741CS</strong>) with a significant volume of
 							active work in Hazel Dell and the adjacent Orchards neighborhood. We give free written estimates, carry
 							$1,000,000 liability insurance, and back all drywall work with a 1-year labor warranty. If you have a list
 							of repairs — holes, cracks, water stains, popcorn patches — we do them all in one visit and price them
@@ -357,7 +357,7 @@ export default function DrywallRepairCostHazelDellWA() {
 							<li>Washington State Dept. of Labor &amp; Industries — Lead-safe work practices: <span className="font-medium text-[#2D5A3D]">lni.wa.gov/safety-health/safety-topics/topics/lead</span></li>
 							<li>Clark County Community Development — Permit jurisdiction and fees: <span className="font-medium text-[#2D5A3D]">clark.wa.gov/community-development</span></li>
 							<li>Angi / HomeAdvisor 2026 Drywall Repair Cost Report — National benchmarks adjusted for Pacific Northwest labor market</li>
-							<li>NORBILT project records — 2024–2026 drywall repair and texture-match invoices in Hazel Dell and north Vancouver, WA</li>
+							<li>Norbilt project records — 2024–2026 drywall repair and texture-match invoices in Hazel Dell and north Vancouver, WA</li>
 						</ul>
 					</section>
 

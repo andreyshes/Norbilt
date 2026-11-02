@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone, XCircle } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Home Repairs Before Selling in Clark County WA | NORBILT",
+	title: "Home Repairs Before Selling in Clark County WA | Norbilt",
 	description:
 		"Planning to sell your home in Vancouver, Camas, or Clark County WA? Here are the repairs that actually increase your sale price and the ones you can skip.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/home-repairs-before-selling-clark-county-wa",
 	},
 	openGraph: {
-		title: "Home Repairs Before Selling in Clark County WA | NORBILT",
+		title: "Home Repairs Before Selling in Clark County WA | Norbilt",
 		description:
 			"Which repairs add value before a home sale in Clark County? A licensed contractor breaks down what to fix and what to skip.",
 		url: "https://www.norbilt.com/blog/home-repairs-before-selling-clark-county-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -75,7 +75,7 @@ export default function RepairsBeforeSelling() {
 						</h1>
 				<div className="bg-[#2D5A3D]/10 border-l-4 border-[#2D5A3D] rounded-r-2xl p-6 my-6">
 					<p className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] mb-2">Quick Answer</p>
-					<p className="text-gray-700 leading-relaxed text-sm">Before selling a home in Clark County WA, the repairs with the highest ROI are: fresh paint throughout ($1,150–$3,450), drywall repairs ($115–$800), door and hardware fixes ($115–$460 per door), fixture replacements in kitchens and bathrooms ($230–$690), and flooring touch-ups or replacement in high-traffic areas ($345–$2,300). Repairs that rarely pay off: full kitchen or bathroom remodels (you won't recover the cost in the sale), HVAC replacements (buyers expect working HVAC, not new), and specialty upgrades buyers can't see. The single most important repair is fixing any water damage — staining, soft subfloor, or visible rot — because buyers' agents flag it and inspectors cite it. Budget $2,300–$6,900 total for pre-sale repairs on a typical Clark County home. NORBILT (WA Lic. NORBI**741CS) offers pre-sale punch list services across Clark County.</p>
+					<p className="text-gray-700 leading-relaxed text-sm">Before selling a home in Clark County WA, the repairs with the highest ROI are: fresh paint throughout ($1,150–$3,450), drywall repairs ($115–$800), door and hardware fixes ($115–$460 per door), fixture replacements in kitchens and bathrooms ($230–$690), and flooring touch-ups or replacement in high-traffic areas ($345–$2,300). Repairs that rarely pay off: full kitchen or bathroom remodels (you won't recover the cost in the sale), HVAC replacements (buyers expect working HVAC, not new), and specialty upgrades buyers can't see. The single most important repair is fixing any water damage — staining, soft subfloor, or visible rot — because buyers' agents flag it and inspectors cite it. Budget $2,300–$6,900 total for pre-sale repairs on a typical Clark County home. Norbilt (WA Lic. NORBI**741CS) offers pre-sale punch list services across Clark County.</p>
 				</div>
 						<p className="text-xl text-white/70 leading-relaxed max-w-2xl border-l-4 border-[#FFB800] pl-6">
 							Not every repair is worth doing before a sale. Here's what
@@ -91,7 +91,7 @@ export default function RepairsBeforeSelling() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -274,7 +274,7 @@ export default function RepairsBeforeSelling() {
 
 				{/* REMODELING INTERNAL LINK */}
 				<div className="bg-[#1F2E2B] rounded-2xl p-8 text-center my-8">
-					<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">NORBILT · Home Remodeling Contractor</p>
+					<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">Norbilt · Home Remodeling Contractor</p>
 					<h3 className="text-xl font-black text-white mb-3">Planning a Remodel Before Selling?</h3>
 					<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">We help Clark County homeowners prioritize the right updates before listing. Free on-site estimate, written pricing, licensed contractor.</p>
 					<div className="flex flex-wrap justify-center gap-3">

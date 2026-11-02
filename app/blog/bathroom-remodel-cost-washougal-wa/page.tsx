@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Bathroom Remodel Cost Washougal WA | Licensed Contractor & 2026 Prices | NORBILT",
+	title: "Bathroom Remodel Cost Washougal WA | Licensed Contractor & 2026 Prices | Norbilt",
 	description:
 		"How much does a bathroom remodel cost in Washougal WA? Real 2026 prices from a $900 cosmetic refresh to a $32,000 primary suite — from a licensed Clark County contractor. Free estimate. (360) 216-9920.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/bathroom-remodel-cost-washougal-wa",
 	},
 	openGraph: {
-		title: "Bathroom Remodel Cost in Washougal WA | NORBILT",
+		title: "Bathroom Remodel Cost in Washougal WA | Norbilt",
 		description:
 			"Real 2026 price ranges for bathroom remodels in Washougal WA. Licensed contractor serving east Clark County.",
 		url: "https://www.norbilt.com/blog/bathroom-remodel-cost-washougal-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -105,7 +105,7 @@ const drivers = [
 	},
 	{
 		title: "Fewer Licensed Contractors Serve East Clark County",
-		body: "Most licensed remodeling contractors are based in Vancouver or Camas and treat Washougal as an extended-range area with a travel surcharge. NORBILT (WA Lic. NORBI**741CS) actively works in Washougal — no travel surcharge, direct scheduling, and someone who knows the local housing stock.",
+		body: "Most licensed remodeling contractors are based in Vancouver or Camas and treat Washougal as an extended-range area with a travel surcharge. Norbilt (WA Lic. NORBI**741CS) actively works in Washougal — no travel surcharge, direct scheduling, and someone who knows the local housing stock.",
 	},
 ];
 
@@ -124,7 +124,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for a bathroom remodel in Washougal?",
-		a: "Cosmetic work — new fixtures, vanity replacement, tile in the same location — typically does not require a permit. Moving plumbing (relocating the toilet or shower drain), adding electrical circuits, or structural changes do require a permit. NORBILT (WA Lic. NORBI**741CS) handles all permitting and inspections for any permitted scope.",
+		a: "Cosmetic work — new fixtures, vanity replacement, tile in the same location — typically does not require a permit. Moving plumbing (relocating the toilet or shower drain), adding electrical circuits, or structural changes do require a permit. Norbilt (WA Lic. NORBI**741CS) handles all permitting and inspections for any permitted scope.",
 	},
 	{
 		q: "What should I expect during a bathroom remodel estimate in Washougal?",

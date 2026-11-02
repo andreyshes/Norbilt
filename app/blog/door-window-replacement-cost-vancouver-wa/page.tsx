@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Door & Window Replacement Cost Vancouver WA | NORBILT",
+	title: "Door & Window Replacement Cost Vancouver WA | Norbilt",
 	description:
 		"How much does door or window replacement cost in Vancouver, WA? Real 2026 price ranges for interior doors, exterior doors & window installation from a licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/door-window-replacement-cost-vancouver-wa",
 	},
 	openGraph: {
-		title: "Door & Window Replacement Cost Vancouver WA | NORBILT",
+		title: "Door & Window Replacement Cost Vancouver WA | Norbilt",
 		description:
 			"Real 2026 price ranges for interior doors, exterior doors, and window replacement in Vancouver WA. From a licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/door-window-replacement-cost-vancouver-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -23,15 +23,15 @@ export const metadata: Metadata = {
 const faqs = [
 	{
 		q: "Do I need a permit to replace a door or window in Vancouver WA?",
-		a: "For a like-for-like replacement — same size opening, no structural changes — a permit is generally not required in Vancouver WA or Clark County. You are swapping out the unit, not modifying the framing. However, if you are changing the size of the opening (larger or smaller window, wider door), structural work is involved and a permit is required through Clark County's Community Development department. Any work that involves cutting into load-bearing walls also requires a permit and engineer review. NORBILT holds WA General Contractor License NORBI**741CS and handles permit questions on every estimate call — we will tell you upfront if your project requires one.",
+		a: "For a like-for-like replacement — same size opening, no structural changes — a permit is generally not required in Vancouver WA or Clark County. You are swapping out the unit, not modifying the framing. However, if you are changing the size of the opening (larger or smaller window, wider door), structural work is involved and a permit is required through Clark County's Community Development department. Any work that involves cutting into load-bearing walls also requires a permit and engineer review. Norbilt holds WA General Contractor License NORBI**741CS and handles permit questions on every estimate call — we will tell you upfront if your project requires one.",
 	},
 	{
 		q: "Can you install a door I already purchased?",
-		a: "Yes. NORBILT offers install-only service for customer-supplied doors and windows. Labor-only rates for a standard prehung interior door run approximately $150–$250 per door, and exterior door installation runs $300–$600 depending on frame condition and hardware complexity. The important caveat is that if the existing frame has rot or damage we discover during install, repairs are billed separately — typically $200–$500 depending on extent. We will flag that during the estimate if we can see it in advance, but exterior frame rot is sometimes hidden until the old unit is removed.",
+		a: "Yes. Norbilt offers install-only service for customer-supplied doors and windows. Labor-only rates for a standard prehung interior door run approximately $150–$250 per door, and exterior door installation runs $300–$600 depending on frame condition and hardware complexity. The important caveat is that if the existing frame has rot or damage we discover during install, repairs are billed separately — typically $200–$500 depending on extent. We will flag that during the estimate if we can see it in advance, but exterior frame rot is sometimes hidden until the old unit is removed.",
 	},
 	{
 		q: "How do I know if my exterior door frame is rotted?",
-		a: "There are a few reliable signs. Press firmly on the door jamb near the bottom corners and threshold — if it gives or feels soft, there is likely rot behind the trim. Look for paint bubbling, discoloration, or staining at the bottom of the door frame and threshold area. If the threshold itself is spongy underfoot or has visible gaps where it meets the floor, moisture has gotten in. From the exterior, look at where the door casing meets the siding — gaps in caulking are entry points for water over time. Any of these signs warrants a closer look before you commit to just swapping the door slab. NORBILT inspects the frame as part of every door replacement estimate.",
+		a: "There are a few reliable signs. Press firmly on the door jamb near the bottom corners and threshold — if it gives or feels soft, there is likely rot behind the trim. Look for paint bubbling, discoloration, or staining at the bottom of the door frame and threshold area. If the threshold itself is spongy underfoot or has visible gaps where it meets the floor, moisture has gotten in. From the exterior, look at where the door casing meets the siding — gaps in caulking are entry points for water over time. Any of these signs warrants a closer look before you commit to just swapping the door slab. Norbilt inspects the frame as part of every door replacement estimate.",
 	},
 	{
 		q: "How long does door replacement take?",
@@ -130,7 +130,7 @@ export default function DoorWindowReplacementCostVancouverPage() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -191,7 +191,7 @@ export default function DoorWindowReplacementCostVancouverPage() {
 										range: "$250–$500/window",
 									},
 									{
-										scope: "Window replacement (NORBILT sources window)",
+										scope: "Window replacement (Norbilt sources window)",
 										desc: "Standard double-hung, labor and material included",
 										range: "$600–$1,400/window",
 									},
@@ -231,7 +231,7 @@ export default function DoorWindowReplacementCostVancouverPage() {
 								{[
 									{
 										title: "Supply vs. Install-Only",
-										body: "NORBILT can source the door or window unit, or install a unit the homeowner has already purchased. Install-only is cheaper labor-wise, but sourcing through us means we stand behind the product and can handle any warranty issues directly. For customer-supplied units, we inspect before installation — if a door arrives damaged or undersized for the opening, we'll flag it before starting work.",
+										body: "Norbilt can source the door or window unit, or install a unit the homeowner has already purchased. Install-only is cheaper labor-wise, but sourcing through us means we stand behind the product and can handle any warranty issues directly. For customer-supplied units, we inspect before installation — if a door arrives damaged or undersized for the opening, we'll flag it before starting work.",
 									},
 									{
 										title: "Frame Condition",
@@ -339,7 +339,7 @@ export default function DoorWindowReplacementCostVancouverPage() {
 						<div className="border-t border-gray-200 pt-8 space-y-2">
 							<p className="text-xs font-black text-gray-400 uppercase tracking-widest mb-3">Sources &amp; Methodology</p>
 							<ul className="space-y-1 text-xs text-gray-400">
-								<li>2026 Clark County market rates based on NORBILT project data and supplier pricing, August 2026</li>
+								<li>2026 Clark County market rates based on Norbilt project data and supplier pricing, August 2026</li>
 								<li>Door and window unit pricing reflects current distributor costs — material costs are up 6–12% vs. 2024</li>
 								<li>Clark County permit requirements: Clark County Community Development, Clark.wa.gov</li>
 								<li>WA contractor licensing requirements: Washington State Department of Labor &amp; Industries (L&amp;I.wa.gov)</li>

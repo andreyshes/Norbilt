@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Flooring Installation Cost Ridgefield WA: 2026 Guide | NORBILT",
+	title: "Flooring Installation Cost Ridgefield WA: 2026 Guide | Norbilt",
 	description:
 		"How much does flooring installation cost in Ridgefield WA? Real 2026 prices for LVP, hardwood, tile & carpet from a licensed Clark County contractor. Free estimate. (360) 216-9920.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/flooring-installation-cost-ridgefield-wa",
 	},
 	openGraph: {
-		title: "Flooring Installation Cost in Ridgefield WA | NORBILT",
+		title: "Flooring Installation Cost in Ridgefield WA | Norbilt",
 		description:
 			"LVP, hardwood, tile, and carpet flooring costs in Ridgefield WA. Real 2026 numbers from a licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/flooring-installation-cost-ridgefield-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -288,7 +288,7 @@ export default function FlooringCostRidgefield() {
 				{/* WHAT'S INCLUDED */}
 				<section className="py-16 lg:py-24">
 					<div className="max-w-4xl mx-auto px-6 lg:px-8">
-						<h2 className="text-2xl font-black text-[#1F2E2B] mb-8">What&apos;s Included in a NORBILT Flooring Quote</h2>
+						<h2 className="text-2xl font-black text-[#1F2E2B] mb-8">What&apos;s Included in a Norbilt Flooring Quote</h2>
 						<div className="grid sm:grid-cols-2 gap-4">
 							{[
 								{ item: "Material supply", detail: "Flooring product, underlayment, adhesive, nails, or click-lock accessories — all included" },

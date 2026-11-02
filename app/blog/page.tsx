@@ -534,7 +534,7 @@ export default function BlogPage() {
 						</h1>
 						<p className="text-xl text-white/80 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6">
 							Practical advice on home repair costs, hiring contractors, and
-							maintaining your Clark County home — from the pros at NORBILT.
+							maintaining your Clark County home — from the pros at Norbilt.
 						</p>
 					</div>
 				</div>
@@ -651,7 +651,7 @@ export default function BlogPage() {
 						Ready to Get Work Done?
 					</h2>
 					<p className="text-gray-600 text-lg">
-						Stop researching, start fixing. Contact NORBILT for a free estimate
+						Stop researching, start fixing. Contact Norbilt for a free estimate
 						on any home repair or remodel in Clark County.
 					</p>
 					<Link

@@ -3,14 +3,14 @@ import { ArrowRight, CheckCircle2, MapPin, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Kitchen Remodel Cost in Ridgefield WA: 2026 Pricing Guide | NORBILT",
+	title: "Kitchen Remodel Cost in Ridgefield WA: 2026 Pricing Guide | Norbilt",
 	description: "How much does a kitchen remodel cost in Ridgefield WA? Real 2026 price ranges for every scope — from a $1,725 cosmetic refresh to a $100,000 custom build — from a licensed contractor.",
 	alternates: { canonical: "https://www.norbilt.com/blog/kitchen-remodel-cost-ridgefield-wa" },
 	openGraph: {
-		title: "Kitchen Remodel Cost in Ridgefield WA: 2026 Pricing Guide | NORBILT",
+		title: "Kitchen Remodel Cost in Ridgefield WA: 2026 Pricing Guide | Norbilt",
 		description: "Complete 2026 cost guide for kitchen remodels in Ridgefield WA — real price ranges, component costs, neighborhood breakdowns.",
 		url: "https://www.norbilt.com/blog/kitchen-remodel-cost-ridgefield-wa",
-		siteName: "NORBILT", type: "article",
+		siteName: "Norbilt", type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
 };
@@ -42,7 +42,7 @@ const drivers = [
 	{ title: "Most Ridgefield Kitchens Are Builder-Grade", body: "Union Ridge, Bellwood, and other newer developments were built with spec-grade cabinets, laminate counters, and basic fixtures. These kitchens are functional but dated — the most common remodel in Ridgefield is a mid-range update: new quartz counters, backsplash, appliances, and refaced cabinet fronts for $17,250–$35,000." },
 	{ title: "Cabinets Are the Biggest Cost Driver", body: "Cabinets typically represent 30–40% of a kitchen remodel budget. Stock cabinets run $115–$230 per linear foot installed. Semi-custom run $345–$920. In Ridgefield's newer homes, cabinet boxes are often in good condition — refacing ($115–$230/lf) is frequently the right call vs. full replacement." },
 	{ title: "Layout Changes Are Expensive Everywhere", body: "Keeping the sink, dishwasher, and stove in place is the single most effective way to control budget. Moving the sink requires a licensed plumber ($1,725–$4,000). Most Ridgefield homeowners keep the layout and invest savings in counters and appliances." },
-	{ title: "Permits in Ridgefield", body: "City of Ridgefield permit requirements follow Clark County guidelines. Cosmetic work — counters, backsplash, hardware, lighting swaps at existing boxes — typically doesn't require a permit. Plumbing relocation, electrical panel work, and structural changes do. NORBILT (WA Lic. NORBI**741CS) handles all permits." },
+	{ title: "Permits in Ridgefield", body: "City of Ridgefield permit requirements follow Clark County guidelines. Cosmetic work — counters, backsplash, hardware, lighting swaps at existing boxes — typically doesn't require a permit. Plumbing relocation, electrical panel work, and structural changes do. Norbilt (WA Lic. NORBI**741CS) handles all permits." },
 ];
 
 const neighborhoods = [
@@ -56,7 +56,7 @@ const faqs = [
 	{ q: "How much does a kitchen remodel cost in Ridgefield WA?", a: "In Ridgefield WA, a kitchen remodel costs between $1,725 for a cosmetic refresh and $100,000+ for a custom build. A mid-range remodel (new counters, backsplash, appliances, cabinet refacing) runs $17,250–$35,000. A full cabinet-replacement remodel runs $34,500–$60,000. Prices reflect 2026 Clark County rates." },
 	{ q: "Is a kitchen remodel worth it in Ridgefield before selling?", a: "Yes — Ridgefield's strong buyer demand makes kitchen remodel ROI among the best in Clark County. A mid-range update ($17,250–$35,000) typically recovers 70–80% at sale. Even a cosmetic refresh (new counters, backsplash, hardware) for $3,000–$8,000 significantly improves buyer first impressions." },
 	{ q: "What scope makes sense for a 2010s Ridgefield builder-grade kitchen?", a: "For a 2010s spec-build kitchen with solid cabinet boxes, the best value is a mid-range remodel: reface the cabinet fronts, replace laminate counters with quartz, add a tile backsplash, and swap appliances. This runs $17,250–$35,000 and produces near-full-remodel results without the full remodel price." },
-	{ q: "Do I need a permit for a kitchen remodel in Ridgefield WA?", a: "Cosmetic work — new counters, backsplash, hardware, and lighting swaps at existing boxes — typically doesn't require a permit. Plumbing relocation, electrical panel work, and structural changes do. NORBILT (WA Lic. NORBI**741CS) pulls all required permits." },
+	{ q: "Do I need a permit for a kitchen remodel in Ridgefield WA?", a: "Cosmetic work — new counters, backsplash, hardware, and lighting swaps at existing boxes — typically doesn't require a permit. Plumbing relocation, electrical panel work, and structural changes do. Norbilt (WA Lic. NORBI**741CS) pulls all required permits." },
 	{ q: "How long does a kitchen remodel take in Ridgefield?", a: "A cosmetic refresh takes 2–4 days. A mid-range remodel takes 1–3 weeks. A full cabinet replacement takes 3–6 weeks. Custom builds take 6–12 weeks including cabinet lead times. We confirm exact timelines during the free estimate." },
 	{ q: "Should I reface or replace cabinets in my Ridgefield home?", a: "For homes built after 2000 with solid cabinet boxes, refacing ($115–$230/lf) is often the right call — it delivers a new-cabinet look at roughly half the cost. For older homes in Hillhurst or Old Ridgefield where boxes may be damaged or out of level, full replacement ($345–$920/lf semi-custom) is the better long-term investment." },
 ];
@@ -92,7 +92,7 @@ export default function KitchenRemodelCostRidgefieldWA() {
 						<h1 className="text-4xl md:text-6xl font-black text-white leading-tight tracking-tighter uppercase">Kitchen Remodel Cost in <span className="text-[#FFB800]">Ridgefield WA</span></h1>
 				<div className="bg-[#2D5A3D]/10 border-l-4 border-[#2D5A3D] rounded-r-2xl p-6 my-6">
 					<p className="text-[10px] font-black uppercase tracking-widest text-[#2D5A3D] mb-2">Quick Answer</p>
-					<p className="text-gray-700 leading-relaxed text-sm">A kitchen remodel in Ridgefield WA costs between $1,725 for a cosmetic refresh and $100,000+ for a full custom build. A cosmetic refresh — hardware, paint, and minor updates — runs $1,725–$5,000. A mid-range remodel with new countertops, cabinet fronts, and appliances costs $17,250–$35,000. A full gut remodel runs $34,500–$60,000. Ridgefield's fast-growing newer construction — Union Ridge, Bellwood, Bridgeport — has modern infrastructure (200-amp panels, PEX plumbing) so budget surprises are less common here than in older Clark County cities. Older downtown Ridgefield properties are the exception and may require electrical or plumbing upgrades during a full gut. Most Ridgefield homeowners choose mid-range finishes with strategic splurges on countertops and a single statement appliance. Permits are required for all plumbing and electrical work. NORBILT (WA Lic. NORBI**741CS) serves Ridgefield and all of Clark County. All prices reflect 2026 rates.</p>
+					<p className="text-gray-700 leading-relaxed text-sm">A kitchen remodel in Ridgefield WA costs between $1,725 for a cosmetic refresh and $100,000+ for a full custom build. A cosmetic refresh — hardware, paint, and minor updates — runs $1,725–$5,000. A mid-range remodel with new countertops, cabinet fronts, and appliances costs $17,250–$35,000. A full gut remodel runs $34,500–$60,000. Ridgefield's fast-growing newer construction — Union Ridge, Bellwood, Bridgeport — has modern infrastructure (200-amp panels, PEX plumbing) so budget surprises are less common here than in older Clark County cities. Older downtown Ridgefield properties are the exception and may require electrical or plumbing upgrades during a full gut. Most Ridgefield homeowners choose mid-range finishes with strategic splurges on countertops and a single statement appliance. Permits are required for all plumbing and electrical work. Norbilt (WA Lic. NORBI**741CS) serves Ridgefield and all of Clark County. All prices reflect 2026 rates.</p>
 				</div>
 						<p className="text-xl text-white/70 leading-relaxed max-w-2xl border-l-4 border-[#FFB800] pl-6">Real 2026 price ranges for every scope — from a cosmetic refresh to a full custom build — from a licensed contractor remodeling kitchens in Ridgefield every week.</p>
 						<div className="flex items-center gap-2 text-[#A7C4B5] text-sm"><MapPin className="w-4 h-4" />Ridgefield, WA · Union Ridge · Bellwood · Hillhurst</div>
@@ -101,14 +101,14 @@ export default function KitchenRemodelCostRidgefieldWA() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 				<article className="py-16 lg:py-24">
 					<div className="max-w-3xl mx-auto px-6 lg:px-8 space-y-16">
 						<section className="space-y-5 text-gray-700 leading-relaxed text-lg">
 							<p>A kitchen remodel in Ridgefield WA costs between <strong>$1,725 for a cosmetic refresh</strong> and <strong>$100,000+ for a full custom build</strong>. Ridgefield&apos;s rapid growth means strong buyer demand and high kitchen remodel ROI — making it one of the best markets in Clark County to invest in a kitchen upgrade.</p>
-							<p>NORBILT is a licensed general contractor (WA Lic. <strong>NORBI**741CS</strong>) serving Ridgefield and all of Clark County. We carry $1,000,000 liability insurance and back all kitchen work with a 1-year workmanship warranty.</p>
+							<p>Norbilt is a licensed general contractor (WA Lic. <strong>NORBI**741CS</strong>) serving Ridgefield and all of Clark County. We carry $1,000,000 liability insurance and back all kitchen work with a 1-year workmanship warranty.</p>
 						</section>
 						<section className="space-y-6">
 							<h2 className="text-3xl font-black text-[#1F2E2B] uppercase tracking-tighter">Kitchen Remodel Cost by Scope — Ridgefield WA</h2>
@@ -142,7 +142,7 @@ export default function KitchenRemodelCostRidgefieldWA() {
 						</section>
 						<section className="space-y-4">
 							<h2 className="text-2xl font-black text-[#1F2E2B] uppercase tracking-tighter">Related Guides</h2>
-							<div className="grid sm:grid-cols-2 gap-4">{[{ title: "Kitchen Remodel Cost in Clark County WA", href: "/blog/kitchen-remodel-cost-clark-county-wa" }, { title: "Kitchen Remodel Cost in Vancouver WA", href: "/blog/kitchen-remodel-cost-vancouver-wa" }, { title: "Kitchen Remodel Service — NORBILT", href: "/services/kitchen-remodel" }, { title: "Kitchen Remodeling in Ridgefield WA", href: "/locations/ridgefield/kitchen-remodel" }].map((link, i) => (<Link key={i} href={link.href} className="flex items-center gap-3 bg-white rounded-xl p-5 border border-gray-100 shadow-sm hover:border-[#FFB800]/40 hover:shadow-md transition-all group"><ArrowRight className="w-4 h-4 text-[#2D5A3D] group-hover:text-[#FFB800] shrink-0 transition-colors" /><span className="text-sm font-bold text-[#1F2E2B] group-hover:text-[#2D5A3D] transition-colors">{link.title}</span></Link>))}</div>
+							<div className="grid sm:grid-cols-2 gap-4">{[{ title: "Kitchen Remodel Cost in Clark County WA", href: "/blog/kitchen-remodel-cost-clark-county-wa" }, { title: "Kitchen Remodel Cost in Vancouver WA", href: "/blog/kitchen-remodel-cost-vancouver-wa" }, { title: "Kitchen Remodel Service — Norbilt", href: "/services/kitchen-remodel" }, { title: "Kitchen Remodeling in Ridgefield WA", href: "/locations/ridgefield/kitchen-remodel" }].map((link, i) => (<Link key={i} href={link.href} className="flex items-center gap-3 bg-white rounded-xl p-5 border border-gray-100 shadow-sm hover:border-[#FFB800]/40 hover:shadow-md transition-all group"><ArrowRight className="w-4 h-4 text-[#2D5A3D] group-hover:text-[#FFB800] shrink-0 transition-colors" /><span className="text-sm font-bold text-[#1F2E2B] group-hover:text-[#2D5A3D] transition-colors">{link.title}</span></Link>))}</div>
 						</section>
 						<section className="space-y-6">
 							<h2 className="text-3xl font-black text-[#1F2E2B] uppercase tracking-tighter">Frequently Asked Questions</h2>

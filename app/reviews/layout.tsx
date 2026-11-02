@@ -1,18 +1,18 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Customer Reviews | NORBILT General Contractor Vancouver WA",
+	title: "Customer Reviews | Norbilt General Contractor Vancouver WA",
 	description:
-		"See what homeowners across Vancouver, Battle Ground, Camas, Felida, and Clark County say about NORBILT. Licensed contractor with a 5.0 rating.",
+		"See what homeowners across Vancouver, Battle Ground, Camas, Felida, and Clark County say about Norbilt. Licensed contractor with a 5.0 rating.",
 	alternates: {
 		canonical: "https://www.norbilt.com/reviews",
 	},
 	openGraph: {
-		title: "Customer Reviews | NORBILT General Contractor Vancouver WA",
+		title: "Customer Reviews | Norbilt General Contractor Vancouver WA",
 		description:
 			"Real reviews from homeowners across Clark County WA. Licensed contractor with a 5.0 rating and 50+ completed projects.",
 		url: "https://www.norbilt.com/reviews",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		locale: "en_US",
 		type: "website",
 		images: [
@@ -20,19 +20,19 @@ export const metadata: Metadata = {
 				url: "https://www.norbilt.com/og-image.jpg",
 				width: 1200,
 				height: 630,
-				alt: "NORBILT Customer Reviews Clark County WA",
+				alt: "Norbilt Customer Reviews Clark County WA",
 			},
 		],
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Customer Reviews | NORBILT Vancouver WA",
+		title: "Customer Reviews | Norbilt Vancouver WA",
 		description:
 			"Real reviews from homeowners across Clark County WA. Licensed contractor with a 5.0 rating.",
 		images: ["https://www.norbilt.com/og-image.jpg"],
 	},
 	keywords: [
-		"NORBILT reviews",
+		"Norbilt reviews",
 		"general contractor reviews Vancouver WA",
 		"home repair reviews Clark County",
 		"contractor reviews Battle Ground",

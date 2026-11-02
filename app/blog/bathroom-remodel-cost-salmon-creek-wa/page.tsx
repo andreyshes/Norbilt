@@ -3,16 +3,16 @@ import { CheckCircle2, MapPin, Phone, ArrowRight } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Bathroom Remodel Cost Salmon Creek WA | NORBILT",
+	title: "Bathroom Remodel Cost Salmon Creek WA | Norbilt",
 	description:
 		"How much does a bathroom remodel cost in Salmon Creek, WA? Real 2026 price ranges for cosmetic updates through full gut remodels from a licensed Clark County contractor.",
 	alternates: { canonical: "https://www.norbilt.com/blog/bathroom-remodel-cost-salmon-creek-wa" },
 	openGraph: {
-		title: "Bathroom Remodel Cost Salmon Creek WA | NORBILT",
+		title: "Bathroom Remodel Cost Salmon Creek WA | Norbilt",
 		description:
 			"Real 2026 price ranges for bathroom remodels in Salmon Creek WA — from an $800 cosmetic refresh to a $45,000 gut with layout change. Licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/bathroom-remodel-cost-salmon-creek-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -54,7 +54,7 @@ const priceFactors = [
 const faqs = [
 	{
 		q: "Do I need a permit for a bathroom remodel in Salmon Creek / unincorporated Clark County?",
-		a: "Cosmetic remodels — replacing a vanity, retiling a shower surround, swapping fixtures and lighting — typically do not require a permit in unincorporated Clark County. Permits are required for plumbing relocation (moving a toilet, shower drain, or supply lines), structural changes, and electrical panel work. Salmon Creek is unincorporated Clark County, so all permits go through Clark County Community Development at 564-397-2375. NORBILT handles all permit applications as part of the project.",
+		a: "Cosmetic remodels — replacing a vanity, retiling a shower surround, swapping fixtures and lighting — typically do not require a permit in unincorporated Clark County. Permits are required for plumbing relocation (moving a toilet, shower drain, or supply lines), structural changes, and electrical panel work. Salmon Creek is unincorporated Clark County, so all permits go through Clark County Community Development at 564-397-2375. Norbilt handles all permit applications as part of the project.",
 	},
 	{
 		q: "Refresh vs. gut remodel — how do I decide for a Salmon Creek bathroom?",
@@ -69,7 +69,7 @@ const faqs = [
 		a: "Tile matching is possible only if the tile is still in production or if we can source a close match. Most 1980s–1990s Salmon Creek bathroom tile is discontinued — 4×4 almond, 4×4 off-white, and cultured marble surrounds are common and almost impossible to match exactly. If a full surround replacement isn't in the budget, we can discuss options like accent tile or a contrasting repair that reads as intentional rather than patched.",
 	},
 	{
-		q: "What's included in a free NORBILT estimate for a Salmon Creek bathroom?",
+		q: "What's included in a free Norbilt estimate for a Salmon Creek bathroom?",
 		a: "The free estimate includes an on-site walkthrough, scope documentation, a written itemized quote, and a timeline. Andrey personally does all estimates — not a salesperson. We assess tile condition, subfloor condition, plumbing age, and layout constraints, and give you a clear scope-of-work document before any commitment. Call or text (360) 216-9920 to schedule.",
 	},
 ];
@@ -100,7 +100,7 @@ export default function BathroomRemodelCostSalmonCreekWA() {
 						author: { "@type": "Person", name: "Andrey", url: "https://www.norbilt.com/about" },
 						publisher: {
 							"@type": "Organization",
-							name: "NORBILT",
+							name: "Norbilt",
 							url: "https://www.norbilt.com",
 							logo: { "@type": "ImageObject", url: "https://www.norbilt.com/og-image.jpg" },
 						},
@@ -201,7 +201,7 @@ export default function BathroomRemodelCostSalmonCreekWA() {
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">
 							By Andrey
 						</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -228,7 +228,7 @@ export default function BathroomRemodelCostSalmonCreekWA() {
 							The grout is not. The caulk has failed. And the vanity hasn&apos;t been touched since the Clinton administration.
 						</p>
 						<p>
-							NORBILT is a licensed general contractor (WA Lic. <strong>NORBI**741CS</strong>) with active work in Salmon Creek
+							Norbilt is a licensed general contractor (WA Lic. <strong>NORBI**741CS</strong>) with active work in Salmon Creek
 							and the surrounding north Clark County area. We give free written estimates, carry $1,000,000 liability insurance,
 							and back all bathroom work with a 1-year labor warranty. This guide covers real 2026 pricing — not national
 							averages that don&apos;t reflect what things actually cost in Clark County.
@@ -349,7 +349,7 @@ export default function BathroomRemodelCostSalmonCreekWA() {
 							<li>Clark County Community Development — Permit fees and requirements: <span className="font-medium text-[#2D5A3D]">clark.wa.gov/community-development</span></li>
 							<li>Washington State Dept. of Labor &amp; Industries — Contractor licensing: <span className="font-medium text-[#2D5A3D]">lni.wa.gov/licensing-permits/contractors</span></li>
 							<li>Angi / HomeAdvisor 2026 Bathroom Remodel Cost Report — National benchmarks adjusted for Pacific Northwest labor market</li>
-							<li>NORBILT project records — 2024–2026 bathroom remodel invoices in Clark County, WA</li>
+							<li>Norbilt project records — 2024–2026 bathroom remodel invoices in Clark County, WA</li>
 						</ul>
 					</section>
 

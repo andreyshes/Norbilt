@@ -11,7 +11,7 @@ const faqs = [
 	},
 	{
 		q: "Are you a licensed and insured contractor?",
-		a: "Absolutely. NORBILT is a fully licensed, bonded, and insured general contractor in the state of Washington.",
+		a: "Absolutely. Norbilt is a fully licensed, bonded, and insured general contractor in the state of Washington.",
 	},
 	{
 		q: "What areas of Clark County do you serve?",

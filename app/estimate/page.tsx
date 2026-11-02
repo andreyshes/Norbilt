@@ -120,7 +120,7 @@ function ServiceDetails({ service, details, onChange }: { service: ServiceKey; d
 		<div className="space-y-5">
 			{sel("type", "What type of work?", ["Interior door installation", "Exterior door installation", "Window repair / reglazing", "Window replacement", "Door frame repair", "Hardware replacement only"])}
 			{sel("count", "How many doors / windows?", ["1", "2–3", "4–5", "6+"])}
-			{sel("supply", "Material supply", ["Install only – I have the materials", "Supply and install (NORBILT sources materials)", "Not sure yet"])}
+			{sel("supply", "Material supply", ["Install only – I have the materials", "Supply and install (Norbilt sources materials)", "Not sure yet"])}
 		</div>
 	);
 
@@ -143,7 +143,7 @@ function ServiceDetails({ service, details, onChange }: { service: ServiceKey; d
 				<div className="flex items-start gap-3 p-4 bg-amber-50 border border-amber-200 rounded-xl">
 					<AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
 					<p className="text-sm text-amber-800 font-medium leading-relaxed">
-						<strong>Heads up:</strong> Homes built before 1978 may have lead paint. NORBILT follows lead-safe work practices on all remodels in older homes — we&apos;ll flag this in your written estimate.
+						<strong>Heads up:</strong> Homes built before 1978 may have lead paint. Norbilt follows lead-safe work practices on all remodels in older homes — we&apos;ll flag this in your written estimate.
 					</p>
 				</div>
 			)}
@@ -619,7 +619,7 @@ export default function EstimatePage() {
 								<ArrowRight className="w-5 h-5 text-[#2D5A3D] shrink-0 mt-0.5" />
 								<p className="text-sm text-[#1F2E2B] leading-relaxed">
 									<strong>Next step:</strong> free on-site walkthrough → itemized written estimate within 3 business days, backed by the{" "}
-									<Link href="/remodel-promise" className="underline underline-offset-2 hover:text-[#2D5A3D]">NORBILT Remodel Promise</Link>.
+									<Link href="/remodel-promise" className="underline underline-offset-2 hover:text-[#2D5A3D]">Norbilt Remodel Promise</Link>.
 								</p>
 							</motion.div>
 

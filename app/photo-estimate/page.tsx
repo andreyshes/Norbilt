@@ -322,7 +322,7 @@ export default function PhotoEstimatePage() {
 				{/* Disclaimer */}
 				<p className="text-xs text-gray-400 text-center leading-relaxed">
 					AI assessment based on visual analysis. Actual costs depend on site conditions, material choices, and exact scope.
-					NORBILT provides free on-site estimates with written quotes.
+					Norbilt provides free on-site estimates with written quotes.
 				</p>
 			</div>
 		</div>

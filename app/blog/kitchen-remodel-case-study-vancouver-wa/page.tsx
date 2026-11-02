@@ -3,18 +3,18 @@ import { ArrowRight, CheckCircle2, Clock, Phone } from "lucide-react";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Kitchen Remodel Case Study — Vancouver WA | What to Expect | NORBILT",
+	title: "Kitchen Remodel Case Study — Vancouver WA | What to Expect | Norbilt",
 	description:
-		"A full kitchen remodel in Vancouver WA from estimate to final walkthrough. What we found, what changed, what it cost, and what the homeowners said. Real project documented by NORBILT.",
+		"A full kitchen remodel in Vancouver WA from estimate to final walkthrough. What we found, what changed, what it cost, and what the homeowners said. Real project documented by Norbilt.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/kitchen-remodel-case-study-vancouver-wa",
 	},
 	openGraph: {
-		title: "Kitchen Remodel Case Study — Vancouver WA | NORBILT",
+		title: "Kitchen Remodel Case Study — Vancouver WA | Norbilt",
 		description:
 			"What a real kitchen remodel looks like from estimate to final walkthrough — documented by the contractor who did the work.",
 		url: "https://www.norbilt.com/blog/kitchen-remodel-case-study-vancouver-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		type: "article",
 		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630 }],
 	},
@@ -101,7 +101,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for a kitchen remodel in Vancouver WA?",
-		a: "You need a permit for any kitchen remodel that moves plumbing, adds or modifies electrical circuits, or makes structural changes (removing a wall, relocating a window). Cabinet replacements, countertop swaps, and appliance upgrades without any of those changes typically don't require a permit. NORBILT (WA Lic. NORBI**741CS) handles all permitting for any permitted scope — fees are included in the bid.",
+		a: "You need a permit for any kitchen remodel that moves plumbing, adds or modifies electrical circuits, or makes structural changes (removing a wall, relocating a window). Cabinet replacements, countertop swaps, and appliance upgrades without any of those changes typically don't require a permit. Norbilt (WA Lic. NORBI**741CS) handles all permitting for any permitted scope — fees are included in the bid.",
 	},
 	{
 		q: "Should I stay home during a kitchen remodel?",
@@ -342,7 +342,7 @@ export default function KitchenRemodelCaseStudy() {
 						<h2 className="text-2xl font-black text-[#1F2E2B] mb-6">What the Homeowners Said</h2>
 						<blockquote className="border-l-4 border-[#FFB800] pl-6">
 							<p className="text-lg text-gray-700 leading-relaxed italic mb-4">
-								&ldquo;We&apos;d gotten quotes from two other contractors before NORBILT. The other two gave us a number with no real detail — we didn&apos;t know what was in and what wasn&apos;t. NORBILT walked us through a full written scope before we signed anything. We knew exactly what we were getting.
+								&ldquo;We&apos;d gotten quotes from two other contractors before Norbilt. The other two gave us a number with no real detail — we didn&apos;t know what was in and what wasn&apos;t. Norbilt walked us through a full written scope before we signed anything. We knew exactly what we were getting.
 							</p>
 							<p className="text-lg text-gray-700 leading-relaxed italic mb-4">
 								The subfloor issue they found under the dishwasher — that could have been a nightmare if we&apos;d discovered it five years later. They found it, showed us photos, gave us a price to fix it the same day, and patched it before the cabinets went in. That&apos;s the kind of thing that turns a $380 repair into a $6,000 problem if you ignore it.

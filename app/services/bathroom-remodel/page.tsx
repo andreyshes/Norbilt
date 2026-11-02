@@ -63,7 +63,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for a bathroom remodel in Clark County?",
-		a: "Cosmetic updates — new fixtures in the same location, caulk, hardware, paint, tile over existing substrate — do not require a permit in Clark County. Permits are required when you move a drain, relocate a toilet, add or move an electrical circuit, or make structural changes. If you're converting a tub to a custom shower with a new drain location, a permit is typically required. NORBILT pulls all required permits before work begins and knows what Clark County Building Dept requires.",
+		a: "Cosmetic updates — new fixtures in the same location, caulk, hardware, paint, tile over existing substrate — do not require a permit in Clark County. Permits are required when you move a drain, relocate a toilet, add or move an electrical circuit, or make structural changes. If you're converting a tub to a custom shower with a new drain location, a permit is typically required. Norbilt pulls all required permits before work begins and knows what Clark County Building Dept requires.",
 	},
 	{
 		q: "How long does a bathroom remodel take?",
@@ -79,7 +79,7 @@ const faqs = [
 	},
 	{
 		q: "Is your bathroom work warrantied?",
-		a: "Yes. All NORBILT bathroom remodeling is backed by a 1-year workmanship warranty. If caulk fails, tile lifts, grout cracks, or any installed component has a workmanship issue, we return and fix it at no charge within the warranty period. Manufacturer warranties on fixtures (faucets, toilets, exhaust fans) are separate and transfer directly to you.",
+		a: "Yes. All Norbilt bathroom remodeling is backed by a 1-year workmanship warranty. If caulk fails, tile lifts, grout cracks, or any installed component has a workmanship issue, we return and fix it at no charge within the warranty period. Manufacturer warranties on fixtures (faucets, toilets, exhaust fans) are separate and transfer directly to you.",
 	},
 ];
 
@@ -143,7 +143,7 @@ const schema = {
 		{
 			"@type": "HomeAndConstructionBusiness",
 			"@id": "https://www.norbilt.com/#organization",
-			name: "NORBILT",
+			name: "Norbilt",
 			aggregateRating: {
 				"@type": "AggregateRating",
 				ratingValue: "5.0",
@@ -155,13 +155,13 @@ const schema = {
 					"@type": "Review",
 					reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
 					author: { "@type": "Person", name: "Ruvim C." },
-					reviewBody: "NORBILT has built me my dream bathroom. Andrey was quick to respond whenever I had any questions and was very respectful and pleasant to work with. Couldn't have been more happy with the experience!",
+					reviewBody: "Norbilt has built me my dream bathroom. Andrey was quick to respond whenever I had any questions and was very respectful and pleasant to work with. Couldn't have been more happy with the experience!",
 				},
 				{
 					"@type": "Review",
 					reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
 					author: { "@type": "Person", name: "David" },
-					reviewBody: "NORBILT was awesome to work with. They transformed my outdated bathroom to something modern and I love it! Great company to work with and I am in love with my bathroom once again.",
+					reviewBody: "Norbilt was awesome to work with. They transformed my outdated bathroom to something modern and I love it! Great company to work with and I am in love with my bathroom once again.",
 				},
 				{
 					"@type": "Review",
@@ -175,7 +175,7 @@ const schema = {
 };
 
 export const metadata = {
-	title: "Bathroom Remodel Contractor Clark County WA | Vancouver, Camas & Beyond | NORBILT",
+	title: "Bathroom Remodel Contractor Clark County WA | Vancouver, Camas & Beyond | Norbilt",
 	description:
 		"Licensed bathroom remodel contractor in Clark County WA — Vancouver, Camas, Battle Ground & Ridgefield. Full gut remodels, tub-to-shower, tile & vanity. Free estimate. (360) 216-9920.",
 };
@@ -194,7 +194,7 @@ export default function BathroomRemodelPage() {
 					<div className="absolute inset-0 z-0">
 						<Image
 							src="/remodel-images/IMG_7646.jpg"
-							alt="Bathroom remodel contractor Vancouver WA — NORBILT"
+							alt="Bathroom remodel contractor Vancouver WA — Norbilt"
 							fill
 							priority
 							sizes="100vw"
@@ -217,7 +217,7 @@ export default function BathroomRemodelPage() {
 							</h1>
 
 							<p className="text-xl text-white/90 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6">
-								Tub-to-shower conversions, full gut remodels, vanity installs, tile work, and cosmetic refreshes — NORBILT handles every level of bathroom remodeling in Clark County. Licensed WA contractor. 1-year workmanship warranty.
+								Tub-to-shower conversions, full gut remodels, vanity installs, tile work, and cosmetic refreshes — Norbilt handles every level of bathroom remodeling in Clark County. Licensed WA contractor. 1-year workmanship warranty.
 							</p>
 
 							<div className="pt-4">
@@ -257,7 +257,7 @@ export default function BathroomRemodelPage() {
 						<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">
 							By Andrey
 						</a>
-						<span>· WA Licensed General Contractor · NORBILT · Updated August 2026</span>
+						<span>· WA Licensed General Contractor · Norbilt · Updated August 2026</span>
 					</div>
 				</div>
 
@@ -285,7 +285,7 @@ export default function BathroomRemodelPage() {
 					</div>
 					<div className="text-center mt-4">
 						<Link href="/remodel-promise" className="text-xs font-bold text-[#FFB800] hover:text-white transition-colors">
-							Every remodel is backed by the NORBILT Remodel Promise →
+							Every remodel is backed by the Norbilt Remodel Promise →
 						</Link>
 					</div>
 				</section>
@@ -339,7 +339,7 @@ export default function BathroomRemodelPage() {
 				<section className="py-24 bg-[#1F2E2B] text-white">
 					<div className="max-w-7xl mx-auto px-6 lg:px-8">
 						<h2 className="text-4xl font-black uppercase tracking-tighter mb-4">
-							What's Included in a NORBILT Bathroom Remodel
+							What's Included in a Norbilt Bathroom Remodel
 						</h2>
 						<p className="text-white/60 font-medium mb-12 max-w-2xl">
 							Scope varies by project, but here's what a full gut bathroom remodel typically covers — and what falls outside our remodeling scope.
@@ -573,7 +573,7 @@ export default function BathroomRemodelPage() {
 									))}
 								</ul>
 								<p className="mt-8 text-white/50 text-xs font-medium">
-									NORBILT pulls all required Clark County permits before work begins. We know what triggers a permit inspection and schedule accordingly — no surprises.
+									Norbilt pulls all required Clark County permits before work begins. We know what triggers a permit inspection and schedule accordingly — no surprises.
 								</p>
 							</div>
 						</div>
@@ -677,12 +677,12 @@ export default function BathroomRemodelPage() {
 								{
 									name: "Ruvim C.",
 									location: "Vancouver, WA",
-									body: "Andrey did an outstanding job on our bathroom remodel. The tile work was precise, everything was cleaned up every day, and the finished shower looks incredible. Highly recommend NORBILT for anyone doing a bathroom renovation in Clark County.",
+									body: "Andrey did an outstanding job on our bathroom remodel. The tile work was precise, everything was cleaned up every day, and the finished shower looks incredible. Highly recommend Norbilt for anyone doing a bathroom renovation in Clark County.",
 								},
 								{
 									name: "Taylor K.",
 									location: "Clark County, WA",
-									body: "I had a great experience working with NORBILT on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. The final result turned out even better than I imagined.",
+									body: "I had a great experience working with Norbilt on my remodeling project. From start to finish, their team was professional, detail-oriented, and easy to communicate with. The final result turned out even better than I imagined.",
 								},
 								{
 									name: "M. Taylor",

@@ -2,14 +2,14 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Home Remodeling Salmon Creek WA | Costs & Contractors (2026) | NORBILT",
+	title: "Home Remodeling Salmon Creek WA | Costs & Contractors (2026) | Norbilt",
 	description:
 		"Home remodeling in Salmon Creek WA — real 2026 costs for bathroom remodels, kitchen updates, and finish carpentry in Mount Vista, Salmon Creek Estates, and Felida Ridge. Licensed Clark County contractor.",
 	alternates: {
 		canonical: "https://www.norbilt.com/blog/home-remodeling-salmon-creek-wa",
 	},
 	openGraph: {
-		title: "Home Remodeling Salmon Creek WA | 2026 Cost Guide | NORBILT",
+		title: "Home Remodeling Salmon Creek WA | 2026 Cost Guide | Norbilt",
 		description:
 			"2026 remodeling costs in Salmon Creek WA — bathroom and kitchen updates, LVP flooring, and finish carpentry upgrades from a licensed Clark County contractor.",
 		url: "https://www.norbilt.com/blog/home-remodeling-salmon-creek-wa",
@@ -35,7 +35,7 @@ const faqs = [
 	},
 	{
 		q: "Do I need a permit for remodeling in Salmon Creek?",
-		a: "Salmon Creek is unincorporated Clark County, so all permits go through Clark County Community Development at 564-397-2375 — not a city office. Cosmetic work (paint, flooring, fixture swaps) typically doesn't require a permit. Structural changes, full bathroom gut remodels with plumbing work, and kitchen layout changes generally do. NORBILT handles permit coordination.",
+		a: "Salmon Creek is unincorporated Clark County, so all permits go through Clark County Community Development at 564-397-2375 — not a city office. Cosmetic work (paint, flooring, fixture swaps) typically doesn't require a permit. Structural changes, full bathroom gut remodels with plumbing work, and kitchen layout changes generally do. Norbilt handles permit coordination.",
 	},
 	{
 		q: "What's the most cost-effective remodel for a 1990s Salmon Creek home?",
@@ -43,7 +43,7 @@ const faqs = [
 	},
 	{
 		q: "How do I find a licensed remodeling contractor in Salmon Creek WA?",
-		a: "Verify any contractor at the WA Department of Labor & Industries website before signing. NORBILT holds WA General Contractor License #NORBI**741CS and is bonded and insured. Salmon Creek is part of our core Clark County service area. Call Andrey at (360) 216-9920 for a free on-site estimate.",
+		a: "Verify any contractor at the WA Department of Labor & Industries website before signing. Norbilt holds WA General Contractor License #NORBI**741CS and is bonded and insured. Salmon Creek is part of our core Clark County service area. Call Andrey at (360) 216-9920 for a free on-site estimate.",
 	},
 ];
 
@@ -67,7 +67,7 @@ export default function BlogPost() {
 								author: { "@type": "Person", name: "Andrey", url: "https://www.norbilt.com/about" },
 								publisher: {
 									"@type": "Organization",
-									name: "NORBILT",
+									name: "Norbilt",
 									url: "https://www.norbilt.com",
 									logo: { "@type": "ImageObject", url: "https://www.norbilt.com/og-image.jpg" },
 								},
@@ -286,7 +286,7 @@ export default function BlogPost() {
 							))}
 						</ul>
 						<p className="text-[#2C3E3A] leading-relaxed">
-							NORBILT holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
+							Norbilt holds WA General Contractor License <strong>#NORBI**741CS</strong>, is bonded and insured,
 							and serves Salmon Creek as part of our north Clark County service area. Andrey can be reached
 							at <a href="tel:+13602169920" className="text-[#2D5A3D] font-bold hover:underline">(360) 216-9920</a>.
 						</p>
@@ -339,7 +339,7 @@ export default function BlogPost() {
 							{[
 								{ href: "/blog/bathroom-remodel-cost-clark-county-wa", label: "Bathroom Remodel Cost in Clark County WA" },
 								{ href: "/blog/kitchen-remodel-cost-clark-county-wa", label: "Kitchen Remodel Cost in Clark County WA" },
-								{ href: "/locations/salmon-creek", label: "NORBILT Services in Salmon Creek WA" },
+								{ href: "/locations/salmon-creek", label: "Norbilt Services in Salmon Creek WA" },
 								{ href: "/blog/home-remodeling-felida-wa", label: "Home Remodeling in Felida WA" },
 							].map(({ href, label }) => (
 								<Link

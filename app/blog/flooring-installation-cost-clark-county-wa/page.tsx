@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-	title: "Flooring Installation Cost in Clark County WA: 2026 Guide | NORBILT",
+	title: "Flooring Installation Cost in Clark County WA: 2026 Guide | Norbilt",
 	description:
 		"Real 2026 installed flooring prices for LVP, hardwood, tile, laminate, and carpet in Clark County WA. Cost tables, subfloor factors, city breakdowns for Vancouver, Camas, Battle Ground & more.",
 	alternates: { canonical: "https://www.norbilt.com/blog/flooring-installation-cost-clark-county-wa" },
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 		description:
 			"Real 2026 installed flooring prices for LVP, hardwood, tile, laminate, and carpet in Clark County WA. Cost tables, subfloor factors, and city breakdowns.",
 		url: "https://www.norbilt.com/blog/flooring-installation-cost-clark-county-wa",
-		siteName: "NORBILT",
+		siteName: "Norbilt",
 		locale: "en_US",
 		type: "article",
 	},
@@ -90,7 +90,7 @@ export default function FlooringCostClarkCounty() {
 				<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 					<div className="max-w-4xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 						<Link href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</Link>
-						<span>· WA Licensed General Contractor · NORBILT</span>
+						<span>· WA Licensed General Contractor · Norbilt</span>
 					</div>
 				</div>
 
@@ -165,7 +165,7 @@ export default function FlooringCostClarkCounty() {
 								At $3.45–$5.00/sq ft you get a solid commercial-grade LVP (6–8mm wear layer). At $5.00–$6.90/sq ft you move up to thicker planks with better acoustic underlayment and more realistic embossing. For most Clark County homes — especially those with kids or pets — the mid-range LVP is the sweet spot.
 							</p>
 							<div className="bg-[#F8F6F3] rounded-2xl p-5">
-								<p className="text-sm font-bold text-[#2D5A3D]">NORBILT note:</p>
+								<p className="text-sm font-bold text-[#2D5A3D]">Norbilt note:</p>
 								<p className="text-sm text-gray-600 mt-1">
 									We recommend LVP for any room with moisture exposure — kitchens, bathrooms, laundry rooms, and basements. It outperforms laminate in humidity tolerance, which matters in Clark County's wet winters.
 								</p>
@@ -433,7 +433,7 @@ export default function FlooringCostClarkCounty() {
 							Ready to Replace Your Floors?
 						</h2>
 						<p className="text-white/70 text-lg">
-							Get a free estimate from NORBILT — licensed, bonded, and insured in Clark County WA. We handle demo, subfloor prep, and installation. Most estimates same week.
+							Get a free estimate from Norbilt — licensed, bonded, and insured in Clark County WA. We handle demo, subfloor prep, and installation. Most estimates same week.
 						</p>
 						<div className="flex flex-col sm:flex-row gap-4 justify-center">
 							<Link

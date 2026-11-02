@@ -85,7 +85,7 @@ const faqs = [
 	},
 	{
 		q: "Is your drywall work covered by a warranty?",
-		a: "Yes. All NORBILT drywall work is covered by a 1-year workmanship warranty. If a patch cracks, lifts, or the texture mismatches after settling, we come back and fix it at no charge within the warranty period.",
+		a: "Yes. All Norbilt drywall work is covered by a 1-year workmanship warranty. If a patch cracks, lifts, or the texture mismatches after settling, we come back and fix it at no charge within the warranty period.",
 	},
 ];
 
@@ -118,7 +118,7 @@ const schema = {
 		},
 		{
 			"@type": "LocalBusiness",
-			name: "NORBILT",
+			name: "Norbilt",
 			url: "https://www.norbilt.com/services/drywall-repair",
 			telephone: "+1-3602169920",
 			areaServed: "Clark County, WA",
@@ -144,7 +144,7 @@ const schema = {
 };
 
 export const metadata = {
-	title: "Drywall Repair Vancouver WA | Patches, Texture Match & Ceiling Repair | NORBILT",
+	title: "Drywall Repair Vancouver WA | Patches, Texture Match & Ceiling Repair | Norbilt",
 	description:
 		"Licensed drywall & ceiling repair near you in Vancouver WA. Hole patches, texture matching, water damage & popcorn removal. Hazel Dell, Orchards & all Clark County. Free estimates.",
 };
@@ -238,7 +238,7 @@ export default function DrywallRepairPage() {
 			<div className="bg-[#1F2E2B] border-b border-white/10 py-3 px-6">
 				<div className="max-w-7xl mx-auto flex flex-wrap items-center gap-2 text-sm text-[#A7C4B5]">
 					<a href="/about" className="font-bold text-[#FFB800] hover:text-white transition-colors">By Andrey</a>
-					<span>· WA Licensed General Contractor · NORBILT · Updated June 2026</span>
+					<span>· WA Licensed General Contractor · Norbilt · Updated June 2026</span>
 				</div>
 			</div>
 
