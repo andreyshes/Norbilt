@@ -6,6 +6,14 @@ import { ArrowRight, Clock, MapPin } from "lucide-react";
 
 const posts = [
 	{
+		slug: "bathroom-remodel-cost-hazel-dell-wa",
+		title: "Bathroom Remodel Cost in Hazel Dell WA: 2026 Pricing Guide",
+		excerpt: "How much does a bathroom remodel cost in Hazel Dell WA? Real 2026 price ranges for every scope — plus what Hazel Dell's 1960s–1990s housing stock adds to the budget — from a licensed Clark County contractor.",
+		category: "Cost Guide",
+		location: "Hazel Dell, WA",
+		readTime: "7 min read",
+	},
+	{
 		slug: "home-remodeling-clark-county-wa",
 		title: "Home Remodeling in Clark County WA: Complete 2026 Guide",
 		excerpt: "Kitchen remodels, bathroom renovations, flooring, carpentry, drywall — real 2026 cost ranges for every major home remodeling project in Clark County WA. City-by-city guides for Vancouver, Camas, Battle Ground, and Ridgefield.",
