@@ -270,7 +270,7 @@ export default function BathroomRemodel() {
 						<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">Licensed home remodeling contractor in Vancouver WA. Full gut remodels, tub-to-shower conversions, tile work. Free written estimate.</p>
 						<div className="flex flex-wrap justify-center gap-3">
 							<Link href="/remodeling" className="inline-flex items-center gap-2 bg-[#FFB800] text-black px-6 py-3 rounded-xl font-black uppercase tracking-widest text-sm hover:scale-105 transition-all">See Our Remodeling Services</Link>
-							<Link href="/services/bathroom-remodel" className="inline-flex items-center gap-2 border border-white/20 text-white px-6 py-3 rounded-xl font-black uppercase tracking-widest text-sm hover:bg-white/10 transition-colors">Bathroom Remodel Page</Link>
+							<Link href="/services/bathroom-remodel" className="inline-flex items-center gap-2 border border-white/20 text-white px-6 py-3 rounded-xl font-black uppercase tracking-widest text-sm hover:bg-white/10 transition-colors">Bathroom Remodel Contractor — Clark County WA</Link>
 						</div>
 					</div>
 				</div>

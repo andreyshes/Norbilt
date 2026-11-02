@@ -357,9 +357,9 @@ export default function BathroomRemodelCostHazelDellWA() {
 							</h2>
 							<div className="grid sm:grid-cols-2 gap-4">
 								{[
+									{ href: "/services/bathroom-remodel", label: "Bathroom Remodel Contractor — Clark County WA" },
 									{ href: "/blog/bathroom-remodel-cost-clark-county-wa", label: "Bathroom Remodel Cost in Clark County WA" },
 									{ href: "/blog/bathroom-remodel-cost-vancouver-wa", label: "Bathroom Remodel Cost in Vancouver WA" },
-									{ href: "/blog/drywall-repair-cost-hazel-dell-wa", label: "Drywall Repair Cost in Hazel Dell WA" },
 									{ href: "/blog/bathtub-to-shower-conversion-cost-clark-county-wa", label: "Bathtub-to-Shower Conversion Cost in Clark County WA" },
 								].map((link) => (
 									<Link

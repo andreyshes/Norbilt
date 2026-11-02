@@ -482,12 +482,30 @@ export default function BathroomRemodeCostClarkCounty() {
 
 				{/* REMODELING INTERNAL LINK */}
 				<div className="bg-[#1F2E2B] rounded-2xl p-8 text-center">
-					<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">Norbilt · Home Remodeling Contractor</p>
+					<p className="text-[#FFB800] text-xs font-black uppercase tracking-widest mb-3">Norbilt · Bathroom Remodel Contractor Clark County WA</p>
 					<h3 className="text-xl font-black text-white mb-3">Ready to Start Your Bathroom Remodel?</h3>
-					<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">Licensed home remodeling contractor in Vancouver WA and Clark County. Free written estimates, flat-rate pricing, 1-year workmanship warranty.</p>
+					<p className="text-white/60 text-sm mb-5 max-w-md mx-auto">Licensed bathroom remodel contractor in Clark County WA — Vancouver, Camas, Battle Ground, Ridgefield, and Hazel Dell. Free written estimates, flat-rate pricing, 1-year workmanship warranty.</p>
 					<div className="flex flex-wrap justify-center gap-3">
-						<Link href="/remodeling" className="inline-flex items-center gap-2 bg-[#FFB800] text-black px-6 py-3 rounded-xl font-black uppercase tracking-widest text-sm hover:scale-105 transition-all">See Our Remodeling Services</Link>
+						<Link href="/services/bathroom-remodel" className="inline-flex items-center gap-2 bg-[#FFB800] text-black px-6 py-3 rounded-xl font-black uppercase tracking-widest text-sm hover:scale-105 transition-all">Bathroom Remodel Contractor — Clark County WA</Link>
 						<Link href="/estimate" className="inline-flex items-center gap-2 border border-white/20 text-white px-6 py-3 rounded-xl font-black uppercase tracking-widest text-sm hover:bg-white/10 transition-colors">Get Free Estimate</Link>
+					</div>
+				</div>
+
+				{/* RELATED GUIDES */}
+				<div className="space-y-4">
+					<h2 className="text-xl font-black text-[#1F2E2B] uppercase tracking-tighter">Related Guides</h2>
+					<div className="grid sm:grid-cols-2 gap-4">
+						{[
+							{ title: "Bathroom Remodel Cost in Vancouver WA", href: "/blog/bathroom-remodel-cost-vancouver-wa" },
+							{ title: "Bathroom Remodel Cost in Camas WA", href: "/blog/bathroom-remodel-cost-camas-wa" },
+							{ title: "Bathroom Remodel Cost in Hazel Dell WA", href: "/blog/bathroom-remodel-cost-hazel-dell-wa" },
+							{ title: "Bathtub-to-Shower Conversion Cost — Clark County", href: "/blog/bathtub-to-shower-conversion-cost-clark-county-wa" },
+						].map((link) => (
+							<Link key={link.href} href={link.href} className="flex items-center gap-3 bg-white rounded-xl p-4 border border-gray-200 hover:border-[#2D5A3D] hover:bg-[#2D5A3D]/5 transition-all group">
+								<ArrowRight className="w-4 h-4 text-[#2D5A3D] shrink-0" />
+								<span className="text-sm font-bold text-[#1F2E2B] group-hover:text-[#2D5A3D] transition-colors">{link.title}</span>
+							</Link>
+						))}
 					</div>
 				</div>
 
