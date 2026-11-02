@@ -270,19 +270,6 @@ export default function Navigation() {
 								</AnimatePresence>
 							</div>
 
-							{/* Instant Estimate — pill button */}
-							<Link
-								href="/estimate"
-								className={`ml-1 flex items-center gap-1.5 px-3 py-2 text-sm font-bold rounded-lg border transition-all duration-300 ${
-									isScrolled
-										? "text-[#FFB800] border-[#FFB800]/30 hover:bg-[#FFB800]/10"
-										: "text-[#FFB800] border-[#FFB800]/40 hover:bg-[#FFB800]/10"
-								}`}
-							>
-								<Sparkles className="w-3.5 h-3.5" />
-								Instant Estimate
-							</Link>
-
 							<a
 								href="tel:+13602169920"
 								className={`ml-2 flex items-center gap-2 px-4 py-2.5 text-sm font-bold transition-all duration-300 rounded-lg hover:bg-[#2D5A3D]/10 whitespace-nowrap ${
@@ -293,13 +280,12 @@ export default function Navigation() {
 								(360) 216-9920
 							</a>
 
-							<a
-								href="sms:+13602169920&body=Hi, I'd like a free estimate."
-								className="ml-1 flex items-center gap-1.5 px-3 py-2.5 text-xs font-black uppercase tracking-widest rounded-lg bg-[#FFB800] text-black hover:bg-amber-400 transition-all whitespace-nowrap"
+							<Link
+								href="/contact"
+								className="ml-1 flex items-center gap-1.5 px-4 py-2.5 text-xs font-black uppercase tracking-widest rounded-lg bg-[#FFB800] text-black hover:bg-amber-400 transition-all whitespace-nowrap"
 							>
-								<MessageSquare className="w-3.5 h-3.5" />
-								Text Us
-							</a>
+								Free Quote
+							</Link>
 						</div>
 
 						{/* Mobile Toggle */}
@@ -506,12 +492,11 @@ export default function Navigation() {
 
 								<div className="pt-2 space-y-3">
 									<Link
-										href="/estimate"
+										href="/contact"
 										onClick={() => setIsMobileMenuOpen(false)}
-										className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-[#2D5A3D] text-[#F8F6F3] font-black uppercase tracking-widest rounded-xl hover:bg-[#4A7C59] shadow-lg transition-all"
+										className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-[#FFB800] text-black font-black uppercase tracking-widest rounded-xl hover:bg-amber-400 shadow-lg transition-all"
 									>
-										<Sparkles className="w-4 h-4" />
-										Get Instant Estimate
+										Book Free Walkthrough
 									</Link>
 
 									<a
@@ -520,14 +505,6 @@ export default function Navigation() {
 									>
 										<Phone className="w-4 h-4" />
 										(360) 216-9920
-									</a>
-
-									<a
-										href="sms:+13602169920&body=Hi, I'd like a free estimate."
-										className="flex items-center justify-center gap-2 w-full px-6 py-3 bg-[#FFB800] text-black font-black uppercase tracking-widest rounded-xl hover:bg-amber-400 transition-all"
-									>
-										<MessageSquare className="w-4 h-4" />
-										Text Us
 									</a>
 								</div>
 							</div>
