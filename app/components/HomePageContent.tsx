@@ -292,15 +292,21 @@ export default function HomePageContent() {
 
 						<div className="pt-8 flex flex-wrap items-center gap-4">
 							<Link
-								href="/estimate"
+								href="/contact"
 								className="group relative inline-flex items-center justify-center gap-3 px-10 py-6 bg-linear-to-b from-[#FFD700] to-[#CC9900] text-[#1F2E2B] rounded-xl font-black uppercase tracking-widest shadow-2xl hover:scale-105 transition-all"
 							>
-								Get Instant Estimate
+								Book Free Walkthrough
 								<ArrowRight className="w-6 h-6 transition-transform group-hover:translate-x-2" />
+							</Link>
+							<Link
+								href="/estimate"
+								className="inline-flex items-center justify-center gap-3 px-8 py-6 border-2 border-white/40 text-white rounded-xl font-black uppercase tracking-widest hover:border-white hover:bg-white/10 transition-all"
+							>
+								Get Instant Estimate
 							</Link>
 							<a
 								href="tel:+13602169920"
-								className="inline-flex items-center gap-2 text-white/80 hover:text-white font-bold transition-colors"
+								className="inline-flex items-center gap-2 text-white/70 hover:text-white font-bold transition-colors text-sm"
 							>
 								<Phone className="w-4 h-4 text-[#FFB800]" />
 								(360) 216-9920

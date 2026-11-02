@@ -188,6 +188,32 @@ export default function LocationsIndexPage() {
 							all of Clark County, WA. We provide home repairs, interior
 							remodeling, and quality contractor work you can trust.
 						</p>
+
+						<div className="pt-4 flex flex-wrap gap-2">
+							{[
+								{ name: "Vancouver", href: "/locations/vancouver" },
+								{ name: "Camas", href: "/locations/camas" },
+								{ name: "Ridgefield", href: "/locations/ridgefield" },
+								{ name: "Battle Ground", href: "/locations/battle-ground" },
+								{ name: "Washougal", href: "/locations/washougal" },
+								{ name: "Salmon Creek", href: "/locations/salmon-creek" },
+								{ name: "Hazel Dell", href: "/locations/hazel-dell" },
+								{ name: "Felida", href: "/locations/felida" },
+								{ name: "Brush Prairie", href: "/locations/brush-prairie" },
+								{ name: "Orchards", href: "/locations/orchards" },
+								{ name: "Mill Plain", href: "/locations/mill-plain" },
+								{ name: "Five Corners", href: "/locations/five-corners" },
+								{ name: "Lake Shore", href: "/locations/lake-shore" },
+							].map((city) => (
+								<Link
+									key={city.href}
+									href={city.href}
+									className="px-4 py-2 bg-white/10 hover:bg-[#FFB800] hover:text-black text-white text-sm font-bold rounded-lg transition-all"
+								>
+									{city.name}
+								</Link>
+							))}
+						</div>
 					</div>
 				</div>
 			</section>
