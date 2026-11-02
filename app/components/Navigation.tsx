@@ -86,7 +86,7 @@ export default function Navigation() {
 								}}
 							>
 								<Image
-									src="/Norbilt.png"
+									src="/NORBILT.png"
 									alt="Norbilt Home Repairs Logo"
 									sizes="160px"
 									fill

@@ -15,7 +15,7 @@ export default function Footer() {
 						<div className="flex items-center mb-6">
 							<div className="relative w-32 h-32 -ml-4">
 								<Image
-									src="/Norbilt.png"
+									src="/NORBILT.png"
 									alt="Norbilt Logo"
 									fill
 									sizes="128px"
