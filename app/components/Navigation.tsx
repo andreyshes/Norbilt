@@ -281,7 +281,7 @@ export default function Navigation() {
 							</a>
 
 							<Link
-								href="/contact"
+								href="/estimate"
 								className="ml-1 flex items-center gap-1.5 px-4 py-2.5 text-xs font-black uppercase tracking-widest rounded-lg bg-[#FFB800] text-black hover:bg-amber-400 transition-all whitespace-nowrap"
 							>
 								Free Quote
