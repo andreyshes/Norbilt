@@ -60,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 	const locationKeys = Object.keys(locationsData);
 	const cityServiceSlugs = [
 		"handyman", "drywall-repair", "finish-carpentry", "door-window",
-		"flooring", "kitchen-bath", "bathroom-remodel", "kitchen-remodel",
+		"flooring", "bathroom-remodel", "kitchen-remodel",
 		"lighting", "home-repair",
 	];
 
@@ -87,7 +87,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 		"home-repair",
 		"drywall-repair",
 		"finish-carpentry",
-		"kitchen-bath",
 		"bathroom-remodel",
 		"kitchen-remodel",
 		"flooring",
@@ -266,6 +265,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 			lastModified: new Date("2026-06-08"),
 			changeFrequency: "monthly",
 			priority: 0.9,
+		},
+		{
+			url: `${baseUrl}/blog/bathroom-remodel-cost-hazel-dell-wa`,
+			lastModified: new Date("2026-11-05"),
+			changeFrequency: "monthly",
+			priority: 0.8,
 		},
 		{
 			url: `${baseUrl}/blog/bathroom-remodel-cost-clark-county-wa`,

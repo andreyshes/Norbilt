@@ -40,7 +40,7 @@ export default function ServicesPage() {
 			icon: Paintbrush,
 			title: "Kitchen & Bath Remodeling",
 			cta: "Start My Remodel",
-			href: "/services/kitchen-bath",
+			href: "/services/bathroom-remodel",
 			image:
 				"https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2000",
 			description:

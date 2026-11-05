@@ -86,7 +86,8 @@ export default function Footer() {
 							{[
 								{ name: "Home Repairs", href: "/services/handyman" },
 								{ name: "Finish Carpentry", href: "/services/finish-carpentry" },
-								{ name: "Kitchen & Bath Remodeling", href: "/services/kitchen-bath" },
+								{ name: "Bathroom Remodeling", href: "/services/bathroom-remodel" },
+								{ name: "Kitchen Remodeling", href: "/services/kitchen-remodel" },
 								{ name: "Drywall Repair", href: "/services/drywall-repair" },
 								{ name: "Lighting & Fixtures", href: "/services/lighting" },
 							].map((link) => (

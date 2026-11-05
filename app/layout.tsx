@@ -115,7 +115,6 @@ export default function RootLayout({
 										"worksFor": { "@id": "https://www.norbilt.com/#organization" },
 									},
 									"numberOfEmployees": { "@type": "QuantitativeValue", "value": "1-10" },
-									"foundingDate": "2022",
 									"slogan": "5-Star Rated. Licensed, Bonded & Insured. We Show Up.",
 									"sameAs": [
 										"https://www.google.com/maps/place/Norbilt/@45.6933319,-122.5403396,11z/data=!3m1!4b1!4m6!3m5!1s0x6ba3be3e3106abb:0x1cb70e756db2c95b!8m2!3d45.6933319!4d-122.5403396!16s%2Fg%2F11yzz5_myb",
@@ -155,8 +154,8 @@ export default function RootLayout({
 										"@type": "OfferCatalog",
 										"name": "Home Remodeling & Repair Services — Clark County WA",
 										"itemListElement": [
-											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Remodeling", "description": "Full kitchen remodels, cabinet replacement, countertop installation, backsplash, and fixture upgrades in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/kitchen-bath" } },
-											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom Remodeling", "description": "Full gut remodels, tub-to-shower conversions, vanity replacement, and tile work in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/kitchen-bath" } },
+											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Remodeling", "description": "Full kitchen remodels, cabinet replacement, countertop installation, backsplash, and fixture upgrades in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/kitchen-remodel" } },
+											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom Remodeling", "description": "Full gut remodels, tub-to-shower conversions, vanity replacement, and tile work in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/bathroom-remodel" } },
 											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Handyman Services", "description": "Small repairs, fixture replacement, drywall patches, door repairs, and punch lists across Clark County WA.", "url": "https://www.norbilt.com/services/handyman" } },
 											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Drywall Repair", "description": "Patching, texture matching, and water damage repair for drywall in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/drywall-repair" } },
 											{ "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Finish Carpentry", "description": "Baseboards, crown molding, door casing, wainscoting, and built-ins in Vancouver WA and Clark County.", "url": "https://www.norbilt.com/services/finish-carpentry" } },

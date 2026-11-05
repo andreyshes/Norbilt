@@ -194,6 +194,33 @@ export const metadata = {
 	title: "Kitchen Remodel Contractor Vancouver WA | Norbilt",
 	description:
 		"Licensed kitchen remodel contractor in Vancouver WA and Clark County. Full gut remodels, cabinets, countertops, backsplash & more. Free written estimates. WA Lic #NORBI**741CS.",
+	alternates: {
+		canonical: "https://www.norbilt.com/services/kitchen-remodel",
+	},
+	openGraph: {
+		title: "Kitchen Remodel Contractor Vancouver WA | Norbilt",
+		description:
+			"Full kitchen remodels, cabinets, countertops & backsplash in Vancouver WA and Clark County. Licensed contractor. Free written estimates.",
+		url: "https://www.norbilt.com/services/kitchen-remodel",
+		siteName: "Norbilt",
+		locale: "en_US",
+		type: "website",
+		images: [
+			{
+				url: "https://www.norbilt.com/og-image.jpg",
+				width: 1200,
+				height: 630,
+				alt: "Kitchen Remodeling Vancouver WA | Norbilt",
+			},
+		],
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: "Kitchen Remodel Contractor Vancouver WA | Norbilt",
+		description:
+			"Full kitchen remodels, cabinets, countertops & backsplash in Vancouver WA and Clark County. Licensed contractor. Free written estimates.",
+		images: ["https://www.norbilt.com/og-image.jpg"],
+	},
 };
 
 export default function KitchenRemodelPage() {

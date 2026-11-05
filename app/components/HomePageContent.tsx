@@ -65,7 +65,7 @@ export default function HomePageContent() {
 		{
 			icon: Paintbrush,
 			title: "Kitchen & Bath Remodeling",
-			href: "/services/kitchen-bath",
+			href: "/services/bathroom-remodel",
 			cta: "Start My Remodel",
 			description:
 				"Full kitchen and bathroom remodels, tub-to-shower conversions, tile, vanity installs, and backsplash work — every scope from cosmetic refresh to full gut remodel.",

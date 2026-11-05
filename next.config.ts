@@ -36,12 +36,23 @@ const nextConfig = {
 			},
 			{
 				source: "/services/kitchen-bathroom-updates",
-				destination: "/services/kitchen-bath",
+				destination: "/services/bathroom-remodel",
 				permanent: true,
 			},
 			{
 				source: "/services/flooring-repair-interior-updates",
 				destination: "/services/flooring",
+				permanent: true,
+			},
+			// Combined kitchen-bath pages consolidated into dedicated bathroom pages
+			{
+				source: "/services/kitchen-bath",
+				destination: "/services/bathroom-remodel",
+				permanent: true,
+			},
+			{
+				source: "/locations/:city/kitchen-bath",
+				destination: "/locations/:city/bathroom-remodel",
 				permanent: true,
 			},
 			// Old location+service slugs → new slugs
@@ -57,7 +68,7 @@ const nextConfig = {
 			},
 			{
 				source: "/locations/:city/kitchen-bathroom-updates",
-				destination: "/locations/:city/kitchen-bath",
+				destination: "/locations/:city/bathroom-remodel",
 				permanent: true,
 			},
 			{

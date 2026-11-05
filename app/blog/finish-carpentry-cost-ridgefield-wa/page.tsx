@@ -1,13 +1,21 @@
 import Link from "next/link";
 
 export const metadata = {
-	title: "Finish Carpentry Cost in Ridgefield WA: 2026 Pricing Guide",
+	title: "Finish Carpentry Cost in Ridgefield WA: 2026 Pricing Guide | Norbilt",
 	description:
 		"Real 2026 prices for baseboard installation, crown molding, door casing, and wainscoting in Ridgefield WA — with neighborhood breakdowns for Clark County's fastest-growing city.",
+	alternates: {
+		canonical: "https://www.norbilt.com/blog/finish-carpentry-cost-ridgefield-wa",
+	},
 	openGraph: {
 		title: "Finish Carpentry Cost in Ridgefield WA: 2026 Pricing Guide",
 		description:
 			"Real 2026 prices for baseboard installation, crown molding, door casing, and wainscoting in Ridgefield WA — with neighborhood breakdowns for Clark County's fastest-growing city.",
+		url: "https://www.norbilt.com/blog/finish-carpentry-cost-ridgefield-wa",
+		siteName: "Norbilt",
+		locale: "en_US",
+		type: "article",
+		images: [{ url: "https://www.norbilt.com/og-image.jpg", width: 1200, height: 630, alt: "Finish Carpentry Cost Ridgefield WA" }],
 	},
 };
 

@@ -13,16 +13,16 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-	title: "Home Remodeling Contractor Vancouver WA | Kitchen, Bath & Full Renovations | Norbilt",
+	title: "Whole Home Renovations & Remodeling in Vancouver WA | Norbilt",
 	description:
-		"5-star rated home remodeling contractor in Vancouver WA — kitchen remodels, bathroom renovations, finish carpentry & flooring. Licensed, local, same-week estimates. (360) 216-9920.",
+		"Whole home and multi-room renovations in Vancouver WA — kitchens, bathrooms, flooring & finish carpentry on one schedule. Licensed contractor. (360) 216-9920.",
 	alternates: {
 		canonical: "https://www.norbilt.com/remodeling",
 	},
 	openGraph: {
-		title: "Home Remodeling Contractor Vancouver WA | Norbilt",
+		title: "Whole Home Renovations & Remodeling in Vancouver WA | Norbilt",
 		description:
-			"Licensed home remodeling contractor in Clark County — kitchen & bath remodels, finish carpentry, flooring, and full home renovations. 5-star rated.",
+			"Multi-room and whole home renovations across Clark County — kitchens, bathrooms, flooring and finish carpentry coordinated by one licensed contractor.",
 		url: "https://www.norbilt.com/remodeling",
 		siteName: "Norbilt",
 		locale: "en_US",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 				url: "https://www.norbilt.com/og-image.jpg",
 				width: 1200,
 				height: 630,
-				alt: "Norbilt Home Remodeling Contractor Vancouver WA",
+				alt: "Whole Home Renovations Vancouver WA | Norbilt",
 			},
 		],
 	},
@@ -50,14 +50,14 @@ export const metadata: Metadata = {
 const services = [
 	{
 		title: "Kitchen Remodeling",
-		href: "/services/kitchen-bath",
-		cityHref: "/locations/vancouver/kitchen-bath",
+		href: "/services/kitchen-remodel",
+		cityHref: "/locations/vancouver/kitchen-remodel",
 		desc: "Full gut remodels, cabinet upgrades, tile backsplash, countertop replacement, and complete kitchen transformations.",
 		items: ["Full gut remodels", "Cabinet installation", "Tile backsplash", "Countertop replacement", "Fixture upgrades"],
 	},
 	{
 		title: "Bathroom Remodeling",
-		href: "/services/kitchen-bath",
+		href: "/services/bathroom-remodel",
 		cityHref: "/locations/vancouver/bathroom-remodel",
 		desc: "Tub-to-shower conversions, full bathroom renovations, vanity installs, custom tile, and complete bathroom makeovers.",
 		items: ["Tub-to-shower conversion", "Full bathroom gut", "Custom tile work", "Vanity & mirror install", "Shower systems"],
@@ -203,8 +203,8 @@ export default function RemodelingPage() {
 							</span>
 						</div>
 						<h1 className="text-6xl md:text-8xl font-black uppercase tracking-tighter leading-[0.85] mb-8">
-							Home Remodeling <br />
-							<span className="text-[#FFB800]">Contractor</span> <br />
+							Whole Home <br />
+							<span className="text-[#FFB800]">Renovations</span> <br />
 							Vancouver, WA
 						</h1>
 						<p className="text-xl text-white/70 max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6 leading-relaxed mb-10">
