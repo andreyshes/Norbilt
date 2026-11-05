@@ -250,12 +250,12 @@ export default function HomePageContent() {
 			>
 				<div className="absolute inset-0">
 					<Image
-						src="/hero.jpg"
+						src="/hero-bathroom.jpg"
 						sizes="100vw"
-						alt="General Contractor in Vancouver WA doing home repairs"
+						alt="Bathroom remodel by Norbilt — glass shower, oak vanity, Vancouver WA"
 						fill
 						priority
-						className="object-cover"
+						className="object-cover object-center"
 					/>
 					<div className="absolute inset-0 bg-linear-to-r from-black/95 via-black/60 to-transparent" />
 				</div>
