@@ -6,6 +6,22 @@ import { ArrowRight, Clock, MapPin } from "lucide-react";
 
 const posts = [
 	{
+		slug: "handyman-services-ridgefield-wa",
+		title: "Handyman Services in Ridgefield WA: 2026 Pricing & What to Expect",
+		excerpt: "Real 2026 handyman pricing in Ridgefield WA — per-job costs, what's included, and common issues in Ridgefield's newer homes. Licensed, 5-star rated, free same-week estimates.",
+		category: "Local Guide",
+		location: "Ridgefield, WA",
+		readTime: "6 min read",
+	},
+	{
+		slug: "handyman-services-salmon-creek-wa",
+		title: "Handyman Services in Salmon Creek WA: 2026 Pricing & What to Expect",
+		excerpt: "Real 2026 handyman pricing in Salmon Creek WA — per-job costs, what's included, and common repair issues in north Vancouver homes. Licensed, local, free same-week estimates.",
+		category: "Local Guide",
+		location: "Salmon Creek, WA",
+		readTime: "6 min read",
+	},
+	{
 		slug: "bathroom-remodel-cost-hazel-dell-wa",
 		title: "Bathroom Remodel Cost in Hazel Dell WA: 2026 Pricing Guide",
 		excerpt: "How much does a bathroom remodel cost in Hazel Dell WA? Real 2026 price ranges for every scope — plus what Hazel Dell's 1960s–1990s housing stock adds to the budget — from a licensed Clark County contractor.",
