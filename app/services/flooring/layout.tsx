@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Flooring Repair Vancouver WA | LVP & Tile | Norbilt",
+	title: "Flooring Installation Vancouver WA | LVP, Hardwood & Tile | Norbilt",
 	description:
-		"Flooring repair and LVP installation in Vancouver WA. Norbilt fixes planks, squeaks, grout, and thresholds. Licensed general contractor in Clark County.",
+		"Licensed flooring contractor in Vancouver WA & Clark County. LVP, hardwood, tile & laminate installation. Also repairs planks, squeaks & thresholds. Free estimate.",
 	alternates: {
 		canonical: "https://www.norbilt.com/services/flooring",
 	},

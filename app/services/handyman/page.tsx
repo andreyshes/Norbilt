@@ -20,12 +20,12 @@ import {
 import SectionHeader from "@/app/components/SectionHeader";
 
 export const metadata = {
-	title: "Small Repairs & Handyman Services Vancouver WA | Same-Day | Norbilt",
-	description: "Same-day small repairs and handyman services in Vancouver WA and Clark County. TV mounting, furniture assembly, caulking, grab bars, and minor task lists — by the task. Licensed & insured. Free estimates. (360) 216-9920.",
+	title: "Handyman Services Vancouver WA | Licensed & Same-Day | Norbilt",
+	description: "Licensed handyman in Vancouver WA & Clark County. TV mounting, drywall patches, fixtures, caulking, grab bars & more. Bonded & insured. Free estimate.",
 	alternates: { canonical: "https://www.norbilt.com/services/handyman" },
 	openGraph: {
-		title: "Small Repairs & Handyman Services Vancouver WA | Norbilt",
-		description: "Same-day small repairs in Vancouver WA. TV mounting, furniture assembly, caulking, grab bars, minor fixes. No project too small.",
+		title: "Handyman Services Vancouver WA | Licensed | Norbilt",
+		description: "Licensed handyman in Vancouver WA & Clark County. TV mounting, drywall patches, fixtures & more. Free estimate.",
 		url: "https://www.norbilt.com/services/handyman",
 	},
 };

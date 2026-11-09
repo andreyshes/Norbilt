@@ -17,8 +17,8 @@ import {
 import SectionHeader from "@/app/components/SectionHeader";
 
 export const metadata = {
-	title: "Home Repair & Restoration Near Me Vancouver WA | Licensed | Norbilt",
-	description: "Home repair & restoration near you in Vancouver WA & Clark County. Licensed contractor for drywall, fixtures, doors, weatherization & more. Free written estimates. (360) 216-9920.",
+	title: "Home Repair Near Me Vancouver WA | Licensed Contractor | Norbilt",
+	description: "Licensed home repair contractor near you in Vancouver WA & Clark County. Drywall, fixtures, doors, weatherization & more. Bonded & insured. Free written estimates.",
 	alternates: { canonical: "https://www.norbilt.com/services/home-repair" },
 	openGraph: {
 		title: "Home Repairs Near Me Vancouver WA | Norbilt",

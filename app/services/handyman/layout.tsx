@@ -1,34 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Handyman Services Vancouver & Battle Ground WA | Norbilt",
-	description:
-		"Licensed handyman in Vancouver, Battle Ground & Clark County WA. Drywall, TV mounting, repairs & more. Bonded & insured. Free estimate today!",
-	alternates: {
-		canonical: "https://www.norbilt.com/services/handyman",
-	},
-	openGraph: {
-		title: "Handyman Services Vancouver & Battle Ground WA | Norbilt",
-		description:
-			"Licensed handyman services across Clark County WA. Home repairs, drywall, fixtures & more.",
-		url: "https://www.norbilt.com/services/handyman",
-		type: "website",
-		siteName: "Norbilt",
-		locale: "en_US",
-		images: [
-			{
-				url: "https://www.norbilt.com/og-image.jpg",
-				width: 1200,
-				height: 630,
-				alt: "Handyman Services Vancouver WA | Norbilt",
-			},
-		],
-	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Handyman Services Vancouver & Battle Ground WA | Norbilt",
-		description:
-			"Licensed handyman services across Clark County WA. Home repairs, drywall, fixtures & more.",
 		images: ["https://www.norbilt.com/og-image.jpg"],
 	},
 };
