@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import {
 	Wrench,
@@ -31,6 +31,33 @@ export default function HomePageContent() {
 	const { scrollY } = useScroll();
 	const heroRef = useRef<HTMLElement>(null);
 	const heroEndRef = useRef(800);
+
+	const DEADLINE = new Date("2026-12-15T23:59:59");
+	const [timeLeft, setTimeLeft] = useState(() => {
+		const diff = DEADLINE.getTime() - Date.now();
+		if (diff <= 0) return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+		return {
+			days: Math.floor(diff / 86400000),
+			hours: Math.floor((diff % 86400000) / 3600000),
+			minutes: Math.floor((diff % 3600000) / 60000),
+			seconds: Math.floor((diff % 60000) / 1000),
+		};
+	});
+
+	useEffect(() => {
+		const tick = setInterval(() => {
+			const diff = DEADLINE.getTime() - Date.now();
+			if (diff <= 0) { clearInterval(tick); return; }
+			setTimeLeft({
+				days: Math.floor(diff / 86400000),
+				hours: Math.floor((diff % 86400000) / 3600000),
+				minutes: Math.floor((diff % 3600000) / 60000),
+				seconds: Math.floor((diff % 60000) / 1000),
+			});
+		}, 1000);
+		return () => clearInterval(tick);
+	// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
 
 	useEffect(() => {
 		const updateHeroEnd = () => {
@@ -302,6 +329,73 @@ export default function HomePageContent() {
 								Or call <a href="tel:+13602169920" className="text-white/70 hover:text-white transition-colors">(360) 216-9920</a> — free estimates, no obligation
 							</p>
 						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* HOLIDAY SPECIAL */}
+			<section className="relative bg-[#1F2E2B] overflow-hidden">
+				{/* subtle diagonal lines texture */}
+				<div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "repeating-linear-gradient(45deg, #fff 0, #fff 1px, transparent 0, transparent 50%)", backgroundSize: "12px 12px" }} />
+				<div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-14 md:py-16">
+					<div className="flex flex-col lg:flex-row lg:items-center gap-10 lg:gap-16">
+
+						{/* Left — copy */}
+						<div className="flex-1 space-y-5">
+							<div className="flex flex-wrap items-center gap-3">
+								<span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFB800] text-black text-[10px] font-black uppercase tracking-widest">
+									Holiday Special
+								</span>
+								<span className="text-[#A7C4B5] text-sm font-bold">Only 6 project slots left before the new year</span>
+							</div>
+							<h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white uppercase tracking-tighter leading-tight">
+								Book Before the Holidays.<br />
+								<span className="text-[#FFB800]">Lock In 2026 Pricing.</span>
+							</h2>
+							<p className="text-[#A7C4B5] text-lg leading-relaxed max-w-xl">
+								We&apos;re filling our December and January calendar now. Book your free walkthrough before <strong className="text-white">December 15</strong> and we&apos;ll hold your spot, lock in current pricing, and have your written estimate ready before the holidays hit.
+							</p>
+							<div className="flex flex-wrap gap-3 pt-1">
+								{["Written estimate included", "No deposit to hold your slot", "Start date flexible into January"].map((item) => (
+									<span key={item} className="flex items-center gap-1.5 text-sm text-[#A7C4B5] font-medium">
+										<CheckCircle2 className="w-4 h-4 text-[#FFB800] shrink-0" />
+										{item}
+									</span>
+								))}
+							</div>
+						</div>
+
+						{/* Right — countdown + CTA */}
+						<div className="lg:w-80 space-y-5">
+							{/* Countdown */}
+							<div className="bg-black/30 border border-white/10 rounded-2xl p-5 space-y-3">
+								<p className="text-[10px] font-black uppercase tracking-widest text-[#FFB800]">Offer expires Dec 15</p>
+								<div className="grid grid-cols-4 gap-2 text-center">
+									{[
+										{ val: timeLeft.days, label: "Days" },
+										{ val: timeLeft.hours, label: "Hrs" },
+										{ val: timeLeft.minutes, label: "Min" },
+										{ val: timeLeft.seconds, label: "Sec" },
+									].map(({ val, label }) => (
+										<div key={label} className="bg-white/5 rounded-xl py-3 px-1">
+											<div className="text-2xl font-black text-white tabular-nums leading-none">
+												{String(val).padStart(2, "0")}
+											</div>
+											<div className="text-[10px] text-white/40 font-bold uppercase mt-1">{label}</div>
+										</div>
+									))}
+								</div>
+							</div>
+							<Link
+								href="/contact"
+								className="group flex items-center justify-center gap-3 w-full px-8 py-5 bg-[#FFB800] text-black font-black uppercase tracking-widest rounded-xl hover:scale-105 transition-all shadow-xl text-sm"
+							>
+								Claim My Spot
+								<ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+							</Link>
+							<p className="text-center text-[#A7C4B5]/60 text-xs font-medium">Free walkthrough · No obligation · Slots limited</p>
+						</div>
+
 					</div>
 				</div>
 			</section>
