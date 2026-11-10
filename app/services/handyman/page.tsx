@@ -21,11 +21,11 @@ import SectionHeader from "@/app/components/SectionHeader";
 
 export const metadata = {
 	title: "Handyman Services Vancouver WA | Licensed & Same-Day | Norbilt",
-	description: "Licensed handyman in Vancouver WA & Clark County. TV mounting, drywall patches, fixtures, caulking, grab bars & more. Bonded & insured. Free estimate.",
+	description: "Licensed handyman in Vancouver WA. Small repairs, TV mounting, drywall patches, door fixes & more. Same-day available. Clark County. Free estimate.",
 	alternates: { canonical: "https://www.norbilt.com/services/handyman" },
 	openGraph: {
-		title: "Handyman Services Vancouver WA | Licensed | Norbilt",
-		description: "Licensed handyman in Vancouver WA & Clark County. TV mounting, drywall patches, fixtures & more. Free estimate.",
+		title: "Handyman Services Vancouver WA | Licensed & Same-Day | Norbilt",
+		description: "Licensed handyman in Vancouver WA. Small repairs, TV mounting, drywall patches, door fixes & more. Same-day available. Free estimate.",
 		url: "https://www.norbilt.com/services/handyman",
 	},
 };
