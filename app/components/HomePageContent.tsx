@@ -308,7 +308,7 @@ export default function HomePageContent() {
 							animate={{ opacity: 1, x: 0 }}
 							className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter uppercase drop-shadow-2xl"
 						>
-							Home Remodeling <br />
+							General <br />
 							<span className="text-[#FFB800]">Contractor</span> <br />
 							Vancouver, WA
 						</motion.h1>

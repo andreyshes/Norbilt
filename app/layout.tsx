@@ -9,7 +9,7 @@ import Script from "next/script";
 
 export const metadata: Metadata = {
 	metadataBase: new URL("https://www.norbilt.com"),
-	title: "Home Remodeling Contractor Vancouver WA | Licensed | Norbilt",
+	title: "General Contractor Vancouver WA | Home Remodeling | Norbilt",
 	description: "5-star rated general contractor in Vancouver WA. Kitchen & bath remodels, finish carpentry, flooring. Free written estimates. Serving all of Clark County.",
 	icons: {
 		icon: "/icon-v3.png",
