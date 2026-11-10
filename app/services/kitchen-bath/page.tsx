@@ -142,7 +142,34 @@ const schema = {
 export const metadata = {
 	title: "Kitchen & Bathroom Remodeling in Vancouver WA | Licensed Contractor | Norbilt",
 	description:
-		"Licensed kitchen and bathroom remodeling contractor in Vancouver WA and Clark County. Full remodels, tub-to-shower conversions, tile, vanity, backsplash & more. Free same-week estimates. 1-year warranty.",
+		"Licensed kitchen & bathroom remodeling contractor in Vancouver WA. Full gut remodels, tile, vanity, backsplash & tub-to-shower. All Clark County. Free estimate.",
+	alternates: {
+		canonical: "https://www.norbilt.com/services/kitchen-bath",
+	},
+	openGraph: {
+		title: "Kitchen & Bathroom Remodeling Vancouver WA | Norbilt",
+		description:
+			"Full kitchen and bathroom remodels for homeowners in Vancouver and Clark County WA. Licensed contractor with free estimates.",
+		url: "https://www.norbilt.com/services/kitchen-bath",
+		type: "website",
+		siteName: "Norbilt",
+		locale: "en_US",
+		images: [
+			{
+				url: "https://www.norbilt.com/og-image.jpg",
+				width: 1200,
+				height: 630,
+				alt: "Kitchen & Bathroom Remodeling Vancouver WA | Norbilt",
+			},
+		],
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: "Kitchen & Bathroom Remodeling Vancouver WA | Norbilt",
+		description:
+			"Full kitchen and bathroom remodels for homeowners in Vancouver and Clark County WA. Licensed contractor with free estimates.",
+		images: ["https://www.norbilt.com/og-image.jpg"],
+	},
 };
 
 export default function KitchenBathPage() {
