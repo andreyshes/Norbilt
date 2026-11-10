@@ -184,15 +184,12 @@ export default function HandymanPage() {
 						</div>
 
 						<h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter uppercase animate-fade-in-left animate-delay-100">
-							Small Repairs & <br />
-							<span className="text-[#FFB800]">Handyman Services Vancouver WA</span>
+							Handyman Services<br />
+							<span className="text-[#FFB800]">Vancouver WA</span>
 						</h1>
 
 						<p className="text-xl text-white/90 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6 animate-fade-in-up animate-delay-200">
-							Fast, affordable small repairs for Clark County homeowners. TV
-							mounting, furniture assembly, caulking, grab bars, door fixes, and
-							task lists — completed same day or next. Licensed and insured. No
-							project too small.
+							Licensed handyman in Vancouver WA serving all of Clark County. TV mounting, drywall patches, door fixes, fixture installs, grab bars, and full punch lists — same-day or next-day. Bonded, insured, 5-star rated.
 						</p>
 
 						<div className="flex items-center gap-2 animate-fade-in-up animate-delay-200">
