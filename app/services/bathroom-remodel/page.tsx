@@ -175,9 +175,9 @@ const schema = {
 };
 
 export const metadata = {
-	title: "Bathroom Remodel Contractor Clark County WA | Vancouver, Camas & Beyond | Norbilt",
+	title: "Bathroom Remodeling Vancouver WA | Licensed Contractor | Norbilt",
 	description:
-		"Licensed bathroom remodel contractor in Clark County WA — Vancouver, Camas, Battle Ground & Ridgefield. Full gut remodels, tub-to-shower, tile & vanity. Free estimate. (360) 216-9920.",
+		"Licensed bathroom remodeling contractor in Vancouver WA. Full gut remodels, tub-to-shower conversions, tile & vanity. Free estimate. Serving all of Clark County.",
 	alternates: {
 		canonical: "https://www.norbilt.com/services/bathroom-remodel",
 	},
@@ -240,7 +240,7 @@ export default function BathroomRemodelPage() {
 
 							<h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter uppercase">
 								Bathroom Remodeling <br />
-								<span className="text-[#FFB800]">in Vancouver, WA</span>
+								<span className="text-[#FFB800]">Vancouver, WA</span>
 							</h1>
 
 							<p className="text-xl text-white/90 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6">
