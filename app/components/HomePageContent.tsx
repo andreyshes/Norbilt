@@ -346,7 +346,7 @@ export default function HomePageContent() {
 								<span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#FFB800] text-black text-[10px] font-black uppercase tracking-widest">
 									Holiday Special
 								</span>
-								<span className="text-[#A7C4B5] text-sm font-bold">Only 6 project slots left before the new year</span>
+								<span className="text-[#A7C4B5] text-sm font-bold">Limited spots left before the new year</span>
 							</div>
 							<h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-white uppercase tracking-tighter leading-tight">
 								Book Before the Holidays.<br />
