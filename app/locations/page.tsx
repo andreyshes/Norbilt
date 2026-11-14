@@ -179,8 +179,8 @@ export default function LocationsIndexPage() {
 						</div>
 
 						<h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter uppercase animate-fade-in-left animate-delay-100">
-							Areas We <br />
-							<span className="text-[#FFB800]">Serve</span>
+							Serving <br />
+							<span className="text-[#FFB800]">Clark County, WA</span>
 						</h1>
 
 						<p className="text-xl text-white/80 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6">
