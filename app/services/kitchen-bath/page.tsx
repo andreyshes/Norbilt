@@ -140,7 +140,7 @@ const schema = {
 };
 
 export const metadata = {
-	title: "Kitchen & Bathroom Remodeling in Vancouver WA | Licensed Contractor | Norbilt",
+	title: "Kitchen Renovation & Bathroom Remodeling Vancouver WA | Norbilt",
 	description:
 		"Licensed kitchen & bathroom remodeling contractor in Vancouver WA. Full gut remodels, tile, vanity, backsplash & tub-to-shower. All Clark County. Free estimate.",
 	alternates: {
@@ -220,8 +220,8 @@ export default function KitchenBathPage() {
 						</div>
 
 						<h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.95] tracking-tighter uppercase">
-							Kitchen & Bathroom <br />
-							<span className="text-[#FFB800]">Remodeling</span>
+							Kitchen Renovation & <br />
+							<span className="text-[#FFB800]">Bath Remodeling</span>
 						</h1>
 
 						<p className="text-xl text-white/90 leading-relaxed max-w-2xl font-medium border-l-4 border-[#FFB800] pl-6">
