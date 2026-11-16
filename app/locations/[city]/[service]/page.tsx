@@ -40,20 +40,20 @@ export async function generateMetadata({ params }: any): Promise<Metadata> {
 	};
 
 	const descMap: Record<string, string> = {
-		"handyman": `5-star rated handyman in ${cityName}, WA. Licensed, bonded & insured. Drywall, fixtures, doors, mounting, punch lists & more. Free same-week estimates. Call (360) 216-9920.`,
-		"home-repair": `Licensed home repair contractor in ${cityName}, WA — 5-star rated. Drywall, fixtures, doors, caulking, safety repairs & more. Free same-week estimates. Call (360) 216-9920.`,
-		"drywall-repair": `Expert drywall repair in ${cityName}, WA. Seamless hole patching, texture matching & water damage repair. Licensed, 1-year warranty. Free estimates. Call (360) 216-9920.`,
-		"finish-carpentry": `Licensed finish carpentry in ${cityName}, WA. Baseboards, crown molding, wainscoting & trim installed right. Free estimates, 1-year warranty. Call (360) 216-9920.`,
-		"kitchen-bath": `Licensed kitchen & bathroom remodeling contractor in ${cityName}, WA. Full remodels, tub-to-shower conversions, tile, vanity, backsplash & more. Free same-week estimates. Call (360) 216-9920.`,
-		"flooring": `Flooring repair & installation in ${cityName}, WA. LVP, tile, hardwood, subfloor repair. Licensed contractor, free estimates. Call (360) 216-9920.`,
-		"door-window": `Door & window repair in ${cityName}, WA. Installs, weatherstripping, sticking doors & hardware. Licensed, free estimates. Call (360) 216-9920.`,
-		"bathroom-remodel": `Licensed bathroom remodeling contractor in ${cityName}, WA. Full gut remodels, tub-to-shower conversions, vanity & tile. Free same-week estimates. Call (360) 216-9920.`,
-		"kitchen-remodel": `Licensed kitchen remodeling contractor in ${cityName}, WA. Full remodels, cabinet replacement, countertops, backsplash & more. Free same-week estimates. Call (360) 216-9920.`,
-		"lighting": `Licensed lighting & fixture installation in ${cityName}, WA. Ceiling fans, recessed lighting, fixture swaps & upgrades. Free estimates. Call (360) 216-9920.`,
+		"handyman": `5-star rated handyman in ${cityName}, WA. Drywall, fixtures, doors, mounting & punch lists. Licensed & bonded. Free same-week estimate.`,
+		"home-repair": `Licensed home repair in ${cityName}, WA. 5-star rated. Drywall, fixtures, doors, caulking & more. Free same-week estimate.`,
+		"drywall-repair": `Expert drywall repair in ${cityName}, WA. Hole patching, texture matching & water damage repair. Licensed, 1-year warranty. Free estimate.`,
+		"finish-carpentry": `Licensed finish carpentry in ${cityName}, WA. Baseboards, crown molding, wainscoting & trim. Free estimates, 1-year warranty.`,
+		"kitchen-bath": `Licensed kitchen & bathroom remodeling in ${cityName}, WA. Full remodels, tub-to-shower, tile & vanity. Free same-week estimate.`,
+		"flooring": `Flooring repair & installation in ${cityName}, WA. LVP, tile, hardwood & subfloor repair. Licensed contractor. Free estimate.`,
+		"door-window": `Door & window repair in ${cityName}, WA. Installs, weatherstripping, sticking doors & hardware. Licensed. Free estimate.`,
+		"bathroom-remodel": `Licensed bathroom remodeling in ${cityName}, WA. Full gut remodels, tub-to-shower conversions, vanity & tile. Free same-week estimate.`,
+		"kitchen-remodel": `Licensed kitchen remodeling in ${cityName}, WA. Full remodels, cabinet replacement, countertops & backsplash. Free same-week estimate.`,
+		"lighting": `Licensed lighting & fixture installation in ${cityName}, WA. Ceiling fans, recessed lighting & fixture upgrades. Free estimate.`,
 	};
 
 	const shortTitle = titleMap[serviceSlug] ?? `${serviceData.title} in ${cityName} WA | Licensed & 5-Star Rated | Norbilt`;
-	const fullDesc = descMap[serviceSlug] ?? `5-star rated ${serviceData.title.toLowerCase()} in ${cityName}, WA. Licensed, bonded & insured. Free same-week estimates. Call (360) 216-9920.`;
+	const fullDesc = descMap[serviceSlug] ?? `5-star rated ${serviceData.title.toLowerCase()} in ${cityName}, WA. Licensed, bonded & insured. Free same-week estimate.`;
 	const pageUrl = `https://www.norbilt.com/locations/${resolvedParams.city}/${resolvedParams.service}`;
 
 	return {

@@ -44,17 +44,6 @@ const nextConfig = {
 				destination: "/services/flooring",
 				permanent: true,
 			},
-			// Combined kitchen-bath pages consolidated into dedicated bathroom pages
-			{
-				source: "/services/kitchen-bath",
-				destination: "/services/bathroom-remodel",
-				permanent: true,
-			},
-			{
-				source: "/locations/:city/kitchen-bath",
-				destination: "/locations/:city/bathroom-remodel",
-				permanent: true,
-			},
 			// Old location+service slugs → new slugs
 			{
 				source: "/locations/:city/handyman-services",
