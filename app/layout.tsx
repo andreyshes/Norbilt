@@ -5,6 +5,7 @@ import Footer from "@/app/components/Footer";
 import ScrollTracker from "@/app/components/ScrollTracker";
 import StickyMobileCTA from "@/app/components/StickyMobileCTA";
 import ChatWidget from "@/app/components/ChatWidget";
+import PhoneConversionTracker from "@/app/components/PhoneConversionTracker";
 import Script from "next/script";
 
 export const metadata: Metadata = {
@@ -30,15 +31,16 @@ export default function RootLayout({
 				{/* Google Analytics + Google Ads */}
 				<Script
 					src="https://www.googletagmanager.com/gtag/js?id=G-ZBCTSXYS77"
-					strategy="lazyOnload"
+					strategy="afterInteractive"
 				/>
-				<Script id="google-tags" strategy="lazyOnload">
+				<Script id="google-tags" strategy="afterInteractive">
 					{`
 						window.dataLayer = window.dataLayer || [];
 						function gtag(){dataLayer.push(arguments);}
 						gtag('js', new Date());
 						gtag('config', 'G-ZBCTSXYS77');
 						gtag('config', 'AW-17966936255');
+						gtag('config', 'AW-17966936255/sOZuCLX5i70dEL_hpvdC', { 'phone_conversion_number': '(360) 216-9920' });
 					`}
 				</Script>
 				{/* Site-wide Structured Data — Organization + GeneralContractor + WebSite */}
@@ -204,6 +206,7 @@ export default function RootLayout({
 				</div>
 				<StickyMobileCTA />
 				<ChatWidget />
+				<PhoneConversionTracker />
 			</body>
 		</html>
 	);
