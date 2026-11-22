@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import {
@@ -45,6 +45,7 @@ type FormData = {
 	projectType: string;
 	city: string;
 	details: string;
+	honeypot: string;
 };
 
 const contactItems = [
@@ -75,6 +76,7 @@ const contactItems = [
 export default function ContactPage() {
 	const router = useRouter();
 	const [activeTab, setActiveTab] = useState<"form" | "calendly">("form");
+	const loadedAt = useRef<number>(Date.now());
 
 	const [formData, setFormData] = useState<FormData>({
 		name: "",
@@ -83,6 +85,7 @@ export default function ContactPage() {
 		projectType: "",
 		city: "",
 		details: "",
+		honeypot: "",
 	});
 
 	const [isSubmitting, setIsSubmitting] = useState(false);
@@ -94,7 +97,7 @@ export default function ContactPage() {
 			const res = await fetch("/api/contact", {
 				method: "POST",
 				headers: { "Content-Type": "application/json" },
-				body: JSON.stringify(formData),
+				body: JSON.stringify({ ...formData, loadedAt: loadedAt.current }),
 			});
 			if (res.ok) {
 				// Fire GA4 lead event immediately before redirect
@@ -414,6 +417,20 @@ export default function ContactPage() {
 											onChange={(e) =>
 												setFormData({ ...formData, details: e.target.value })
 											}
+										/>
+									</div>
+
+									{/* Honeypot — hidden from real users, bots fill it */}
+									<div style={{ position: "absolute", left: "-9999px", opacity: 0, height: 0, overflow: "hidden" }} aria-hidden="true">
+										<label htmlFor="website_url">Website</label>
+										<input
+											id="website_url"
+											type="text"
+											name="website_url"
+											value={formData.honeypot}
+											onChange={(e) => setFormData({ ...formData, honeypot: e.target.value })}
+											tabIndex={-1}
+											autoComplete="off"
 										/>
 									</div>
 
