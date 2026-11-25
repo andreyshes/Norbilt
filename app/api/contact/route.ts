@@ -12,6 +12,32 @@ function escapeHtml(str: string): string {
 		.replace(/'/g, "&#x27;");
 }
 
+const KEYWORD_MAP: Array<{ keywords: string[]; label: string }> = [
+	{ keywords: ["drywall", "sheetrock", "hole in wall", "patch"], label: "Drywall Repair" },
+	{ keywords: ["door", "doors", "fire door", "prehung"], label: "Door" },
+	{ keywords: ["floor", "flooring", "lvp", "vinyl plank", "laminate", "hardwood", "tile floor"], label: "Flooring" },
+	{ keywords: ["trim", "baseboard", "crown", "molding", "casing"], label: "Trim & Finish Carpentry" },
+	{ keywords: ["cabinet", "cabinets"], label: "Cabinet" },
+	{ keywords: ["kitchen"], label: "Kitchen" },
+	{ keywords: ["bathroom", "shower", "tub", "vanity"], label: "Bathroom" },
+	{ keywords: ["window", "windows"], label: "Window" },
+	{ keywords: ["paint", "painting"], label: "Painting" },
+	{ keywords: ["fence", "deck"], label: "Deck/Fence" },
+];
+
+function detectProjectLabel(projectType: string, details: string): string {
+	if (projectType && projectType.toLowerCase() !== "other") {
+		return projectType;
+	}
+	const text = details.toLowerCase();
+	for (const { keywords, label } of KEYWORD_MAP) {
+		if (keywords.some((kw) => text.includes(kw))) {
+			return label;
+		}
+	}
+	return "";
+}
+
 export async function POST(req: Request) {
 	try {
 		const body = await req.json();
@@ -38,6 +64,10 @@ export async function POST(req: Request) {
 		const safePhone = escapeHtml(phone || "N/A");
 		const safeEmail = escapeHtml(email || "N/A");
 
+		const label = detectProjectLabel(projectType, details);
+		const displayLabel = label || "General Inquiry";
+		const safeLabel = escapeHtml(label);
+
 		const confirmationHtml = `
 <!DOCTYPE html>
 <html lang="en">
@@ -52,7 +82,7 @@ export async function POST(req: Request) {
       <h1 style="font-size:22px;font-weight:900;color:#1F2E2B;margin:0 0 20px;letter-spacing:-0.02em;">Hi ${safeFirstName},</h1>
 
       <p style="color:#374151;line-height:1.65;margin:0 0 16px;font-size:15px;">
-        Thanks for reaching out about your <strong>${safeProjectType}</strong> project.
+        ${safeLabel ? `Thanks for reaching out about your <strong>${safeLabel}</strong> project.` : `Thanks for reaching out about your project.`}
         We&rsquo;ve received your message and will follow up within 1 business day.
       </p>
 
@@ -94,7 +124,7 @@ export async function POST(req: Request) {
 
 		const confirmationText = `Hi ${firstName},
 
-Thanks for reaching out about your ${projectType} project. We've received your message and will follow up within 1 business day.
+Thanks for reaching out about your${label ? ` ${label}` : ""} project. We've received your message and will follow up within 1 business day.
 
 Here's what you sent us:
 
@@ -119,7 +149,7 @@ WA Lic. NORBI**741CS`;
 			from: "Norbilt <hello@norbilt.com>",
 			to: ["hello@norbilt.com"],
 			replyTo: email,
-			subject: `New Project Inquiry — ${projectType}`,
+			subject: `New Project Inquiry — ${displayLabel}`,
 			html: `
 				<h2>New Contact Form Submission</h2>
 				<p><strong>Name:</strong> ${safeName}</p>
