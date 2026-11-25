@@ -114,34 +114,44 @@ NORBILT
 Licensed General Contractor · Vancouver, WA
 WA Lic. NORBI**741CS`;
 
-		await Promise.all([
-			// Notification to Norbilt
-			resend.emails.send({
-				from: "Norbilt <hello@norbilt.com>",
-				to: ["hello@norbilt.com"],
-				replyTo: email,
-				subject: `New Project Inquiry — ${projectType}`,
-				html: `
-					<h2>New Contact Form Submission</h2>
-					<p><strong>Name:</strong> ${safeName}</p>
-					<p><strong>Email:</strong> ${safeEmail}</p>
-					<p><strong>Phone:</strong> ${safePhone}</p>
-					<p><strong>Project Type:</strong> ${safeProjectType}</p>
-					<p><strong>Details:</strong></p>
-					<p style="white-space:pre-wrap;">${safeDetails}</p>
-				`,
-			}),
+		// Notification to Norbilt — await this; a failure here returns 500
+		const notifyResult = await resend.emails.send({
+			from: "Norbilt <hello@norbilt.com>",
+			to: ["hello@norbilt.com"],
+			replyTo: email,
+			subject: `New Project Inquiry — ${projectType}`,
+			html: `
+				<h2>New Contact Form Submission</h2>
+				<p><strong>Name:</strong> ${safeName}</p>
+				<p><strong>Email:</strong> ${safeEmail}</p>
+				<p><strong>Phone:</strong> ${safePhone}</p>
+				<p><strong>Project Type:</strong> ${safeProjectType}</p>
+				<p><strong>Details:</strong></p>
+				<p style="white-space:pre-wrap;">${safeDetails}</p>
+			`,
+		});
+		if (notifyResult.error) {
+			console.error("[contact] notification email error:", JSON.stringify(notifyResult.error));
+			return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
+		}
 
-			// Confirmation to customer
-			email ? resend.emails.send({
+		// Auto-reply to customer — fire and forget; never blocks the 200 or the notification
+		if (email) {
+			resend.emails.send({
 				from: "Norbilt <hello@norbilt.com>",
 				to: [email],
 				replyTo: "hello@norbilt.com",
 				subject: `We got your request, ${firstName}`,
 				html: confirmationHtml,
 				text: confirmationText,
-			}) : Promise.resolve(),
-		]);
+			}).then((result) => {
+				if (result.error) {
+					console.error("[contact] auto-reply error:", JSON.stringify(result.error));
+				}
+			}).catch((err: unknown) => {
+				console.error("[contact] auto-reply exception:", err instanceof Error ? err.message : err);
+			});
+		}
 
 		return NextResponse.json({ success: true });
 	} catch (error) {
